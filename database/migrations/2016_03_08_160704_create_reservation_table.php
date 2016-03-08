@@ -12,8 +12,15 @@ class CreateReservationTable extends Migration
      */
     public function up()
     {
-        Schema::table('reservations', function (Blueprint $table) {
-            //
+        Schema::create('reservations', function (Blueprint $table) {
+          $table->increments('id');
+          $table->date('checkin');
+          $table->date('checkout');
+          $table->integer('user_id')->unsigned();
+          $table->integer('hotel_id')->unsigned();
+          $table->foreign('user_id')->references('id')->on('users');
+          $table->foreign('hotel_id')->references('id')->on('hotels');
+          $table->timestamps();
         });
     }
 
@@ -24,8 +31,6 @@ class CreateReservationTable extends Migration
      */
     public function down()
     {
-        Schema::table('reservations', function (Blueprint $table) {
-            //
-        });
+      Schema::drop('reservations');
     }
 }
