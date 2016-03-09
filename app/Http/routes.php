@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('video', 'VideoController');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
