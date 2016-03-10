@@ -24,4 +24,10 @@ class Video extends Model
     {
       return $this->hasOne('App\User', 'id', 'user_id');
     }
+
+    public function categories()
+    {
+        return $this->belongsToMany('App\Models\Category', 'has_category', 'video_id', 'category_id');
+    }
+
 }
