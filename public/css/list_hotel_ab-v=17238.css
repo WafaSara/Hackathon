@@ -1,0 +1,394 @@
+/** Travail sur la colonne de gauche, "Modifiez votre recherche" + filtres */
+body #content_left_page_interne br+br{display:none;}
+body #content_left_page_interne p.title{font-weight: normal;}
+body #content_left_page_interne #affin_rech .affin_rech p.title,
+body #content_left_page_interne p.title{background: #DCDCDC;color: #242424;padding: 18px 14px;height: auto;line-height:20px;margin-bottom: 15px;width: 200px;}
+body #div_select_age_per_room .type_resa, 
+body #div_select_age_per_room #line_room_1 .type_resa, 
+body .search_modif #div_select_age_per_room #line_1 p.list, 
+body #div_select_age_per_room #line_2 .type_resa, 
+body #div_select_age_per_room #line_room_2 .type_resa, 
+body #div_select_age_per_room #line_3 .type_resa, 
+body #div_select_age_per_room #line_room_3 .type_resa{margin: 0 5px 10px 0;}
+body #content_left_page_interne .search_modif{border-top:0px solid #d0d0d0;border-bottom:1px solid #d0d0d0;border-left:1px solid #d0d0d0;border-right:1px solid #d0d0d0;padding-bottom:15px;margin-bottom: 15px;}
+body #content_left_page_interne #affin_rech{margin-top:0;}
+body #content_left_page_interne .affin_rech{background:#fff;}
+body #content_left_page_interne .recherche,
+body #content_left_page_interne #form_recherche #cities{background:#fff!important;border: 1px solid #CCC;border-radius: 3px;box-shadow: inset 1px 1px 2px #CCC;height: 20px;line-height: 24px;outline: none !important;padding: 2px 5px;width:183px;-moz-border-radius: 3px;-webkit-border-radius: 3px;-moz-box-shadow: inset 1px 1px 2px 0 #ccc;-webkit-box-shadow: inset 1px 1px 2px 0 #CCC;ie-dummy: expression(this.hideFocus=true);}
+body #content_left_page_interne p.date input{background:url("../images/homePage/calendrier.png") no-repeat 94% 50%;border: 1px solid #CCC;border-radius: 3px;box-shadow: inset 1px 1px 2px #CCC;color: #303030;cursor: pointer!important;font-size: 11px;height: 20px;line-height: 24px;outline: none !important;padding: 2px 5px;-moz-border-radius: 3px;-webkit-border-radius: 3px;-moz-box-shadow: inset 1px 1px 2px 0 #ccc;-webkit-box-shadow: inset 1px 1px 2px 0 #CCC;ie-dummy: expression(this.hideFocus=true);}
+body #content_left_page_interne #affin_rech>img.flt_gche{display:none!important;}/** Travail sur les fiches hotel en coeur de page */
+body #content_right_page_interne_list p.ttl, 
+body #content_right_page_interne_list p.ttl span{color:#252525;font-family: FrutigerLTStd45LightRegular;font-size:13px;text-transform:uppercase;}
+body #content_right_page_interne_list .htl_result_envie{background:#5c5c5c;float:none;line-height: 23px;margin-bottom:20px;padding:15px;width: 650px;}
+body #content_right_page_interne_list .htl_result_envie a.loop_btn{background: url("../images/avsw/listhotelDC/voir-sur-une-carte.png") no-repeat top left;margin: 5px -5px 0;height: 36px;width: 167px;padding: 0;overflow: hidden;text-indent: -999em;}
+body #content_right_page_interne_list .htl_result_envie a.loop_btn:hover{background-position:bottom left;}
+body #content_right_page_interne_list .htl_result_envie a#retour_liste{background: url("../images/avsw/listhotelDC/retour-liste.png") no-repeat top left;margin: 25px -15px 10px 10px;height: 36px;width: 116px;padding: 0;overflow: hidden;text-indent: -999em;}
+body #content_right_page_interne_list .htl_result_envie a#retour_liste:hover{background-position:bottom left;}
+body #content_right_page_interne_list .htl_result_envie .resultat_hotel{float:none;}
+body #content_right_page_interne_list .htl_result_envie .resultat_hotel .found{font-size: 20px;line-height: 22px;font-family: FrutigerLTStd47LightCnBold;font-weight:normal!important;}
+body #content_right_page_interne_list .htl_result_envie br{display:none!important;}
+body #content_right_page_interne_list .htl_result_envie .resultat_hotel{width: 450px;}
+body #content_right_page_interne_list div.filter_htl {background: #FFF;font-weight:bold;height: auto;overflow: hidden;padding: 0 15px 20px;margin-top: 0;}
+body #content_right_page_interne_list div.filter_htl select{width:170px;margin-right:25px;}
+body select#devise_code {width: 100px!important;}
+body #content_right_page_interne_list div.filter_htl+div.filter_htl{margin-top: -42px;width: 470px;}
+body #content_right_page_interne_list .list_htl1 input.chek,
+body #form_comparehotel{display:none;}
+body #content_right_page_interne_list .list_htl,
+body #content_right_page_interne_list .list_htl1>h2,
+body #content_right_page_interne_list .Searchresult .list_htl1{background:#fff;clear:both;display:block;float:none;padding:0;position:relative;width:auto;}
+body #content_right_page_interne_list .Searchresult .list_htl1{padding-bottom:15px;}
+body #content_right_page_interne_list .list_htl1>h2{background:#002267;clear: both;padding:7px 15px;font-family: FrutigerLTStd47LightCnBold;font-weight:normal!important;margin-bottom: 0;}
+body #content_right_page_interne_list .list_htl1 h2 a{display:block;font-family: FrutigerLTStd47LightCnBold;font-weight:normal!important;font-size: 16px;line-height:18px;}
+body #content_right_page_interne_list .list_htl1 h2+img,
+body #content_right_page_interne_list .list_htl1 h2 img{display:none;}
+body #content_right_page_interne_list div.Searchresult{width: 680px;}
+body #content_right_page_interne_list div.filter_htl a.pag_on, 
+body #content_right_page_interne_list div.nav_pag a.active, 
+body #content_right div.nav_pag a.active,
+body #content_right_page_interne_list div.filter_htl a.pag_off, 
+body #content_right_page_interne_list div.nav_pag a, 
+body #content_right div.nav_pag a.suivant{width: auto;height: 14px;line-height: 14px;padding: 2px 5px;border-radius: 3px;background: url("../images/avsw/listhotelDC/degradePagination.png") repeat-x top left;}
+body #content_right_page_interne_list div.filter_htl a.pag_off:hover, 
+body #content_right_page_interne_list div.nav_pag a:hover, 
+body #content_right div.nav_pag a.suivant:hover,
+body #content_right_page_interne_list div.filter_htl a.pag_on, 
+body #content_right_page_interne_list div.nav_pag a.active, 
+body #content_right div.nav_pag a.active{background-position:bottom left;}
+body #content_right_page_interne_list a.ensav{background: url("../images/avsw/listhotelDC/nouvellePuce.png") no-repeat 0 4px;font-weight:normal;font-size:11px;margin:0 20px 0 0;padding-left: 10px;text-decoration:underline;position:relative;}
+body #content_right_page_interne_list>div+a.ensav{text-decoration:none;}
+body #content_right_page_interne_list>div+a.ensav::after{content: " ";position: relative;width: auto;display: block;height: 1px;bottom: -3px;right: 0;background: #C20052;}
+body #content_right_page_interne_list .list_htl1 div.adr_htl p.addressline{color:#252525;font-size:14px;font-weight:bold;}
+body #content_right_page_interne_list .list_htl1 div.adr_htl a, 
+body #content_right_page_interne_list .inf_resa div.descrip_htl a.plan, 
+body #content_right_page_interne_list .column_compar a.plan, 
+body #content_right_page_interne_list .stl1 .list_htl1 div.descrip_htl a, 
+body #content_right_page_interne_list .DrnMin .list_htl .list_htl1 .descrip_htl .adr_htl a{font-size:12px;line-height:14px;font-weight:bold;}
+body #div_carte_via{float:none!important;clear:both!important;}
+body #div_carte_via+br,
+body #div_carte_via+br+br{display: none;}
+body #currency_alerte{margin:0 0 10px;padding:0 10px;}
+body #content_right_page_interne_list .list_htl1 div.adr_htl a, 
+body .inf_resa div.descrip_htl a.plan, 
+body .column_compar a.plan, 
+body #content_right_page_interne_list.stl1 .list_htl1 div.descrip_htl a, 
+body .DrnMin .list_htl .list_htl1 .descrip_htl .adr_htl a{background: url("../images/avsw/listhotelDC/pictoPlan.png") no-repeat 1px 4px;padding-left: 14px;}
+body #content_right_page_interne_list .list_htl1 div.price_htl_list p>span{color:#252525;font-family: FrutigerLTStd47LightCnBold;font-weight:normal!important;font-size: 30px;line-height:30px;white-space:nowrap;}
+body #content_right_page_interne_list .list_htl1 div.price_htl_list p{margin-top: 40px;padding-left: 5px;text-align:right;}
+body #content_right_page_interne_list .list_htl1 div.price_htl_list p,
+body #content_right_page_interne_list .list_htl1 div.price_htl strong,
+body #content_right_page_interne_list .fch_htl_right div.price_htl p{text-align:center;margin-bottom:7px;}
+body #content #content_right_page_interne_list .list_htl1 div.price_htl_list span span.devise{text-transform:uppercase!important;font-family: FrutigerLTStd47LightCnBold;font-size:18px!important;font-weight:normal!important;}
+body #content_right_page_interne_list .list_htl1 div.descrip_htl>p{display:block!important;height:auto!important;padding:0!important;margin:0 0 25px!important;width:330px!important;opacity:1!important;transition:none;font-size:12px;line-height:14px;padding-bottom:15px;}
+body .derniere_reservation_nbr_consultation,
+body #comparer_bas{display:none;}
+body .resultats_selon_critere{padding-bottom:0;}
+body #content1 #content_right_page_interne_list{padding-bottom:0;width:680px;}
+body #content_right_page_interne_list .resultats_selon_critere p.deuxieme_parag_resultats_selon_critere #elargir_recherche{margin-top: 5px;height: 36px;width: 147px;padding: 0;overflow: hidden;text-indent: -999em;background: url("../images/avsw/listhotelDC/elargir-ma-recherche.png") repeat-x top left;}
+body #content_right_page_interne_list .resultats_selon_critere p.deuxieme_parag_resultats_selon_critere #elargir_recherche:hover{background-position:bottom left;}
+body #content_right_page_interne_list .list_htl1 a.resev_big{margin: 5px 0 7px 0;height: 36px;width: 137px;padding: 0;overflow: hidden;text-indent: -999em;background: url("../images/avsw/listhotelDC/bouton-reserver-small.png") no-repeat top center;}
+body #content_right_page_interne_list .list_htl1 a.resev_big:hover{background-position:bottom center;}
+body #content_right_page_interne_list .list_htl1 a.resev_big span{display:none;}
+body .resultats_selon_critere p.deuxieme_parag_resultats_selon_critere #elargir_recherche {margin-top: -10px;}
+body #content_right_page_interne_list .resultats_selon_critere p.premier_parag_resultats_selon_critere{background:#252525;font-family: FrutigerLTStd45LightRegular;font-size:20px;height:auto;padding:20px 15px 20px 55px;position:relative;z-index:1;}
+body #content_right_page_interne_list .resultats_selon_critere p.premier_parag_resultats_selon_critere img{display:none!important;}
+body #content_right_page_interne_list #plus_resultat{position: absolute;top: 15px;left: 20px;background: url("../images/avsw/listhotelDC/plus-black-n-yellow.png") no-repeat 6% 40%;height: 40px;width: 260px;z-index:3;}
+body #content_right_page_interne_list .pagination_interne {position: relative;right: 15px;top: 40px;z-index:2;}
+body #content_right_page_interne_list .pagination .current, 
+body #content_right_page_interne_list .numero_page_rsult b,
+body #content_right_page_interne_list .pagination a, 
+body #content_right_page_interne_list .pagination span, 
+body #content_right_page_interne_list .numero_page_rsult a{color: #c20052;width: auto;font-family: FrutigerLTStd47LightCnBold;font-weight:normal!important;font-size:15px;height: 16px;line-height: 16px;margin:0 5px 0 0;padding: 2px 8px;border-radius: 3px;background: url("../images/avsw/listhotelDC/degradePaginationBas.png") repeat-x top left;}
+body #content_right_page_interne_list .pagination .current,
+body #content_right_page_interne_list .numero_page_rsult b:hover,
+body #content_right_page_interne_list .pagination a:hover, 
+body #content_right_page_interne_list .pagination span:hover, 
+body #content_right_page_interne_list .numero_page_rsult a:hover{background-position:bottom left;color:#252525;}
+body #content_right_page_interne_list .occupations p{background:#99a7c2;color:#fff;font-size: 11px;line-height: 13px;padding: 0 7px;}
+body #content_right_page_interne_list .occupations p strong,
+body #content_right_page_interne_list .occupations p label{padding:9px 0;}
+body #content_right_page_interne_list .occupations .tarif_RAC{background:#99a7c2 !important;}
+body #content_right_page_interne_list .occupations .tarif_H1Q{background:#4c6494 !important;}
+body #content_right_page_interne_list .occupations .tarif_EBS{background:#677aa4 !important;}
+body #content_right_page_interne_list .occupations .tarif_LL9{background:#334e85 !important;}
+body #content_right_page_interne_list .occupations .tarif_QG1{background:#8090b2 !important;}
+body #content_right_page_interne_list .occupations .tarif_BQ1{background:#ccd4e1 !important;}
+body #content_right_page_interne_list .list_htl1 .occupations .tarif_BQ1 strong,
+body #content_right_page_interne_list .list_htl1 .occupations .tarif_BQ1 label{color:#474747!important;}
+body #content_right_page_interne_list .occupations .tarif_PFK{background:#b1bed1 !important;}
+body #content_right_page_interne_list .occupations .tarif_BBN,
+body #content_right_page_interne_list .occupations .tarif_BBS,
+body #content_right_page_interne_list .occupations .tarif_BBW{background:#334e85 !important;}
+body #content_right_page_interne_list .occupations .tarif_FX1{background:#99A7C2 !important;}
+body #content_right_page_interne_list .occupations label{font-family: FrutigerLTStd47LightCnBold, Arial Black, sans-serif;font-weight:normal!important;font-size: 14px;line-height: 18px;}
+body #content_right_page_interne_list .occupations p{position:relative;}
+body #content_right_page_interne_list .occupations label{position: absolute;top: 7px;right: 25px;}
+body .stl1 .tarif_hotel div.occupations p strong,
+body #content_right_page_interne_list .list_htl1 .occupations label{color:#fff!important;}
+body .stl1 .tarif_hotel div.occupations p,
+body .stl1 .tarif_hotel div.occupations p strong,
+body .stl1 .tarif_hotel div.occupations label{cursor:pointer!important;}
+body #content_right_page_interne_list .list_htl1 .occupations label{padding:0;width:80px;white-space:nowrap;}
+body #content_right_page_interne_list .stl1 .tarif_hotel div.occupations p input, 
+body #content_right_page_interne_list .chmbr_selct .tarif_hotel div.occupations p input{position:relative;top:10px;}
+body #content_right_page_interne_list .tarif_LL9 strong, 
+body #content_right_page_interne_list .tarif_LL9 label{color:#fff!important;}
+body #content_right_page_interne_list .occupations label{text-transform:uppercase;}/** Alignement des colonnes du tableau de tarifs */
+body .stl1 .tarif_hotel p.option, 
+body .chmbr_selct .tarif_hotel p.option{float:left;margin-right:0;padding-right:15px;width:130px;}
+body .stl1 .tarif_hotel.head_t p.option, 
+body .chmbr_selct .tarif_hotel.head_t p.option{color:#4d4d4f;width:145px!important;}
+body #content_right_page_interne_list .stl1 .tarif_hotel div.occupations, 
+body #content_right_page_interne_list .chmbr_selct .tarif_hotel div.occupations{float:right;margin-right:5px;width: 250px;}
+body #content_right_page_interne_list .tab .head_t p.option{padding-right:10px;}
+body .Searchresult .head_t p.img_person{margin-right:0;}
+body #content_right_page_interne_list .list_htl1 .tarif_hotel h2{margin-right: 20px;width: 100px;}
+body .stl1 .tarif_hotel p.img_person,
+body .chmbr_selct .tarif_hotel p.img_person{text-align:center;width:40px;}
+body .tarif_hotel p.img_person img:after{content:" ";display:inline-block;width:9px;height:22px;background:url("../images/avsw/listhotelDC/adult.png") no-repeat top left;}
+body .stl1 .tarif_hotel.head_t p.img_person,
+body .chmbr_selct .tarif_hotel.head_t p.img_person{text-align:left;}
+body #content_right_page_interne_list .Searchresult .head_t p.lit{margin-left:10px;width: 120px !important;}
+body .stl1 .tarif_hotel p.nbr_person, 
+body .chmbr_selct .tarif_hotel p.nbr_person{margin-right: 15px;width: 80px !important;}
+body #content_right_page_interne_list .stl1 .tarif_hotel div.occupations p, 
+body #content_right_page_interne_list .chmbr_selct .tarif_hotel div.occupations p{margin:5px 0 0 0;width: 240px;}
+body #content_right_page_interne_list .stl1 .tarif_hotel div.occupations p:first-child, 
+body #content_right_page_interne_list .chmbr_selct .tarif_hotel div.occupations p:first-child{margin:0;width: 240px;}
+body #content_right_page_interne_list .stl1 .tarif_hotel div.occupations p strong, 
+body #content_right_page_interne_list .chmbr_selct .tarif_hotel div.occupations p strong{width:135px;}
+body #content_right_page_interne_list .Searchresult .stl1 .tarif_hotel{background:#fff!important;border-bottom:1px solid #d3d3d3;margin-bottom:10px;padding:0 0 10px 0!important;width:100%;}
+body #content_right_page_interne_list .Searchresult .list_htl .blc_descr_htl ul.tab{background: #dcdcdc;min-height: 39px;font-size: 0;white-space: nowrap;width:100%;}
+body #content_right_page_interne_list .Searchresult .list_htl .blc_descr_htl ul.tab>div{background: white;}
+body #content_right_page_interne_list .Searchresult .list_htl .blc_descr_htl ul.tab li{background:#dcdcdc;padding:0;float:none;margin:0;display:inline-block;}
+body #content_right_page_interne_list .Searchresult .list_htl .blc_descr_htl ul.tab li.ui-tabs-active a, 
+body #content_right_page_interne_list .Searchresult .list_htl .blc_descr_htl ul.tab li a:hover,
+body #content_right_page_interne_list .Searchresult .list_htl .blc_descr_htl ul.tab li:hover,
+body #content_right_page_interne_list .Searchresult .list_htl .blc_descr_htl ul.tab li.ui-tabs-active{background:#5c5c5c;}
+body #content_right_page_interne_list .Searchresult .list_htl .blc_descr_htl ul.tab li a{background:#dcdcdc;height:39px;font-family: FrutigerLTStd47LightCnBold;font-size:16px;line-height: 39px;text-transform:uppercase;font-weight:normal!important;width: auto;padding: 0 23px;}
+body #content_right_page_interne_list div.stl1 a.fermer_onglets_mini_fiche {position: absolute;top: 8px;right: -28px;background: url("../images/avsw/listhotelDC/boutonFermer.png") no-repeat center center;width: 25px;margin:0;height: 25px;}
+body #content_right_page_interne_list .list_htl1 .tarif_hotel h2{color:#bd004c;font-size:12px;font-weight:bold;margin-left:10px;}
+body #content_right_page_interne_list .stl1 .tarif_hotel span.lit, 
+body #content_right_page_interne_list .chmbr_selct .tarif_hotel span.lit{display:none;}
+body #content_right_page_interne_list .ui-tabs-panel{margin-top: 15px;}
+body #content_right_page_interne_list .ui-tabs-panel .presentation{position: relative;margin: 0;width: 690px;padding-top: 45px;}
+body #content_right_page_interne_list .ui-tabs-panel .presentation p a{position:absolute;top:0;right:10px;height: 36px;width: 207px;padding: 0;margin:0;overflow: hidden;text-indent: -999em;background: url("../images/avsw/listhotelDC/voir-la-fiche-de-l-hotel.png") no-repeat top left;}
+body #content_right_page_interne_list .ui-tabs-panel .presentation p a:hover{background-position:bottom left;}
+body #content_right_page_interne_list .Searchresult .list_htl .blc_descr_htl .presentation .left{background: #F4F4F4;border-bottom: 1px solid #CECECE;padding-right: 0px;padding-top: 15px;padding-left: 15px;margin-bottom: 30px;width: 670px;}
+body #content_right_page_interne_list .Searchresult .list_htl .blc_descr_htl .ui-tabs-panel iframe {width: 690px !important;}
+body .meilleure_note_trip .note_avis{background:#fafafa;padding: 16px 16px 20px 24px;}
+body #content_right_page_interne_list .list_htl1 div.price_htl_list strong.indispo{background:none;font-size:21px;font-family: FrutigerLTStd47LightCnBold;font-weight:normal!important;line-height:25px;padding:0;margin:50px 5px 0 0;}
+body .indispo span{font-size:18px!important;font-family: FrutigerLTStd47LightCnBold;font-weight:normal!important;line-height:25px;width: 160px;display: inline-block;position: relative;right: -7px;}
+body #content_right_page_interne_list .list_htl1 div.price_htl_list p.de_avail{padding: 0;}
+body p.de_avail .de_disp{background: url("../images/avsw/listhotelDC/plus-de-dispo.png") no-repeat top left;display:block;margin: 5px 0 0 0;height: 36px;width: 137px;padding: 0;overflow: hidden;text-indent: -999em;}
+body p.de_avail .de_disp:hover{background-position:bottom left;}
+body #content_right_page_interne_list .htl_result_envie #retour_liste {margin: 20px 0 10px;}
+body #form_recherche p.rech_btn{background: url("../images/avsw/listhotelDC/bouton-rechercher.png") no-repeat top left;display:block;float:none;margin:0;height: 36px;width: 107px;margin-left:13px;padding: 0;overflow: hidden;}
+body #form_recherche p.rech_btn:hover{background-position:bottom left;}
+body #form_recherche p.rech_btn span{opacity:0;filter:alpha(opacity=0);}
+body #content_right_page_interne_list .list_htl1 div.srvc{position: absolute;top: 41px;left: 310px;width:365px;}
+body #content_right_page_interne_list .list_htl1 div.srvc div.avis{display:none!important;}
+body #content_right_page_interne_list .list_htl1 div.srvc img{display:none;}/** Pictos Jaune des services de l'hotel */
+body #content_right_page_interne_list .list_htl1 div.srvc .pictoBull{background: url("../images/avsw/listhotelDC/pictosYellow.png") no-repeat -5px 10px;display:inline-block;height: 34px;margin:0 0 5px;padding: 0;width: 34px;}
+body #content_right_page_interne_list .pictoBull.massage,
+body #content_right_page_interne_list .pictoBull.massages,
+body #content_right_page_interne_list .pictoBull.sauna{background-position:-1px -1px!important;}
+body #content_right_page_interne_list .pictoBull.tage{background-position:-1px -46px!important;}
+body #content_right_page_interne_list .pictoBull.continental,
+body #content_right_page_interne_list .pictoBull.jeuner{background-position:-1px -91px!important;}
+body #content_right_page_interne_list .pictoBull.moteurs,
+body #content_right_page_interne_list .pictoBull.handicap{background-position:-1px -136px!important;}
+body #content_right_page_interne_list .pictoBull.internet{background-position:-1px -181px!important;}
+body #content_right_page_interne_list .pictoBull.restaurant{background-position:-1px -226px!important;}
+body #content_right_page_interne_list .pictoBull.salons,
+body #content_right_page_interne_list .pictoBull.bar,
+body #content_right_page_interne_list .pictoBull.salon,
+body #content_right_page_interne_list .pictoBull.salons,
+body #content_right_page_interne_list .pictoBull.bars{background-position:-1px -271px!important;}
+body #content_right_page_interne_list .pictoBull.piscine{background-position:-1px -361px!important;}
+body #content_right_page_interne_list .pictoBull.roport,
+body #content_right_page_interne_list .pictoBull.navette{background-position:-1px -451px!important;}
+body .clr+.clr{display:none;}
+body #content_right_page_interne_list .list_htl1+img.flt_gche,
+body #content_right_page_interne_list .list_htl1 img.flt_gche{visibility:hidden;}
+body .comparer{display:none!important;}
+body #div_carte_via{margin-bottom:15px;}
+body #content_right_page_interne_list .Searchresult .list_htl1 div.adr_htl, body.body_rewards .right_default .blc_prvlg .DrnMin .ofr_vip .list_htl .adr_htl{width: 200px;margin-right: 20px;}
+body #content_right_page_interne_list .ui-tabs-panel{min-height: 150px;}
+body #content_right_page_interne_list .list_htl1 div.img_htl, 
+body .line_htl_golf div.img_htl{margin-left: 5px 12px 0 25px;}
+body .search_modif #rech_avancee{background:none;position:relative;text-decoration: underline;margin-left:15px;}
+body .search_modif #rech_avancee:before{content:"\003e";position:absolute;top:0;left:0;}/** Relooking du Calendrier */
+/* A supprimer -----------
+body #ui-datepicker-div {width: 410px !important;}
+body .ui-helper-hidden{display:none}
+body .ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+body .ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+body .ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}
+body .ui-helper-clearfix:after{clear:both}
+body .ui-helper-clearfix{min-height:0}
+body .ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}
+body .ui-front{z-index:100}
+body .ui-state-disabled{cursor:default!important}
+body .ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}
+body .ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}
+body .ui-datepicker{width:17em;padding:.2em .2em 0;display:none}
+body .ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}
+body .ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}
+body .ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}
+body .ui-datepicker .ui-datepicker-prev{left:2px}
+body .ui-datepicker .ui-datepicker-next{right:2px}
+body .ui-datepicker .ui-datepicker-prev-hover{left:1px}
+body .ui-datepicker .ui-datepicker-next-hover{right:1px}
+body .ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}
+body .ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}
+body .ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}
+body .ui-datepicker select.ui-datepicker-month-year{width:100%}
+body .ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}
+body .ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}
+body .ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}
+body .ui-datepicker td{border:0;padding:1px}
+body .ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}
+body .ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}
+body .ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}
+body .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}
+body .ui-datepicker.ui-datepicker-multi{width:auto}
+body .ui-datepicker-multi .ui-datepicker-group{float:left}
+body .ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em}
+body .ui-datepicker-multi-2 .ui-datepicker-group{width:50%}
+body .ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}
+body .ui-datepicker-multi-4 .ui-datepicker-group{width:25%}
+body .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}
+body .ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}
+body .ui-datepicker-row-break{clear:both;width:100%;font-size:0}
+body .ui-datepicker-rtl{direction:rtl}
+body .ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}
+body .ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}
+body .ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}
+body .ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}
+body .ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}
+body .ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}
+body .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,.ui-datepicker-rtl .ui-datepicker-group{float:right}
+body .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+body .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}
+body #ui-datepicker-div{background:#fff;border:1px solid #ccc;border-radius:5px;font-family:Verdana, arial, sans-serif;font-size:12px;line-height:14px;-webkit-box-shadow: 0px 1px 1px #dfdfdf inset;box-shadow: 0px 1px 1px #dfdfdf inset;color:#303030;z-index:99!important;}
+body .ui-datepicker{color: #252525;font-family: Verdana,Arial,Helvetica,sans-serif;font-size:14px;}
+body .ui-datepicker-header{background-color: #efefef;border-bottom: 1px solid #dedede;color: #252525;font-family: 'FrutigerLTStd47LightCnBold',Arial,Helvetica,sans-serif;font-weight:normal!important;text-transform:uppercase;}
+body .ui-datepicker td{border: 1px solid #e2e2e2;padding: 0;}
+body .ui-datepicker td span{background-color: #ccc;}
+body .ui-datepicker td span, .ui-datepicker td a{color: #252525;text-align:center;line-height:16px;}
+body .ui-datepicker table.ui-datepicker-calendar td:hover a{background-color: #e9e6e6!important;}table a.ui-datepicker-current-day:hover,table a.ui-datepicker-current-day{background: #C20052 !important;}
+body .ui-state-default.ui-state-highlight.ui-state-active.ui-state-hover{background: transparent!important;}
+body .ui-datepicker .ui-datepicker-calendar .ui-state-hover,
+body .ui-datepicker .ui-datepicker-calendar td a:hover{background-color: #e9e6e6;color: #000;}
+body .ui-datepicker-buttonpane{display:none!important;}
+body .ui-datepicker-header{background:#5e5e5e;color:#fff;width: 99%;}
+body .ui-datepicker-header{height: 30px;line-height: 30px;}
+body .ui-datepicker .ui-datepicker-title{line-height: 33px;}
+body .ui-datepicker td, 
+body .ui-datepicker td span, 
+body .ui-datepicker td a{line-height: 21px;font-size:12px;width: 28px;line-height: 28px;padding: 0!important;margin: 0!important;}
+body #ui-datepicker-div a, 
+body .ui-datepicker-inline a {font-weight:normal;}
+body .ui-datepicker .ui-state-active {background-color: #c10051!important;}
+body .ui-datepicker a.ui-datepicker-prev, 
+body .ui-datepicker a.ui-datepicker-next {top: 11px;}
+body .ui-datepicker-multi .ui-datepicker-group table{width: 99%;margin-bottom:0;}
+body .ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-first .ui-datepicker-header,
+body .ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-first table{margin-right:1%;}
+body .ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-last .ui-datepicker-header,
+body .ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-last table{margin-left:1%;}
+body .ui-datepicker th{background-color:#e3e3e3;padding: 3px .3em;}
+body .ui-datepicker-title{background:transparent;}
+body .ui-datepicker-header{background: #5e5e5e;}
+body .ui-datepicker-calendar thead tr{color:#646464;font-size:9px;}
+body #ui-datepicker-div a, 
+body .ui-datepicker-inline a{color:#5a5c5c;}table a.ui-state-default{background:#fff!important;}
+body .ftl strong{font-family: 'FrutigerLTStd47LightCnBold',Arial,Helvetica,sans-serif;font-weight:normal!important;}
+body .datepicker a.ui-datepicker-next {top: 13px;}
+body .ui-datepicker .ui-datepicker-prev {border: 5px solid transparent;border-right: 8px solid #f6f6f6;width: 0!important;height: 0!important;}
+body .ui-datepicker .ui-datepicker-next {border: 5px solid transparent;border-left: 8px solid #f6f6f6;width: 0!important;height: 0!important;}
+body .ui-state-default.ui-state-highlight.ui-state-active.ui-state-hover {background: transparent!important;}
+body .ui-datepicker table.ui-datepicker-calendar td:hover a.ui-state-active,
+body .ui-datepicker .ui-state-active,
+body .ui-datepicker .ui-state-active:hover{background-color: #c10051!important;}
+*/
+body #content_right_page_interne_list .occupations p.activatedState{background:#B40040 !important;}
+body #content_right_page_interne_list.slider.cta .ensav,
+body #content_right_page_interne_list.slider.cta div+.ensav,
+body #content_right_page_interne_list.slider div+.ensav,
+body #content_right_page_interne_list.slider a.newLink+.ensav,
+body .newLink{display: none!important;}
+body #content_right_page_interne_list.slider .ensav.newLink{display: block!important;}
+body #content_right_page_interne_list.slider.cta .ensav.newLink{margin-top: 20px;position: relative;top: -5px;}.avail_block p.selc_avail {position: relative;top: -10px;}
+div #bt_fil {position: relative;top: 5px;margin-bottom: 20px;}.Searchresult .list_htl .blc_descr_htl {width: auto!important;margin: 10px 0 0!important;padding: 0!important;height: auto!important;}/** CSS pour les filtres en têtière (budget, étoiles, services & arrondissment) */
+body .htl_result_envie #affin_rech {padding-top: 10px;}
+body .htl_result_envie .affin_rech{background: #000;bottom: -15px;float:none!important;height:80px;left: -15px;padding: 15px;position: relative;width: 650px;}#currency_alerte br,
+body .htl_result_envie .affin_rech .clr,
+body .htl_result_envie .affin_rech .inscr_news p,
+body .htl_result_envie .affin_rech .bcl_critere>div{display:none}
+body #content_right_page_interne_list div.htl_result_envie p.title{margin-bottom: 30px;color: #FFCB05;line-height: 20px;font-family: "FrutigerLTStd47LightCnBold";font-weight:normal!important;font-size: 20px;border-bottom: 0px solid rgba(0, 0, 0, 0);}
+/*body .htl_result_envie .affin_rech .bcl_critere #arrondissements_,
+body .htl_result_envie .affin_rech .bcl_critere>div{position: absolute;top:14px;left:0;z-index:9;max-height:350px;overflow-y:auto;overflow-x:hidden;}*/
+body .htl_result_envie .affin_rech .bcl_critere #arrondissementRebuild{max-height:1000em;overflow:hidden;top: 14px;}
+body .htl_result_envie .affin_rech .bcl_critere:hover #arrondissementRebuild,
+body .htl_result_envie .affin_rech .bcl_critere:hover>div{display: block;}
+body .htl_result_envie .affin_rech .bcl_critere{min-height: 15px;left: 25px;position: absolute;top: 75px;width:122px;z-index:2;}
+body .htl_result_envie .affin_rech #etoiles{width:115px;left: 155px;}
+body .htl_result_envie .affin_rech #services{width:200px;left: 288px;}
+body .htl_result_envie .affin_rech #arrondissements{left: 500px;width:150px;}
+body .htl_result_envie .affin_rech .inscr_news{position: absolute;top:15px;right:15px;}
+body .htl_result_envie .affin_rech p{color:#ffcb05;cursor:pointer;font-family: "FrutigerLTStd47LightCnBold";font-weight:normal!important;font-size:20px;margin-bottom:30px;}
+body .htl_result_envie .affin_rech p label{cursor:pointer;}
+body #content_right_page_interne_list div.htl_result_envie p.ttl{color:#fff;display:block;font-family: Verdana, Arial, sans-serif;font-size: 14px;font-weight: normal!important;float:left;clear: both;line-height: 14px;border-bottom:1px solid #fff;padding-bottom:2px;text-transform: none;vertical-align: top;position: relative;top: -15px;}
+body #content_right_page_interne_list div.htl_result_envie p.ttl:hover{color:#ffcb05!important;border-color:#ffcb05;}
+body .htl_result_envie .affin_rech #geocoder{border: 0px solid transparent;border-radius:3px;height:16px;padding:5px 15px;margin:0;box-shadow: inset 2px 2px 3px #CECECE;position:relative;top:1px;width:240px;}
+body .htl_result_envie .affin_rech input.submit{background: url("../images/avsw/listhotelDC/bouton-filtres-ok.png") repeat-x top left;display: inline-block;height: 26px;margin:0 0 0 5px!important;padding: 0;overflow: hidden;text-indent: -999em;vertical-align: middle;width: 30px;}
+body .htl_result_envie .affin_rech div.validateNewFilters {border: 0;cursor:pointer;margin: 0 auto;padding: 0;clear: both;height: 38px;background: #FFF;width: 205px;float: none;display: block;}
+body .htl_result_envie .affin_rech #arrondissementRebuild div.validateNewFilters {position: absolute;bottom: 0;left: 0;}
+body .htl_result_envie .affin_rech div.bcl_critere div input {position: relative;top: 5px;}
+body .htl_result_envie .affin_rech div.validateNewFilters div{background: #ffcb05; background: -moz-linear-gradient(top,#ffcb05 0%, #ffdd27 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffcb05), color-stop(100%,#ffdd27));background: -webkit-linear-gradient(top,#ffcb05 0%,#ffdd27 100%);background: -o-linear-gradient(top,#ffcb05 0%,#ffdd27 100%);background: -ms-linear-gradient(top,#ffcb05 0%,#ffdd27 100%);background: linear-gradient(to bottom,#ffcb05 0%,#ffdd27 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcb05', endColorstr='#ffdd27',GradientType=0 );display: block;margin: 5px;height: 20px;line-height: 20px;font-size: 14px;text-align: center;color: #333;font-weight: bold;padding: 3px 0;}
+body #content_right_page_interne_list p.ttl span.flecheAlt {font-size: 14px;line-height: 17px;border-bottom: 0px solid #fff;padding-bottom: 0px;position: relative;top: 0px;font-family: Arial, sans-serif;right: -10px;color: #FFF;width: 0px;display: inline-block;overflow: visible;}
+body #content_right_page_interne_list p.ttl:hover span.flecheAlt {color:#ffcb05!important;border-color:#ffcb05;}
+body #filtres{background: #000;bottom: -15px;height:80px;left: -15px;padding: 15px;position: relative;width: 650px;}
+body #filtres div.title{color:#ffcb05;font-family: "FrutigerLTStd47LightCnBold";font-weight:normal!important;font-size:20px;margin-bottom:30px;}
+body #filtres .menu{float:left;height:30px;position:relative;width:130px;}
+body #filtres .menu .disabled{display:none;}
+body #filtres .menu#servicesUlClone{width:250px;}
+body .affin_rech div.bcl_critere>div,
+body .affin_rech div.bcl_critere>div#arrondissementRebuild,
+body #filtres ul{background:white;box-shadow: 2px 2px 6px #202020;color:#252525;display:none;font-size:13px;position: absolute;padding:0;margin:0;top: 20px;left: 0;z-index: 10;width: 230px;}
+body .affin_rech div.bcl_critere #arrondissementRebuild p,
+body .affin_rech div.bcl_critere>div>p,
+body #filtres ul li{border-bottom:1px solid #d3d3d3;cursor:pointer;padding: 10px 15px;margin:0;position:relative;white-space: nowrap;width: 200px;}
+body #arrondissements_{background: #FFFFFF;padding:0;width: 230px!important;}
+body .affin_rech div.bcl_critere #arrondissementRebuild p:hover,
+body .affin_rech div.bcl_critere>div>p:hover,
+body #filtres ul li:hover{background:#ededed;}
+body #filtres ul li .preventClick{height:100%;position:absolute;top:0;left:0;width:100%;}
+body #filtres ul li label, #filtres ul li input{cursor:pointer;}
+body #filtres ul li input{margin-right:7px;}
+body #filtres .menu:hover ul{display:block;}
+body #content_right_page_interne_list .htl_result_envie{white-space:nowrap;}
+body #content_right_page_interne_list .htl_result_envie #filtres span{font-family: Verdana, Arial, sans-serif;font-size: 14px;line-height: 14px;border-bottom:1px solid #fff;padding-bottom:2px;vertical-align: top;}
+body #content_right_page_interne_list .htl_result_envie #filtres .title:hover span{color:#ffcb05!important;border-color:#ffcb05;}
+body #content_right_page_interne_list .htl_result_envie #filtres span.flecheAlt,
+body #content_right_page_interne_list .htl_result_envie {font-size: 17px;line-height: 17px;border-bottom:0px solid #fff;padding-bottom:0px;}
+body #filtres li.title {display:inline-block;}
+body #filtres .adressBox{position:absolute;top:15px;right:10px;}
+body #filtres .adressBox .okSearch:hover{background-position:bottom left;}
+body #content_right_page_interne_list .resultat_hotel .found{font-family: FrutigerLTStd45LightRegular;font-size:20px;}
+body #content_right_page_interne_list .resultat_hotel .lieuDate{font-family: FrutigerLTStd45LightRegular;font-size:14px;}
+body #content_right_page_interne_list .htl_result_envie #budget_filter{float:none;margin-top:5px}
+body a#retour_liste {margin: -40px -5px 10px 10px!important;}#stl1{display:none!important;}
+div #validatedFilterz {padding: 10px 15px 0;clear: both;background: #000;line-height: 0px;margin: 10px 0 15px -15px;display: block;width: 100%;overflow: hidden;position:relative;z-index:1;}
+div#validatedFilterz div div{padding: 0 0 15px 10px;line-height:15px;white-space: normal;}
+div #validatedFilterz div div span{background:url("../images/avsw/listhotelDC/suppr_btn.png") no-repeat 0 0;cursor:pointer;display:inline-block;height:14px;width:17px;vertical-align: bottom;}
+div #validatedFilterz div div span:hover{opacity:0.7;filter:alpha(opacity=70);}
+.budBox,.staBox,.serBox,.arrBox{min-height: 12px;float:left;font-size: 12px;line-height: 12px;}
+.budBox,.staBox{position: relative;width:132px;}
+.serBox{width:215px;}
+.arrBox{width:150px;}
+body .htl_result_envie .affin_rech .bcl_critere #arrondissements_{max-height: 350px;overflow-x: hidden;overflow-y: auto;}
+
+body #content_right_page_interne_list .ui-tabs-panel .presentation .no-liens p a{background:none;position:relative;right:0;color:#4d4d4f; } 

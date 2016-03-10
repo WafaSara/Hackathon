@@ -1,0 +1,63 @@
+Searching 27517 files for ".nav a"
+
+/Users/easiware/Downloads/www.bestwestern.fr/public/css/squelette.css:
+  445  #fiche_hotel .info_hotel .nav strong{font:bold 11px arial;float:left;}
+  446  #fiche_hotel .info_hotel .nav img{float:right;margin-left:7px;}
+  447: #fiche_hotel .info_hotel .nav a{font:bold 11px arial;color:#0d275a;text-decoration:underline;float:left;margin-left:7px;width:18px;display:block;}
+  448: #fiche_hotel .info_hotel .nav a:hover{color:#fa7021;}
+  449  
+  450  #fiche_hotel .info_hotel .nav_hotel{width:227px;height:20px;}
+
+/Users/easiware/Downloads/www.bestwestern.fr/public/css/squelette_miles-v=17140.css:
+ 2416  .account_links .sub_nav.countries li{text-align:right;}
+ 2417  .account_links .langues:hover .sub_nav{display:block !important;} 
+ 2418: .nav a{display:inline-block;color:#333;font-size:12px;line-height:54px;padding:0 15px;white-space:nowrap;}
+ 2419  .nav .sub a{background:url('../avenseo_files/images/background/arrow.gif') 100% 50% no-repeat;margin-right:24px;display:block;}
+ 2420  .nav .last a{margin-right:16px;}
+ ....
+ 2474  #V2 .nav li{background:url('../avenseo_files/images/background/separator_02.gif') 100% 50% no-repeat;}
+ 2475  #V2 .nav .sub:hover{background:none;}
+ 2476: #V2 .nav a{color:#fff;font-size:13px;line-height:54px;padding:0 20px;white-space:nowrap;}
+ 2477  #V2 .nav .sub a{padding-right:25px;}
+ 2478  #V2 .nav img{margin:15px 0;display:block;}
+
+/Users/easiware/Downloads/www.bestwestern.fr/public/css/squelette_miles-v=17141.css:
+ 2416  .account_links .sub_nav.countries li{text-align:right;}
+ 2417  .account_links .langues:hover .sub_nav{display:block !important;} 
+ 2418: .nav a{display:inline-block;color:#333;font-size:12px;line-height:54px;padding:0 15px;white-space:nowrap;}
+ 2419  .nav .sub a{background:url('../avenseo_files/images/background/arrow.gif') 100% 50% no-repeat;margin-right:24px;display:block;}
+ 2420  .nav .last a{margin-right:16px;}
+ ....
+ 2474  #V2 .nav li{background:url('../avenseo_files/images/background/separator_02.gif') 100% 50% no-repeat;}
+ 2475  #V2 .nav .sub:hover{background:none;}
+ 2476: #V2 .nav a{color:#fff;font-size:13px;line-height:54px;padding:0 20px;white-space:nowrap;}
+ 2477  #V2 .nav .sub a{padding-right:25px;}
+ 2478  #V2 .nav img{margin:15px 0;display:block;}
+
+/Users/easiware/Downloads/www.bestwestern.fr/public/css/squelette_miles-v=17238.css:
+ 2416  .account_links .sub_nav.countries li{text-align:right;}
+ 2417  .account_links .langues:hover .sub_nav{display:block !important;} 
+ 2418: .nav a{display:inline-block;color:#333;font-size:12px;line-height:54px;padding:0 15px;white-space:nowrap;}
+ 2419  .nav .sub a{background:url('../avenseo_files/images/background/arrow.gif') 100% 50% no-repeat;margin-right:24px;display:block;}
+ 2420  .nav .last a{margin-right:16px;}
+ ....
+ 2474  #V2 .nav li{background:url('../avenseo_files/images/background/separator_02.gif') 100% 50% no-repeat;}
+ 2475  #V2 .nav .sub:hover{background:none;}
+ 2476: #V2 .nav a{color:#fff;font-size:13px;line-height:54px;padding:0 20px;white-space:nowrap;}
+ 2477  #V2 .nav .sub a{padding-right:25px;}
+ 2478  #V2 .nav img{margin:15px 0;display:block;}
+
+/Users/easiware/Downloads/www.bestwestern.fr/public/css/squelette_miles-v=8831.css:
+ 2416  .account_links .sub_nav.countries li{text-align:right;}
+ 2417  .account_links .langues:hover .sub_nav{display:block !important;} 
+ 2418: .nav a{display:inline-block;color:#333;font-size:12px;line-height:54px;padding:0 15px;white-space:nowrap;}
+ 2419  .nav .sub a{background:url('../avenseo_files/images/background/arrow.gif') 100% 50% no-repeat;margin-right:24px;display:block;}
+ 2420  .nav .last a{margin-right:16px;}
+ ....
+ 2474  #V2 .nav li{background:url('../avenseo_files/images/background/separator_02.gif') 100% 50% no-repeat;}
+ 2475  #V2 .nav .sub:hover{background:none;}
+ 2476: #V2 .nav a{color:#fff;font-size:13px;line-height:54px;padding:0 20px;white-space:nowrap;}
+ 2477  #V2 .nav .sub a{padding-right:25px;}
+ 2478  #V2 .nav img{margin:15px 0;display:block;}
+
+10 matches across 5 files

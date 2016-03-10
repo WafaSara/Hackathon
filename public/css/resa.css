@@ -1,0 +1,110 @@
+/* Pavé RESA */
+.ui-tabs-hide {
+	display:none !important;
+}
+
+.marge_arr{width:100%;height:20px;clear:both;background:url('http://www.bestwestern.fr/public/images/formes/arr_trans_element.gif') left no-repeat;}
+
+body #wrap #content #trans{width:297px;float:left;}
+body #trans a.resa{width:287px;height:40px;display:block;font:normal 13px verdana;text-transform:uppercase;text-decoration:none;color:white;padding:0 0 0 10px;line-height:38px;background:url('http://www.bestwestern.fr/public/images/background/titre_resa.gif') top no-repeat;}
+body #trans #resa_box_ul ul{list-style-type: none;/*height: 271px;*/}
+body #trans #resa_box_ul ul li.ui-tabs-selected a.resa{width:287px;height:40px;display:block;font:normal 13px verdana;text-transform:uppercase;text-decoration:none;color:#FFFFFF;padding:0 0 0 10px;line-height:38px;background:url('http://www.bestwestern.fr/public/images/background/titre_resa.gif') top no-repeat;cursor:default;}
+body #trans #resa_box_ul ul li.ui-tabs-selected a.rech_carte{background:url('http://www.bestwestern.fr/public/images/background/titre_rech_carte.gif') top no-repeat;}
+body #trans a.search_carte{width:287px;height:38px;display:block;font:normal 13px verdana;text-transform:uppercase;text-decoration:none;color:white;padding:0 0 0 10px;line-height:38px;background:url('http://www.bestwestern.fr/public/images/background/rechercher_sur_une_carte_2.gif') top no-repeat;}
+body #trans a.envie_de{width:287px;height:40px;display:block;background:url('http://www.bestwestern.fr/public/images/background/envie_de.gif') top no-repeat;font:normal 13px verdana;text-transform:uppercase;text-decoration:none;color:white;padding:0 0 0 10px;line-height:38px;}
+body #trans #resa_box_ul ul li.ui-tabs-selected a.envie_de{width:287px;height:40px;display:block;background:url('http://www.bestwestern.fr/public/images/background/envie_de.gif') top no-repeat;font:normal 13px verdana;text-transform:uppercase;text-decoration:none;color:#FFFFFF;padding:0 0 0 10px;line-height:38px;}
+body #trans .destinations{width:297px;height:232px;background:#85b1da;padding:10px 0 0 10px;}
+body #trans .destinations form{background:none !important;}
+body #trans .destinations form a.link{padding:0 !important;}
+body #trans .destinations label{font:bold 11px arial;color:#FFFFFF;float:left;margin-top:5px;}
+body #trans .destinations select{width:168px;height:18px;margin:0 0 13px 36px;}
+body #trans .destinations ul{width286px;height:154px;list-style:none;clear:both;}
+body #trans .destinations ul li{height:53px;width:71px;float:left;}
+body #trans .destinations ul li input{width:12px;height:12px;float:left;margin:7px 0 0 0;}
+body #trans .destinations ul li img{float:right;margin-right:20px;_margin-right:10px;}
+body #trans .destinations ul li label{font:normal 10px arial;color:#FFF;margin:0;line-height:9px;width:100%;}
+
+
+/* Moteur RESA */
+body .trans_resa{width:297px;height:354px;position:absolute;left:0;top:0;z-index:1;}
+body #trans .resa{width:297px;background:#39aed6;}
+body #trans .resa form{width:287px;padding:1px 0 0 10px;background:#2a81ac url('http://www.bestwestern.fr/public/images/background/bg_resa.gif') top no-repeat;position:relative;}
+body #trans .resa form #chambre_unique{height:auto;clear:both;}
+body #trans .resa form .dispo_resa{width:100%;clear:both;height:20px;padding-top:4px;}
+
+
+
+body #trans .resa form div.lang_bw{height:19px;padding-top:11px;color:#75c6e2;width:267px;margin-left:7px;}
+body #trans .resa form div.lang_bw a{text-decoration:none;line-height:14px;font-size:9px;color:#75c6e2;background:none;display:inline;padding-left:0;}
+
+body #trans .resa #resa_box_ul ul li #form_thematiques{margin: 0;padding: 0;}
+body #trans .resa #resa_box_ul ul li #form_thematiques form select{width:168px !important;height:18px !important;margin:0 10px 13px 0 !important;}
+
+body #trans .resa form h1{font:bold 14px arial;text-transform:uppercase;color:#FFFFFF;margin:5px 0 8px 0;}
+body #trans .resa form .champ{width:275px;height:20px;margin-top:4px;}
+body #trans .resa form .champ1{width:275px;height:11px;}
+body #trans .resa form .champ#carto_monde_form select#idcontinent OPTGROUP OPTION{margin-left: 15px !important;}
+body #trans .resa form #line_1,
+body #trans .resa form #line_2,
+body #trans .resa form #line_3
+{height:33px;margin-top:4px;padding-top:4px;clear:both;float:left;width:175px;}
+/**/
+body #trans .resa form #line_1 .type_resa, body #trans .resa form #line_room_1 .type_resa,
+body #trans .resa form #line_2 .type_resa, body #trans .resa form #line_room_2 .type_resa, 
+body #trans .resa form #line_3 .type_resa, body #trans .resa form #line_room_3 .type_resa
+{width:50px !important;height:33px !important;margin:0 6px 0 0 !important;float:left;}
+/**/
+body #trans .resa form #line_1 .type_resa label, body #trans .resa form #line_room_1 .type_resa label,
+body #trans .resa form #line_2 .type_resa label, body #trans .resa form #line_room_2 .type_resa label,
+body #trans .resa form #line_3 .type_resa label, body #trans .resa form #line_room_3 .type_resa label
+{font:bold 10px arial !important;width:100%;text-align:center;text-transform:capitalize;}
+/**/
+body #trans .resa form #line_1 .type_resa select, body #trans .resa form #line_room_1 select,
+body #trans .resa form #line_2 .type_resa select, body #trans .resa form #line_room_2 select,
+body #trans .resa form #line_3 .type_resa select, body #trans .resa form #line_room_3 select
+{width:48px !important;margin:0 auto !important;float:left;}
+/**/
+
+body #trans .resa form #line_1 strong,
+ body #trans .resa form #line_2 strong,
+  body #trans .resa form #line_3 strong{display:block;color:#feae1e;width:63px;}
+/**/
+.resa form #line_room_1,
+.resa form #line_room_2,
+.resa form #line_room_3
+{height:33px;float:left;margin-top:4px;padding-top:5px;width:112px;}
+/**/
+
+#line_room_2 span, #line_room_3 span{width:100% !important;}
+
+#line_age_select_2_for_room_1, #line_age_select_1_for_room_1,
+#line_age_select_2_for_room_2, #line_age_select_1_for_room_2
+#line_age_select_2_for_room_3, #line_age_select_1_for_room_3
+{float:left;height:39px;}
+
+
+
+/**/
+h3.nbr_chambre{float:none;font:bold 11px tahoma;text-align:left;}
+
+body #trans .resa form span{font:normal 8px arial;text-transform:uppercase;color:#9eddf2;float:left;}
+body #trans .resa form hr{border:none;width:227px;height:0px;height:1px !important;margin:5px 0 0 0;float:left;border-top:1px solid #75c6e2;}
+body #trans .resa form label{font:bold 11px arial;color:#FFFFFF;line-height:19px;margin:0;float:left;}
+body #trans .resa form input{width:139px;height:18px;border:1px solid #2c88b4;float:right;font:normal 10px arial;color:#6F6F6F;padding-left:5px;line-height:18px;}
+body #trans .resa form select{width:46px;height:20px;border:1px solid #2c88b4;float:right;margin-right:100px;font:normal 10px arial;color:#6F6F6F;padding:0 0 0 2px;line-height:18px;}
+body #trans .resa form div.champ select.recherche_ville{width:146px;height:20px;border:1px solid #2c88b4;float:right;margin-right:0;font:normal 10px arial;color:#6F6F6F;padding:0 0 0 2px;line-height:18px;}
+body #trans .resa form .type_resa{width:68px;height:40px;margin:4px 37px 8px 0;_margin:0px 37px 0 0;float:left;}
+body #trans .resa form .type_resa select{width:68px;margin:0;}
+body #trans .resa form a{width:188px;display:block;font:normal 10px arial;text-decoration:underline;color:#FFFFFF;padding:4px 0;_padding:2px 0 0 7px;clear:both;}
+body #trans .resa form a.search{width:92px;height:18px;background:url('http://www.bestwestern.fr/public/images/background/select_resa.png') top no-repeat;font:bold 11px arial;color:#FFFFFF;text-decoration:none;text-align:center;padding:4px 0 0 0;line-height:10px;_line-height:14px;}
+body #trans .resa form a.return_map{width:267px;height:18px;background:url('http://www.bestwestern.fr/public/images/background/return_map.png') top no-repeat;font:bold 11px arial;color:#FFFFFF;text-decoration:none;text-align:center;padding:4px 0 0 0;line-height:10px;_line-height:14px;}
+body #trans .resa form a.dispo{width:153px;height:31px;background:url('http://www.bestwestern.fr/public/images/background/dispo_resa_home.png') top no-repeat;font:bold 12px/25px arial;_line-height:21px;color:#FFFFFF;text-decoration:none;text-align:center;padding:4px 0 0 0;margin-top:-11px;}
+body #trans .resa form a.search_home{width:98px;height:32px;background:url('http://www.bestwestern.fr/public/images/background/select_resa_home.png') top no-repeat;font:bold 13px/25px arial;_line-height:21px;color:#FFFFFF;text-decoration:none;text-align:center;padding:4px 0 0 0;margin-top:-11px;}
+body #trans .resa form p{font:bold 11px arial;color:#FFFFFF;margin:0;padding:0 0 0 5px;width:161px;display:block;float:left;}
+body #trans .resa form p.bloc_acces{padding:0 !important;background:none !important;width:95px;display:block;float:left;}
+body #trans .resa form p.fiche_hotel{font:bold 10px arial;color:#FFFFFF;margin:0 25px 0 0;padding:0 0 0 20px;background:url('http://www.bestwestern.fr/public/images/pictos/meilleur_tarifs.gif') left no-repeat;width:176px;width:75px;float:left;}
+
+body #trans .resa .visit_hotel{width:297px;height:22px;margin-top:5px;background:url("http://www.bestwestern.fr/public/images/background/visit_hotel.gif") top no-repeat;position:relative;}
+body #trans .resa .visit_hotel img{float:left;margin:0 24px 0 30px;}
+body #trans .resa .visit_hotel a{font:normal 12px/20px tahoma;text-decoration:none;color:#0d275a;}
+body #trans .resa .visit_hotel a:hover{color:#fa7021;}

@@ -1,0 +1,798 @@
+a,input{outline:none !important;ie-dummy: expression(this.hideFocus=true); }
+a:focus,input:focus,button:focus{outline:none; }
+/***************club rewards******************/
+.content_rewards .fil_ariane{height:14px;border-bottom:none; }
+.content_rewards .slide_rewards{width:960px;height:286px;float:left;   }
+.content_rewards .slide_rewards #slides .slidesjs-container{z-index:9; }
+.content_rewards .slide_rewards .slidesjs-pagination {margin: 6px auto;list-style: none;width:150px;  }
+.content_rewards .slide_rewards .slidesjs-pagination li {float: left; margin: 0 1px;}
+.content_rewards .slide_rewards .slidesjs-pagination li a {
+      display: block; width: 13px;height: 0;padding-top: 12px;background-image: url("../images/slide_rewards/pagination.png");background-position: 0 0;float: left;overflow: hidden;  }
+.content_rewards .slide_rewards .slidesjs-pagination li a.active,
+.content_rewards .slide_rewards .slidesjs-pagination li a:hover.active { background-position: 0 -13px;}
+.content_rewards .slide_rewards .slidesjs-pagination li a:hover { background-position: 0 -26px; }
+.content_rewards .sub_slide_rewards{float:left;background:url("../images/bwr_inscription/bg_slid_connect.png") no-repeat bottom ;height:266px;width:938px;border-top:1px solid #002267;padding:0 0 0 22px;position:relative;}
+.content_rewards .sub_slide_rewards .content_slid{float:left;width:500px;height:260px;border-right:1px solid #002267;padding:5px 20px 0 0;font-family:arial;color:#555555;}
+.content_rewards .sub_slide_rewards .content_slid .head_slid{border-bottom:1px solid #002267;height:44px;}
+.content_rewards .sub_slide_rewards .content_slid .head_slid h2{font-weight:normal;font-size:18px;}
+.content_rewards .sub_slide_rewards .content_slid .head_slid h2 span.jaune-rew{font-weight:bold;} 
+.content_rewards .sub_slide_rewards .content_slid .head_slid .num_seri_rew{float:left;margin-top: 5px;}
+
+.content_rewards .sub_slide_rewards .logo_rew_head{float:right;margin-right: -33px;}
+.content_rewards .sub_slide_rewards .statut_rew{float:left;width:500px;margin-top:10px;font-size:15px;}
+.content_rewards .sub_slide_rewards .statut_rew span{font-size:20px;font-weight:bold;text-transform: uppercase;}
+.content_rewards .sub_slide_rewards .gold_rew{background:url("../images/bwr_inscription/bg_gold.png") no-repeat;width:500px;height:77px;float:left;margin:8px 0;position:relative; }
+.content_rewards .sub_slide_rewards .gold_rew .platinum_rew{left: 42%;position: relative;width: 60px;height:19px;cursor:pointer;}
+.content_rewards .sub_slide_rewards .gold_rew .diamond_rew{left:87%;position: relative;width: 60px;height:19px;top:-18px;cursor:pointer;}
+
+.content_rewards .sub_slide_rewards .gold_rew .plus_inf_rew { background: rgba(0, 0, 0, 0) url("../images/bwr_inscription/picto-information.png") no-repeat scroll 0 0;cursor: pointer;height: 21px;left: 96%;position: relative;top: -69px;width: 23px;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold{position:absolute;top:48px;left:4px;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold0{position:absolute;top:48px;left:4px;background:#fff; }
+.content_rewards .sub_slide_rewards .gold_rew .num_gold1{left:4%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold2{left:7%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold3{left:10%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold4{left:13%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold5{left:16%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold6{left:19%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold7{left:22%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold8{left:25%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold9{left:28%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold10{left:31%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold11{left:34%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold12{left:37%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold13{left:40%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold14{left:43%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold15{left:46%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold16{left:49%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold17{left:52%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold18{left:55%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold19{left:58%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold20{left:61%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold21{left:64%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold22{left:67%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold23{left:70%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold24{left:73%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold25{left:76%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold26{left:79%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold27{left:82%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold28{left:85%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold29{left:88%;position:absolute;top:48px;background:#fff;}
+.content_rewards .sub_slide_rewards .gold_rew .num_gold30{left:91%;position:absolute;top:48px;background:#fff;}
+
+.content_rewards .sub_slide_rewards .gold_rew .plati_rew{width:122px;height:167px;padding:5px;border:1px solid #cccccc;position: absolute;top: 31px;background: #fff;left: 30%; font-family: verdana;line-height: 14px}
+.content_rewards .sub_slide_rewards .gold_rew .plati_rew.diamond_rew_h{left:71%;}
+.content_rewards .sub_slide_rewards .gold_rew .plati_rew span{background:url("../images/bwr_inscription/bg_infobul.png") no-repeat;width:12px;height:10px; float: right;margin: -15px 10px 0 0;}
+.content_rewards .sub_slide_rewards .gold_rew .plati_rew b{font-size:10px;color:#002267;}
+
+.content_rewards .sub_slide_rewards .gold_rew .plus_rew {background: #fff none repeat scroll 0 0;border: 1px solid #cccccc;font-family: verdana;height: 69px;left: 4%;line-height: 14px;padding: 5px;position: absolute;top: 0;width: 481px;}
+.content_rewards .sub_slide_rewards .gold_rew .plus_rew span{background:url("../images/bwr_inscription/bg_infobul.png") no-repeat;width:12px;height:10px; float: right;margin: -15px 10px 0 0;}
+.content_rewards .sub_slide_rewards .gold_rew .plus_rew b{font-size:10px;color:#002267;}
+
+.content_rewards .sub_slide_rewards .contenu_slid_gold{border-bottom:1px solid #002267;padding-bottom:10px;float:left;}
+.content_rewards .sub_slide_rewards .contenu_slid_gold p{font-size:10px;}
+.content_rewards .sub_slide_rewards .point_gold_rew{float:left;margin:5px 0 0 0;width:500px;text-align:center; font-weight: bold;}
+.content_rewards .sub_slide_rewards .point_gold_rew p{margin:0;}
+.content_rewards .sub_slide_rewards .point_gold_rew span{font-size: 40px;font-weight: bold;}
+.content_rewards .sub_slide_rewards .jour_gold_rew{float:left;margin:0;width:500px;text-align:center; }
+.content_rewards .sub_slide_rewards .jour_gold_rew span{float:none;font-size:32px;margin-right:10px;}
+.content_rewards .sub_slide_rewards .jour_gold_rew p{font-size:11px;margin-top:3px;}
+.content_rewards .sub_slide_rewards .slide_carte_cadeau{float:right;margin:10px 0 0 0;width:367px;}
+.content_rewards .sub_slide_rewards .sub_slid_cadeau{width:308px;text-align:center;}
+.content_rewards .sub_slide_rewards .sub_slid_cadeau p{font-size:14px;font-family:arial;color:#545454;margin:0 30px;}
+.content_rewards .sub_slide_rewards .sub_slid_cadeau span{font-size:16px;font-weight:bold;}
+.content_rewards .sub_slide_rewards .gal_lafa_rew{width:308px;height:148px;margin:30px 0 0 0;position:relative;z-index: 9;}
+.content_rewards .sub_slide_rewards .bt_comm_cap{position:absolute;right:0;bottom:0;}
+.content_rewards .sub_slide_rewards a.commande_cad{background:url("../images/bwr_inscription/bt_com_left.png") no-repeat left;color: #FFFFFF;float:right;font-weight:bold;height: 37px;line-height: 35px;margin-right:0;margin-top: 5px;padding:0px 0px 0 50px;text-align: center;text-transform: uppercase;}
+.content_rewards .sub_slide_rewards .commande_cad span.center_com{background:#d7b24e url("../images/bwr_inscription/com_cadeau.png") no-repeat right;padding:0 15px 0 0;height:37px;float:left;line-height: 38px;}
+.content_rewards .sub_slide_rewards .commande_cad span.right_com{background:url("../images/bwr_inscription/bt_com_right.png") no-repeat;height:37px;float:left;width:9px;}
+.content_rewards .sub_slide_rewards #gallery_carte_cadeau .controls{position:relative;top:-10px;}
+.content_rewards .sub_slide_rewards .sub_slid_cadeau .caption{font-size:16px;font-family:arial;color:#545454;  height: 62px;}
+.content_rewards .sub_slide_rewards .sub_slid_cadeau .slideshow-container{margin-top:0px;}
+.content_rewards .sub_slide_rewards .sub_slid_cadeau .sosv_cap{font-size:14px;}
+/**color***/
+.content_rewards.gold_rewards .jaune-rew{color:#b58f35/*#d7b24e*/}
+.content_rewards.gold_rewards .bg_jaune{background:#b58f35;}
+
+.content_rewards.platinum_rewards .jaune-rew{color:#666}
+.content_rewards.platinum_rewards .bg_jaune{background:#666;}
+
+.content_rewards.diamond_rewards .jaune-rew{color:#999999}
+.content_rewards.diamond_rewards .bg_jaune{background:#999999;}
+
+.content_rewards.gold_rewards .mon_compte_rew .enrg_comp .left_jaune{background:url("../images/bwr_inscription/left_enrg.png") no-repeat left;padding:0 0 0 30px;}
+.content_rewards.gold_rewards .mon_compte_rew .enrg_comp .right_jaune{background:url("../images/bwr_inscription/right_enrg.png") no-repeat ;width:5px;height:21px;float:left;}
+.content_rewards.gold_rewards .mon_compte_rew .enrg_comp .bg_jaune{float:left;}
+
+.content_rewards.platinum_rewards .mon_compte_rew .enrg_comp .left_jaune{background:url("../images/bwr_inscription/left_enrg_g.png") no-repeat left;padding:0 0 0 30px;}
+.content_rewards.platinum_rewards .mon_compte_rew .enrg_comp .right_jaune{background:url("../images/bwr_inscription/right_enrg_g.png") no-repeat ;width:5px;height:21px;float:left;}
+.content_rewards.platinum_rewards .mon_compte_rew .enrg_comp .bg_jaune{float:left;}
+
+.content_rewards.diamond_rewards .mon_compte_rew .enrg_comp .left_jaune{background:url("../images/bwr_inscription/left_enrg_d.png") no-repeat left;padding:0 0 0 30px;}
+.content_rewards.diamond_rewards .mon_compte_rew .enrg_comp .right_jaune{background:url("../images/bwr_inscription/right_enrg_d.png") no-repeat ;width:5px;height:21px;float:left;}
+.content_rewards.diamond_rewards .mon_compte_rew .enrg_comp .bg_jaune{float:left;}
+
+.content_rewards.platinum_rewards .sub_slide_rewards a.commande_cad{background:url("../images/bwr_inscription/bt_com_left_g.png") no-repeat left;}
+.content_rewards.platinum_rewards .sub_slide_rewards .commande_cad span.center_com{background:#666 url("../images/bwr_inscription/com_cadeau.png") no-repeat right;}
+.content_rewards.platinum_rewards .sub_slide_rewards .commande_cad span.right_com{background:url("../images/bwr_inscription/bt_com_right_g.png") no-repeat;}
+
+.content_rewards.diamond_rewards .sub_slide_rewards a.commande_cad{background:url("../images/bwr_inscription/bt_com_left_d.png") no-repeat left;}
+.content_rewards.diamond_rewards .sub_slide_rewards .commande_cad span.center_com{background:#999 url("../images/bwr_inscription/com_cadeau.png") no-repeat right;}
+.content_rewards.diamond_rewards .sub_slide_rewards .commande_cad span.right_com{background:url("../images/bwr_inscription/bt_com_right_d.png") no-repeat;}
+.slid_right_bas{background:url("http://www.bestwestern.fr/public/images/bwr_inscription/right_slid.png") no-repeat bottom right;width:11px;height:11px;position:absolute;right:0;bottom:0;}
+.slid_left_bas{background:url("http://www.bestwestern.fr/public/images/bwr_inscription/left_slid.png") no-repeat bottom left;width:11px;height:11px;position:absolute;left:0;bottom:0;}
+/****/
+.content_rewards .center_rewards{background:url("../images/bwr_inscription/bg_onglet.png") no-repeat;width:960px;float:left;padding:9px 0px 0 0px;margin-top:15px; }
+.content_rewards .center_rewards .onglet_rewards{float:left;width:938px;padding:0 14px 0 8px;}
+.content_rewards .center_rewards .onglet_rewards ul {float:left;}
+.content_rewards .center_rewards .onglet_rewards ul li{float:left;margin-right:2px;}
+.content_rewards .center_rewards .onglet_rewards ul li a{color:#fff;text-transform:uppercase; }
+.content_rewards .center_rewards .onglet_rewards span.ong_left{float:left;background:url("../images/bwr_inscription/ong_left.png") no-repeat;height:45px;width:11px;}
+.content_rewards .center_rewards .onglet_rewards span.ong_center{float:left;background:#334e85;height:45px;line-height:45px;font-size:16px;font-family: frutigerltstd47lightcnbold; }
+.content_rewards .center_rewards .onglet_rewards span.ong_center h1{float:left;font-size:16px;font-family: frutigerltstd47lightcnbold;font-weight:100; }
+
+.content_rewards .center_rewards .onglet_rewards span.ong_center img{float:left;margin:8px 11px 0 0;}
+.content_rewards .center_rewards .onglet_rewards.pg_connect span.ong_center img{float:left;margin:15px 11px 0 0;}
+.content_rewards .center_rewards .onglet_rewards span.ong_right{float:left;background:url("../images/bwr_inscription/ong_right.png") no-repeat;width:42px;height:45px;  }
+
+.content_rewards .center_rewards .onglet_rewards .active span.ong_left{float:left;background:url("../images/bwr_inscription/ong_left_h.png") no-repeat;height:45px;width:11px;}
+.content_rewards .center_rewards .onglet_rewards .active span.ong_center{float:left;background:#002267;height:45px;line-height:45px;font-size:16px; }
+.content_rewards .center_rewards .onglet_rewards .active span.ong_right{float:left;background:url("../images/bwr_inscription/ong_right_h.png") no-repeat;width:42px;height:45px;  }
+.content_rewards .center_rewards .onglet_rewards .logo_rew{float:right;width:148px;height:40px; }
+
+.content_rewards .center_rewards .sub_contenu_rew{float:left;width:960px;padding-top:11px;background:#002267; }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards{float:left;width:566px;background:#fff;padding:20px;min-height:400px;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards h1{font-size:26px;font-family:verdana;color:#000;font-weight:normal; }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .parg1_rew{margin:25px 0;font-family:verdana;color:#666666;float:left;line-height:18px;  }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .parg1_rew b{color:#000;font-weight:normal;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .prog_rew{float:left;width:100%;border-bottom: 1px solid #EFEFEF;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .prog_rew .sub_prog_rew{border-top:1px solid #efefef;padding:4px 0px;float:left;width:100%;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .prog_rew .sub_prog_rew img{float:left;margin-right:5px;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .prog_rew .sub_prog_rew p{margin-top:10px;font-size:14px;color:#0d0d0d;font-family:verdana;}
+.content_rewards .left_rewards .deja_rew{float:left;background:url("../images/bwr_inscription/deja_left.png") no-repeat;height:26px;padding-left:24px;margin-top:20px; }
+.content_rewards .left_rewards .deja_rew a{background:url("../images/bwr_inscription/right_deja.png") no-repeat right;color:#fff;height:26px;padding:0px 24px 0 0px;float:left; }
+.content_rewards .left_rewards .deja_rew span{background:#444;padding:6px 10px 0 10px;float:left;height:20px;text-decoration:underline;color:#fff;font-family: verdana;  }
+.content_rewards .left_rewards .deja_rew.active {float:left;background:url("../images/bwr_inscription/deja_left_h.png") no-repeat;height:26px;padding-left:24px;margin-top:20px; }
+.content_rewards .left_rewards .deja_rew.active a{background:url("../images/bwr_inscription/right_deja_h.png") no-repeat right;color:#fff;height:26px;padding:0px 24px 0 0px;float:left; }
+.content_rewards .left_rewards .deja_rew.active span{text-decoration:none; }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .parg2_rew{margin:10px 0;font-family:verdana;color:#666666;float:left;width:100%;line-height:18px;  }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .parg2_rew b{color:#000;font-weight:normal;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew{width:565px;float:left;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew table{border:1px solid #c2c2c2;color:#222;font-family:verdana;font-size:10px; }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew td{border:1px solid #c2c2c2;padding:6px 2px;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew tr.entet-av{text-align:center; }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew tr.entet-av sup{font-size:9px;position:absolute; }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew td.gol_rew{color:#fff;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew td.gol_1{background:#e9f1f8;text-align:center;color:#2c72b9;font-weight:bold;  }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew td.pla_1{background:#f1f1f1;text-align:center;color:#444;font-weight:bold;  }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew td.dia_1{background:#fcfcfc;text-align:center;color:#777;font-weight:bold;  }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew p{font-size:10px; font-family:verdana;margin-top:15px;font-style:italic;}
+
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards{float:left;width:354px;/*padding-top:25px;*/color:#fff;}
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .bon_plan_rew{padding:0 11px;text-align:center;}
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .bon_plan_rew h2{color:#fff;text-transform:uppercase;  }
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .bon_plan_rew .text_bonplan{margin:30px auto 10px auto;width:295px;font-size:14px;font-family:verdana;line-height:20px; }
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .bon_plan_rew .bon_commande{float:left;position:relative;}
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .bon_plan_rew .bon_commande a{position:absolute;bottom:5px;right:5px;display:block;width:178px;height:45px;font-size:0px;text-indent:-9999em;cursor:pointer;  }
+
+.content_rewards .center_rewards .sub_contenu_rew .serv_rew{width:960px;text-align:center;float:left;color:#fff;height:40px;line-height:40px; }
+.content_rewards .center_rewards .sub_contenu_rew .serv_rew a{background:url("../images/bwr_inscription/serv_rew.png") no-repeat left;padding:5px 0 0 15px;color:#fff;margin:0 auto;display:block;width:230px;font-size:17px;text-transform:uppercase;   }
+.content_rewards .center_rewards .b_ser_rew{background:#fff;float:left; }
+.content_rewards .center_rewards .b_ser_rew img{float:left;}
+.content_rewards .bas_rewards{width:960px;padding:20px 0;font-size:13px;font-style:italic;color:#444;font-family:georgia;float:left;background:#fff;text-align:center;line-height:20px;  }
+.content_rewards .bas_rewards a{color:#002267;text-decoration:underline;margin-top:20px;display:block;font-style:normal;font-family: FrutigerLTStd47LightCnBold;}
+.content_rewards .bas_rewards .faq_rew,.content_rewards .bas_rewards .mail_rew{width:320px;float:left; }
+.content_rewards .bas_rewards .n_vert_rew{width:220px;float:right;margin:0 25px 0 0; }
+.content_rewards .bas_rewards .n_vert_rew a{display:block;background:url("../images/bwr_inscription/n_vert.png") no-repeat;width:177px;height:36px;margin:8px 0 0 25px;    }
+
+.content_rewards .left_rewards .form_inscrip_rew{float:left;width:566px;border-bottom:1px solid #ccc;padding-bottom:10px;font-family:verdana;font-size:10px;}
+.content_rewards .left_rewards .form_inscrip_rew div{float:left;width:570px;margin-top:15px;position:relative;}
+.content_rewards .left_rewards .form_inscrip_rew div.erreur_rew_insc{margin-top:0;}
+.content_rewards .left_rewards .form_inscrip_rew input,.content_rewards .left_rewards .form_inscrip_rew select,
+.content_rewards .left_rewards .form_inscrip_rew textarea {border:1px solid #bababa;color:#666;font-size:10px;font-family:verdana;margin:0 10px;float:left;height:22px;line-height:20px;  }
+.content_rewards .left_rewards .inscri_rew_1 input,.content_rewards .left_rewards .inscri_rew_1 select,
+.content_rewards .left_rewards .inscri_rew_1 textarea {border:1px solid #c8c6c6;color:#666;font-size:10px;font-family:verdana;margin:0 10px;float:left;height:22px;line-height:20px;padding-left:3px;  }
+.content_rewards .left_rewards .form_inscrip_rew label{color:#535353;font-family:verdana;font-size:12px;float:left;margin-top:5px;}
+.content_rewards .left_rewards .form_inscrip_rew label.error{font-size:12px;color:#ff1e1e;position:absolute;left:0px;font-family:verdana;}
+.content_rewards .left_rewards .form_inscrip_rew .info_per_rew span,.content_rewards .left_rewards .form_inscrip_rew .cdp_rew span{position:relative;float:left;}
+.content_rewards .left_rewards .form_inscrip_rew em{color:#ff1e1e;}
+.content_rewards .left_rewards .form_inscrip_rew .civi_rew select{width:115px;height:23px;padding:1px 0 0 2px;margin-left:18px;  }
+.content_rewards .left_rewards .form_inscrip_rew .info_per_rew{border-bottom:1px dashed #bababa;padding-bottom:10px;}
+.content_rewards .left_rewards .inscri_rew_1 .info_per_rew{border-bottom:1px dashed #c8c6c6;padding-bottom:10px;}
+
+.content_rewards .left_rewards .form_inscrip_rew .info_per_rew input{width:187px;height:20px;margin-right:5px;margin-left:30px;line-height:18px;padding-left:3px; }
+.content_rewards .left_rewards .form_inscrip_rew input.error,.content_rewards .left_rewards .form_inscrip_rew textarea.error{border:1px solid #ff1e1e;}
+.content_rewards .left_rewards .form_inscrip_rew .adresse_rew textarea{width:290px;height:52px;margin-right:10px;line-height:20px; }
+.content_rewards .left_rewards .form_inscrip_rew p{color:#525252;font-size:10px;} 
+.content_rewards .left_rewards .form_inscrip_rew .cdp_rew{border-bottom:1px dashed #bababa;padding-bottom:10px;}
+.content_rewards .left_rewards .inscri_rew_1 .cdp_rew{border-bottom:1px dashed #c8c6c6;padding-bottom:10px;}
+.content_rewards .left_rewards .form_inscrip_rew .cdp_rew input{width:345px;}
+.content_rewards .left_rewards .form_inscrip_rew .cdp_rew input.cdp{width:50px;}
+.content_rewards .left_rewards .form_inscrip_rew .adresse_mail_rew input{width:197px; }
+.content_rewards .left_rewards .form_inscrip_rew .adresse_mail_rew p{float:right;width:193px;}
+.content_rewards .left_rewards .form_inscrip_rew .adresse_mail_rew label{width:150px;}
+.content_rewards .left_rewards .form_inscrip_rew .pt_cumu_rew{border-top:1px dashed #bababa;border-bottom:1px dashed #bababa;background:#eeeeee;padding:8px 5px;width:556px;}
+.content_rewards .left_rewards .form_inscrip_rew .bt_radio{float:left;}
+.content_rewards .left_rewards .form_inscrip_rew .bt_radio .iradio_futurico{background:url("../images/bwr_inscription/bg_radio.png") no-repeat;width:16px;height:16px;display:block;float:left;margin:5px 5px 0 5px;}
+.content_rewards .left_rewards .form_inscrip_rew .bt_radio .iradio_futurico.checked{background:url("../images/bwr_inscription/bg_radio_h.png") no-repeat;width:16px;height:16px;display:block;float:left;margin:5px 5px 0 5px;}
+
+
+.content_rewards .left_rewards .form_inscrip_rew .bt_chekbox{background:url("../images/bwr_inscription/bg_chek.png") no-repeat;width:14px;height:14px;display:block;float:left;margin:2px 5px 0 0;}
+.content_rewards .left_rewards .form_inscrip_rew .bt_chekbox input{opacity:0;filter : alpha(opacity=0);margin:0px 0 0 0px;width:13px;height:13px; }
+.content_rewards .left_rewards .form_inscrip_rew .bt_chekbox  input[type=checkbox]:checked{opacity:1;filter : alpha(opacity=10);}
+.content_rewards .left_rewards .form_inscrip_rew .pt_cumu_rew select{width:155px;padding-top:2px; }
+.content_rewards .left_rewards .form_inscrip_rew .cond_rew{line-height:18px; }
+.content_rewards .left_rewards .form_inscrip_rew .cond_rew label.css-label{float:left;font-size:10px;  padding-left: 5px;width: 542px;}
+.content_rewards .left_rewards .form_inscrip_rew .icheckbox_futurico{background:url("../images/bwr_inscription/bg_chek.png") no-repeat !important;width:15px;height:15px;float:left;  margin-top: 9px;}
+.content_rewards .left_rewards .form_inscrip_rew .donn_comp_rew .icheckbox_futurico{margin-top:5px !important;}
+.content_rewards .left_rewards .form_inscrip_rew .icheckbox_futurico.checked{background:url("../images/bwr_inscription/bg_chek_h.png") no-repeat !important;width:15px;height:15px;float:left;}
+.content_rewards .left_rewards .form_inscrip_rew .icheckbox_futurico.checked label.error{display:none;}
+.content_rewards .left_rewards .form_inscrip_rew .cond_rew label.error{font-size:10px; left: 19px;top:0px;}
+.content_rewards .left_rewards .form_inscrip_rew .icheckbox_futurico label.error{float: left;width: 542px;top: -9px;left: 20px;}
+.content_rewards .left_rewards .form_inscrip_rew .cond_rew a{color:#002166;text-decoration:underline; }
+.content_rewards .left_rewards .form_inscrip_rew .shou_rew{border-bottom:1px dashed #dddddd;background:#799fe7;padding:8px 5px;width:556px;color:#fff;font-weight:bold;line-height:18px; }
+.content_rewards .left_rewards .form_inscrip_rew .shou_rew label{color:#fff;font-size:10px;width: 535px;}
+.content_rewards .left_rewards .form_inscrip_rew .champ_rew span{color:#ff1e1e;font-family:verdana;font-size:12px;}
+.content_rewards .left_rewards .valider_rew{background:url("../images/bwr_inscription/bt_val_left.png") no-repeat left;padding:0 0 0 30px;float:right !important;height:21px;width:auto !important;cursor:pointer;}
+.content_rewards .left_rewards .valider_rew input{float:left;height:21px;  background:#4f4b4b;border:none;
+color: #FFFFFF;line-height: 20px;text-transform: uppercase;font-weight: bold;margin:0;cursor:pointer;line-height:20px; }
+.content_rewards .left_rewards .tel_insc{width:61px;}
+.content_rewards .left_rewards .valider_rew span.right_val{background:url("../images/bwr_inscription/bt_val_right.png") no-repeat;height:21px;width:7px;float:left;}
+.content_rewards .left_rewards .form_inscrip_rew .parg_form2{ border-bottom: 1px dashed #BABABA;padding-bottom: 20px;}
+.content_rewards .left_rewards .form_inscrip_rew .parg_form2 b{font-size:18px;font-weight:normal; }
+.content_rewards .left_rewards .form_inscrip_rew .parg_form2 p{font-size:14px;margin-top:15px;}
+.content_rewards .left_rewards .form_inscrip_rew .cont_serv_2{background:#002267;padding:8px 5px;width:556px;color:#fff;line-height:18px;font-family:verdana;font-size:11px; }
+.content_rewards .left_rewards .form_inscrip_rew .cont_serv_2 b{color:#029b59;}
+.content_rewards .left_rewards .form_inscrip_rew .cont_serv_2 a{text-decoration:underline;color:#fff; }
+
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .prog_inter_rew{text-align:center;}
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .prog_inter_rew h2{margin:5px 34px;font-size:22px;font-family:georgia;font-weight:normal;}
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .prog_inter_rew .text_us{font-size:10px;font-family:georgia;}
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .prog_rew_right{padding:5px 15px;background:url("../images/bwr_inscription/carte_rew.png") no-repeat;  }
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .prog_rew_right .prog_right{margin:25px 0 0 0;}
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .prog_rew_right .prog_right p{font-size:16px;margin-top:10px;}
+
+/***************connect***********************/
+.content_rewards .left_rewards .form_inscrip_rew.mon_compte_rew{border-bottom:none;}
+.content_rewards .left_rewards .mon_compte_rew h2{font-family:verdana;font-size:16px;color:#000;border-bottom:1px solid #c2c2c2; font-weight: normal;padding-bottom:13px;float:left;width:100%;margin-top:15px;}
+.content_rewards .left_rewards .mon_compte_rew .adr_comp input{ width: 467px;padding-left: 3px;margin:0; }
+.content_rewards .left_rewards .mon_compte_rew .adr_comp label{width:94px;}
+.content_rewards .left_rewards .mon_compte_rew .code_comp input{width:60px;margin-left:5px; }
+.content_rewards .left_rewards .mon_compte_rew input,.content_rewards .left_rewards .mon_compte_rew select{border:1px solid #ddd;margin:0;line-height:20px; }
+.content_rewards .left_rewards .mon_compte_rew .adr_comp select{width:187px;padding:1px 0 0 3px; }
+.content_rewards .mon_compte_rew .enrg_comp a{height:21px;color:#fff;line-height:21px;text-transform:uppercase;font-size:11px;font-weight:bold; float: right;}
+.content_rewards .mon_compte_rew .enrg_comp input{height:21px;color:#fff;line-height:21px;text-transform:uppercase;font-size:11px;font-weight:bold; float: right;border:none;cursor:pointer;line-height:19px; }
+
+.content_rewards .left_rewards .mon_compte_rew .corg_rew{font-size:12px;font-family:verdana;color:#444;line-height:18px;}
+.content_rewards .left_rewards .mon_compte_rew .corg_rew b{color:#029b59;}
+.content_rewards .left_rewards .mon_compte_rew .corg_rew a{color:#001f66;text-decoration:underline; }
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew{border-bottom:1px dashed #ddd;padding-bottom:7px;margin-top:7px;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew label{margin-right:10px;font-size:11px;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew input.md_tel{border:none;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew input{margin-right:5px;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew select{margin:0 3px;padding:2px 0 0 0;height:22px;line-height:normal\9;padding:0\9; }
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew select.dt_jour{width:42px;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew select.dt_annee{width:60px;}
+.content_rewards .left_rewards .mon_compte_rew .selct_sej select{width:124px;}
+.content_rewards .left_rewards .mon_compte_rew .selct_sej label{margin-right:0;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew span.check_comp .iradio_futurico{background:url("../images/bwr_inscription/bg_chek.png") no-repeat;width:14px;height:14px;display:block;float:left;margin:5px 5px 0 0 !important;cursor:pointer;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew span.check_comp .iradio_futurico.checked{background:url("../images/bwr_inscription/bg_chek_h.png") no-repeat;width:14px;height:14px;display:block;float:left;margin:5px 5px 0 0 !important;cursor:pointer;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew .radio_comp .iradio_futurico{background:url("../images/bwr_inscription/bg_radio.png") no-repeat;width:16px;height:16px;display:block;float:left;margin:5px 5px 0 5px !important;cursor:pointer;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew .radio_comp .iradio_futurico.checked{background:url("../images/bwr_inscription/bg_radio_h.png") no-repeat;width:16px;height:16px;display:block;float:left;margin:5px 5px 0 5px !important;cursor:pointer;}
+
+.content_rewards .left_rewards .mon_compte_rew .donn_vac span{margin-right:0 !important;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew .sub_donn_rew{width:102px;margin:0;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew .sub_donn_rew_0{width:94px;margin:0;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew .sub_donn_rew_1{width:156px;margin:0;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew .sub_donn_rew_2{width:92px;margin:0;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew .sub_donn_rew_3{width:127px;margin:0;}
+.content_rewards .left_rewards .mon_compte_rew .donn_vac{width:571px; }
+.content_rewards .left_rewards .mon_compte_rew div{margin-top:10px !important;}
+
+.content_rewards .right_rewards .compte_right{padding:10px;text-align:center; }
+.content_rewards .right_rewards .compte_right h2{font-size:20px;font-family: frutigerltstd47lightcnbold; }
+.content_rewards .right_rewards .compte_right h2 span{display:block;font-size:40px;color:#b58f35; }
+.content_rewards .right_rewards .compte_right h2 span b{font-size:20px;}
+.content_rewards .right_rewards .compte_right .text_comp_rew{margin-top:20px;line-height:20px;}
+.content_rewards .right_rewards .compte_right .text_comp_rew b{font-size:16px;color:#b58f35;}
+.content_rewards .right_rewards .compte_right .form_right{margin-top:30px;}
+.content_rewards .right_rewards .compte_right .form_right .inf_per_comp{border-top:1px dashed #73798f;padding:6px 0;margin-top:10px;position:relative;}
+.content_rewards .right_rewards .compte_right .form_right .inf_per_comp input{width:157px;border:1px solid #fff;height:19px;margin:10px auto 0 auto;font-size:10px;font-family:verdana;padding:0 0 0 3px;display:block;line-height:20px; }
+.content_rewards .right_rewards .compte_right .form_right .inf_per_comp input.erreur_popup_conx{border:1px solid #ff0000;}
+.content_rewards .right_rewards .compte_right .form_right .inf_per_comp .ajt_cont_rew{float:left;background:url("../images/bwr_inscription/puce_cont_ajt.png") no-repeat right;padding-right:30px;color:#fff;margin:10px 0;font-size:14px;font-family:arial; }
+.content_rewards .right_rewards .compte_right .form_right .sep_right{border:1px solid #999999;float:left;width:334px;margin:10px 0;}
+.content_rewards .right_rewards .compte_right .form_right .ob_right{float:left;text-align:left;font-size:10px;font-family:arial;}
+.content_rewards .right_rewards .compte_right .env_inv_rew{float:left;border-bottom:1px dashed #73798f;margin-top:30px;width:334px;}
+.content_rewards .right_rewards .compte_right .env_inv_rew .env_par{background:url("../images/bwr_inscription/env_left.png") no-repeat left;float:right;height:37px;color:#fff;padding:0px 0px 0 56px;}
+.content_rewards .right_rewards .compte_right .env_inv_rew .env_par span.center_env input{background:#d7b24e url("../images/bwr_inscription/puce_env_rew.png") no-repeat right;padding:0px 15px 0 0px;text-transform:uppercase;font-size:16px;font-family: frutigerltstd47lightcnbold;float:left;line-height:37px;border:none;height:37px;color:#fff;cursor:pointer;  }
+.content_rewards .right_rewards .compte_right .env_inv_rew .env_par span.right_env{background:url("../images/bwr_inscription/bt_com_right.png") no-repeat;width:9px;height:37px;float:left;}
+.content_rewards .left_rewards_m{float: left;padding: 20px 8px;width: 590px;background:#fff;min-height:560px;}
+.content_rewards .left_rewards_m .date_rel_rew{float:left;width:auto;margin:0;}
+.content_rewards .left_rewards_m .date_rel_rew div{float:left;margin:4px 15px 0 0 !important;font-family:verdana;color:#444444;font-size:10px;}
+.content_rewards .left_rewards_m .date_rel_rew div label{float:left;margin:2px 10px 0 0;}
+.content_rewards .left_rewards_m .date_rel_rew select{float:left;background:url("../images/bwr_inscription/bg_s.png") repeat-x;width:132px;border:1px solid #9c9c9c;height:18px;font-size: 11px;font-family: verdana; border-radius: 3px}
+.content_rewards .left_rewards_m  .tab_relev{float:left;margin-top:15px;}
+.content_rewards .left_rewards_m  tr.head_tab_relev{text-align:center;font-family:verdana;}
+.content_rewards .left_rewards_m  tr.head_tab_relev td{border:1px solid #fff;padding:5px;color:#fff;font-size:12px;}
+.content_rewards .left_rewards_m table tr{text-align:center;}
+.content_rewards .left_rewards_m table td {border:1px solid #8e8c8f;padding:5px 3px;font-size:10px;color:#444444;font-family:verdana; }
+.content_rewards .left_rewards_m .parg_tab_rel{float:left;background:#002267;width:570px;padding:10px 10px;margin:10px 0;color:#fff;font-family:verdana; }
+.content_rewards .left_rewards_m .parg_tab_rel a{text-decoration:underline;color:#fff;}
+.content_rewards .right_rewards .compte_right .form_right .inf_per_comp .close_cont{float:right;background:url("../images/bwr_inscription/close.png") no-repeat;width:16px;height:16px;position:absolute;right:3px;top:5px;cursor:pointer;}
+
+.content_rewards .left_rewards_m .liste_offre_rew{float:left;padding:5px 0;margin-top:10px;border-bottom:1px solid #eeeeee;width:590px;}
+.content_rewards .left_rewards_m .liste_offre_rew .pho_offre_rew{width:167px;height:120px;margin:0 15px 0 0;float:left;}
+.content_rewards .left_rewards_m .liste_offre_rew h2{font-size:20px;font-family:verdana;font-weight:normal;}
+.content_rewards .left_rewards_m .liste_offre_rew .txt_offre_rew{margin:10px 0;font-family:verdana;color:#444444;line-height: 18px;float:left;width:400px;}
+
+.popuprewards.ui-dialog {z-index:99999;top:20%;left:50% !important;margin-left: -280px;width:480px !important;min-height:320px !important;/*background:url("../images/bwr_inscription/bottom_pop.png") no-repeat bottom;*/background:#fff;
+-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;-moz-box-shadow:0 0 10px #403F3F;-webkit-box-shadow:0 0 10px #403F3F;-o-box-shadow:0 0 10px #403F3F;box-shadow:0 0 10px #403F3F;color:#000;}
+.ui-widget-overlay{background:url("../images/bwr_inscription/bg_poup.png") repeat;float: left;height: 100%;position: fixed;width:100%;z-index: 9999;}
+.popuprewards.ui-dialog .pho_pop{float:left;width:377px;height:201px;}
+/*.popuprewards.ui-dialog .contenu_pop{float:right;width:330px;margin:16px 20px 0 0;}*/
+.popuprewards.ui-dialog .ui-dialog-content{padding:17px 25px 0 !important;height:auto !important;background:#fff; /*url("../images/bwr_inscription/top_pop.png") no-repeat top right;width:827px !important;*/ }
+.popuprewards.ui-dialog fieldset{border:none;}
+.popuprewards.ui-dialog .ui-dialog-titlebar-close{background:url("../images/bwr_inscription/bt_fermer_pop.jpg") no-repeat;}
+.popuprewards.ui-dialog .ui-dialog-title{display:none;}
+.popuprewards.ui-dialog .ui-dialog-titlebar{background:url("../images/bwr_inscription/bg_close.png") no-repeat; width:20px;float: right; position: absolute;right: 0;z-index:99999;height:20px;padding:0;right: -1px;top: -1px;margin:0; }
+/*.popuprewards.ui-dialog .ui-dialog-titlebar-close{text-indent:-9999em;right:10px;padding:0;border:none; width: 12px;height: 12px;z-index:99999;cursor:pointer;margin-top:-3px;}*/
+.popuprewards.ui-dialog .ui-dialog-titlebar-close{background:url("../images/vip/close-vip.png") no-repeat;width:26px !important;height:26px !important;float:right;border:none;font-size:0;cursor:pointer;border:none;margin-top:0 ;right:6px !important;z-index: 9999;}
+.popuprewards.ui-dialog  .logo_pop{width:100%;margin-bottom:20px;}
+.popuprewards.ui-dialog .contenu_pop .champ_pop{float:left;width:100%;margin-bottom:13px;}
+.popuprewards.ui-dialog .contenu_pop .champ_pop label{width:118px;float:left;color:#777777;font-size:12px;font-family: verdana; margin-top: 5px;}
+.popuprewards.ui-dialog .contenu_pop label.erreur_popup_conx{color:#ff0000;}
+.popuprewards.ui-dialog .contenu_pop input.erreur_popup_conx{border:1px solid #ff0000 !important;}
+/*.popuprewards.ui-dialog .contenu_pop .champ_pop input{border:1px solid #c8c6c6;width:181px;height:22px;color:#777777;font-size:11px;font-family: verdana;padding: 0 0 0 4px;line-height:20px; }*/
+.popuprewards.ui-dialog .contenu_pop .champ_pop input{width:400px !important;height:45px;border:1px solid #002573;padding-left:5px;padding-right:5px;color:#4D4D4E;font-size:14px;}
+/*.popuprewards.ui-dialog .contenu_pop .mot_passe_oub{float:left;text-decoration:underline;color:#777777;font-family:verdana;margin-top: 10px; }*/
+.popuprewards.ui-dialog .contenu_pop .mot_passe_oub{color:#012674;font-size:14px;margin-top:20px;text-decoration:underline;float:left;font-family:verdana; }
+/*.popuprewards.ui-dialog .contenu_pop .sinscr{float:right;background:url("../images/bwr_inscription/left_enrg_g.png") no-repeat left;height:21px;padding-left:30px;margin-top:10px;margin-right: 15px} 
+.popuprewards.ui-dialog .contenu_pop .valid{float:left;background:#666;height:21px;color:#fff;font-weight: bold;line-height: 22px;padding: 0 5px 0 0;text-align: center;text-transform: uppercase;border:none;width:auto !important;cursor:pointer;}
+.popuprewards.ui-dialog .contenu_pop .right_val_pop{float:left;background:url("../images/bwr_inscription/right_enrg_g.png") no-repeat;width:5px;height:21px;}*/
+.popuprewards.ui-dialog .contenu_pop .sinscr{float:right;margin-top:60px;background:url("../images/vip/bt-vip-left.png") no-repeat left;padding-left:32px;height:26px;cursor:pointer;}
+.popuprewards.ui-dialog .contenu_pop span{float:left;background:url("../images/vip/bt-vip-right.png") no-repeat right;height:26px;padding-right:8px;}
+.popuprewards.ui-dialog .contenu_pop .valid{background:#012674;border:none;height:26px;text-transform:uppercase;color:#fff; font-family: frutigerltstd47lightcnbold;font-size:17px;float:left;width:auto !important;cursor:pointer;padding-right:10px; }
+
+.popuprewards.ui-dialog .content-pop-vip .champ_pop{float:left;width:100%;margin-bottom:13px;}
+.popuprewards.ui-dialog .content-pop-vip .champ_pop label{width:118px;float:left;color:#777777;font-size:12px;font-family: verdana; margin-top: 5px;}
+.popuprewards.ui-dialog .content-pop-vip label.erreur_popup_conx{color:#ff0000;}
+.popuprewards.ui-dialog .content-pop-vip input.erreur_popup_conx{border:1px solid #ff0000 !important;}
+.popuprewards.ui-dialog .content-pop-vip .champ_pop input{width:429px !important;height:45px;border:1px solid #002573;padding-left:5px;padding-right:5px;color:#4D4D4E;font-size:14px;}
+.popuprewards.ui-dialog .content-pop-vip .mot_passe_oub{color:#012674;font-size:14px;margin-top:20px;text-decoration:underline;float:left;font-family:verdana; }
+.popuprewards.ui-dialog .content-pop-vip .sinscr{float:right;margin-top:60px;background:url("../images/vip/bt-vip-left.png") no-repeat left;padding-left:31px;height:26px;cursor:pointer;}
+.popuprewards.ui-dialog .content-pop-vip span{float:left;background:url("../images/vip/bt-vip-right.png") no-repeat right;height:26px;padding-right:7px;}
+.popuprewards.ui-dialog .content-pop-vip .valid{background:url("../images/bg-club-sw.jpg") repeat-x bottom;border:none;height:26px;text-transform:uppercase;color:#fff; font-family: frutigerltstd47lightcnbold;font-size:17px;float:left;width:auto !important;cursor:pointer;padding-right:10px; }
+
+
+.popuprewards.ui-dialog .inscri_comp_pop{float:left;width:827px;background:#193b82;height:28px; }
+.popuprewards.ui-dialog .inscri_comp_pop a{color:#fff;margin:8px 0 0 23px;float:left;background:url("../images/bwr_inscription/cle_pop.png") no-repeat left;padding:0 0 0 25px;text-decoration:underline;  font-family: verdana;}
+.popuprewards.ui-dialog .inscri_comp_pop a.active{color:#fff;margin:8px 0 0 23px;float:left;background:url("../images/bwr_inscription/cle_pop_h.png") no-repeat left;padding:0 0 0 25px;text-decoration:underline;  font-family: verdana;}
+.popuprewards.ui-dialog .form_inscr_pop{float:left;width:765px;margin:0 0 0 33px;} 
+.popuprewards.ui-dialog .form_inscr_pop .sub_inscri_pop{float:left;width:100%;margin-top:22px;}
+.popuprewards.ui-dialog .sub_inscri_pop input,.popuprewards.ui-dialog .sub_inscri_pop select{border:1px solid #e4e4e4;float:left;height:22px;padding:0 0 0 4px;font-size:10px;color:#333333;font-family:verdana;line-height:20px; }
+.popuprewards.ui-dialog .sub_inscri_pop label{float:left;margin-right:6px;color:#212121;font-family:verdana;font-size:11px;margin-top:4px;}
+.popuprewards.ui-dialog .sub_inscri_pop em{color:#ff0000;}
+.popuprewards.ui-dialog .sub_inscri_pop .civi_pop{float:left;width:185px;}
+.popuprewards.ui-dialog .sub_inscri_pop .civi_pop select{width:114px;}
+.popuprewards.ui-dialog .sub_inscri_pop .pre_pop{float:left;width:280px;}
+.popuprewards.ui-dialog .sub_inscri_pop .pre_pop input{width:180px !important;}
+.popuprewards.ui-dialog .sub_inscri_pop .nom_pop{float:left;width:280px;}
+.popuprewards.ui-dialog .sub_inscri_pop .nom_pop input{width:210px !important;}
+.popuprewards.ui-dialog .sub_inscri_pop .ville_pop{float:left;width:300px;}
+.popuprewards.ui-dialog .sub_inscri_pop .ville_pop input{width:230px !important;}
+.popuprewards.ui-dialog .sub_inscri_pop .code_pop{float:left;width:160px;}
+.popuprewards.ui-dialog .sub_inscri_pop .code_pop input{width:50px !important;}
+.popuprewards.ui-dialog .sub_inscri_pop .mot_pop{float:left; width: 380px;margin-left: 15px;}
+.popuprewards.ui-dialog .sub_inscri_pop .mot_pop input{width:200px !important;}
+.popuprewards.ui-dialog .sub_inscri_pop span{font-size:10px;color:#222222;font-family:verdana;float:left;}
+.popuprewards.ui-dialog .sub_inscri_pop .val_pop_1{float:right;background:url("../images/bwr_inscription/left_val_pop.png") no-repeat left;height:21px;padding-left:32px;margin-right: 15px}
+.popuprewards.ui-dialog .sub_inscri_pop .val_pop_1 input{float:left;background:#838695;height:21px;color:#fff;font-weight: bold;line-height: 22px;padding: 0 5px 0 0;text-align: center;text-transform: uppercase;border:none; width: auto !important;cursor:pointer;}
+.popuprewards.ui-dialog .sub_inscri_pop .val_pop_1 .right_val_p{float:left;background:url("../images/bwr_inscription/right_val_pop.png") no-repeat;width:5px;height:21px;}
+.popuprewards.ui-dialog .sub_inscri_pop  .champ_ob_pop{float:left;color:#ff1e1e;font-size: 12px;}
+.popuprewards.ui-dialog .sub_text_pop{float:left;background:#002267;padding:10px;font-family:verdana;color:#fff;margin-top:30px;width:746px;}
+.popuprewards.ui-dialog .sub_text_pop a{color:#fff;text-decoration:underline; }
+.popuprewards.ui-dialog .sub_text_pop b{color:#019a59;}
+.passe_pop{float:left;/*width:825px !important;*/margin:0;}
+.popuprewards.ui-dialog .passe_pop .left-passe{float:left;color:#777777;font-family:verdana;/*width:600px;*/margin:15px 0 0 15px;}
+.popuprewards.ui-dialog .passe_pop .right-passe{float:right;width:200px;margin:0 0 5px 0;}
+/*.popuprewards.ui-dialog .passe_pop .right-passe input{float:left;border:1px solid #c8c6c6;width:168px !important;height:22px;padding-left:10px;line-height:20px; }
+.popuprewards.ui-dialog .passe_pop .right-passe .env_pop{float:right;background:url("../images/bwr_inscription/left_enrg_g.png") no-repeat left;height:21px;padding-left:28px;margin-top:10px;}
+.popuprewards.ui-dialog .passe_pop .right-passe .env_pop input{float:left;background:#666;height:21px;color:#fff;font-weight: bold;line-height: 22px;padding: 0 5px 0 0;text-align: center;text-transform: uppercase;border:none;width:auto !important;cursor:pointer;}
+.popuprewards.ui-dialog .passe_pop .right-passe .env_pop .right_val{float:left;background:url("../images/bwr_inscription/right_enrg_g.png") no-repeat;width:5px;height:21px;}*/
+
+.popuprewards.ui-dialog .passe_pop .right-passe input{height:40px;border:1px solid #506aa0;margin-top:20px;padding-left:5px;font-size:14px;color:#444444;}
+.popuprewards.ui-dialog .passe_pop .right-passe .env_pop{float:right;margin-top:20px;background:url("../images/vip/bt-vip-left.png") no-repeat left;padding-left:32px;height:26px;cursor:pointer;}
+.popuprewards.ui-dialog .passe_pop .right-passe .env_pop span{float:left;background:url("../images/vip/bt-vip-right.png") no-repeat right;height:26px;padding-right:8px;}
+.popuprewards.ui-dialog .passe_pop .right-passe .env_pop input{background:#012674;border:none;height:26px;text-transform:uppercase;color:#fff; font-family: frutigerltstd47lightcnbold;font-size:17px;float:left;width:auto !important;cursor:pointer;padding-right:10px;margin-top:0 !important;}
+
+.popuprewards.ui-dialog .compt_pop{width:400px;  font-family: verdana;font-size: 11px;line-height: 16px; }
+.popuprewards.ui-dialog .msg_pop{ width: 300px;margin: 0 auto;font-size: 14px;font-family: frutigerltstd45lightregular;color: #000;}
+.content_rewards .sub_slide_rewards .sub_slid_cadeau .prev{float:left;width:32px;height:31px; left: 0;position: absolute;top: 60px;width: 32px;z-index: 9; }
+.content_rewards .sub_slide_rewards .sub_slid_cadeau .next{float:right;width:32px;height:31px;right: 0;position: absolute;top: 60px;width: 32px;z-index: 9; }
+
+.gold_rewards .sub_slide_rewards .sub_slid_cadeau .prev{background:url("../images/bwr_inscription/left_pagi.png") no-repeat;}
+.gold_rewards .sub_slide_rewards .sub_slid_cadeau .next{background:url("../images/bwr_inscription/right_pagi.png") no-repeat; }
+.diamond_rewards .sub_slide_rewards .sub_slid_cadeau .prev{background:url("../images/bwr_inscription/left_pagi_d.png") no-repeat;}
+.diamond_rewards .sub_slide_rewards .sub_slid_cadeau .next{background:url("../images/bwr_inscription/right_pagi_d.png") no-repeat; }
+.platinum_rewards .sub_slide_rewards .sub_slid_cadeau .prev{background:url("../images/bwr_inscription/left_pagi_g.png") no-repeat;}
+.platinum_rewards .sub_slide_rewards .sub_slid_cadeau .next{background:url("../images/bwr_inscription/right_pagi_g.png") no-repeat; }
+.content_rewards .sub_slide_rewards .slidesjs-control{width:222px !important;height:147px !important;left:45px !important;}
+
+.center_rewards .sub_contenu_rew .left_rewards .container ol li{float:left;clear:both;}
+.center_rewards .sub_contenu_rew .left_rewards .container ol li .error{float:left;position:relative;}
+.center_rewards .sub_contenu_rew .left_rewards .donn_comp_rew{position:relative;}
+.center_rewards .sub_contenu_rew .left_rewards .container1 .error{left:50%;top:5px;}
+
+.center_rewards .enrg_comp .regi_date{float:left;font-weight:bold;font-size:15px;margin:0px 0px 0 0px;}
+.sub_nav .sub_05 .icon{background:url("../images/bwr_inscription/icon-dec.png") no-repeat left;margin-left: 5px; }
+.sub_nav .sub_06 .icon{background:url("../images/bwr_inscription/icon-insc.png") no-repeat left;margin-left:10px; }
+.sub_nav .sub_07 .icon{background:url("../images/bwr_inscription/icon_cad.png") no-repeat left;margin-left:10px; }
+.sub_nav .sub_08 .icon{background:url("../images/bwr_inscription/icon_comp.png") no-repeat left;margin-left:10px; }
+.sub_nav .sub_10 .icon{background:url("../images/bwr_inscription/MonReleve.png") no-repeat left;margin-left:10px; }
+.sub_nav .sub_11 .icon{background:url("../images/bwr_inscription/MesOffres.png") no-repeat left;margin-left:10px; }
+.popuprewards.ui-dialog #from_edite_pass label{float:left;width:175px;color:#777777;line-height: normal;margin-top:5px;}
+.popuprewards.ui-dialog #from_edite_pass input{width:150px;border:1px solid #D7D7D7;height:22px;float:left;padding-left:5px;color:#777;line-height:20px;  }
+.popuprewards.ui-dialog #from_edite_pass input.valider{float:left;background:#666;color:#fff; border: none;
+    width: auto !important;padding: 0px;font-size: 11px;font-family: verdana;text-transform: uppercase;cursor:pointer;margin:0;height:21px;font-weight: bold; }
+.popuprewards.ui-dialog .error{color:#ff0000;}
+.popuprewards.wrap_popup h2{font-family: verdana;font-size:18px;}   
+.popuprewards.wrap_popup .content{width:auto; margin-top: 5px !important; }
+.popuprewards div.messages{padding:0 0 0 10px;}
+.nav .sub_nav li a#authen_rewards{background:none !important; }
+.nav .sub_nav li a#authen_rewards:hover{background:#EAEAEA !important;}
+.popuprewards.ui-dialog .passe_pop h3{color:#193b82 !important;margin-bottom:10px;float:left;}
+
+.center_rewards .sub_contenu_rew .mon_compte_rew .enrg_comp{margin-top:20px;float: left;width: 100% }
+.center_rewards .sub_contenu_rew .mon_compte_rew .enrg_comp input.desin{padding:0 10px 0 0;}
+.center_rewards .sub_contenu_rew .load_rewards img{float:right;}
+#change_pwd{border:1px solid #DDDDDD;width:75px; padding-left: 3px;}
+
+.modif_prof_rew{float:left;width:566px; }
+.modif_prof_rew .sub_prof_rew{float:left;width:566px;border-bottom:1px dashed #dddddd;padding:0px 0 10px 0;margin:10px 0 0 0;font-size:12px;font-family:verdana;color:#444444; }
+#header_mon_profil #mon_compte_mot_de_passe_oublie{background:none !important; }
+
+/***********************iframe****************************/
+.frame_inscription{width:765px;margin:0 auto;  }
+.frame_inscription .form_inscrip_rew{float:left;width:765px;padding-bottom:10px;font-family:verdana;font-size:10px;}
+.frame_inscription .form_inscrip_rew div{float:left;width:765px;margin-top:15px;position:relative;}
+.frame_inscription .form_inscrip_rew div.erreur_rew_insc{margin-top:0;}
+.frame_inscription .form_inscrip_rew input,.frame_inscription .form_inscrip_rew select,
+.frame_inscription .form_inscrip_rew textarea {border:1px solid #bababa;color:#666;font-size:10px;font-family:verdana;margin:0 10px;float:left;height:22px;padding-left:3px;line-height:20px;   }
+.frame_inscription .inscri_rew_1 input,.frame_inscription .inscri_rew_1 select,
+.frame_inscription .inscri_rew_1 textarea {border:1px solid #c8c6c6;color:#666;font-size:10px;font-family:verdana;margin:0 10px;float:left;height:22px;  }
+.frame_inscription .form_inscrip_rew label{color:#212121;font-family:verdana;font-size:12px;float:left;margin-top:5px;}
+.frame_inscription .form_inscrip_rew label.error{font-size:12px;color:#ff0000;position:absolute;left:0px;font-family:verdana;}
+.frame_inscription .form_inscrip_rew .info_per_rew span,.frame_inscription .form_inscrip_rew .cdp_rew span{position:relative;float:left;}
+.frame_inscription .form_inscrip_rew em{color:#ff1e1e;}
+.frame_inscription .form_inscrip_rew .sub_inscri_pop{padding-bottom:10px;}
+.frame_inscription .form_inscrip_rew .civi_rew select{width:115px;height:23px;padding:1px 0 0 2px;margin-left:18px;  }
+.frame_inscription .form_inscrip_rew .info_per_rew{padding-bottom:10px;}
+.frame_inscription .inscri_rew_1 .info_per_rew{border-bottom:1px dashed #c8c6c6;padding-bottom:10px;}
+.frame_inscription .form_inscrip_rew .parg_form2{ border-bottom: 1px dashed #BABABA;padding-bottom: 20px;}
+.frame_inscription .form_inscrip_rew .parg_form2 b{font-size:18px;font-weight:normal; }
+.frame_inscription .form_inscrip_rew .parg_form2 p{font-size:14px;margin-top:15px;}
+.frame_inscription .form_inscrip_rew .adresse_mail_rew span{position:relative;float:left;}
+.frame_inscription .form_inscrip_rew .info_per_rew input{width:190px;height:22px;margin-right:35px;margin-left:30px;line-height:18px;  }
+.frame_inscription .form_inscrip_rew input.error,.content_rewards .left_rewards .form_inscrip_rew textarea.error{border:1px solid #ff1e1e;}
+.frame_inscription .form_inscrip_rew .adresse_rew textarea{width:290px;height:52px;margin-right:10px;}
+.frame_inscription .form_inscrip_rew p{color:#525252;font-size:10px;} 
+.frame_inscription .form_inscrip_rew .cdp_rew{padding-bottom:10px;}
+.frame_inscription .inscri_rew_1 .cdp_rew{border-bottom:1px dashed #c8c6c6;padding-bottom:10px;}
+.frame_inscription .form_inscrip_rew .cdp_rew input{width:345px;}
+.frame_inscription .form_inscrip_rew .cdp_rew input.cdp{width:50px;}
+.frame_inscription .form_inscrip_rew .adresse_mail_rew input{width:200px; }
+.frame_inscription .form_inscrip_rew .adresse_mail_rew p{float:left;  margin-top: 10px;color:#222222;}
+.frame_inscription .form_inscrip_rew .adresse_mail_rew label{width:180px;}
+.frame_inscription .form_inscrip_rew .pt_cumu_rew{border-top:1px dashed #bababa;border-bottom:1px dashed #bababa;background:#eeeeee;padding:8px 5px;width:556px;}
+.frame_inscription .form_inscrip_rew .bt_radio{float:left;}
+.frame_inscription .form_inscrip_rew .champ_rew span{color:#ff1e1e;font-family:verdana;font-size:12px;}
+.frame_inscription .valider_rew{background:url("../images/bwr_inscription/bt_val_left.png") no-repeat left;padding:0 0 0 29px;float:right !important;height:21px;width:auto !important;cursor:pointer; margin-top: 0px !important;}
+.frame_inscription .valider_rew input{float:left;height:21px;  background:url("../images/bg-valid-ins.jpg") repeat-x bottom;;border:none;
+color: #FFFFFF;line-height: 20px;text-transform: uppercase;font-weight: bold;margin:0;cursor:pointer;padding-right:10px;}
+.frame_inscription .valider_rew span.right_val{background:url("../images/bwr_inscription/bt_val_right.png") no-repeat bottom;height:21px;width:6px;float:left;}
+.frame_inscription .form_inscrip_rew .cont_serv_2{background:#002267;padding:8px 20px;width:725px;color:#fff;line-height:18px;font-family:verdana;font-size:12px; }
+.frame_inscription .form_inscrip_rew .cont_serv_2 b{color:#029b59;}
+.frame_inscription .form_inscrip_rew .cont_serv_2 a{text-decoration:underline;color:#fff; }
+.frame_inscription .form_inscrip_rew .adresse_mail_rew .mot_p{width:95px; }
+.frame_inscription .form_inscrip_rew .pre_pop{float:left;width:305px;margin-top:0;}
+.frame_inscription .form_inscrip_rew .pre_pop input{width:180px !important;}
+.frame_inscription .form_inscrip_rew .nom_pop{float:left;width:280px;margin-top:0;}
+.frame_inscription .form_inscrip_rew .nom_pop input{width:210px !important;}
+.frame_inscription .form_inscrip_rew .ville_pop{float:left;width:295px;margin-top:0;}
+.frame_inscription .form_inscrip_rew .ville_pop input{width:230px !important;}
+.frame_inscription .form_inscrip_rew .code_pop{float:left;width:165px;margin-top:0;}
+.frame_inscription .form_inscrip_rew .code_pop input{width:50px !important;}
+
+.popup_rew iframe{border:none !important;overflow:hidden;height:380px; }
+#popup_block_pass_oubli .left-passe{width:430px;margin:30px 0 0 15px; }
+.ui-dialog .ui-resizable-se{height:0 !important; }
+.inscri_comp_pop{position:relative; z-index:2;}
+#iframe_div{position:relative; z-index:1; overflow:hidden; height:380px; width:815px;}
+#iframe_div iframe{margin:-5px 0 0 -5px;}
+.ui-dialog .ui-dialog-content{overflow:hidden;}
+
+/**************************************/
+.coordonnee_form_large h1{font-size:18px;font-family:verdana;color:#000;font-weight:normal;  margin-left: 25px;margin-bottom: 30px;}
+.coordonnee_form_large .parg1_rew{margin:25px 0;font-family:verdana;color:#666666;float:left;line-height:18px;  }
+.coordonnee_form_large .parg1_rew b{color:#000;font-weight:normal;}
+.coordonnee_form_large .prog_rew{float:left;width:860px;border-bottom: 1px solid #EFEFEF; margin-bottom: 15px;}
+.coordonnee_form_large .prog_rew .sub_prog_rew{border-top:1px solid #efefef;padding:4px 0px;float:left;width:855px;}
+.coordonnee_form_large .prog_rew .sub_prog_rew img{float:left;margin-right:5px;}
+.coordonnee_form_large .prog_rew .sub_prog_rew p{margin-top:10px;font-size:14px;color:#0d0d0d;font-family:verdana;}
+
+/**********VIP**********/
+.form-vip-inscription,.popup_inscription_ficheh{background:#fff !important;}
+.popup_inscription_ficheh{-moz-box-shadow:0 0 14px #403F3F;-webkit-box-shadow:0 0 14px #403F3F;-o-box-shadow:0 0 14px #403F3F;box-shadow:0 0 14px #403F3F;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
+.frame_inscription.form-vip-inscription{width:930px !important;padding:15px;}
+.frame_inscription.form-vip-inscription .form_inscrip_rew{width:920px !important;}  
+.form-vip-inscription .form_inscrip_rew .left-vip-pop{float:left;width:315px !important;text-align:center;margin-top:0;}
+.form-vip-inscription .left-vip-pop .marq-sw-f{margin:90px 0;}
+.popup_inscription_ficheh #iframe_div_ins{padding:0 !important;width: 960px !important;overflow:hidden; }
+.form-vip-inscription .form_inscrip_rew div{width:100% !important;margin-top:8px;}
+.offre-vip{float:right;width:590px;}
+.ui-dialog.popup_inscription_ficheh  .ui-dialog-titlebar{background:none;width:26px;height:26px;float:right;position:absolute;top:0;right:5px;padding:0;z-index:9999; }
+.ui-dialog.popup_inscription_ficheh  .ui-dialog-titlebar-close{background:url("../images/vip/close-vip.png") no-repeat;width:26px;height:26px;float:right;border:none;font-size:0;cursor:pointer;border:none; }
+.offre-vip h1{text-transform:uppercase;color:#002267;font-family: frutigerltstd45lightregular;font-weight: normal;}
+.form-vip-inscription .form_inscrip_rew label{color:#444 !important;}
+.form-vip-inscription .inf-per-vip label,.inf-adr-vip label{width:90px;}
+.form-vip-inscription .form_inscrip_rew input,.form-vip-inscription .form_inscrip_rew select,.form-vip-inscription .form_inscrip_rew textarea{margin:0 !important;}
+.form-vip-inscription .info_per span{float:left;width:50%;position:relative;}
+.inf-per-vip,.inf-adr-vip,.inf-mail-vip{border-bottom:1px dashed #e5e5e5;padding-bottom:10px;}
+.inf-per-vip input{width:180px;}
+.popup_inscription_ficheh{width:960px !important;z-index:99999; }
+.frame_inscription .form_inscrip_rew .inf-adr-vip textarea {margin-right:10px !important;}
+.ville-vip input{width:320px !important;}
+.ville-vip{margin-left:15px;}
+.form-vip-inscription  .inf-mail-vip label{width:185px !important;}
+.inf-mail-vip .cond_rew label,.inf-mail-vip .shou_rew label{width:555px !important;margin:0 0 0 5px;font-size:11px;color:#444;}
+.frame_inscription.form-vip-inscription .pt_cumu_rew{border:none;}
+.frame_inscription.form-vip-inscription .pt_cumu_rew label{width:auto !important; margin-left: 10px;margin-right: 10px;margin-top: 3px;}
+.frame_inscription.form-vip-inscription .valider_rew{float:right;width:auto !important;}
+.frame_inscription.form-vip-inscription .shou_rew{background:#799fe7;padding:5px;}
+.frame_inscription.form-vip-inscription .shou_rew label{color:#fff !important;}
+.frame_inscription.form-vip-inscription .mot-vip{width:195px;font-size:9px !important;margin-left:5px;color:#444 !important;margin-top:0 !important;}
+.frame_inscription.form-vip-inscription .cond_rew a{color:#002066;}
+.tel-vip input{width:180px;}  
+.frame_inscription.form-vip-inscription label.error{color:#f00 !important;}
+.frame_inscription.form-vip-inscription .cond_rew label.error{font-size:11px;margin-left:18px;}
+.frame_inscription.form-vip-inscription textarea.error{border:1px solid #f00;}
+.frame_inscription.form-vip-inscription .adresse_rew p{font-size:9px;}
+.left-vip-pop .logo_pop{width:90% !important;}
+.left-vip-pop .logo_pop img{max-width:100%;}
+/*************/
+.viprewards{background:none;}
+.viprewards.ui-dialog .ui-dialog-content{width:460px !important;background:#fff;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;-moz-box-shadow:0 0 10px #403F3F;-webkit-box-shadow:0 0 10px #403F3F;-o-box-shadow:0 0 10px #403F3F;box-shadow:0 0 10px #403F3F;padding:10px !important;height:300px !important;}
+.ui-dialog.viprewards .ui-dialog-titlebar{background:none !important;width:auto !important;  }
+.viprewards .ui-dialog-titlebar-close{background:url("../images/vip/close-vip.png") no-repeat;width:26px !important;height:26px !important;float:right;border:none;font-size:0;cursor:pointer;border:none;margin-top:15px !important;right:2px !important;z-index: 9999;}
+.viprewards .content-pop-vip{padding:10px 25px;}
+.viprewards .content-pop-vip .logo_pop{margin-bottom:20px;}
+.viprewards .content-pop-vip .champ_pop{margin-top:15px;}
+.viprewards .content-pop-vip .champ_pop input{width:400px !important;height:45px;border:1px solid #002573;padding-left:5px;padding-right:5px;color:#4D4D4E;font-size:14px;}
+.viprewards .content-pop-vip .mot_passe_oub{color:#012674;font-size:14px;margin-top:20px;text-decoration:underline;float:left; }
+.viprewards .content-pop-vip .sinscr{float:right;margin-top:60px;background:url("../images/vip/bt-vip-left.png") no-repeat left;padding-left:32px;height:26px;cursor:pointer;}
+.viprewards .content-pop-vip .sinscr span{float:left;background:url("../images/vip/bt-vip-right.png") no-repeat right;height:26px;padding-right:8px;}
+.viprewards .content-pop-vip .sinscr input{background:#012674;border:none;height:26px;text-transform:uppercase;color:#fff; font-family: frutigerltstd47lightcnbold;font-size:17px;float:left;width:auto !important;cursor:pointer;padding-right:10px; }
+/******/
+.message-pop-vip{padding:10px 25px 0 25px;}
+.message-pop-vip .content-msg-vip{margin:15px 0 0 0;line-height:18px;height:84px;font-family:verdana; }
+.message-pop-vip .content-msg-vip b{color:#002674;font-weight:bold;}
+.message-pop-vip .bt-msg-vip{background:url("../images/vip/bg-vip-msg.jpg") no-repeat bottom center;height: 149px;position: relative; width: 410px;}
+.bt-msg-vip .sinscr{float:right;background:url("../images/vip/bt-vip-left.png") no-repeat left;padding-left:32px;height:26px;cursor:pointer;position: absolute;right:0;bottom:13px;}
+.bt-msg-vip .sinscr span{float:left;background:url("../images/vip/bt-vip-right.png") no-repeat right;height:26px;padding-right:8px;}
+.bt-msg-vip .sinscr input{background:#012674;border:none;height:26px;text-transform:uppercase;color:#fff; font-family: frutigerltstd47lightcnbold;font-size:15px;float:left;width:auto !important;cursor:pointer;padding-right:10px; }
+
+.passe_pop-vip{line-height:20px;font-size:14px;color:#444;font-family:verdana; }
+.passe_pop-vip .logo_pop{margin-bottom:20px;}
+.content-pop-vip.passe_pop-vip .champ_pop input.passe-vip{height:40px !important;border:1px solid #506aa0 !important;margin-top:20px;padding-left:5px;font-size:14px;color:#444444;width:175px !important;}
+.content-pop-vip.passe_pop-vip .sinscr{float:right;margin-top:10px !important;background:url("../images/vip/bt-vip-left.png") no-repeat left;padding-left:32px;height:26px;cursor:pointer;}
+.passe_pop-vip .env_pop span{float:left;background:url("../images/vip/bt-vip-right.png") no-repeat right;height:26px;padding-right:8px;}
+.passe_pop-vip .env_pop input{background:#012674;border:none;height:26px;text-transform:uppercase;color:#fff; font-family: frutigerltstd47lightcnbold;font-size:17px;float:left;width:auto !important;cursor:pointer;padding-right:10px;}
+.passe_pop-vip b{font-weight:bold;}
+.passe_pop-vip p{margin-top:10px;}
+/*************pop-promo*************/
+.pop-rew-prom-tarif {position:absolute !important;right:-152px;top:-11px;z-index:999;  }
+.pop-rew-prom-tarif .offres_prom_rew .offre-triang{background:url("../images/vip/puce-fsw.png") no-repeat !important ;display: block;height:13px !important;position: absolute;top:35% !important; width:7px !important;left:-6px !important;}
+.pop-rew-prom-tarif .offres_prom_rew{background:#e6e7e8 !important;border:1px solid #fff !important;padding:10px 10px 5px !important;width:130px !important;padding:5px;position:static;float:left;}
+.pop-rew-prom-tarif .offres_prom_fils{width:130px;text-align:left;}
+.pop-rew-prom-tarif .offres_prom_fils p{position:static !important;top:0 !important;font-size:11px;color:#231f20 !important;font-family:frutigerltstd45lightregular !important;}
+.pop-rew-prom-tarif .msg_info input#btn_already_ins_vip{background:url("../images/vip/ident-fsw-1.png") no-repeat !important;width:116px !important;height:30px !important;color:#fff !important;padding-left:15px;font-size:11px !important;text-transform:uppercase;font-family:frutigerltstd45lightregular;margin-top:10px;border:none;}
+.pop-rew-prom-tarif .msg_info input#btn_ins_vip{background:url("../images/vip/insc-fsw.png") no-repeat !important;width:116px !important;height:30px !important;color:#231f20 !important;padding-left:15px;font-size:11px !important;text-transform:uppercase;font-family:frutigerltstd45lightregular;margin-top:10px;border:none;line-height:30px;}
+.pop-rew-prom-tarif .msg_info a{color:#231f20;font-size:10px;font-family:frutigerltstd45lightregular;float:left;} 
+#bloc_normal_tarifs .sub_liste_cham{position:relative;} 
+.pop-rew-prom-tarif  .close-pop-prom{background:url("../images/vip/close-fsw.png") no-repeat;width:13px;height:13px;display:block;right:5px;top:5px;position:absolute;cursor:pointer;}
+.pop-rew-prom-tarif  .aide-prom-rew{background:url("../images/vip/aide-fsw.png") no-repeat;width:15px;height:15px;float:left;margin-left:5px;}
+.pop-rew-prom-tarif  .msg_info{margin-bottom:5px;}
+/*************/
+.home-rew-promo{background:url("../images/vip/bg-promo-home.jpg") repeat-x;border:1px solid #1a3b80;width:580px;}
+.home-rew-promo .top-prom-rew{width:557px;padding:23px 0 0 23px;}
+.home-rew-promo h2{text-transform:uppercase;font-size:27px;color:#002267;font-family:frutigerltstd47lightcnbold;font-weight:normal;  } 
+.home-rew-promo  .red-prom-rew{font-size:11px;color:#231f20;}
+.home-rew-promo .center-rew-prom{background:url("../images/vip/img-home-prom.jpg") no-repeat right bottom;margin-top:60px;height:150px; }
+.home-rew-promo .center-rew-prom a.ins-rew-prom{background:url("../images/vip/inscri-prom.png") no-repeat;width:187px;height:49px;color:#231f20;font-family:frutigerltstd47lightcnbold;font-weight:normal;text-transform:uppercase;display:block;line-height:52px;font-size:17px;padding-left: 66px;}
+.home-rew-promo .text-prom-rew {font-size:11px;color:#231f20;font-family:FrutigerLTStd45LightRegular;margin-top:70px; }
+.home-rew-promo .text-prom-rew a.puce-ins-offres{background:url("../images/vip/puce-prom-rew.png") no-repeat right;display:inline-block;padding-right:18px; }
+.home-rew-promo .text-prom-rew a:hover.puce-ins-offres{text-decoration:underline; }
+.home-rew-promo .bottom-prom-rew{background:#002267;height:38px;padding:0 10px; }
+.home-rew-promo .bottom-prom-rew p{line-height:38px;color:#ffffff;font-size:14px;text-align: right; }
+.home-rew-promo .bottom-prom-rew a{color:#fff;text-decoration:underline;text-transform:uppercase;font-family:FrutigerLTStd45LightRegular;letter-spacing:-1px;}
+.home-rew-promo .bottom-prom-rew a.ui-state-default{background: none !important;display: inline;}
+iframe{border:none !important;}
+
+#dialogBox{ height: 350px !important;width: 520px !important;;left: 480px !important;}
+#dialogBox #iframe_div_ins{width:auto !important;height:360px !important; }
+#dialogBox .ui-dialog-titlebar{display:none;}
+
+/************pop-change passe rewards*************/
+.popuprewards-nw{z-index:99999;}
+.popuprewards-nw.ui-dialog {z-index:99999;top:20%;left:40% !important;margin-left: -280px;width:827px !important;min-height:320px !important;background:#fff url("../images/bwr_inscription/bottom_pop.png") no-repeat bottom;
+-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;-moz-box-shadow:0 0 10px #403F3F;-webkit-box-shadow:0 0 10px #403F3F;-o-box-shadow:0 0 10px #403F3F;box-shadow:0 0 10px #403F3F;color:#000;padding:0;}
+.ui-widget-overlay{background:url("../images/bwr_inscription/bg_poup.png") repeat;float: left;height: 100%;position: fixed;width:100%;z-index: 9999;top:0;}
+.popuprewards-nw.ui-dialog .pho_pop{float:left;width:377px;height:201px;}
+.popuprewards-nw.ui-dialog .contenu_pop{float:right;width:340px;margin:16px 10px 0 0;}
+.popuprewards-nw.ui-dialog .ui-dialog-content{padding:0 25px 0 0 !important;height:auto !important;background:url("../images/bwr_inscription/top_pop.png") no-repeat top right;width:800px !important; }
+.popuprewards-nw.ui-dialog fieldset{border:none;}
+.popuprewards-nw.ui-dialog .ui-dialog-title{display:none;}
+.popuprewards-nw.ui-dialog .ui-dialog-titlebar{background:url("../images/bwr_inscription/bg_close.png") no-repeat; width:20px;float: right; position: absolute;right: 0;z-index:99999;height:20px;padding:0;right: -1px;top: -1px;margin:0; }
+.popuprewards-nw.ui-dialog .ui-dialog-titlebar-close{text-indent:-9999em;right:10px;padding:0;border:none; width: 12px;height: 12px;z-index:99999;cursor:pointer;margin-top:-3px;}
+.popuprewards-nw.ui-dialog .ui-dialog-titlebar-close{background:url("../images/vip/close-vip.png") no-repeat;width:26px !important;height:26px !important;float:right;border:none;font-size:0;cursor:pointer;border:none;margin-top:0 ;right:6px !important;z-index: 9999;}
+.popuprewards-nw.ui-dialog  .logo_pop{width:100%;margin-bottom:20px;}
+.popuprewards-nw.ui-dialog .contenu_pop .champ_pop{float:left;width:100%;margin-bottom:13px;}
+.popuprewards-nw.ui-dialog .contenu_pop .champ_pop label{width:118px;float:left;color:#777777;font-size:10px;font-family: verdana; margin-top: 5px;}
+.popuprewards-nw.ui-dialog .contenu_pop label.erreur_popup_conx{color:#ff0000;}
+.popuprewards-nw.ui-dialog .contenu_pop input.erreur_popup_conx{border:1px solid #ff0000 !important;}
+.popuprewards-nw.ui-dialog .contenu_pop .champ_pop input{border:1px solid #c8c6c6;width:181px;height:22px;color:#777777;font-size:11px;font-family: verdana;padding: 0 0 0 4px;line-height:20px; }
+.popuprewards-nw.ui-dialog .contenu_pop .mot_passe_oub{float:left;text-decoration:underline;color:#777777;font-family:verdana;margin-top: 10px; }
+.popuprewards-nw.ui-dialog .contenu_pop .sinscr{float:right;background:url("../images/bwr_inscription/left_enrg_g.png") no-repeat left;height:21px;padding-left:30px;margin-top:10px;margin-right: 15px} 
+.popuprewards-nw.ui-dialog .contenu_pop .valider{float:left;background:#666;height:21px !important;font-weight: bold;line-height: 22px;padding: 0 5px 0 0 !important;text-align: center;text-transform: uppercase;border:none !important;width:auto !important;cursor:pointer;color:#fff !important;}
+.popuprewards-nw.ui-dialog .contenu_pop .right_val_pop{float:left;background:url("../images/bwr_inscription/right_enrg_g.png") no-repeat;width:5px;height:21px;}
+.popuprewards-nw.ui-dialog .content{font-family:verdana;color:#777777;font-size:11px;}
+.popuprewards-nw.ui-dialog #from_edite_pass{margin-top:10px;}
+
+/**********parrinage new************/
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards{min-height:598px;min-height:598px\9;}
+.ie10 .content_rewards .center_rewards .sub_contenu_rew .left_rewards{min-height:598px;}
+.content_rewards .left_rewards_m{min-height:598px;}
+.parrinage-right-sw{background:url("../images/bwr_inscription/bg-parri-new.jpg") repeat;float:left;height:638px; }
+.right-parrinage-nw {float:left;width:354px;padding-top:25px;color:#fff;background:url("../images/bwr_inscription/bg-parri1.jpg") no-repeat; }
+.content_rewards .right-parrinage-nw .compte_right{padding:0 33px 0px 22px; }
+.content_rewards .right-parrinage-nw .compte_right h2{font-size:28px;font-family: FrutigerLTStd45LightRegular;border-bottom:1px solid #1a4aac;padding-bottom:4px;font-weight:normal; }
+.content_rewards .right-parrinage-nw .compte_right h2 span{display:block;font-size:36px;color:#fdc101;text-align:right;font-family:frutigerltstd47lightcnbold;font-weight:normal;position:relative;}
+.Gradient{position: relative;overflow: hidden;height: 45px;}
+.Gradient,.Gradient .G1,.Gradient .G2,.Gradient .G3,.Gradient .G4,.Gradient .G5{height: 45px;position:	absolute;margin: 0;top: 0px;right: 0px;overflow: hidden;font-weight:normal;}
+.Gradient .G5{height: 13px;color: #ffd66a;z-index: 6;}
+.Gradient .G4{height: 16px;color: #ffd567;z-index: 5;}
+.Gradient .G3{height: 19px;color: #fcd35d;z-index: 4;}
+.Gradient .G2{height: 22px;color: #fdcf48;z-index: 3;}
+.Gradient .G1{height: 25px;color: #fec72e;z-index: 2;}
+.content_rewards .right-parrinage-nw .compte_right .text_comp_rew{margin-top:10px;line-height:22px;font-size:17px;font-family:frutigerltstd45lightregular;}
+.text-bas-new{margin-top:310px;text-align:center;font-size:12px;font-family:verdana; }
+
+.content_rewards .right-parrinage-nw .env_inv_rew{float:right;margin-top:67px;}
+.content_rewards .right-parrinage-nw .env_inv_rew .env_par{background:url("../images/bwr_inscription/bt_com_left.png") no-repeat left;float:right;height:37px;color:#fff;padding:0px 0px 0 56px;}
+.content_rewards .right-parrinage-nw .env_inv_rew .env_par span.center_env a{background:#d7b24e url("../images/bwr_inscription/puce_env_rew.png") no-repeat right;padding:0px 15px 0 0px;text-transform:uppercase;font-size:16px;font-family: frutigerltstd47lightcnbold;float:left;line-height:37px;border:none;height:37px;color:#fff;cursor:pointer;  }
+.content_rewards .right-parrinage-nw .env_inv_rew .env_par span.right_env{background:url("../images/bwr_inscription/bt_com_right.png") no-repeat;width:9px;height:37px;float:left;}
+
+/*jeux**/
+.popup_inscription_ficheh.popup_jeux{width:1000px !important;z-index:99999;padding:0;background:transparent !important;box-shadow:none;  }
+.popup_inscription_ficheh.popup_jeux .ui-dialog-content{padding:0;}
+.ui-dialog.popup_inscription_ficheh.popup_jeux .ui-dialog-titlebar-close{background:url("../images/jeu-concours/close.png") no-repeat;}
+.jeux_hotel_personnage_container{margin:13px 0 0 9px;cursor:pointer;}
+.copy-jeux{font-size:10px;font-style:italic;font-family:verdana; }
+/*md passe club reward**/
+.center_rewards .sub_contenu_rew .mon_compte_rew .enrg_comp.md-passe-sw{float:right;width:auto;margin-top:0 !important;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew .md-passe-sw input{margin-right:0;}
+.content_rewards.gold_rewards .mon_compte_rew .enrg_comp.md-passe-sw .left_jaune,.content_rewards.platinum_rewards .mon_compte_rew .enrg_comp.md-passe-sw .left_jaune,
+.content_rewards.diamond_rewards .mon_compte_rew .enrg_comp.md-passe-sw .left_jaune{float:right;width:auto;margin-top:2px !important;}
+.gold_rewards .enrg_comp.md-passe-sw a.ui-state-default{background:#b58f35 !important; }
+.platinum_rewards .enrg_comp.md-passe-sw a.ui-state-default{background:#666666 !important; }
+.diamond_rewards  .enrg_comp.md-passe-sw a.ui-state-default{background:#999999 !important; }
+.md-passe-sw a.ui-state-default{font-size:11px;}
+
+.lien-reglement-1000{text-align:center; }
+.lien-reglement-1000 a{background:#e1dac0;padding:7px 12px;color:#00468C;text-decoration:underline;font-size:11px;  }
+
+#iframe_div_faq{overflow:hidden; }
+.pop-faq-sw{background:#fff; }
+.ui-dialog.pop-faq-sw .ui-dialog-titlebar-close{background:url("../images/faq/close-faq.png") no-repeat;right:5px;top: -1px;width: 26px;height: 26px;}
+/**.........02-12-15 espace bann rewards............**/
+.content_rewards .new-slide-rewards .content_slid .head_slid h2{font-size:12px;}
+#tooltip1{background:#fff !important;border:1px solid #bbbbbb !important;border-radius:5px;moz-border-radius:5px;webkit-border-radius:5px;box-shadow:0 0 5px #bbbbbb;width:156px;padding:10px;color:#002267 !important;font-size:10px;font-family:arial; }
+#tooltip1 ul li{margin-top: 3px;background:url("../images/bwr_inscription/puce-tool.jpg") no-repeat left 5px;padding-left: 5px; }
+#tooltip1 ul li strong{font-size:12px;}
+.titre-tool{font-size:14px;color:#b58f35;font-weight:bold;text-transform: uppercase; }
+.s-titre-tool{font-size:11px;color:#333333;text-align:center;margin:8px 0; }
+.content_rewards .sub_slide_rewards.new-slide-rewards{padding-left:0;width:960px;height:282px;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .content_slid{width:520px;padding-right:0;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .content_slid .head_slid{height:auto;border:none;float:left;width:86%;padding:0 50px 0 22px;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .logo_rew_head img{cursor:pointer;border-radius: 4px;moz-border-radius: 4px;wekit-border-radius: 4px;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .logo_rew_head img:hover{opacity:0.7;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .statut_rew{width:86.5%;background:#002267;padding:4px 50px 0 22px;font-size: 12px;color: #fff;margin-top:4px;margin-bottom:6px;  }
+.content_rewards .sub_slide_rewards.new-slide-rewards .statut_rew span{font-size:18px;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .statut_rew .left-statut-new{float:left;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .statut_rew .right-statut-new{float:right;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .point-new{float:left;width:290px;padding-left:22px;font-size:11px;}
+
+.content_rewards .sub_slide_rewards.new-slide-rewards .ui-widget-content{border: 1px solid #aab5cc;border-radius: 3px;moz-border-radius: 3px;webkit-border-radius: 3px;height: 6px;float:left;width:100%;margin:5px 0;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .night-new{float:left;margin-bottom:10px;width:100%;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .left-cat-new{float:left;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .right-cat-new{float:right;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .right-plus-new{float:right;}
+.content_rewards .sub_slide_rewards.new-slide-rewards .night-new strong{color:#000;}
+
+.content_rewards .sub_slide_rewards.new-slide-rewards .statut-txt-new{float:right;margin-right:8px;text-align:center;font-size:14px;background:#fff ;border:1px solid #bbbbbb ;border-radius:5px;moz-border-radius:5px;webkit-border-radius:5px;box-shadow:0 0 8px #bbbbbb;width:155px;padding:5px 8px; }
+.new-slide-rewards #slides {overflow: hidden;position: relative;width: 100%;height:auto;  }
+.new-slide-rewards #slides ul {list-style: none; width: 100%;margin: 0;padding: 0;position: relative;}
+.new-slide-rewards #slides li {width: 100%;float: left;text-align: center;position: relative;}
+/* Styling for prev and next buttons */
+.new-slide-rewards .btn-bar {width: 100%;margin: 0 auto; display: block;position: relative;top: 0px;z-index: 9999;}
+.new-slide-rewards #buttons a {display: block;width: 6px;height:12px;font-size:0;text-indent: -9999em;position:absolute; }
+.new-slide-rewards a#prev{background:url("../images/bwr_inscription/slide-new-left.png") no-repeat;left:0; }
+.new-slide-rewards a#next{background:url("../images/bwr_inscription/slide-new-right.png") no-repeat;right:0; }
+.new-slide-rewards a#prev:hover{background:url("../images/bwr_inscription/slide-new-left-h.png") no-repeat;left:0; }
+.new-slide-rewards a#next:hover{background:url("../images/bwr_inscription/slide-new-right-h.png") no-repeat;right:0; }
+.new-slide-rewards .quoteContainer,
+.new-slide-rewards .authorContainer { display: table;width: 100%;}
+.new-slide-rewards .quoteContainer{color:#002267 !important;font-size:10px;margin-top:3px;text-align:left; }
+.new-slide-rewards .quoteContainer p{background:url("../images/bwr_inscription/puce-tool.jpg") no-repeat left 5px;padding-left:5px;line-height:normal;   }
+.new-slide-rewards .quoteContainer strong{font-size:12px;}
+.new-slide-rewards .titre-slide-new{text-transform:uppercase;color:#002267;font-size:14px;font-weight:bold;   }
+.new-slide-rewards .title-of-slide{display:block; }
+
+/***menu bt acceder aux compte**/
+.nav .sub_nav li a#authen_rewards {border:none;}
+.nav .sub_nav li a#authen_rewards .text.uppercase{background:none;border:none; }
+.nav .sub_nav li a#authen_rewards  .ui-button-text{padding-left:0;padding-top:0;padding-bottom:0;}
+.nav .sub_nav li a#authen_rewards .ui-corner-all{border-radius:0;}
+
+/*...........popup cardkit..............*/
+.popuprewards-nw.ui-dialog.popcardkit{width:750px !important;min-height: 219px !important;}
+.popuprewards-nw.ui-dialog.popcardkit .ui-dialog-content{width:750px !important;padding:0 !important;overflow: hidden;}
+.popuprewards-nw.ui-dialog.popcardkit .ui-dialog-titlebar{border:none;}
+.popuprewards-nw.ui-dialog.popcardkit .ui-dialog-titlebar-close{background:url("../images/vip/close-vip.png") no-repeat !important;}
+.popuprewards-nw.ui-dialog.popcardkit input[type="radio"]{width:15px !important;float:left;margin:0 5px 0 0;}
+.popuprewards-nw.ui-dialog.popcardkit .contenu_pop .champ_pop label{float:none;line-height:18px;font-size:12px; }
+#open_popin_cardkit{background:none;border:none; }
+
+.content_rewards .left_rewards .mon_compte_rew .selct_sej select.sel-width-an{width:100px;}
+.content_rewards .left_rewards .mon_compte_rew .donn_comp_rew .width-donne-rew{width:auto !important;display: block;}
+
+/******/
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .prog_rew1 {float:left;margin-top:15px;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .prog_rew1 h3{font-size:13px;font-family:verdana;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .prog_rew1 p{font-size:13px;font-family:verdana;margin:10px 0;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .prog_rew .titre-prog-rew{padding:10px 0;font-size:12px;font-family:verdana;margin-top:10px;}
+.content_rewards .center_rewards .sub_contenu_rew .right_rewards .bon_plan_rew .bon_commande.bon-new-sw a{bottom:35px;right:48px;width: 235px;height:52px;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards.new-left-rew .prog_rew .sub_prog_rew p{font-size:13px;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew.tab-avtge-new table{border:none;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew.tab-avtge-new table td{border-top:none;border-left:none;text-align: center;}
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew.tab-avtge-new table td:nth-child(1){border-left:1px solid #c2c2c2;text-align:left; }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards .avtg_rew.tab-avtge-new table .th-avtge td{border:none;border-bottom:1px solid #c2c2c2;font-weight:bold;padding:0;vertical-align:bottom; }
+.tab-avtge-new .td-blue{color:#07307a;}
+.tab-avtge-new .td-gold{color:#B38E35;}
+.tab-avtge-new .td-platinum{color:#7a7a7a;}
+.tab-avtge-new .td-diamond{color:#aaaaaa;}
+.tab-avtge-new .td-select{color:#2f2f2e;}
+.content_rewards  .slide_banniere_dashboard .sub_slide{position:relative;}
+.content_rewards  .slide_banniere_dashboard .slidesjs-slide{z-index:9 !important; }
+.content_rewards  .slide_banniere_dashboard .slidesjs-control{left: 95px !important;top: 60px;}
+.content_rewards  .slide_banniere_dashboard .slidesjs-navigation{position:absolute;width:32px;height:32px;top:120px;font-size:0;text-indent:-9999em;z-index:9;    }
+.content_rewards  .slide_banniere_dashboard .slidesjs-previous{left:55px;}
+.content_rewards  .slide_banniere_dashboard .slidesjs-next{right:65px;}
+.gold_rewards .slide_banniere_dashboard .slidesjs-previous{background:url("../images/bwr_inscription/left_pagi.png") no-repeat;}
+.gold_rewards .slide_banniere_dashboard  .slidesjs-next {background:url("../images/bwr_inscription/right_pagi.png") no-repeat; }
+.diamond_rewards .slide_banniere_dashboard  .slidesjs-previous{background:url("../images/bwr_inscription/left_pagi_d.png") no-repeat;}
+.diamond_rewards .slide_banniere_dashboard  .slidesjs-next {background:url("../images/bwr_inscription/right_pagi_d.png") no-repeat; }
+.platinum_rewards .slide_banniere_dashboard  .slidesjs-previous{background:url("../images/bwr_inscription/left_pagi_g.png") no-repeat;}
+.platinum_rewards .slide_banniere_dashboard .slidesjs-next {background:url("../images/bwr_inscription/right_pagi_g.png") no-repeat; }
+ .right_rewards .parrinage-right-new{position:relative;text-align:center; }
+ .right_rewards .parrinage-right-new a{bottom:34px;right:57px;width: 238px;height:52px;position: absolute;font-size:0;text-indent:-9999em; }
+.content_rewards .center_rewards .sub_contenu_rew .new-rew-right{text-align:center; }
+.content_rewards .reward_subscribe,.content_rewards  .reward_already_membre{float:left;margin-left:50px;padding:0 20px;font-size:13px;text-align: right;}
+.content_rewards .global-auth a,.content_rewards .global-auth .disp-block{display:block;margin:5px 0; }
+.content_rewards .global-auth a{background:url("../images/boutique/bt-continu-right.png") no-repeat right;padding-right:17px;height:30px;float:left;line-height:30px; }
+.content_rewards .global-auth a span{background:url("../images/boutique/bt-continu-left.png") no-repeat left;border:none;width:auto;color:#fff;display:block;height:30px;padding-left:22px;padding-right:10px; cursor:pointer;text-transform: uppercase; }
+.content_rewards .espace-bas{margin-bottom:10px;}
+
+/*******/
+.content_rewards .statut-change-new{float:left;margin-top:70px;line-height:16px;font-weight: 600; }
+.content_rewards .left-statut-new sup{color:#b58f35;font-size:20px;line-height:16px; }
+.content_rewards  .logo_rew_headf{margin-top:35px;cursor:pointer;text-align: center;}

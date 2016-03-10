@@ -1,0 +1,1565 @@
+*{padding:0;margin:0;}
+body{background:#000e33 url('http://www.bestwestern.fr/public/images/background/body.gif') top repeat-x;font:normal 11px arial;color:#002576;}
+h1, h2, ul, li{margin:0;padding:0;color:#002576;}
+img{display:block;border:none;}
+select{font:normal 11px arial; color:#0d275a;}
+.clearfix{clear:both;}
+body #wrap #content .banner_rub{float:right;margin-right:11px;_margin-right:6px;}
+.withe{background:#FFFFFF;width:959px;}
+body #wrap #content #right_side_rub .content_rub a.blue{color:#6aa2d6;}
+#fake_header{display: none;}
+/* Titre Rubrique Content 1px bg */
+body #wrap #content .titre_rubrique_content{background: url("http://www.bestwestern.fr/public/images/background/1px_thematique.jpg") repeat-x;width: 100%;height: 43px;font:bold 18px tahoma;text-transform:uppercase;padding-top:28px;width:940px;padding-left:19px;}
+
+/* Wrap BestWestern */
+body #wrap{width:970px;margin:0 auto;position:relative;}
+body #wrap .cartes{position:absolute;right:26px;top:180px;z-index:9999999;}
+.align_left {
+	float:left;
+}
+/* Header Arrondi */
+
+/* Header */
+body #wrap #header{width:960px;padding:7px 0 0 0;background:#FFFFFF;position:relative;z-index:99999;}
+body #wrap #header .logo{width:430px;height:87px;margin:0 0 14px 11px;_margin:0 0 0 5px;float:left;}
+body #wrap #header .logo img{display:block;float:left;margin-right:14px;}
+body #wrap #header .logo img.bw_premier{margin-top:30px;}
+
+body #wrap #header .logo strong{font:bold 13px Times New Roma;font-style:italic;text-transform:uppercase;color:#9da4ad; margin:41px 0 0 0;display:block;}
+
+/* Key Element */
+body #header ul.key{width:499px;height:14px;/*margin-bottom:64px;*/float:right;list-style:none;}
+body #header ul.key li{background:url('http://www.bestwestern.fr/public/images/pictos/key-top.gif') right no-repeat;float:right;padding:0 8px 0 0;margin-right:14px;}
+body #header ul.key li a{font:bold 11px arial;color:#6ca9df;text-decoration:none;}
+body #header ul.key li table tr td img {float: left; padding-top: 2px;}
+body #header ul.key li table tr td strong {float: left; margin-left: 6px; color: #6ca9df;}
+/* Content */
+body #wrap #content{width:100%;/*background:url('../images/background/right_content.gif') top right no-repeat;*/clear:both;position:relative;}
+body #wrap #content .arondi{width:959px;height:24px;clear:both;background:url('http://www.bestwestern.fr/public/images/background/top_content.gif') top no-repeat;}
+body #wrap #content .arondi_content{width:959px;height:24px;clear:both;background:url('http://www.bestwestern.fr/public/images/background/top_all_content.gif') top no-repeat;}
+
+/* Slide Coups De Coeur */
+body #wrap #content img.slide{float:right; border:none;margin-right:11px;_margin-right:5px;}
+
+/* Pavé Accés Rapide */
+
+/* Espace Membres */
+body #wrap #content .espace_membre{width:100%;height:208px;margin:0 0 20px 0;font:bold 11px arial;color:#FFFFFF;background:url('http://www.bestwestern.fr/public/images/background/bloc_membre.png') bottom no-repeat;}
+body #wrap #content .espace_membre .top{width:100%;height:40px;border-bottom:1px solid #aacbeb;}
+body #wrap #content .espace_membre h2{width:287px;height:39px;display:block;background:url('http://www.bestwestern.fr/public/images/background/title_default.png') top no-repeat;font:normal 13px verdana;text-transform:uppercase;color:#FFFFFF;padding:0 0 0 10px;margin-bottom:11px;line-height:38px;}
+body #wrap #content .espace_membre h3{width:195px;font:bold 11px arial;color:#FFFFFF;margin:0 0 0 9px;line-height:48px;float:left;}
+body #wrap #content .espace_membre a.pass{font:normal 10px arial;color:#222222;text-decoration:none;background:url('http://www.bestwestern.fr/public/images/background/password.gif') left no-repeat;padding-left:7px;margin-left:9px;line-height:32px;float:left;}
+body #wrap #content a.link{width:72px;height:18px;display:block;float:right;margin:7px 19px 12px 0;_margin:7px 9px 12px 0;background:url('../images/background/link.gif') repeat-x;border:1px solid #6b93b9;color:#FFFFFF;text-decoration:none;text-align:center;line-height:16px;}
+body #wrap #content .espace_membre span.sep{border:none;background:#aacbeb;width:269px;height:1px;clear:both;margin:0 auto;}
+body #wrap #content .espace_membre span{width:195px;font:bold 11px arial;color:#FFFFFF;margin:6px 0 0 9px;float:left;}
+body #wrap #content .espace_membre label{font:bold 11px arial;color:#FFFFFF;margin:8px 0 0 9px;float:left;clear:both;}
+body #wrap #content .espace_membre input{width:167px;height:16px;border:1px solid #cccccc;margin:8px 20px 0 0px;float:right;}
+
+/* pavé Fidélité */
+body #wrap #content .fidelite{width:269px;height:auto !important;min-height:243px;padding:10px 0 0 8px;margin:0 0 0 0;background:#e9e9e9 url('http://www.bestwestern.fr/public/images/background/fidelite.gif') no-repeat;}
+body #wrap #content .presse{background:url("http://www.bestwestern.fr/public/images/background/presse.gif") top no-repeat !important;height:467px !important;}
+.pdf{background:url("http://www.bestwestern.fr/public/images/pictos/pictoPDF.gif") left no-repeat; padding:1px 0 0 20px;}
+body #wrap #content .fidelite h1{font:bold 14px arial;color:#2a96e5;width:249px;display:block;border-bottom:1px solid #96a0b5;padding-bottom:9px;margin-bottom:10px;}
+body #wrap #content .fidelite h1 span{font:normal 20px arial;color:#00174a;}
+body #wrap #content .fidelite ul{list-style:none;}
+body #wrap #content .fidelite ul li{font:normal 12px arial;background:url('http://www.bestwestern.fr/public/images/pictos/01.gif') left 4px no-repeat;padding-left:11px;padding-bottom:8px;}
+body #wrap #content .fidelite ul li.title{color:#309ce6;font-weight:bold;background:none;margin-bottom:8px;}
+body #wrap #content .fidelite ul li a{font:normal 12px arial;color:#309CE6;text-decoration:underline;}
+body #wrap #content .fidelite ul li a:hover{text-decoration:none;}
+
+/* Accès Transversal 2 */
+body #wrap #content #trans_actu{width:352px;height:487px;clear:both;float:left;margin-bottom:20px;}
+/* Newsletter */
+body #wrap #content #trans_actu .newsletter{width:342px;height:47px;background:url('http://www.bestwestern.fr/public/images/background/newsletter.gif') top no-repeat;padding:12px 0 0 10px;}	
+body #wrap #content #trans_actu .newsletter img{float:left;}
+body #wrap #content #trans_actu .newsletter input{float:left;width:150px;height:14px;border:1px solid #CCCCCC;margin:14px 9px 0 0;font-size:11px;color:#999999;}
+body #wrap #content #trans_actu .newsletter div{width:28px;height:18px;float:left;margin:14px 0 0 0;background:url("http://www.bestwestern.fr/public/images/boutons/ok.gif") top no-repeat;}
+body #wrap #content #trans_actu .newsletter div a{font:bold 12px arial;color:#FFFFFF;text-decoration:none;padding:0 0 0 6px;line-height:16px;}
+
+/* Hotêl Actualités */
+body #wrap #content #trans_actu .hotel_actu{width:342px;height:405px;margin:12px 0 0 0;padding:13px 0 0 10px;background:url('http://www.bestwestern.fr/public/images/background/hotel_actu.gif') top no-repeat;}
+body #wrap #content #trans_actu .hotel_actu h2.titre{width:313px;height:25px;float:left;display:block;font:bold 16px arial;}
+body #wrap #content #trans_actu .hotel_actu h2.titre a{color:#1b3565;}
+body #wrap #content #trans_actu .hotel_actu h2.titre span.red{color:#bb0c32;}
+body #wrap #content #trans_actu .hotel_actu img{float:left;}
+body #wrap #content #trans_actu .hotel_actu .news{width:328px;height:65px;margin:15px 0 0 0;clear:both;}
+body #wrap #content #trans_actu .hotel_actu .news h2{float:left;display:block;height:19px;}
+#trans_actu .hotel_actu .news h2 a{float:left;font:bold 13px arial;color:#1b3565;text-transform:uppercase;text-decoration:none;}
+#trans_actu .hotel_actu .news h2 a:hover{color:#2C86AF;}
+body #wrap #content #trans_actu .hotel_actu .news a.suite{float:right;font:normal 11px arial;color:#214a92;text-decoration:underline;}
+body #wrap #content #trans_actu .hotel_actu .news h3{font:bold 11px arial;color:#002576;clear:both;}
+body #wrap #content #trans_actu .hotel_actu .news h3 span{color:#cf003d;}
+body #wrap #content #trans_actu .hotel_actu .news h3 a{text-decoration: none;color: #002576;}
+body #wrap #content #trans_actu .hotel_actu .news p{color:#767676;margin:4px 0 0 0;}
+
+/* Offres BestWestern */
+body #wrap #content #right_side{width:576px;_width:574px;float:right;}
+body #wrap #content #right_side #offres_BW{width:576px;height:338px;position:relative;}
+body #wrap #content #right_side #offres_BW ul.ui-tabs-nav{list-style-type: none;margin:0;padding:0;width:100%;}
+body #wrap #content #right_side #offres_BW ul.ui-tabs-nav li{width:288px;height:41px;float:left;}
+body #wrap #content #right_side #offres_BW ul.ui-tabs-nav li.ui-tabs-selected a{width:288px;height:41px;float:left;background:url('http://www.bestwestern.fr/public/images/background/slide_derniere_offre.gif') top no-repeat !important;color:#FFFFFF !important;text-transform:uppercase;}
+body #wrap #content #right_side #offres_BW ul.ui-tabs-nav li a{width:288px;height:41px;float:left;background:url('http://www.bestwestern.fr/public/images/background/slide_offre_weekend.gif') top no-repeat;color:#00174a;text-transform:uppercase;font:normal 14px arial;text-align:center;line-height:35px;text-decoration:none;}
+.ui-tabs-hide{display:none !important;}
+
+/* Offres content */
+body #wrap #content #right_side #offres_BW .wrap_offre{width:575px;height:269px;padding-bottom:18px;clear:both;border-left:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;}
+body #wrap #content #right_side #offres_BW .wrap_offre span.tarif_chambre{display:block;width:555px;height:20px;margin-left:14px;color:#BB0C32;line-height:18px;}
+body #wrap #content #right_side #offres_BW .offre_bw{width:268px;height:118px;float:left;margin:0 0 0 14px;}
+body #wrap #content #right_side #offres_BW img{float:left;margin:0 9px 9px 0;}
+body #wrap #content #right_side #offres_BW .offre_bw a.link_hotel{text-align:left;}
+
+body #wrap #content #right_side #offres_BW .offre_bw h2{float:left;font:normal 11px arial;color:#002576;text-transform:uppercase;width:64%;min-height: 52px;}
+body #wrap #content #right_side #offres_BW .offre_bw h2 strong{float:left;font:bold 12px arial;color:#002576;text-transform:uppercase;margin:1px 0 0 0;width:100%;}
+body #wrap #content #right_side #offres_BW .offre_bw h2 a{font:normal 11px arial;color:#002576;text-decoration:none;}
+
+body #wrap #content #right_side #offres_BW .offre_bw span.tarif{font:normal 9px arial;color:#bb0c32;text-transform:none;display:block;width:50px;float:left;margin:15px 0 0 0;}
+body #wrap #content #right_side #offres_BW .offre_bw span.prix{font:bold 15px arial;color:#bb0c32;text-transform:none;display:block;width:100px;float:left;margin-top:11px;}
+body #wrap #content #right_side #offres_BW .offre_bw p{font:normal 11px arial;color:#000000;margin:0;}
+body #wrap #content #right_side #offres_BW .btt{width:100%;height:18px;clear:both;margin-top:2px;}
+body #wrap #content #right_side #offres_BW .btt img{float:left;margin:0 9px 0 0;border:none;}
+body #wrap #content #right_side #offres_BW .btt span{width:65px;height:18px;background:url("http://www.bestwestern.fr/public/images/background/resa.gif") top no-repeat;float:right;text-align:center;}
+body #wrap #content #right_side #offres_BW .btt span a{font:bold 11px arial;color:#FFFFFF;text-decoration:none;text-transform:none;line-height:15px;}
+body #wrap #content #right_side #offres_BW hr{height:1px;width:556px;background:#d4d4d4;clear:both;border:none;margin:11px 0 28px 0;_margin:0 0 18px 0;float:left;padding:0;display:block;}
+body #wrap #content #right_side #offres_BW hr.sep{margin:0 0 11px 0;_margin:0 0 9px 0;}
+body #wrap #content #right_side #offres_BW .toutes_les_offres{width:107px;height:18px;position:absolute;bottom:20px;right:11px;background:url('http://www.bestwestern.fr/public/images/background/toutes_les_offres.gif') top no-repeat;text-align:center;}
+body #wrap #content #right_side #offres_BW .toutes_les_offres a{font:bold 11px arial;color:#FFFFFF;text-tronsform:none;text-decoration:none;line-height:17px;}
+
+/* Top Destination */
+body #wrap #content #right_side #top_destination{width:556px;clear:both;margin:10px 0 0 0;background:url('http://www.bestwestern.fr/public/images/background/bg_destination.gif') repeat-y;}
+body #wrap #content #right_side #top_destination .bloc{height:auto;float:left;}
+body #wrap #content #right_side #top_destination .left_destination{width:43%}
+body #wrap #content #right_side #top_destination .right_destination{width:57%}
+body #wrap #content #right_side #top_destination  strong{text-transform:uppercase;color:#00174a;margin:0 61px; font:bold arial 14px;}
+body #wrap #content #right_side #top_destination  strong.strong_{text-align:center;font:normal arial 14px;}
+
+
+
+/* Top Destination Bloc */
+body #wrap #content #right_side #top_destination .bloc ul{list-style:none;width:216px;float:right;margin-top:8px;}
+body #wrap #content #right_side #top_destination .bloc ul li{width:108px;float:left;line-height:16px;padding:0;background:none;}
+body #wrap #content #right_side #top_destination .bloc ul li.list_hotel{width:300px;line-height:16px;float:none;height: auto !important;margin:0px !important;}
+body #wrap #content #right_side #top_destination .bloc ul li a{font:normal 11px arial;color:#767676;text-decoration:underline;}
+body #wrap #content #right_side #top_destination ul li a:hover{text-decoration:none;}
+
+
+/* Top Destination page membre_sejours*/
+body #wrap #content #right_side_ #top_destination{width:622px;clear:both;margin:10px 0 0 0;background:url('http://www.bestwestern.fr/public/images/background/bg_destination1.gif') repeat-y;}
+body #wrap #content #right_side_ #top_destination .bloc{height:auto;float:left;}
+body #wrap #content #right_side_ #top_destination  strong{text-transform:uppercase;color:#00174a;margin:0 50px; font:bold arial 14px;}
+body #wrap #content #right_side_ #top_destination  strong.strong_{text-align:center;font:normal arial 14px;}
+
+body #wrap #content #right_side_rub #top_destination{width:622px;clear:both;margin:10px 0 0 0;background:url('http://www.bestwestern.fr/public/images/background/bg_destination1.gif') repeat-y;}
+body #wrap #content #right_side_rub #top_destination .bloc{height:auto;float:left;}
+body #wrap #content #right_side_rub #top_destination  strong{text-transform:uppercase;color:#00174a;margin:0 50px; font:bold arial 14px;}
+body #wrap #content #right_side_rub #top_destination  strong.strong_{text-align:center;font:normal arial 14px;}
+
+/* Top Destination Bloc membre_sejours*/
+body #wrap #content #right_side_ #top_destination .bloc ul{list-style:none;width:560px;float:right;margin-top:8px;padding:0 11px 0 41px;}
+body #wrap #content #right_side_ #top_destination .bloc ul li{width:150px;float:left;line-height:16px;padding:0;background:none;}
+body #wrap #content #right_side_ #top_destination .bloc ul li.largmin{width:100px;}
+body #wrap #content #right_side_ #top_destination .bloc ul li.list_hotel{width:300px;line-height:16px;float:none;height: auto !important;margin:0px !important;}
+body #wrap #content #right_side_ #top_destination .bloc ul li a{font:normal 11px arial;color:#767676;text-decoration:underline;}
+body #wrap #content #right_side_ #top_destination ul li a:hover{text-decoration:none;}
+
+body #wrap #content #right_side_rub #top_destination .bloc ul{list-style:none;width:560px;float:right;margin-top:8px;padding:0 11px 0 41px;}
+body #wrap #content #right_side_rub #top_destination .bloc ul li{width:150px;float:left;line-height:16px;padding:0;background:none;}
+body #wrap #content #right_side_rub #top_destination .bloc ul li.largmin{width:100px;}
+body #wrap #content #right_side_rub #top_destination .bloc ul li.list_hotel{width:300px;line-height:16px;float:none;height: auto !important;margin:0px !important;}
+body #wrap #content #right_side_rub #top_destination .bloc ul li a{font:normal 11px arial;color:#767676;text-decoration:underline;}
+body #wrap #content #right_side_rub #top_destination ul li a:hover{text-decoration:none;}
+
+/* Moteur RESA */
+/**/
+h3.nbr_chambre{float:none;font:bold 11px tahoma;text-align:left;}
+
+/* Newsletter */
+body #wrap #content #left_side .newsletter{width:297px;height:59px;clear:both;background:url('http://www.bestwestern.fr/public/images/background/news_decline.png') top no-repeat;margin:20px 0 20px 0;}
+body #wrap #content #left_side .newsletter_rewards{width:277px;height:59px;clear:both;background:url('http://www.bestwestern.fr/public/images/background/news_decline2.png') top no-repeat;margin:20px 0 20px 0;}
+body #wrap #content #left_side .newsletter img, body #wrap #content #left_side .newsletter_rewards img{float:left;margin:12px 0 0 6px;_margin:12px 0 0 3px;}
+body #wrap #content #left_side .newsletter input, body #wrap #content #left_side .newsletter_rewards input{float:left;width:79px;height:14px;border:1px solid #CCCCCC;margin:26px 9px 0 0;font-size:11px;color:#999999;}
+body #wrap #content #left_side .newsletter div, body #wrap #content #left_side .newsletter_rewards div{width:28px;height:18px;float:left;margin:26px 0 0 0;background:url("http://www.bestwestern.fr/public/images/boutons/ok.gif") top no-repeat;}
+body #wrap #content #left_side .newsletter div a, body #wrap #content #left_side .newsletter_rewards div a{font:bold 12px arial;color:#FFFFFF;text-decoration:none;padding:0 0 0 6px;line-height:16px;}
+
+/* Best Western Qualités*/
+body #wrap #content #left_side .qualites{width:267px;height:267px;padding:8px 0 0 10px;margin-bottom:20px;position:relative;}
+body #wrap #content #left_side .qualites h1{font:bold 13px arial;color:#7ab2e3;border-bottom:1px solid #4465a9;padding:0 8px 10px 0; margin-bottom:10px;width:232px;}
+body #wrap #content #left_side .qualites h1 span{font:normal 18px arial;text-transform:uppercase;color:#FFFFFF;margin:0 0 8px 0;}
+
+body #wrap #content #left_side .qualites p{font:bold 13px arial;color:#002576;border-bottom:1px solid #e7e7e7;padding:0 8px 10px 0;margin:0 auto 10px;width:232px;}
+body #wrap #content #left_side .qualites p span{font:bold 15px arial;text-align:center;color:#004284;margin:0;display:block;}
+
+
+body #wrap #content #left_side .qualites ul.haut_rhin{list-style:none;width:142px;padding-bottom:50px;float:left;}
+body #wrap #content #left_side .qualites ul.haut_rhin li{font:bold 12px/18px arial;color:#dde9ff;background:url("http://www.bestwestern.fr/public/images/pictos/qualites.gif") left 6px no-repeat;padding-left:11px;width:131px;}
+body #wrap #content #left_side .qualites div.city_departement{background:none;padding:0 0 10px 0;color:#7AB2E3;text-align:center;font-weight:bold;font-size:12px;}
+body #wrap #content #left_side .qualites ul.haut_rhin li.title{background:none;padding-left:0;color:#7AB2E3;width:200px !important;}
+body #wrap #content #left_side .qualites ul.haut_rhin li h2{line-height:14px;}
+body #wrap #content #left_side .qualites ul.haut_rhin li h2 a{font:normal 12px arial;color:#6CA9DF !important;text-decoration:underline;}
+body #wrap #content #left_side .qualites ul.haut_rhin li{float:left;margin-right:13px;}
+
+body #wrap #content #left_side .qualites ul.haut_rhin li a:hover{text-decoration:none;}
+body #wrap #content #left_side .qualites ul li a{font:bold 12px arial;color:#dde9ff;text-decoration:underline;}
+body #wrap #content #left_side .qualites ul li a:hover{color:#FFFFFF;}
+
+/* Best Western Qualités Blue*/
+body #wrap #content #left_side .blue_bloc{width:267px;height:267px;padding:8px 0 0 10px;margin-bottom:20px;background:url('http://www.bestwestern.fr/public/images/background/qualites.gif') top no-repeat;}
+body #wrap #content #left_side .blue_bloc h1{font:bold 13px arial;color:#7ab2e3;border-bottom:1px solid #4465a9;padding:0 8px 10px 0; margin-bottom:10px;width:232px;}
+body #wrap #content #left_side .blue_bloc h1 span{font:normal 18px arial;text-transform:uppercase;color:#FFFFFF;margin:0 0 8px 0;}
+body #wrap #content #left_side .blue_bloc ul{list-style:none;}
+body #wrap #content #left_side .blue_bloc ul li{font:bold 12px arial;color:#dde9ff;margin-bottom:10px;background:url('http://www.bestwestern.fr/public/images/pictos/qualites.png') left 4px no-repeat;padding-left:11px;}
+body #wrap #content #left_side .blue_bloc ul li a{font:bold 12px arial;color:#dde9ff;text-decoration:underline;}
+body #wrap #content #left_side .blue_bloc ul li a:hover{color:#FFFFFF;}
+
+/* Offre Best Western */
+body #wrap #content #left_side .offre{width:277px;height:252px;padding:15px 0 0 0;background:url('http://www.bestwestern.fr/public/images/background/offre_bw.gif') top no-repeat;position:relative;}
+body #wrap #content #left_side .offre h1{font:bold 16px arial;color:#FFFFFF;text-transform:uppercase;margin-left:10px;padding-bottom: 2px;}
+body #wrap #content #left_side .offre h1 span{color:#ffdc29;}
+body #wrap #content #left_side .offre img{border:none;padding-top:5px;}
+body #wrap #content #left_side .offre p strong{color:#FFFFFF;text-decoration:none;font-size:12px;}
+body #wrap #content #left_side .offre p{color:#FFFFFF;text-decoration:none;text-align:center;padding-top:10px;}
+
+/* Left Side */
+body #wrap #content #left_side{width:297px;float:left;clear:both;background:#FFF url('http://www.bestwestern.fr/public/images/background/bg_left_side.gif') repeat-y;margin-bottom:20px;}
+
+/* Content Promotion */
+body #wrap #content #right_side_rub{width:673px;float:left;margin:12px 0 0 0;position:relative;}
+body #wrap #content #right_side_rub .content_rub{width:642px;padding-left:31px;color:#7f7f7f;background:url('http://www.bestwestern.fr/public/images/background/bg_content.png') repeat-y;float:left;}
+body #wrap #content #right_side_rub .content_rub h2{font:bold 12px arial;text-transform:uppercase;}
+body #wrap #content #right_side_rub .content_rub strong{font-weight:bold;}
+body #wrap #content #right_side_rub .content_rub p{padding:0 12px 33px 0;}
+body #wrap #content #right_side_rub .content_rub a{color:#bb0c32;text-decoration:underline;}
+body #wrap #content #right_side_rub .content_rub a:hover{text-decoration:none;}
+
+/* Bonus Rewards */
+body #wrap #content #right_side_rub .content_rub strong.bonus{font:bold 11px arial;color:#002576;display:block;margin:15px 0 20px;background:url('http://www.bestwestern.fr/public/images/pictos/01.gif') left 4px no-repeat;padding-left:11px;}
+body #wrap #content #right_side_rub .content_rub .bonus_rewards{width:270px;height:70px;float:left;margin-right:50px;}
+body #wrap #content #right_side_rub .content_rub .bonus_rewards img{float:left;margin-right:10px;}
+body #wrap #content #right_side_rub .content_rub .bonus_rewards p{padding-top:6px;}
+body #wrap #content #right_side_rub .content_rub .bonus_rewards p strong{font-weight:normal;color:#BB0C32;}
+
+/* Content 'Vos offres du moment' */
+body #wrap #content #right_side_rub .content_rub .offre_du_moment{clear:both;height:auto;padding-bottom:30px;}
+body #wrap #content #right_side_rub .content_rub .offre_du_moment h3{color:#00174a;text-transform:uppercase;font:bold 15px arial;margin-top:20px;}
+body #wrap #content #right_side_rub .content_rub .offre_du_moment h3 span{color:#bb0c32;}
+body #wrap #content #right_side_rub .content_rub .offre_du_moment span.points{color:#bb0c32;font:bold 13px arial;}
+body #wrap #content #right_side_rub .content_rub .offre_du_moment p{padding:0;margin:0;}
+body #wrap #content #right_side_rub .content_rub .offre_du_moment a.offres_orange{width:107px;height:16px;background:url('../images/background/link.gif');font:bold 11px arial;text-align:center;color:#FFFFFF;text-decoration:none;padding:2px 9px 0 10px;float:right;margin-right:24px;}
+
+body #wrap #content #right_side_rub .promo p.btn_sinscrire{width:77x;float:right;margin-right:20px;}
+body #wrap #content #right_side_rub .promo .boutton_bleu .align_left{display:none;}
+body #wrap #content #right_side_rub .promo p.boutton_bleu{margin:0 !important;width:auto !important;}
+body #wrap #content #right_side_rub .promo .boutton_bleu a{width:220px;height:15px;background:url('../images/background/reserver.gif');font:bold 11px arial !important;text-align:center;color:#FFFFFF;text-decoration:none;padding:1px 9px 0 10px;margin-top:16px;float:right;text-transform:capitalize;}
+body #wrap #content #right_side_rub .promo p img{float:left;border:1px solid #000;margin-top:15px;clear:both;}
+
+/* Nos Offre Du Moment */
+body #wrap #content #right_side_rub .promo{width:620px;height:120px;padding-bottom:20px;position:relative;border-bottom:1px solid #d4d4d4;}
+body #wrap #content #right_side_rub .promo img{float:left;margin:0 20px 0 0;}
+body #wrap #content #right_side_rub .promo h3{font:bold 14px arial;color:#002576;}
+body #wrap #content #right_side_rub .promo h3.titre_promo{font:bold 13px arial;text-transform:none;}
+body #wrap #content #right_side_rub .promo h3 span{font:normal 11px arial;color:#cf003d;}
+body #wrap #content #right_side_rub .promo p{font:normal 11px arial; color:#3f3f3f;padding:4px 50px 14px 0;}
+body #wrap #content #right_side_rub .promo p strong{padding:0 !important;float:none }
+body #wrap #content #right_side_rub .promo strong{color:#7f7f7f;font:bold 11px arial;float:left;margin-right:14px;margin-top:3px;line-height:8px;}
+body #wrap #content #right_side_rub .promo img.picto{float:left;margin-right:8px;border:none;}
+body #wrap #content #right_side_rub .promo a.resa{width:148px;height:15px;background:url('../images/background/reserver.gif');font:bold 11px arial;text-align:center;color:#FFFFFF;text-decoration:none;padding:1px 9px 0 10px;float:right;margin-top:16px;}
+body #wrap #content #right_side_rub .promo .info_promo{width:101px;height:36px;background:#e6e6e6;filter :alpha(opacity=60);-moz-opacity :0.6;opacity :0.6;position:absolute;left:149px;top:86px;padding-top:8px;text-align:center;}
+
+body #wrap #content #right_side_rub .promo h1{font:bold 14px arial;margin-bottom:20px;}
+body #wrap #content #right_side_rub .promo h1 strong{float:none;margin:0;color:#BB0C32;font:bold 14px arial;}
+
+body #wrap #content #right_side_rub .promo .info_promo_{width:101px;height:36px;z-index:99999;position:absolute;left:149px;top:86px;padding-top:8px;text-align:center;}
+body #wrap #content #right_side_rub .promo .info_promo_ strong{font:bold 12px arial;color:#bb0c32;float:none;}
+body #wrap #content #right_side_rub .promo .info_promo_ span{font:normal 9px arial;color:#000000;}
+
+/* Pavé Partenaires */
+body #wrap #content #right_side_rub .bloc_partner{width:637px;clear:both;padding:38px 0 17px 0;}
+body #wrap #content #right_side_rub .bloc_partner .partner{width:132px;height:91px;float:left;margin:0 23px 20px 0;}
+body #wrap #content #right_side_rub .bloc_partner .partner img{border:1px solid #d5d5d5;}
+body #wrap #content #right_side_rub .bloc_partner .partner a{display:block;width:126px;height:24px;background:#303030;margin:2px 0 0 0;font:bold 11px arial;color:#848484;text-decoration:none;padding-left:6px;line-height:22px;}
+body #wrap #content #right_side_rub .bloc_partner .partner a:hover, body #wrap #content #right_side_rub .bloc_partner .partner a.activ{color:#FFFFFF;}
+
+/* Détail Partenaire */
+body #wrap #content #right_side_rub .content_partner{width:609px;}
+body #wrap #content #right_side_rub .content_partner h2{width:100%;height:25px;border-bottom:1px solid #d4d4d4;color:#bb0c32;font:bold 16px arial;margin-bottom:10px;}
+body #wrap #content #right_side_rub .content_partner h3{font:bold 12px arial;color:#002576;text-transform:uppercase;padding-right:90px;}
+body #wrap #content #right_side_rub .content_partner a.link_info{display:block;width:208px;height:16px;background:url('../images/background/reserver.gif') repeat-x;font:bold 11px arial;text-decoration:none;text-align:center;line-height:15px;color:#FFFFFF;margin-bottom:26px;}
+body #wrap #content #right_side_rub .content_partner a{font:normal 11px arial;text-decoration:underline;}
+body #wrap #content #right_side_rub .content_partner p{padding:5px 0 5px 0;}
+
+body #wrap #content .content_rub ul{list-style:none;margin:18px 0 18px 0;}
+body #wrap #content .content_rub ul li{background:url('http://www.bestwestern.fr/public/images/pictos/list.gif') left no-repeat;padding-left:10px;color:#7f7f7f;}
+body #wrap #content .content_rub ul li.title{padding:0;background:0;}
+body #wrap #content .content_rub  ul li span{color:#153e8a;font:bold 12px arial;}
+
+/**/
+body #wrap #right_side_{width:641px;float:left;padding:0 0 18px 21px;margin-bottom:18px;background:url('http://www.bestwestern.fr/public/images/background/bg_right_side.gif') repeat-y;position:relative;}
+body #wrap #right_side_ h2{font:bold 18px arial;color:#002576;text-transform:uppercase;}
+body #wrap #right_side_ span.resultats{font:normal 12px arial;color:#7f7f7f;}
+body #wrap .nav_promo{width:620px;background:#EFEFEF url('http://www.bestwestern.fr/public/images/background/bg_paging.gif') repeat-x;}
+body #wrap #right_side_ .nav_promo .filtre_activ{width:310px;height:31px;background:url('http://www.bestwestern.fr/public/images/background/filtre_activ.gif') repeat-x;padding-top:10px;float:left;}
+body #wrap #right_side_ .nav_promo .filtre{width:310px;height:31px;padding-top:10px;float:left;}
+
+body #wrap #right_side_ .nav_promo label{font:normal 12px arial;color:#FFFFFF;text-transform:uppercase;margin:0 0 0 6px;float:left;}
+body #wrap #right_side_ .nav_promo .filtre label{color:#112656;}
+body #wrap #right_side_ .nav_promo .filtre_activ select{width:194px;height:16px;border:1px solid #cccccc;margin-left:37px;font:normal 10px arial;color:#b1b1b1;}
+
+body #wrap #right_side_ .nav_promo .filtre select{width:143px;height:16px;border:1px solid #cccccc;margin-right:10px;float:right;font:normal 10px arial;color:#8a8787;}
+body #wrap #right_side_ .nav_promo .filtre select optgroup, body #wrap #right_side_ .nav_promo .filtre_activ select optgroup{color:#000000;}
+body #wrap #right_side_ .nav_promo .filtre select optgroup option, body #wrap #right_side_ .nav_promo .filtre_activ select option{color:#333333;}
+
+body #wrap #right_side_ .paging{width:620px;height:29px;clear:both;background:#eeeeee;}
+body #wrap #right_side_ .paging ul{list-style:none;margin:0 0 0 11px;font:bold 11px arial;color:#a8a8a8;width:80%;float:left;}
+body #wrap #right_side_ .paging ul li{display:inline;line-height:25px;background:url('../images/sep/sep_paging.gif') right no-repeat;padding:0 8px 0 5px;}
+body #wrap #right_side_ .paging ul li:first-child{background:none;}
+body #wrap #right_side_ .paging ul li a{font:bold 11px arial;color:#a8a8a8;text-decoration:none;cursor:pointer;}
+body #wrap #right_side_ .paging ul li a.activ{color:#2c579c;}
+
+body #wrap #right_side_ .paging img{float:right;margin:5px 9px 0 0;border:none;}
+
+
+body #wrap #content .promo{width:620px;margin:10px 0 12px 0;padding-bottom:31px;_padding-bottom:10px;position:relative;border-bottom:1px solid #d4d4d4;}
+body #wrap #content .best_western_1{clear:both;border:none;margin:0 0 30px 20px;width:918px;}
+body #wrap #content .best_western_1 ul{clear:none !important;float:left !important;}
+body #wrap #content .best_western_1 p{padding-right:11px !important;}
+body #wrap #content .best_western_1 a{color:#735F22;}
+body #wrap #content .best_western_1 a.link_bw_1er strong{background:url('http://www.bestwestern.fr/public/images/background/link_bw_1er.gif') repeat-x;color:#FFFFFF !important;height:18px;padding:0 10px 0 10px;line-height:17px;}
+body #wrap #content .best_western_1 p{padding-bottom:22px !important;}
+body #wrap #content .promo img{float:left;margin:0 20px 0 0;}
+body #wrap #content .promo h3{font:bold 14px arial;color:#002576;}
+body #wrap #content .promo h3 span{font:normal 11px arial;color:#cf003d;}
+body #wrap #content .promo p{font:normal 11px arial; color:#7f7f7f;padding:4px 50px 14px 0;}
+body #wrap #content .promo strong{color:#7f7f7f;font:bold 11px arial;float:left;margin-right:14px;}
+body #wrap #content .promo strong.none{float:none;margin:0;}
+body #wrap #content .promo img.picto{float:left;margin-right:8px;border:none;}
+body #wrap #content .promo a{color:#309CE6;text-decoration:underline;cursor:pointer;}
+body #wrap #content .promo a:hover{text-decoration:none;}
+body #wrap #content .promo a.resa{width:51px;height:15px;background:url('../images/background/reserver.gif');font:bold 11px arial;text-align:center;color:#FFFFFF !important;text-decoration:none !important;padding:1px 9px 0 10px;float:right;margin-top:8px;}
+
+body #wrap #right_side_ .promo .info_promo{width:101px;height:44px;background:#e6e6e6;filter :alpha(opacity=70);-moz-opacity :0.7;opacity :0.7;position:absolute;left:149px;top:86px;}
+body #wrap #right_side_ .promo .info_promo_price{width:101px;height:36px;position:absolute;left:149px;top:86px;padding-top:8px;text-align:center;}
+body #wrap #right_side_ .promo .info_promo_price strong{font:bold 12px arial;color:#bb0c32;float:none;}
+body #wrap #right_side_ .promo .info_promo_price span{font:normal 9px arial;color:#000000;}
+
+body #wrap #content .promo a.plus_info{width:90px;height:15px;background:url('../images/background/reserver.gif');font:bold 11px arial;text-align:center;color:#FFFFFF;text-decoration:none;padding:1px 9px 0 10px;float:right;margin-top:8px;}
+body #wrap #content .promo ul{list-style:none;clear:both;}
+body #wrap #content .promo ul li{background:url('../images/pictos/ss_menu.gif') left no-repeat;padding:0 10px 0 11px;color:#7F7F7F;}
+
+/* Images Promotions Internationales*/
+body #wrap #content .img_promos{width:80%;clear:both;margin:0 auto;}
+body #wrap #content .img_promos img{float:left;margin-right:90px;}
+
+/* Rewards Récompenses */
+
+/* Filtre Recompense */
+body #wrap .filtre_recompenses{width:610px;height:41px;margin:29px 0 26px 0;background:url('http://www.bestwestern.fr/public/images/background/bg_paging.gif') top repeat-x;}
+body #wrap .filtre_recompenses .theme_activ{width:50%;height:31px;float:left;padding:10px 0 0 0;background:url('http://www.bestwestern.fr/public/images/background/filtre_activ.gif') repeat-x;}
+body #wrap .filtre_recompenses .theme{width:195px;height:31px;float:left;padding:10px 0 0 0;background:url('http://www.bestwestern.fr/public/images/background/right_recompense.gif') right no-repeat;}
+body #wrap .filtre_recompenses label{font:normal 12px arial;text-transform:uppercase;margin:0 0 0 6px !important;float:left;color:#112656;}
+body #wrap .filtre_recompenses .theme_activ label{color:#FFFFFF;}
+body #wrap .filtre_recompenses .theme_activ select{width:111px;height:16px;border:1px solid #CCCCCC;font:normal 10px arial; color:#000000;margin-right:13px !important;}
+body #wrap .filtre_recompenses select{width:75px;height:16px;border:1px solid #CCCCCC;font:normal 10px arial; color:#000000;float:right;margin-right:13px !important;}
+body #wrap .filtre_recompenses .points {width:220px;height:31px;float:left;padding:10px 0 0 0;}
+
+/* Titre Recompense */
+body #wrap h3.recompense{font:bold 16px arial;color:#00174a;text-transform:uppercase;margin:0;}
+
+/* Blocs Recompense */
+body #wrap .bloc_recompense{width:608px;height:100px;padding-bottom:43px;border-bottom:1px solid #d4d4d4;margin-top:20px;position:relative;}
+body #wrap .bloc_recompense img{border:1px solid #e6e6e6;float:left;margin-right:20px;}
+body #wrap .bloc_recompense strong{font:bold 14px arial;color:#002576;}
+body #wrap .bloc_recompense strong span{color:#cf003d;font:normal 11px arial;}
+body #wrap .bloc_recompense p{font:font:normal 11px arial;color:#7f7f7f;margin-top:4px;}
+body #wrap .bloc_recompense a.commander{width:88px;height:16px;display:block;position:absolute;bottom:4px;right:0;text-align:center;font:bold 11px arial;color:#FFFFFF !important;text-decoration:none !important;background:url('../images/background/reserver.gif') repeat-x;}
+
+/* Service Client */
+ul.service_client{width:267px;}
+ul.service_client li{margin-bottom:8px;}
+
+/* Footer */
+body #wrap #footer{/*width:919px*/width:100%;/*height:153px;*/padding-bottom:45px;clear:both;border-top:1px solid #ececec;border-bottom:1px solid #ececec;margin:0 auto;margin-top:20px;position:relative;}
+body #wrap #footer h1{font:bold 11px arial;color:#9b9b9b;margin:5px 14px;}
+body #wrap #footer p{width:930px;margin:5px auto;color:#9b9b9b;}
+body #wrap #footer p a{font-weight:bold;color:#9b9b9b;text-decoration:none;}
+body #wrap #footer .best_western_contact{width:950px;height:46px;margin:16px 0 0 0px;}
+
+/* Accès Sites Best Western [Footer] */
+body #wrap #footer .sites_bestwestern{width:220px;height:56px;margin-left:40px;float:left;}
+body #wrap #footer .sites_bestwestern img{float:left;margin-right:10px;}
+
+/* Services Best Western */
+body #wrap #footer .best_western_contact .service_bw{width:650px;height:46px;margin-top:17px;float:left;}
+body #wrap #footer .best_western_contact .service_bw img{float:left;border:none;margin-right:30px;}
+body #wrap #footer .best_western_contact .service_bw .retrouvez_nous{width:165px;height:46px;float:left;}
+body #wrap #footer .best_western_contact .service_bw .retrouvez_nous img{margin:0 0 0 23px;}
+
+/* Menu Footer */
+body #wrap ul#Menu_footer{width:938px;height:26px;background:url('http://www.bestwestern.fr/public/images/background/footer.png') top no-repeat;list-style:none;padding:7px 0 0 21px;}
+body #wrap ul#Menu_footer li{background:url('http://www.bestwestern.fr/public/images/pictos/key.gif') left no-repeat;float:left;padding:0 14px 0 9px;}
+body #wrap ul#Menu_footer li:first-child{margin-left:9px;}
+body #wrap ul#Menu_footer li a{font:normal 10px arial;color:#0067bd;text-decoration:none;}
+
+/* Copyright Bes Western */
+body .footer_copyright{width:939px;height:25px;margin:0 auto;text-align:left;color:#B1DEE5;font:italic 10px arial;line-height:25px;}
+
+/* Marge Bloc Transversaux */
+.marge_promo{clear:both;}
+.marge_seminaires{height:158px;}
+.marge_info_hotel{height:1px;}
+.marge_redwars{height:231px;}
+
+.multiple_chambres{float:left;display:block;width:60px !important;margin-bottom:3px;}	
+
+/* Slide */
+.galleryview{float:right;margin-right:11px !important;position:relative;background:#FFFFFF !important;}
+.galleryview img.top_slide{position:absolute;top:0;right:0;z-index:99999;}
+.galleryview img.bottom_slide{position:absolute;bottom:0;right:0;z-index:99999;}
+.galleryviewa .panel{position:relative;}
+.galleryview .panel h2{font:18px verdana;margin:0 26px 0 21px;}
+.galleryview .panel h2 a{font:normal 18px verdana;text-decoration:none !important;margin:10px 0 0 0;color:#FFFFFF;display:block;}
+.galleryview .panel p{padding-left:20px;font:normal 24px/42px verdana;text-decoration:none !important;margin:0;color:#FFFFFF;}
+.galleryview .panel a.decouvrir{width:73px;height:18px;display:block;background:url("http://www.bestwestern.fr/public/images/background/decouvrir.gif") top no-repeat;padding:0;color:#0d275a !important;font:bold 11px Arial !important;text-decoration:none !important;text-align:center;line-height:18px !important;position:absolute;right:33px;bottom:9px;display:block;}
+
+/* Fiche Hôtel */
+#fiche_hotel{width:641px;float:left;padding-left:21px;margin-bottom:18px;}
+#fiche_hotel h2{text-transform:uppercase;font:bold 18px tahoma;margin:14px 14px 1px 0;width:100%;}
+#fiche_hotel h2 strong{float:left;}
+#fiche_hotel h2 a{text-transform:uppercase;text-decoration:none;font:bold 18px tahoma;color:#002576;float:left;}
+#fiche_hotel h2 a:hover{color:#2C86AF;}
+#fiche_hotel h2 span{float:left;}
+#fiche_hotel h2 span img{float:left;margin:3px 3px 0 0}
+
+/* Info Hôtel */
+#fiche_hotel .info_hotel{width:249px;background:url("http://www.bestwestern.fr/public/images/background/fiche_hotel.gif") top no-repeat;float:left;}
+#fiche_hotel .bg_bloc{width:236px;padding:10px 0 9px 11px;background:url("http://www.bestwestern.fr/public/images/background/bg_fiche_hotel.gif") repeat;border-bottom:1px solid #f7f7f7;margin:0 auto;clear:both;}
+#fiche_hotel .info_hotel strong{font:bold 11px arial;color:#0d275a;}
+#fiche_hotel .info_hotel p{margin-top:12px;}
+#fiche_hotel .info_hotel p a{color:#2c86af;text-decoration:none;}
+#fiche_hotel .info_hotel p a:hover{text-decoration:underline;}
+#fiche_hotel .info_hotel .services_hotel{width:222px;margin-top:15px;}
+#fiche_hotel .info_hotel .services_hotel img{float:left;margin:0 0 10px 10px;border:none;}
+#fiche_hotel .info_hotel .reserver{width:227px;color:#bb0c32;height:38px;border-bottom:1px solid #c2c2c2;margin-bottom:12px;padding-bottom:10px;}
+#fiche_hotel .info_hotel .reserver span{float:left;width:106px;display:block;height:20px;}
+#fiche_hotel .info_hotel .reserver strong{font:bold 15px arial;color:#bb0c32;float:left;width:100px;display:block;height:20px;margin:0;}
+#fiche_hotel .info_hotel .reserver a{width:92px;height:18px;display:block;float:right;background:url("http://www.bestwestern.fr/public/images/background/select_resa.png") top no-repeat;font:bold 11px arial;color:#FFFFFF;text-decoration:none;text-align:center;padding:4px 0 0 0;line-height:10px;}
+#fiche_hotel .info_hotel .nav{width:227px;height:20px;margin-bottom:16px;}
+#fiche_hotel .info_hotel .nav strong{font:bold 11px arial;float:left;}
+#fiche_hotel .info_hotel .nav img{float:right;margin-left:7px;}
+#fiche_hotel .info_hotel .nav a{font:bold 11px arial;color:#0d275a;text-decoration:underline;float:left;margin-left:7px;width:18px;display:block;}
+#fiche_hotel .info_hotel .nav a:hover{color:#fa7021;}
+
+#fiche_hotel .info_hotel .nav_hotel{width:227px;height:20px;}
+#fiche_hotel .info_hotel .nav_hotel a{font:normal 11px arial;text-decoration:underline;color:#0d275a;}
+#fiche_hotel .info_hotel .nav_hotel a:hover{text-decoration:none;}
+
+#fiche_hotel img.vis_hotel{margin-left:8px;border:1px solid #e0e0e0;float:left;}
+
+/* Bloc Accès */
+.content_hotel_fix #div_carte_via{width:300px;height:260px;float:left;}
+
+/* Content Accès */
+.content_hotel_fix .content_acces{width:600px;height:271px;float:right;margin-right:10px;overflow: auto;}
+.content_hotel_fix .content_acces span{width:100%;display:block;clear:both;margin-bottom:5px;}
+
+/* Content Services */
+.content_hotel_fix #services ul{clear:both;}
+.content_hotel_fix #services ul li{display:block;width:37%;float:left;margin-bottom:5px;padding-left:20px;background:url('http://www.bestwestern.fr/public/images/pictos/list_blue_.gif') left no-repeat;}
+
+/* Content Séminaires */
+.content_hotel_fix #activites, .content_hotel_fix #seminaires, .content_hotel_fix #services{width:900px;margin:0 0 0 10px;height:260px;overflow:auto;}
+.content_hotel_fix #activites a{color:#BB0C32;text-decoration:underline;}
+.content_hotel_fix #activites a:hover{text-decoration:none;}
+.content_hotel_fix #seminaires .lnkExterne{color:#2c86af;font:bold 12px arial;text-decoration:none;background:url("../images/pictos/pictoLnkExterne.gif") left no-repeat;padding-left:20px;line-height:29px;margin-bottom:10px;height:25px;display:block;}
+.content_hotel_fix #seminaires .demandeContact{background:url("../images/pictos/pictoTelephone.gif") left 6px no-repeat;padding:0 0 15px 20px;}
+.content_hotel_fix #seminaires .demandeContact a{text-decoration:none;color:#000000;}
+.content_hotel_fix #seminaires .demandeContact a:hover{text-decoration:underline;}
+.content_hotel_fix #seminaires .pictoFicheTech{color:#2c86af;font:bold 12px arial;text-decoration:none;background:url("http://www.bestwestern.fr/public/images/pictos/pictoPDF.gif") left no-repeat;padding-left:20px;line-height:29px;height:25px;display:block;}
+.content_hotel_fix #seminaires .demanDevis{font:bold 12px arial;margin-bottom:10px;}
+.content_hotel_fix #seminaires p.salle_sim{color:#002576;font:bold 12px arial;line-height:28px;}
+.content_hotel_fix #seminaires table.list_seminaires{width:870px;text-align:center;line-height:22px;border-left:1px solid #999999;border-bottom:1px solid #999999;}
+.content_hotel_fix #seminaires table.list_seminaires tr td{border-top:1px solid #999999;border-right:1px solid #999;}
+
+/* Restaurants Fiche Hôtel */
+.content_hotel_fix #activites .restau_fourchette_fiche_hotel{width:500px;height:76px;margin-bottom:17px;}
+.content_hotel_fix #activites .restau_fourchette_fiche_hotel img{border:none;margin:0;float:left;}
+.content_hotel_fix #activites .restau_fourchette_fiche_hotel img.vis{margin-right:11px;}
+.content_hotel_fix #activites .restau_fourchette_fiche_hotel a{color:#0d275a;text-decoration:none;}
+.content_hotel_fix #activites .restau_fourchette_fiche_hotel a:hover{color:#8fba00;}
+.content_hotel_fix #activites .restau_fourchette_fiche_hotel a.decouvrir{display:block;width:75px;height:13px;margin-top:17px;background:url("http://www.bestwestern.fr/public/images/background/btt_action.gif") repeat-x;;color:#FFFFFF;text-align:center;float:left;}
+
+/* Content Hôtel */
+.content_hotel{width:920px;margin:0 auto;clear:both;background:url("http://www.bestwestern.fr/public/images/background/content_fiche_hotel.gif") top repeat-y;}
+.content_hotel_fix{width:920px;height:347px;margin:0 auto;clear:both;background:url("http://www.bestwestern.fr/public/images/background/content_fiche_hotel_fix.gif") top repeat-y;}
+.content_hotel_fix img.close_content{border:none;float:none;margin:15px 0 0 0;}
+
+/* Content Présentation */
+.content_hotel_fix .txt{width:100%;clear:both;}
+.content_hotel_fix ul{list-style:none;}
+.content_hotel_fix ul.ui-tabs-nav{width:100%;height:28px;list-style:none;margin-bottom:16px;position:relative;background:url("http://www.bestwestern.fr/public/images/background/menu_fiche_hotel.gif") top no-repeat;}
+.content_hotel_fix ul li{float:left;padding:0 43px 0 43px;margin-right:29px;}
+.content_hotel_fix ul li.marge{margin:0 !important;}
+.content_hotel_fix ul li a{font:bold 11px arial;color:#0d275a;text-decoration:none;line-height:24px;text-align:center;position:absolute;top:0;}
+
+/* content Info Hôtel */
+.content_hotel ul.info_hotel{background:url("http://www.bestwestern.fr/public/images/background/menu_info_hotel.gif") top no-repeat;height:38px;list-style:none;margin-bottom:9px;}
+.content_hotel ul.info_hotel li{padding:0;margin:0;float:left;}
+.content_hotel ul.info_hotel li a{width:306px;display:block;position:static;font:bold 11px/36px arial;color:#0d275a;text-decoration:none;text-align:center;}
+.content_hotel ul.info_hotel li a.activ{background:url("http://www.bestwestern.fr/public/images/boutons/activ_menu_info_hotel.gif") top no-repeat;height:38px;color:#FFFFFF;}
+
+/* Content Info */
+.content_hotel .content_info{width:901px;clear:both;margin:0 auto;margin-bottom:7px;padding-bottom:7px;border-bottom:1px solid #9b9b9b;}
+.content_hotel .content_info h2{width:200px;font:bold 11px arial;color:#212121;padding:8px 0 0 9px;float:left;}
+.content_hotel .content_info img{float:left;margin:6px 0 0 0;border:none;}
+
+/* Content Occupations */
+.content_hotel .content_info .occupations{width:604px;padding-top:6px;float:right;}
+.content_hotel .content_info .occupations .occup1{width:100%;height:22px;background:url("http://www.bestwestern.fr/public/images/formes/occupation_1.gif") left no-repeat;position:relative;margin-bottom:6px;}
+.content_hotel .content_info .occupations .occup2{width:100%;height:22px;background:url("http://www.bestwestern.fr/public/images/formes/occupation_2.gif") left no-repeat;position:relative;margin-bottom:6px;}
+.content_hotel .content_info .occupations .occup3{width:100%;height:22px;background:url("http://www.bestwestern.fr/public/images/formes/occupation_3.gif") left no-repeat;position:relative;margin-bottom:6px;color: #efe !important;}
+.content_hotel .content_info .occupations a{width:83px;height:18px;display:block;position:absolute;top:2px;right:0;background:url("../images/boutons/resa_occup.gif") top no-repeat;font:bold 13px arial;color:#FFFFFF;text-decoration:none;line-height:18px;text-align:center;}
+.content_hotel .content_info .occupations strong{line-height:21px;margin-left:25px;}
+.content_hotel .content_info .occupations .occup2 strong{color:#FFFFFF;}
+.content_hotel .content_info .occupations strong.eur{position:absolute;left:357px;top:0px;}
+.content_hotel .content_info .occupations .occup2 strong.eur{color:#FFFFFF;}
+.content_hotel .content_info .occupations .occup1 strong{float: left;}
+.content_hotel .content_info .occupations .occup2 strong{float: left;}
+.content_hotel .content_info .occupations .occup3 strong{float: left;}
+
+/* Menu Occupations Hôtels */
+.content_hotel_fix ul li a.presentation{width:151px;height:28px;position:absolute;left:0;top:0;}
+.content_hotel_fix ul li a.presentation:hover, .content_hotel_fix ul li.ui-tabs-selected a.presentation{background:url("http://www.bestwestern.fr/public/images/background/fiche_hotel_presentation.gif") top no-repeat;color:#FFFFFF;width:151px;height:28px;left:0;}
+
+/* Menu Occupations Hôtels */
+.content_hotel_fix ul li a.acces{width:118px;height:28px;position:absolute;left:181px;top:0;}
+.content_hotel_fix ul li a.acces:hover, .content_hotel_fix ul.ui-tabs-nav li.ui-tabs-selected a.acces{background:url("http://www.bestwestern.fr/public/images/background/fiche_hotel_acces.gif") top no-repeat;color:#FFFFFF;width:118px;height:28px;left:181px;}
+
+/* Menu Occupations Hôtels */
+.content_hotel_fix ul li a.services{width:131px;height:28px;position:absolute;left:337px;top:0;}
+.content_hotel_fix ul li a.services:hover, .content_hotel_fix ul.ui-tabs-nav li.ui-tabs-selected a.services{background:url("http://www.bestwestern.fr/public/images/background/fiche_hotel_service.gif") top no-repeat;color:#FFFFFF;width:131px;height:28px;left:337px;}
+
+/* Menu Occupations Hôtels */
+.content_hotel_fix ul li a.activites{width:177px;height:28px;position:absolute;left:508px;top:0;}
+.content_hotel_fix ul li a.activites:hover, .content_hotel_fix ul.ui-tabs-nav li.ui-tabs-selected a.activites{background:url("http://www.bestwestern.fr/public/images/background/fiche_hotel_activite.gif") top no-repeat;color:#FFFFFF;width:177px;height:28px;left:501px;}
+
+/* Menu Occupations Hôtels */
+.content_hotel_fix ul li a.seminaires{width:210px;height:28px;position:absolute;right:0;top:0;}
+.content_hotel_fix ul li a.seminaires:hover, .content_hotel_fix ul.ui-tabs-nav li.ui-tabs-selected a.seminaires{background:url("http://www.bestwestern.fr/public/images/background/fiche_hotel_seminaire.gif") top no-repeat;color:#FFFFFF;width:210px;height:28px;right:0;}
+.content_hotel_fix img{margin:0 16px 0 12px;border:2px solid #e0e0e0;float:left;}
+.content_hotel_fix #presentation{position: relative;}
+.content_hotel_fix #presentation a.eco_fiend{left:2px;position:absolute;top:220px;}
+.content_hotel_fix #presentation a.eco_fiend img {border:medium none;}
+.content_hotel_fix .content{width:578px;_width:560px;height:195px;float:right;margin:0 1px 11px 0;padding-right:25px;overflow:auto;}
+.content_hotel_fix .content h2{font:bold 16px arial;margin-bottom:16px;display:block;}
+.content_hotel_fix .content p{font:normal 12px arial;color:#002576;margin-bottom:18px;line-height: 18px;text-align: justify;}
+
+.content_hotel_fix strong{font:bold 11px arial;color:#212121;}
+
+.content_hotel_fix ul.services{width:560px;float:right;margin:16px 14px 0 0;background:none;}
+.content_hotel_fix ul.services li{padding:0;float:left;}
+.content_hotel_fix ul.services li img{border:none;margin:0 4px 0 0;float:left;}
+.content_hotel_fix ul.services li span{float:left;font:normal 11px arial;color:#212121;line-height:22px;}
+
+.bloc_hotels {width:920px;padding-left:19px;margin:20px 0 20px 0;}
+.bloc_hotels .proxy{width:277px;height:200px;background:url("http://www.bestwestern.fr/public/images/background/hotel_proxy.gif") top no-repeat;margin-right:44px;float:left;}
+.bloc_hotels .proxy strong{font:bold 14px arial;text-transform:uppercase;display:block;width:251px;height:40px;border-bottom:1px solid #4f6185;margin:0 auto;line-height:40px;}
+.bloc_hotels .proxy ul{list-style:none;width:253px;margin:0 auto;}
+.bloc_hotels .proxy ul li{margin-top:16px;}
+.bloc_hotels .proxy ul li a{font:normal 11px arial;text-decoration:none;color:#0d275a;}
+.bloc_hotels .proxy ul li a:hover{color:#2c86af;}
+
+/* Liste des Hôtels */
+#right_side_ .map{width:615px;height:358px;background:url("http://www.bestwestern.fr/public/images/background/bg_map.gif") top no-repeat;padding:6px 0 0 7px;}
+#right_side_ .map p{font:bold 11px arial;margin-bottom:15px;}
+.list_hotel{width:920px;margin:14px 0 0 19px;clear:both;background:url("http://www.bestwestern.fr/public/images/background/content_list_hotel.gif") repeat-y;position:relative;}
+.list_hotel .head{width:100%;height:27px;background:url("http://www.bestwestern.fr/public/images/background/head_list_hotel.gif") top no-repeat;}
+.list_hotel .head h1{width:278px;height:27px;font:bold 13px arial;color:#FFFFFF;line-height:26px;text-align:center;float:left;}
+
+/* Top Option list Hôtel */
+.list_hotel .head .head_hotel{width:217px;height:28px;padding-left:11px;float:right;}
+.list_hotel .head .head_hotel label{font:normal:11px arial;color:#000e33;line-height:26px;float:left;}
+.list_hotel .head .head_hotel select{width:66px;height:18px;float:left;border:1px solid #a4acbb;margin:4px 11px 0 11px;font:normal 11px arial;color:#212121;}
+.list_hotel .head .head_hotel span{float:left;font:normal 11px arial;color:#000e33;line-height:26px;}
+
+/* Filtre Hôtel */
+.list_hotel .head .filtre{width:100%;height:28px;clear:both;}
+.list_hotel .head .filtre a{color:#0d275a;font:bold 11px arial;text-decoration:none;line-height:25px;}
+
+/* Page RESA [Formulaire] */
+body #wrap #content .content_resa{width:100%;background:url("http://www.bestwestern.fr/public/images/background/fond_page_resa.gif") top no-repeat;padding-top:28px;color:#010101;}
+body #wrap #content .content_resa h2{color:#0d275a;font:bold 18px arial;text-transform:uppercase;margin:0 0 0 19px;}
+body #wrap #content .confirm_resa h2{color:#010101;margin-bottom:12px;}
+body #wrap #content .confirm_resa p{margin-top:0 !important;}
+body #wrap #content .confirm_resa p.resa_desc{font:normal 12px arial;margin:0 0 16px 19px;}
+body #wrap #content .confirm_resa p.resa_desc a{color:#0066cc;font:bold 12px arial;text-decoration:underline;}
+body #wrap #content .confirm_resa p.resa_desc a:hover{text-decoration:none;}
+
+body #wrap #content .bloc_fourchette{width:203px;height:136px;border:1px solid #3e3e3e;margin:0 87px 0 33px;float:left;position:relative;}
+body #wrap #content .bloc_fourchette img{border:2px solid #212121;}
+body #wrap #content .bloc_fourchette .desc{width:199px;height:37px;background:#000000;position:absolute;left:2px;bottom:2px;filter :alpha(opacity=60);-moz-opacity :0.6;opacity :0.6;}
+body #wrap #content .bloc_fourchette .desc_trans{width:199px;height:37px;position:absolute;left:2px;bottom:2px;}
+body #wrap #content .bloc_fourchette .desc_trans h2{font:bold 13px/16px arial;text-transform:none;color:#FFFFFF;margin:3px 0 0 6px;}
+body #wrap #content .bloc_fourchette .desc_trans h2 span{color:#e68700;}
+body #wrap #content .bloc_fourchette .desc_trans a.decouvrir{display:block;width:75px;height:13px;margin:0;padding:0;font:normal 11px/13px arial;text-align:center;color:#FFFFFF;text-decoration:none;background:url("http://www.bestwestern.fr/public/images/formes/decouvrir.gif")top no-repeat;position:absolute;bottom:2px;right:2px;}
+
+body #wrap #content p.cancel_resa{font:bold 12px arial;color:#010101;padding:13px 0 0 35px;}
+
+body #wrap #content .confirm_resa .hotel_desc{width:489px;margin-left:15px;float:left;}
+body #wrap #content .confirm_resa .hotel_desc img{margin-right:32px;float:left;}
+body #wrap #content .confirm_resa .hotel_desc h2{font:bold 12px giorgia;color:#333333;margin:0 0 4px;float:left;width:300px;}
+body #wrap #content .confirm_resa .hotel_desc p.info_hotel{font-size:10px;}
+body #wrap #content .confirm_resa .hotel_desc h3{font:nomrmal 12px arial;text-decoration:underline;color:#010101;margin:0 0 13px !important;}
+body #wrap #content .confirm_resa .hotel_desc p{margin:0 0 13px !important;}
+
+/* Carte Hôtel */
+body #wrap #content .confirm_resa .carte_hotel{width:406px;height:206px;float:left;}
+/* Condition RESA */
+body #wrap #content .confirm_resa p.condition_resa{font:normal 10px arial;color:#010101;width:630px;clear:both;margin:0 important!;}
+
+/* RESA Rewards */
+body #wrap #content .rewards p.rewards_resa{text-align:center;font-weight:bold;float:left;margin:0;width:395px;margin:0 0 0 77px !important;}
+body #wrap #content .rewards  .inscription{width:100%;clear:both;font-size:10px;line-height:24px;}
+body #wrap #content .rewards  .inscription span{width:500px;display:block;float:left;}
+body #wrap #content .rewards a{display:block;width:176px;height:22px;position:absolute;bottom:15px;right:10px;clear:both;background:url("http://www.bestwestern.fr/public/images/formes/sinscrire.gif") top no-repeat !important;text-align:center;font:bold 13px/20px arial !important;text-decoration:none !important;color:#ffffff !important;}
+
+body #wrap #content .content_resa .coordonnee_resa{width:894px;height:22px;margin:24px 0 11px 18px;background:url("http://www.bestwestern.fr/public/images/formes/coordonnee_resa.gif") top no-repeat;font:bold 13px arial;color:#212121;padding-left:33px;line-height:20px;}
+body #wrap #content .content_resa .coordonnee_resa_2{width:894px;height:42px;margin:24px 0 11px 18px;background:url("http://www.bestwestern.fr/public/images/formes/coordonnee_resa_2.gif") top no-repeat;font:bold 13px/40px arial;color:#212121;padding-left:33px;position:relative;}
+body #wrap #content .content_resa .coordonnee_resa_2 img{position:absolute;right:13px;top:0;}
+
+body #wrap #content .content_resa .coordonnee_resa_actif{width:894px;height:22px;margin:24px 0 11px 18px;background:url("http://www.bestwestern.fr/public/images/formes/coordonnee_resa_activ.gif") top no-repeat;font:bold 13px arial;color:#FFFFFF;padding-left:33px;line-height:20px;}
+body #wrap #content .content_resa .resa_blue{width:894px;height:22px;margin:24px 0 11px 18px;background:url("http://www.bestwestern.fr/public/images/formes/resa_blue.gif") top no-repeat;font:bold 13px arial;color:#FFFFFF;padding-left:33px;line-height:20px;}
+
+
+body #wrap #content .content_resa .coordonnee_form{width:925px;margin-left:19px;color:#000000;font:normal 12px arial;position:relative; background:url("../images/background/borderepaet_resa.gif") repeat-y;}
+body #wrap #content .content_resa .coordonnee_form h3{margin-left:15px;font:normal 12px arial;}
+body #wrap #content .content_resa .coordonnee_form p{margin:0 0 12px 15px;}
+
+body #wrap #content .content_resa .coordonnee_form a{font:normal 12px arial;text-decoration:underline;color:#000000;background:url("../images/pictos/flech01.gif") left no-repeat;margin-left:15px;padding-left:10px;}
+body #wrap #content .content_resa .coordonnee_form a:hover{text-decoration:none;}
+
+body #wrap #content .content_resa .coordonnee_form .montant{width:260px;height:75px;position:absolute;right:29px;bottom:0;}
+body #wrap #content .content_resa .coordonnee_form .montant span{padding-right:4px;margin-left:7px;display:block;text-align:right;}
+body #wrap #content .content_resa .coordonnee_form .montant strong{width:154px;display:block;float:left;text-align:left;}
+
+body #wrap #content .content_resa .coordonnee_form .montant .eur{width:260px;height:38px;margin-top:6px;background:url("../images/formes/montant_resa.gif") top no-repeat;line-height:40px;color:#ffffff;}
+body #wrap #content .content_resa .coordonnee_form .montant .eur strong{width:155px;padding-left: 12px;}
+
+
+body #wrap #content .content_resa .coordonnee_form  .champ_email{width:500px;height:20px;margin-left:15px;}
+body #wrap #content .content_resa .coordonnee_form  .champ_email label{width:50px;display:block;float:left;line-height:18px;color:#002576;}
+body #wrap #content .content_resa .coordonnee_form  .champ_email input{width:140px;height:15px;border:1px solid #426fae;color:#002576;}
+body #wrap #content .content_resa .coordonnee_form  .champ_email input.btt{width:85px;height:18px;background:url("http://www.bestwestern.fr/public/images/background/resa.gif") top repeat-x;text-align:center;color:#FFFFFF;font:normal 11px arial;border:none;}
+
+body #wrap #content .content_resa .coordonnee_form .left_side{width:376px;margin-left:23px;float:left;}
+body #wrap #content .content_resa .coordonnee_form .champ{width:376px;height:17px;margin:0 0 15px 0;}
+body #wrap #content .content_resa .coordonnee_form .champ1{float:left; height:auto;}
+body #wrap #content .content_resa .coordonnee_form .champ label{width:115px;height:17px;display:block;float:left;font:normal 12px/16px arial;color:#000;}
+body #wrap #content .content_resa .coordonnee_form .champ label.code {margin:0 34px 15px 0;}
+body #wrap #content .content_resa .coordonnee_form .champ label.pays {margin:0 71px 0 0;}	
+body #wrap #content .content_resa .coordonnee_form .champ label span{color:#fe0101;}
+body #wrap #content .content_resa .coordonnee_form .champ input{width:254px;height:14px;border:1px solid #e3e3e3;float:left;color:#000;font:normal 10px arial;}
+body #wrap #content .content_resa .coordonnee_form .champ select{width:62px;height:17px;border:1px solid #e3e3e3;float:left;color:#000;font:normal 10px arial;}
+body #wrap #content .content_resa .coordonnee_form .champ textarea{border:1px solid #e3e3e3;color:#000;font:normal 10px arial;width:253px;float:left;}
+body #wrap #content textarea.remarque{border:1px solid #e3e3e3;color:#000;font:normal 10px arial;width:98%;}
+body #wrap #content .content_resa .coordonnee_form .right_side{width:466px;float:right;margin-right:22px;}
+body #wrap #content .content_resa .coordonnee_form .right_side .champ{width:466px;height:17px;margin:0 0 15px 0;}
+body #wrap #content .content_resa .coordonnee_form .right_side .champ1{float:left; height:auto;}
+body #wrap #content .content_resa .coordonnee_form .right_side .champ input{width:349px;}
+
+body #wrap #content .content_resa .coordonnee_form input.resa{width:148px;height:16px;background:url('../images/background/reserver.gif');font:bold 11px arial;text-align:center;color:#FFFFFF;border:none;float:right;}
+
+body #wrap #content .content_resa .coordonnee_form .right_side .champ label.post{width:80px;}
+body #wrap #content .content_resa .coordonnee_form .right_side .champ input.post{width:39px;margin-right:11px;}
+
+body #wrap #content .content_resa .coordonnee_form .right_side .champ label.city{width:38px;}
+body #wrap #content .content_resa .coordonnee_form .right_side .champ input.city{width:86px;margin-right:11px;}
+
+body #wrap #content .content_resa .coordonnee_form .right_side .champ label.country{width:43px;}
+body #wrap #content .content_resa .coordonnee_form .right_side .champ select.country{width:154px;}
+
+body #wrap #content .content_resa .coordonnee_form .right_side .champ label.n_rewards{width:310px;}
+body #wrap #content .content_resa .coordonnee_form .right_side .champ input.n_rewards{width:154px;}
+
+body #wrap #content .content_resa .coordonnee_form .right_side .champ label.facultatif_agency{width:310px;color:#9e9a9a;}
+body #wrap #content .content_resa .coordonnee_form .right_side .champ input.facultatif_agency{width:154px;color:#9e9a9a;}
+
+body #wrap #content .content_resa .coordonnee_form .champ input.info{width:10px;height:10px;}
+body #wrap #content .content_resa .coordonnee_form .champ label.checkbox{width:362px;font-size:10px;margin-left:1px;line-height:15px;}
+
+body #wrap #content .content_resa .coordonnee_form .all_content_check{width:890px;height:20px;clear:both;margin-left:23px;}
+body #wrap #content .content_resa .coordonnee_form .all_content_check .champ{float:left;margin-right:10px;}
+
+body #wrap #content .content_resa .coordonnee_form .all_content_check .champ input.checkbox{width:10px;height:10px;float:left;margin-right:9px;}
+body #wrap #content .content_resa .coordonnee_form .all_content_check .champ label.checkbox_sejour{width:74px !important;font-size:10px;float:left;line-height:14px;margin-left:9px;}
+/* Coordoonées Bancaires */
+body #wrap #content .content_resa .coordonnee_form .bank_coord{width:270px;height:21px;margin:0 0 18px 21px;float:left;}
+body #wrap #content .content_resa .coordonnee_form .marge{margin-right:325px;}
+
+body #wrap #content .content_resa .coordonnee_form .bank_coord label{font:normal 12px/18px arial;color:#000000;float:left;}
+body #wrap #content .content_resa .coordonnee_form .bank_coord input{width:142px;height:16px;border:1px solid #e3e3e3;color:#000;float:right;}
+body #wrap #content .content_resa .coordonnee_form .bank_coord select{width:142px;height:17px;border:1px solid #e3e3e3;color:#000;float:right;}
+body #wrap #content .content_resa .coordonnee_form .bank_coord select.month{width:38px;float:left;margin:0 9px 0 12px;}
+body #wrap #content .content_resa .coordonnee_form .bank_coord select.year{width:59px;float:left;margin-left:9px;}
+body #wrap #content .content_resa .coordonnee_form .bank_coord .sep{float:left;line-height:18px;}
+
+body #wrap #content .content_resa .coordonnee_form .conditions{width:900px;height:27px;margin-left:23px;clear:both;position:relative;}
+body #wrap #content .content_resa .coordonnee_form .conditions span{line-height:14px;}
+body #wrap #content .content_resa .coordonnee_form .conditions input{margin-top:2px;}
+body #wrap #content .content_resa .coordonnee_form .conditions input.confirm_resa{width:140px;height:27px;display:block;position:absolute;right:0;top:0;background:url("http://www.bestwestern.fr/public/images/boutons/confirm_resa.gif") top no-repeat;font:bold 16px/26px arial;color:#FFFFFF;text-decoration:none;text-align:center;border:none;}
+body #wrap #content .content_resa .coordonnee_form .securite{width:900px;height:60px;margin-left:23px;clear:both;}
+body #wrap #content .content_resa .coordonnee_form .securite img{float:left;margin-right:22px;}
+body #wrap #content .content_resa .coordonnee_form .securite p{float:left;font:normal 10px/20px arial;color:#999999;margin:0;width:817px;}
+body #wrap #content .content_resa .coordonnee_form .securite p strong{font-size:11px;}
+body #wrap #content .content_resa .coordonnee_form .securite p a{color:#0066cc;font:normal 10px arial;text-decoration:underline;background:none;margin:0;padding:0;}
+body #wrap #content .content_resa .coordonnee_form .securite p a:hover{text-decoration:none;}
+/* Bloc Inscription Best Western */
+
+/* Espace Best Western Rewards */
+body #wrap #content .content_resa .coordonnee_form .rewards{width:857px;height:95px;margin-left:23px;}
+body #wrap #content .content_resa .coordonnee_form .rewards img{float:left;}
+body #wrap #content .content_resa .coordonnee_form .rewards p{width:384px;float:left;margin-top:24px;}
+/* Messages d'erreur */
+body #wrap #content .content_resa .messages{}
+body #wrap #content .content_resa .messages h4, body #wrap #content .content_resa .messages h4 a{font:bold 14px/26px tahoma;color:#bb0c32;text-decoration:none;}
+body #wrap #content .content_resa .messages li{color:#2a96e5;line-height:20px;text-align:left;}
+/* Tooltip Hover Link Home*/
+#tooltip1{color: gray !important;z-index:9999999999999 !important;padding:5px !important;}
+#tooltip1_occup{cursor: default;color: #4F4F4F !important;z-index:9999999999999 !important;padding:5px !important;}
+/* Recherche Ville (Pictos */
+.hotel_avail{padding:13px 0 0;text-align:center;}
+.hotel_avail strong{width:100%;text-align:center;display:block;margin-bottom:20px;}
+.hotel_avail img{margin:0 auto; margin-top:20px;}
+/* Page Contact [Key Element] */
+.coordonnee_form ul.result_list, .coordonnee_form ul.info_ul{width:905px;margin:0 auto;clear:both;}
+.coordonnee_form ul.result_list li, .coordonnee_form ul.info_ul li{list-style:none;float:left;border-right:1px solid #FFFFFF;line-height:22px;}
+.coordonnee_form ul.result_list li{color:#BB0C32;font:bold 12px arial;text-transform:uppercase;}
+
+.coordonnee_form ul.result_list li.services, .coordonnee_form ul.info_ul li.services_lab{width:276px;}
+.coordonnee_form ul.result_list li.telephon, .coordonnee_form ul.info_ul li.tel_lab{width:146px;}
+.coordonnee_form ul.result_list li.fax, .coordonnee_form ul.info_ul li.fax_lab{width:180px;}
+.coordonnee_form ul.result_list li.email, .coordonnee_form ul.info_ul li.email_lab{width:220px;}
+.coordonnee_form ul.info_ul li.email_lab a{background:none !important;padding:0 !important;margin:0 !important;}
+.coordonnee_form ul.info_ul li.email_lab a:hover{color:#BB0C32 !important;text-decoration:underline !important;}
+/**/
+.info_contact{margin-left:33px;width:90%;}
+.info_contact a{text-decoration:none !important;color:#FFFFFF;}
+.info_contact .champ{float:left;margin-right:35px !important;}
+/*.info_contact .champ select, .cmxform .champ select{width:257px !important;}*/
+/*.info_contact .champ textarea, .cmxform .champ textarea{width:257px !important;height:100px;border:1px solid #E3E3E3;}*/
+.champ .projet{font:bold 13px arial;color:#BB0C32;}
+.champ input.radio{width:22px !important;}
+.info_contact a.valider{display:block;width:55px;height:18px;margin:0 5px !important;background:url("http://www.bestwestern.fr/public/images/background/resa.gif") top no-repeat !important;font:bold 11px arial;color:#FFFFFF !important;text-decoration:none;text-transform:none;line-height:16px !important;text-align:center;padding:0 !important;float:right;}
+.cmxform input.membre{width:105px;height:18px;border:none;background:url("http://www.bestwestern.fr/public/images/background/resa.gif") repeat-x;font:bold 11px arial;color:#FFFFFF;line-height:16px;text-align:center;float:right;}
+.cmxform .marge_champ{margin-left:113px !important;width:226px;}
+.cmxform .marge_champ input{border:none !important;}
+/* Recrutement [Key Element] */
+.rect2_img1{background:url("../images/visuels/recrutement/rect2_img1.gif") no-repeat scroll 0 0 transparent;float:left;height:233px;width:447px;margin-left:8px;}
+.rect2_img2{background:url("../images/visuels/recrutement/rect2_img2.gif") no-repeat scroll 0 0 transparent;float:right;height:233px;width:447px;margin-right:8px;}
+.rect2_img2 h3 a, .rect2_img1 h3 a{color:#002576 !important;background:none !important;font:bold 12px arial !important;text-decoration:none !important;line-height:40px !important;}
+.rect_img2 a, .rect_img1 a{color:#002674 !important;}
+.rect2_img1 .rect2_txt, .rect2_img2 .rect2_txt{height:59px;margin-top:92px;position:relative;}
+.rect2_img1 .rect2_txt .txt_min, .rect2_img2 .rect2_txt .txt_min{color:#BB0C32 !important;background:url("../images/pictos/picto_black.gif") left no-repeat !important;line-height:80px !important;}
+/* Page Adhérent */
+p.miniTexte{color:#999;font-size:11px;}
+p.miniTexte a{background:none !important;color:#309CE6 !important;margin:0 !important;padding:0 !important;font-size:11px!important;}
+/*Séminaires & Réunions : Demande de Devis*/
+label.salle_seminaires{width:28px !important;height:55px !important;margin:0 10px 5px 0;}
+label.salle_seminaires input{width:auto !important;height:auto !important;float:none !important;margin:5px 0 0 7px;}
+.champ a.target_blank{color:#2A96E5 !important;text-decoration:underline !important;font:normal 11px arial !important;margin:0 !important;}
+/* Mentions Légales */
+#ment{background:#FFFFFF;padding:5px 0 0 20px;}
+#ment a, .faq a{color:#BB0C32;text-decoration:underline;}
+#ment a:hover, .faq a:hover{text-decoration:none;}
+#ment ul, .faq ul{list-style:none;margin:10px 0 10px 0;clear:both;}
+#ment ul li, .faq ul li{background:url('../images/pictos/ss_menu.gif') left 5px no-repeat;padding:0 10px 0 11px;}
+#ment p strong{color:#6CA9DF;line-height:20px;}
+#ment h3{margin:10px 0 10px 0}
+/* Paragraphes Conditions d'utilisation */
+.conditions_utilisation p{margin-top:20px;}
+/****/
+/* Foire Aux Questions */
+.faq{width:100%;height:100%;}
+.faq h3{margin:15px 0 5px 0;}
+.faq_detail_titre a{display:block;width:578px;margin:0 0 11px 0;background:url("../images/formes/faq_off.gif") top no-repeat;font:bold 13px arial;color:#212121;padding-left:33px;text-decoration:none;line-height:21px;padding-bottom:1px;}
+.faq_detail_titre a:hover{background:url("../images/formes/faq_on.gif") top no-repeat;color:#FFFFFF;}
+
+.faq a.q_int{display:block;width:580px;margin:0 0 11px 0;background:url("../images/formes/faq_off.gif") top no-repeat;font:bold 13px arial;color:#212121;padding-left:33px;text-decoration:none;line-height:21px;padding-bottom:1px;}
+.faq a.q_int:hover{background:url("../images/formes/faq_on.gif") top no-repeat;color:#FFFFFF;}
+.faq p.ques{margin-top:10px;color:#309CE6;}
+.faq #ordre1, .faq #ordre2, .faq #ordre3, .faq #ordre4, .faq #ordre5, .faq #ordre6{padding:0 0 15px 6px;}
+.coordonnees_faq{width:630px;height:467px;color:#000000;font:normal 12px arial;position:relative; background:url("http://www.bestwestern.fr/public/images/background/borderepaet_faq.gif") repeat-y;margin-bottom:10px;}
+.coordonnees_faq h3{font:bold 13px arial;text-transform:uppercase;color:#309CE6;margin:10px;padding-top:11px;border-top:1px solid #EFEFEF;width:483px;}
+.coordonnees_faq p{color:#999999;margin:0 0 10px 10px;}
+.coordonnees_faq .champ{width:502px;height:17px;margin:0 0 15px 10px;}
+.coordonnees_faq .champ em{color:#bb0c32;}
+.coordonnees_faq p.champs_oblg{color:#bb0c32;}
+.coordonnees_faq .champ label{width:226px;height:17px;display:block;float:left;font:normal 12px/16px arial;color:#000;}
+.coordonnees_faq .champ label span{color:#fe0101;}
+.coordonnees_faq .champ input{width:254px;height:14px;border:1px solid #e3e3e3;float:left;color:#000;font:normal 10px arial;}
+.coordonnees_faq .champ select{width:254px;height:17px;border:1px solid #e3e3e3;float:left;color:#000;font:normal 10px arial;}
+.coordonnees_faq .champ textarea{border:1px solid #e3e3e3;color:#000;font:normal 10px arial;width:255px;height:50px;}
+.coordonnees_faq .champ input.submit{border:none;width:auto;height:15px;background:url('../images/background/reserver.gif');font:normal 11px arial;text-align:center;color:#FFFFFF;text-decoration:none;padding:1px 9px 0 10px;float:right;margin:16px 20px 0 0;}
+/* Plan Du Site */
+.site_map{width:630px;height:100%;clear:both;}
+.site_map .bloc{width:305px;height:170px;float:left;margin:0 5px 15px 0;background:url("http://www.bestwestern.fr/public/images/background/site_map.gif") top no-repeat;}
+.site_map .marge{height:252px !important;}
+.site_map .bloc h3{font:normal 12px arial;text-transform:uppercase;padding:10px;}
+.site_map .bloc h3 a{color:#2a81ac;text-decoration:none;}
+.site_map .bloc ul, .formule ul, .coordonnee_form ul{list-style:none;margin:5px 0 0 20px;}
+.site_map .bloc ul li, .formule ul li, .coordonnee_form ul li{line-height:20px;background:url("../images/pictos/list_blue.gif") left 6px no-repeat;padding-left:11px;color:#000000;}
+.site_map .bloc ul li a{font:normal 11px arial;text-decoration:none;color:#000E33;}
+
+.site_map .bloc2{width:615px;height:266px;float:left;margin:0 5px 15px 0;background:url("http://www.bestwestern.fr/public/images/background/site_map_.gif") top no-repeat;}
+.site_map .bloc2 h3{font:normal 11px arial;text-transform:uppercase;padding-left:10px;margin-left:20px;height:20px;line-height:22px;background:url("../images/pictos/list_blue.gif") left 6px no-repeat;}
+.site_map .bloc2 h3 a{color:#2a81ac;text-decoration:none;}
+.site_map .bloc2 .side{width:50%;margin-top:10px;float:left;}
+
+.site_map .bloc h3 a:hover{color:#000E33;}
+.site_map .bloc2 h3 a:hover{color:#000E33}
+.site_map h3 a:hover{color:#2a81ac;}
+.site_map ul li a:hover{color:#2a81ac;}
+
+/* Séminaires Solutions : [Nos Forumules] */
+.formule{width:100%;padding:6px 0 100px 7px;margin-top:13px;clear:both;}
+.offres_promo{margin-top:20px;text-align:center;}
+.offres_promo a{display:block;width:294px;height:194px;float:left;margin-left:96px;position:relative;text-decoration: none;}
+.aucun_sejour a {margin-left:0;margin-right:34px;}
+.aucun_sejour a.nnmarg {margin-left:0;margin-right:0;}
+.offres_promo a strong{position:absolute;left:0;bottom:17px;display:block;width:224px;height:32px;color:#FFFFFF;font:bold 14px/32px arial;text-transform:uppercase;text-align:left;padding-left:70px;}
+.offres_promo img{border:1px solid #999;}
+
+/* Boutique En Ligne */
+body #wrap #content .content_resa .coordonnee_form .cartes_bw{width:280px;height:175px;margin:20px;padding:10px;float:left;background:url("http://www.bestwestern.fr/public/images/formes/top_cartes.gif") top no-repeat;}
+body #wrap #content .content_resa .coordonnee_form .marge_cartes{margin-left:130px;}
+body #wrap #content .content_resa .coordonnee_form .cartes_bw h2{font:bold 12px arial;text-transform:none;color:#6CA9DF;margin:0 auto;}
+body #wrap #content .content_resa .coordonnee_form .cartes_bw img{margin:10px 0;float:left;}
+body #wrap #content .content_resa .coordonnee_form .cartes_bw p{margin:40px 12px;float:right;}
+body #wrap #content .content_resa .coordonnee_form .cartes_bw input{width:20px;border:1px solid #e3e3e3;font:normal 11px arial;text-align:center;float:left;margin-right:5px;}
+body #wrap #content .content_resa .coordonnee_form .cartes_bw input.btq_inp_mont{width:50px;}
+body #wrap #content .content_resa .coordonnee_form .cartes_bw label{font:11px arial;color:#BB0C32;float:left;margin-right:5px;}
+
+/* Boutique Panier */
+.resultat_cadeaux div#titreresult{width:820px;height:20px;padding:0 7px 0 7px;background:url("../images/formes/menu_prod.gif") top no-repeat;}
+.resultat_cadeaux div#titreresult span{float:left;color:#FFFFFF;padding-left:8px;line-height:20px;}
+.resultat_cadeaux div#titreresult span.theme{width:86px;}
+.resultat_cadeaux div#titreresult span.descrip{width:333px;border-left:none;border-right:none;}
+.resultat_cadeaux div#titreresult span.points{width:84px;}
+
+.line_resultat{padding:0;margin-top:1px;float:left;width:834px;background:#f6f6f6;clear:both;}	
+.line_resultat p{float:left;margin:0 !important;}
+.line_resultat p.themeName{color:#0E2B6D;padding:5px 0 5px 10px;width:85px;text-align:center;}
+.line_resultat p.themeName input{height:14px;border:1px solid #CCCCCC;color:#002576;text-align:center;}
+.line_resultat p.descripDetail{padding:9px 37px 0 5px;width:300px;border-right:1px #CCCCCC solid;border-left:1px #CCCCCC solid;}
+.line_resultat p.descripDetail span{font-size: 11px;display:block;font-family:Georgia;}
+.line_resultat p.pointDetail{padding:10px 0 0 9px;width:85px;}
+.line_resultat p.pointDetail span.points_res{color:#0E2B6D;padding-bottom:14px;display:block;}
+.line_resultat p.command{padding:0 0 0 10px;}
+.line_resultat p.pointDetail select{width:50px;height:18px;font-size: 11px;}
+
+.code_promo{width:342px;height:47px;margin-top:20px;background:url('http://www.bestwestern.fr/public/images/background/newsletter.gif') top no-repeat;padding:12px 0 0 10px;clear:both;color:#FFFFFF;}
+.code_promo p{display:block;width:150px;float:left;margin:5px 0 0 5px !important;color:#FFFFFF;text-transform:uppercase;}
+.code_promo input{width:100px;height:16px;border:1px solid #FFFFFF;margin-top:3px;font:normal 12px arial;color:#BB0C32;}
+a.commande_boutique{width:65px;height:18px;background:url("http://www.bestwestern.fr/public/images/background/resa.gif") top repeat-x !important;text-align:center;color:#FFFFFF !important;text-decoration:none !important;padding-right:10px;font-size:11px !important;line-height:18px !important;position:absolute;right:29px;bottom:10px;}
+
+div.btnConfirm{width:562px;height:50px;clear:both;}
+div.btnConfirm input{width:85px;height:18px;background:url("http://www.bestwestern.fr/public/images/background/resa.gif") top repeat-x;text-align:center;color:#FFFFFF;font:normal 11px arial;border:none;float:right;}
+p.eneRemp{margin-left:0 !important;float:none !important;}
+p.miniTexte{margin-left:0 !important;}
+
+.resultat_cadeaux{width: 536px;padding:20px 0 0 0;}
+
+
+
+
+
+.carte_paiement{width:466px;margin:0 auto;}
+.carte_paiement table{width:550px !important;}
+.carte_paiement div input{float:left;margin-left:70px;}
+p.footer_form a{margin:0 !important;padding:0 !important;color:#BB0C32 !important;}
+
+/* Arrondissement de Pairs */
+.paris_arrond{font-size:11px;color:#232323;width:160px;text-decoration:none;}
+.hotel_them{display:block;}
+
+/* Arrondi Banner Escapade Thematique */
+body #wrap #content .banner_escapade{width:100%;height:177px;position:relative;background:#D1D1D1;}
+body #wrap #content .them_left{position:absolute;left:0;}
+body #wrap #content .them_right{position:absolute;right:0;}
+
+/* Partenaires Aériens */
+.content_partner .partner_aerien{width:100%;}
+.content_partner .partner_aerien img{border:1px solid #D5D5D5;float:left;margin:20px 20px 0 0;}
+
+/* Description Doc Téléchargement [Partner] */
+.content_partner .desc_doc{width:490px;height:140px;}
+.content_partner .desc_doc img{float:left;border:1px solid #D5D5D5;margin-right:10px;}
+.content_partner .desc_doc p{margin:9px 0 9px;}
+.content_partner .desc_doc strong{font:bold 11px arial;color:#868788;clear:both;}
+.content_partner .desc_doc span{font:normal 11px arial;color:#BB0C32;}
+.content_partner .desc_doc a{color:#2A96E5 !important;}
+
+/* Visite Guidée */
+.wrap_vis{width:297px;clear:both;padding-top:13px;}
+.wrap_vis a{display:block;width:100%;height:22px;margin-top:10px;background:url("http://www.bestwestern.fr/public/images/background/visite_guidee.gif") top no-repeat;font:normal 13px/21px arial;color:#0d275a;text-decoration:none;position:relative}
+.wrap_vis a img{margin:1px 22px 0 26px;float:left;}
+.wrap_vis a span{float:left;}
+.wrap_vis a img.play{position:absolute;left:10px;top:2px;}
+
+/* Dialog
+----------------------------------*/
+.ui-dialog{position: absolute; padding: .2em;  overflow: hidden;background:#2a82ac;}
+.ui-dialog .ui-dialog-titlebar { padding: 3px 1em .3em; position: relative;width:409px;height:15px;margin-top:3px;background:url("../images/background/head_popup.png") top no-repeat;}
+.ui-dialog .ui-dialog-title {font:normal 11px arial;color:#FFFFFF;} 
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right:8px; top: 46%; width: 19px; margin: -5px 0 0 0; height: 14px;text-decoration:none;color:#FFFFFF;}
+.ui-dialog .ui-dialog-titlebar-close span { display: block;}
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+.ui-dialog .ui-dialog-content { border: 0; padding: .5em 1em; background: none; overflow: auto; zoom: 1; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+.ui-dialog .ui-dialog-buttonpane button { float: right; margin: .5em .4em .5em 0; cursor: pointer; padding: .2em .6em .3em .6em; line-height: 1.4em; width:auto; overflow:visible; }
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+.ui-dialog-overlay{background: #002760;opacity:0.7}
+
+.ui-dialog .zone_btn .lien_envoi{background:none !important;}
+.ui-dialog .champ{margin-bottom:10px;}
+.ui-dialog .champ label{color:#FFFFFF;}
+.ui-dialog input{border:1px solid #ededed;font:normal 11px arial;color:#002576;}
+.ui-dialog textarea{width:401px;height:80px;border:1px solid #ededed;font:normal 11px arial;color:#002576;}
+.ui-dialog input.envoyer{float:right;background:#0d275a;color:#FFFFFF;width:100px !important;margin-right:47px;}
+.ui-dialog a.envoyer{float:right;background:#0d275a;color:#FFFFFF;width:100px !important;margin-right:47px;text-decoration: none;text-align: center;font-weight: bold;}
+
+/* Mon BestWestern.fr */
+body #wrap #content #right_side_ .banner_inscription{width:623px;height:296px;padding:6px 0 0 7px;margin-bottom:31px;background:url("http://www.bestwestern.fr/public/images/background/bg_banner.gif") top no-repeat;}
+body #wrap #content #right_side_ .banner_inscription img{border:none;}
+
+/* Menu Mon BestWestern.fr */
+body #wrap #content #right_side_ ul.menu_moncompte{width:628px;height:33px;background:url("http://www.bestwestern.fr/public/images/background/menu_moncompte.gif") no-repeat;list-style:none;}
+body #wrap #content #right_side_ ul.menu_moncompte li{float:left;text-align:center;}
+body #wrap #content #right_side_ ul.menu_moncompte li a{color:#0d275a;font:normal 12px/30px arial;text-decoration:none;width:209px;height:33px;display:block;}
+body #wrap #content #right_side_ ul.menu_moncompte li a.info_personel{width:210px;}
+body #wrap #content #right_side_ ul.menu_moncompte li a.info_personel:hover, body #wrap #content #right_side_ ul.menu_moncompte li a.info_personel_activ{background:url("http://www.bestwestern.fr/public/images/background/info_perso_hover.gif") no-repeat;color:#FFFFFF;}
+body #wrap #content #right_side_ ul.menu_moncompte li a.sejours:hover, body #wrap #content #right_side_ ul.menu_moncompte li a.sejours_activ{background:#0d275a;color:#FFFFFF;}
+body #wrap #content #right_side_ ul.menu_moncompte li a.coup_de_coeur:hover, body #wrap #content #right_side_ ul.menu_moncompte li a.coup_de_coeur_activ{background:url("http://www.bestwestern.fr/public/images/background/coup_de_coeur_hover.gif") no-repeat;color:#FFFFFF;}
+
+body #wrap #content #right_side_ .titre_monbest{width:596px;height:22px;margin:31px 0 11px 0;padding-left:32px;font:bold 13px/20px arial;color:#FFFFFF;background:url("http://www.bestwestern.fr/public/images/formes/titre_bloc_membre.gif") top no-repeat;}
+body #wrap #content #right_side_ .monbest{width:628px;background:url("http://www.bestwestern.fr/public/images/background/repeat_monbest.gif") repeat-y;position:relative;}
+body #wrap #content #right_side_ .monbest .side{width:271px;height:435px;margin-left:22px;padding-bottom:12px;float:left;}
+body #wrap #content #right_side_ .monbest .champ{width:271px;height:17px;margin-top:17px;float:left;}
+body #wrap #content #right_side_ .monbest .champ p{font:normal 10px/1px arial;text-align:right;color:#010101;}
+body #wrap #content #right_side_ .monbest .champ label{font:normal 12px arial;color:#000000;display:block;width:116px;height:17px;float:left;}
+body #wrap #content #right_side_ .monbest .champ span{color:#ff0000;margin-right:4px;}
+body #wrap #content #right_side_ .monbest .champ strong{font-weight:normal;}
+body #wrap #content #right_side_ .monbest .champ input{width:153px;height:15px;float:right;border:1px solid #cdcdcd;font:normal 12px arial;color:#000000;}
+body #wrap #content #right_side_ .monbest .champ select{width:153px;height:17px;border:1px solid #cdcdcd;font:normal 12px arial;color:#000000;}
+body #wrap #content #right_side_ .monbest .champ select.civil{width:108px;}
+body #wrap #content #right_side_ .monbest .champ textarea{height:79px;width:153px;border:1px solid #cdcdcd;font:normal 12px arial;color:#000000;float:right;overflow:auto;}
+body #wrap #content #right_side_ .monbest .champ input.valider{width:84px;height:17px;background:url("http://www.bestwestern.fr/public/images/background/valider.gif") top no-repeat;font:normal 11px arial;color:#FFFFFF;text-align:center;border:none;cursor:pointer;}
+/* Mon BestWestern.fr Checkbox*/
+body #wrap #content #right_side_ .monbest .champ .choose{width:160px;height:33px;float:right;}
+body #wrap #content #right_side_ .monbest .champ .choose label{font:normal 10px arial;color:#000000;float:left;width:auto !important;margin-right:9px;}
+body #wrap #content #right_side_ .monbest .champ .choose .checkbox{width:10px;height:10px;float:left;border:none;}
+body #wrap #content #right_side_ .monbest .champ .choose a{font:normal 10px arial;color:#000000;text-decoration:underline;}
+body #wrap #content #right_side_ .monbest .champ .choose a:hover{text-decoration:none}
+/* Mon BestWestern.fr Newsletter */
+body #wrap #content #right_side_ .monbest .email{width:244px;height:41px;margin:11px 0 0 0;float:left;}
+body #wrap #content #right_side_ .monbest .email input{width:198px;height:14px;border:1px solid #cdcdcd;font:normal 12px arial;color:#010101;margin:0 0 9px 23px;}
+body #wrap #content #right_side_ .monbest .email a{display:block;width:34px;height:16px;margin-right:21px;background:url("http://www.bestwestern.fr/public/images/background/btt_action.gif") repeat-x;float:right;font:normal 12px/16px arial;text-align:center;text-decoration:none;color:#FFFFFF;}
+body #wrap #content #right_side_ .monbest p.info_monbest{float:left;displkay:block;width:374px;margin:8px 0 15px 0;font:normal 12px arial;color:#010101;}
+/* Header Mon Best */
+body #wrap #header .mon_best{width:272px;height:62px;float:right;margin:12px 65px 0 0;}
+body #wrap #header .mon_best strong{font:bold 11px/20px arial;color:#939393;background:url("http://www.bestwestern.fr/public/images/pictos/membre.gif") left no-repeat;display:block;height:27px;padding-left:24px;text-decoration:none;}
+body #wrap #header .mon_best strong.connect{font:bold 11px/20px arial;color:#939393;background:url("http://www.bestwestern.fr/public/images/pictos/membre1.gif") left no-repeat;display:block;height:27px;padding-left:24px;}
+body #wrap #header .mon_best a.monbest {font:bold 11px/20px arial;color:#939393;text-decoration:none;display:block;}
+body #wrap #header .mon_best  a:hover{text-decoration:underline;}
+
+body #wrap #header .mon_best span{font:bold 12px/20px arial;color:#939393;float:left;}
+body #wrap #header .mon_best input{width:110px;height:17px;padding-left:5px;border:none;background:url("http://www.bestwestern.fr/public/images/formes/input_membre.gif") top no-repeat;float:left;margin-right:6px;font:normal 11px/18px arial;color:#939393;}
+body #wrap #header .mon_best input.send{width:23px;height:16px;background:url("http://www.bestwestern.fr/public/images/background/btt_action.gif") repeat-x;float:right;font:normal 12px/16px arial;text-align:center;color:#FFFFFF;padding:0 !important;margin:0;}
+body #wrap #header .mon_best input.deconnexion{display:block;width:74px;height:16px;background:url("http://www.bestwestern.fr/public/images/background/btt_action.gif") repeat-x;float:right;font:normal 11px/16px arial;text-align:center;color:#FFFFFF;padding:0 !important;border:none;}
+body #wrap #header .mon_best input.nnmarg_decon {margin-right:0;}
+body #wrap #header .mon_best .marg_link{padding-left:20px;}
+body #wrap #header .mon_best a{font:normal 10px/24px arial;text-decoration:none;color:#939393;padding-left:7px;}
+body #wrap #header .mon_best a:hover{text-decoration:none;}
+/* MonBest : Mes Hôtels Coup de coeur */
+body #wrap #content #right_side_ .monbest_offres{width:626px;}
+body #wrap #content #right_side_ .monbest_offres .offre1{width:282px;height:116px;float:left;border-bottom:1px solid #d4d4d4;padding:0 0 12px 19px;margin-bottom:12px;}
+body #wrap #content #right_side_ .monbest_offres .offre1 h2{font:bold 12px arial;text-transform:capitalize;color:#002576;float:left;display:block;width:158px;}
+body #wrap #content #right_side_ .monbest_offres .offre1 h2 a{font:bold 12px arial;color:#002576;text-decoration: none;}
+body #wrap #content #right_side_ .monbest_offres .offre1 .vote{width:130px;height:17px;float:left;margin-top:14px;}
+body #wrap #content #right_side_ .monbest_offres .offre1 .vote span{font:normal 10px/16px arial;color:#2f7200;padding-left:3px;}
+body #wrap #content #right_side_ .monbest_offres .offre1 .actions{width:253px;height:18px;clear:both;}
+body #wrap #content #right_side_ .monbest_offres .offre1 .actions a img{margin-right:13px;}
+body #wrap #content #right_side_ .monbest_offres .offre1 a.resa{display:block;width:65px;height:18px;float:left;margin-left:42px;background:url("http://www.bestwestern.fr/public/images/background/resa.gif") top no-repeat;text-align:center;font:bold 11px/16px arial;color:#FFFFFF;text-decoration:none;}
+
+body #wrap #content #right_side_rub .monbest_offres{width:626px;}
+body #wrap #content #right_side_rub .monbest_offres .offre1{width:282px;height:116px;float:left;border-bottom:1px solid #d4d4d4;padding:0 0 12px 19px;margin-bottom:12px;}
+body #wrap #content #right_side_rub .monbest_offres .offre1 h2{font:bold 12px arial;text-transform:capitalize;color:#002576;float:left;display:block;width:158px;}
+body #wrap #content #right_side_rub .monbest_offres .offre1 h2 a{font:bold 12px arial;color:#002576;text-decoration: none;}
+body #wrap #content #right_side_rub .monbest_offres .offre1 .vote{width:130px;height:17px;float:left;margin-top:14px;}
+body #wrap #content #right_side_rub .monbest_offres .offre1 .vote span{font:normal 10px/16px arial;color:#2f7200;padding-left:3px;}
+body #wrap #content #right_side_rub .monbest_offres .offre1 .actions{width:253px;height:18px;clear:both;}
+body #wrap #content #right_side_rub .monbest_offres .offre1 .actions a img{margin-right:13px;}
+body #wrap #content #right_side_rub .monbest_offres .offre1 a.resa{display:block;width:65px;height:18px;float:left;margin-left:42px;background:url("http://www.bestwestern.fr/public/images/background/resa.gif") top no-repeat;text-align:center;font:bold 11px/16px arial;color:#FFFFFF;text-decoration:none;}
+
+
+
+/* MonBest : Star Coup de coeur */
+body #wrap #content #right_side_ .monbest_offres .offre1 img{float:left;}
+body #wrap #content #right_side_ .monbest_offres .offre1 img.vis{border:1px solid #9b9b9b;margin:0 6px 7px 0;}
+body #wrap #content #right_side_ .monbest_offres .offre1 .star{width:116px;height:19px;float:left;}
+body #wrap #content #right_side_ .monbest_offres .offre1 .star img{margin-right:3px;}
+
+body #wrap #content #right_side_rub .monbest_offres .offre1 img{float:left;}
+body #wrap #content #right_side_rub .monbest_offres .offre1 img.vis{border:1px solid #9b9b9b;margin:0 6px 7px 0;}
+body #wrap #content #right_side_rub .monbest_offres .offre1 .star{width:116px;height:19px;float:left;}
+body #wrap #content #right_side_rub .monbest_offres .offre1 .star img{margin-right:3px;}
+
+
+/* Mon Best Rewards */
+body #wrap #content #right_side_ .mon_best_rewards{width:624px;background:url("http://www.bestwestern.fr/public/images/background/repeat_monbest_rewards.gif") repeat-y;}
+body #wrap #content #right_side_ .mon_best_rewards .content_rewards{width:390px;height:107px;margin-left:18px;padding-top:18px;float:left;}
+body #wrap #content #right_side_ .mon_best_rewards .content_rewards p{font:normal 12px arial;color:#000000;}
+body #wrap #content #right_side_ .mon_best_rewards img.carte{float:right;}
+body #wrap #content #right_side_ .mon_best_rewards .content_rewards a{display:block;width:74px;height:16px;float:left;margin-right:19px;font:normal 12px/16px arial;color:#FFFFFF;text-align:center;text-decoration:none;margin-top:13px;}
+body #wrap #content #right_side_ .mon_best_rewards .content_rewards a.inscription{background:url("http://www.bestwestern.fr/public/images/background/btt_action.gif") repeat-x;}
+body #wrap #content #right_side_ .mon_best_rewards .content_rewards a.suite{background:url("http://www.bestwestern.fr/public/images/background/resa.gif") repeat-x;}
+/* Mon Best Espace Perso */
+body #wrap #content #right_side_ .monbest_espace{width:97%;}
+body #wrap #content #right_side_ .monbest_espace h3{font:bold 12px arial;color:#000000;margin-bottom:8px;}
+body #wrap #content #right_side_ .monbest_espace p{font:normal 12px arial;color:#000000;margin-bottom:33px;}
+/* Mon Best Espace Perso [Connexion] */
+body #wrap #content #right_side_ .monbest .connexion{width:267px;height:71px;margin-left:29px;}
+body #wrap #content #right_side_ .monbest .connexion input{width:155px;height:14px;border:1px solid #000000;float:left;font:normal 11px/16px arial;color:#5e5e5e;padding-left:7px;}
+body #wrap #content #right_side_ .monbest .connexion input.marge{margin-bottom:16px;}
+body #wrap #content #right_side_ .monbest .connexion input.action{width:74px;height:16px;background:url("http://www.bestwestern.fr/public/images/background/btt_action.gif") repeat-x;float:right;font:normal 11px/16px arial;text-align:center;text-decoration:none;color:#FFFFFF;border:none;}
+body #wrap #content #right_side_ .monbest .connexion a.pass{font:normal 11px/33px arial;color:#000000;text-decoration:underline;}
+body #wrap #content #right_side_ .monbest .connexion a.pass:hover{text-decoration:none;clear:both;width:100%;float:none;}
+/* Mon Best [Bloc Inscription] */
+body #wrap #content #right_side_ .monbest .best_crea{width:270px;height:75px;position:absolute;right:29px;bottom:11px;background:url("http://www.bestwestern.fr/public/images/formes/best_inscription.gif") top no-repeat;}
+body #wrap #content #right_side_ .monbest .best_crea span{font:normal 11px/36px arial;color:#FFFFFF;float:left;margin:0 5px 0 10px;}
+body #wrap #content #right_side_ .monbest .best_crea strong{float:left;font:bold 11px arial;color:#FFFFFF;padding:28px 0 0 50px;float:left;}
+body #wrap #content #right_side_ .monbest .best_crea input{float:left;width:55px;margin:10px 11px 0 0;height:16px;background:url("http://www.bestwestern.fr/public/images/background/btt_action.gif") repeat-x;float:right;font:normal 12px/16px arial;text-align:center;text-decoration:none;color:#FFFFFF;border:none;text-transform:uppercase;}
+/* Link Oder Hôtels */
+.oder_hotel{font:bold 12px/18px arial !important;color:#6CA9DF !important;background:url("http://www.bestwestern.fr/public/images/pictos/qualites.gif") left 6px no-repeat !important;padding-left:11px !important;margin:0 0 0 10px !important;}
+/* Bloc Inscription Best Western [Paiement] */
+.bloc_selection{width:100%;position:relative;}
+.coordresa_actif{width:622px;height:22px;float:left;margin:24px 0 11px 20px;font:bold 13px arial;color:#FFFFFF;padding-left:33px;line-height:20px;background:url("http://www.bestwestern.fr/public/images/formes/coord_resa.gif") top no-repeat;}
+.inscription_best{width:925px;margin:20px 0 0 19px;}
+.inscription_best .coord_inscrit{width:229px;height:22px;background:url("http://www.bestwestern.fr/public/images/formes/coord_inscrit.gif") top no-repeat;margin-bottom:11px;font:bold 13px arial;color:#FFFFFF;padding-left:33px;line-height:20px;}
+.inscription_best .info_inscrit{width:249px;height:125px;padding:10px 0 0 13px;background:url("http://www.bestwestern.fr/public/images/background/info_inscrit.gif") top no-repeat;}
+.inscription_best .coord_inscrit1{width:892px;height:22px;background:url("http://www.bestwestern.fr/public/images/formes/coord_inscrit1.gif") top no-repeat;margin-bottom:11px;font:bold 13px arial;color:#FFFFFF;padding-left:33px;line-height:20px;}
+.inscription_best .info_inscrit1{width:912px;height:78px;padding:10px 0 0 13px;background:url("http://www.bestwestern.fr/public/images/background/info_inscrit1.gif") top no-repeat;position:relative;}
+.inscription_best .info_inscrit1 input.margright {margin-right:70px;}
+.inscription_best .info_inscrit strong{font:normal 12px arial;color:#000000;display:block;}
+.inscription_best .info_inscrit label{clear:both;font:normal 10px arial;color:#6f6f6f;flota:left;margin-right:17px;}
+.inscription_best .info_inscrit input{height:15px;border:1px solid #cecece;margin-bottom:6px;font-size:10px;}
+.inscription_best .info_inscrit p{display:block;width:164px;float:left;}
+.inscription_best .info_inscrit p a{color:#6f6f6f;text-decoration:underline;font:normal 10px arial;}
+.inscription_best .info_inscrit p a:hover{text-decoration:none;}
+.inscription_best .info_inscrit input.submit{width:74px;height:16px;background:url("http://www.bestwestern.fr/public/images/background/btt_action.gif") repeat-x;float:left;font:normal 11px/16px arial;text-align:center;text-decoration:none;color:#FFFFFF;border:none;float:left;}
+.inscription_best .info_inscrit input.submit1 {position:absolute;top:38px;right:10px;}
+/* Wrapper PopUp */
+body .wrap_popup{width:610px;height:276px;margin:0 auto;}
+body .wrap_popup .head{width:100%;height:76px;}
+body .wrap_popup .head img{float:left;margin-right:21px;;border:none;}
+body .wrap_popup .head h2{font:normal 30px/90px arial;color:#06132d;float:left;}
+body .wrap_popup .content{width:537px;height:200px;padding-left:73px;background:url("../images/pictos/key_pass.gif") top left no-repeat;}
+body .wrap_popup .content strong{font:normal 24px arial;color:#06132d;padding-top:13px;float:left;width:100%;}
+body .wrap_popup .content p{clear:both;color:#06132d;line-height:28px;}
+body .wrap_popup .content p.confirm{padding:21px;}
+body .wrap_popup .content input{width:186px;height:15px;border:1px solid #000000;margin-bottom:15px;}
+body .wrap_popup .content input.valider{display:block;width:120px;height:27px;float:right;background:url("http://www.bestwestern.fr/public/images/boutons/key_pass.gif") top repeat-x;border:none;font:bold 16px arial;color:#FFFFFF;}
+#right_side_rub .content_rub .marge_commande{margin-top:10px;}
+/* Pagination Liste Hotels Carte */
+#resultParis_paginate_carte{height:22px;line-height:22px;width:800px;margin:20px auto;text-align:center;}
+#resultParis_paginate_carte span.actif{background:#9B9B9B;color:#FFFFFF;margin:0 5px;padding:2px 5px;-moz-border-radius:5px 5px 5px 5px;}
+#resultParis_paginate_carte span a{background:#052963;color:#FFFFFF;cursor:pointer;margin:0 3px;padding:2px 7px;-moz-border-radius:5px 5px 5px 5px;text-decoration:none;}
+	
+.cmxform fieldset p.error label{color:red;}
+div.messages{width:269px;padding:10px 0 30px 8px;margin:0 0 20px 0;background:#EFEFEF;}
+div.messages h4{text-align:left;}
+div.messages ol{
+	margin-top:15px;
+}
+div.messages ol li {
+background: url("../images/error.gif") no-repeat !important;
+margin-left: 20px;
+padding-left: 20px;
+list-style-type:none;
+display:block;
+height : 21px;
+}
+div.messages { display: none }
+.messages label.error {
+display: inline;
+cursor:pointer;
+}
+.right_cat1#cat2 h3{
+	font-size: 16px;
+	margin-bottom:10px;
+}
+.recup_demande {
+	padding:0 0 14px 4px;
+	margin:10px 0 8px 0;
+	float:left;
+	width: 580px;
+}
+.recup_demande img{border:1px solid #DDD;float:left;margin-right:8px;}
+.recup_demande p{
+	margin:0;
+	padding:0 0 2px 0;
+	font-weight: bold;
+	width:320px;line-height:18px;}
+.recup_demande p select{width:50px;height:19px;}
+.recup_demande p span{color:#bb0c32;font-size:12px;display:block;}
+span.recup_select{margin-top:20px;}
+span.recup_select input{border:1px solid #DDD !important;font:11px arial;padding:3px;height:9px;}
+.recup_demande a{text-align: right;margin-right:5px;color:#0E2B6D;float:right;text-decoration:underline;}
+.recup_demande a:hover{text-decoration: underline;
+}
+.recup_total {
+	padding:0 0 5px 4px;
+	height:18px;
+	margin-bottom:8px;
+	float:left;
+	width: 532px;
+	background:url("../images/sep/sep_commande.gif") no-repeat left bottom;	
+	color:#bb0c32;
+	font-weight: bold;	
+}
+.recup_total p.totalPoin {
+	font-size: 14px;
+	float:left;
+}
+.recup_total p.totalPoin1 {
+	float:right;
+}
+.formulaire{
+		float:left;
+		width:524px;
+		font-size:12px;
+		padding:6px 0 0 10px;
+}
+
+.formulaire div.champ, .formulaire .info, .formulaire .code_post, .formulaire .adre, .formulaire .vill,  .formulaire .boutton_orang{
+		margin:0 0 10px 0; 
+		width:326px;
+		padding:0 !important;
+		float:left;
+		clear:left;
+}
+ 
+.formulaire span{
+		float:left;
+		clear:left;
+		font-size:12px;
+}
+.formulaire label{
+		float:left;
+		clear:left;
+		font-size:12px;
+		cursor: pointer;
+}
+.formulaire .info{
+		clear: both;
+		text-align:left;
+		width:350px;
+		font-size: 10px;
+}
+
+ 
+ 
+.formulaire em{
+		color:#BB0C32;
+}
+
+.formulaire .question{
+		padding-top:10px;
+}
+ 
+.formulaire input{
+		float:right;
+		border:1px solid #cecece;
+		width:215px;
+		height:14px;
+		font:normal 11px arial;color:#0D275A;
+
+}
+.formulaire select{
+		float:right;
+		border:1px solid #cecece;
+		width:217px;
+		height:16px;
+		font-size: 11px;
+}
+.formulaire div.adre{
+	width: 326px;
+}
+.formulaire div.code_post {
+	width: 192px;
+}
+.formulaire div.code_post input{
+	width: 80px;
+}
+.formulaire div.vill {
+	width: 262px;
+}
+.formulaire div.vill input{
+	width: 150px;
+}
+.formulaire .champ textarea{
+		float:right;
+		border:1px solid #cecece;
+		height:49px;
+		width:215px;
+		overflow:hidden;
+		font:normal 11px arial;color:#0D275A;
+}
+.formulaire  .boutton_orang input.submit{width:65px;height:18px;background:url("http://www.bestwestern.fr/public/images/background/resa.gif") top no-repeat;float:right;text-align:center;border:none;color:#FFFFFF;}
+
+
+
+.formulaire p.checkB {
+	width: 440px;
+	padding-top:50px;
+}
+.formulaire p.checkB input{
+	width: 14px;
+	height:14px;
+	float:left;
+}
+.formulaire p.checkB span{
+	float:right;
+	clear:none;
+	width:420px;
+	font-weight: bold;
+	font-size: 11px;
+}
+.formulaire p.checkB label{
+	float:right;
+	clear:none;
+	width:420px;
+	font-weight: bold;
+	font-size: 11px;
+}
+.formulaire .bout{
+		width:77px;
+		height:30px;
+		border:none;
+	
+}
+.formulaire p.informat {
+	width: 440px;
+	padding-top:6px;
+	margin:0;
+	width: 470px;
+	font-size: 10px;
+	color:#999999;
+	padding-bottom:14px;
+	clear:both;
+}
+.formulaire p.informat a{
+		color:#999999;
+		text-decoration: underline;
+}
+.formulaire .rouge{
+		color:#EB7C00;
+		display:block;
+		font-weight:bold;
+		float:right;
+		padding-top:5px;
+}
+.boutton_orang#valid_form{
+	width:120px;
+	margin-left:400px;
+	float:none;
+
+
+}
+.boutton_orang#valid_form a{
+	padding:0 30px 0 30px;
+}
+.mise-val {
+	color:#0E2B6D;
+	font-size:14px;
+}
+
+
+
+
+/* Envoyer à un Ami */
+.zone_btn {
+	width: 190px;
+	float:left;
+	padding-top:19px;
+
+}
+.lien_envoi {
+	color: #002674;
+	padding: 5px 0 0 13px;
+	font-weight: bold;
+	cursor: pointer;
+	font-family: Arial;
+	text-decoration:none;
+}
+
+.zone_form {
+	width: 560px;
+	height:118px;
+	float:left;
+}
+.frm_txt_offres1 {
+	width: 200px;
+	margin:11px 40px 0 0;
+	float:left;
+}
+.frm_txt_offres1 .champ{
+	width: 200px;
+}
+.frm_txt_offres1 .champ input{
+	width: 160px;
+	height: 16px;
+}
+.zone_form p.button_envoyer {
+	float:left;
+	padding-right:0;
+	width: 72px;
+	margin-top:52px;	
+}
+.zone_form p.button_envoyer input{width:65px;height:18px;background:url("http://www.bestwestern.fr/public/images/background/resa.gif") top no-repeat;float:right;text-align:center;border:none;color:#FFFFFF;font-size:11px;}
+
+/*------Best Western Reward Inscription------*/
+body #wrap #header .mon_best_reward {color:#fc991f;border:1px solid #fc991f;padding:12px 4px 4px 4px;position: relative;height:46px;margin-top:15px;}
+body #wrap #header .mon_best_reward input {background:none;border:1px solid #fc991f;}
+body #wrap #header .mon_best_reward a {color:#0d275a;text-decoration: underline;}
+.connect_reward {
+	color:#fc991f;
+	font-size: 13px;
+	position: absolute;
+	top:-13px;
+	left:10px;
+	background: #fff;
+	height: 20px;
+	width: 181px;
+	font-weight: bold;
+}
+.inscription_bwr_img {
+	margin-top:30px;
+}
+
+body #wrap #content #right_side_rub .content_rub .formulaire_bwr{
+		float:left;
+		width:275px;
+		font-size:12px;
+		padding:10px 60px 0 0;
+		float:left;
+}
+body #wrap #content #right_side_rub .content_rub .nnpad {
+	padding-right:0;
+}
+body #wrap #content #right_side_rub .content_rub .formulaire_bwr p{
+		margin:0 0 15px 0; 
+		width:275px;
+		padding:0;
+		float:left;
+}
+ 
+body #wrap #content #right_side_rub .content_rub .formulaire_bwr label{
+		float:left;
+		clear:left;
+		width: 118px;
+}
+ 
+body #wrap #content #right_side_rub .content_rub .formulaire_bwr .info{
+		clear: both;
+		text-align:right;
+}
+
+ 
+ 
+body #wrap #content #right_side_rub .content_rub .formulaire_bwr em{
+		color:#EB7C00;
+}
+
+body #wrap #content #right_side_rub .content_rub .formulaire_bwr .question{
+		padding-top:10px;
+}
+ 
+body #wrap #content #right_side_rub .content_rub .formulaire_bwr input{
+		float:right;
+		border:1px solid #e4e4e4;
+		width:155px;
+		height:16px;
+		font-size: 11px;
+}
+body #wrap #content #right_side_rub .content_rub .formulaire_bwr select{
+		float:left;
+		border:1px solid #e4e4e4;
+		width:64px;
+		height:16px;
+		font-size: 11px;
+}
+body #wrap #content #right_side_rub .content_rub .formulaire_bwr textarea{
+		float:right;
+		border:1px solid #e4e4e4;
+		height:50px;
+		width:155px;
+		overflow:hidden;
+		font-size: 11px;
+
+}
+body #wrap #content #right_side_rub .content_rub .formulaire_bwr .bout{
+		width:83px;
+		height:18px;
+		border:none;
+		background: url("../images/boutons/resa_occup.gif") no-repeat;
+		color: #fff;
+		font-size: 12px;
+		padding-bottom: 3px;
+		cursor: pointer;
+		font-weight:bold;	
+}
+
+body #wrap #content #right_side_rub .content_rub .formulaire .rouge{
+		color:#EB7C00;
+		display:block;
+		font-weight:bold;
+		float:right;
+		padding-top:5px;
+}
+/*----------------Best western reward Votre compte-----*/
+body #wrap #content #right_side_rub .content_rub p.msg_bvn {color:#002576;
+	font-size: 14px;
+	margin-bottom: 22px;
+	padding: 0;
+}
+body #wrap #content #right_side_rub .content_rub p.config_compte {font-size: 12px;}
+body #wrap #content #right_side_rub .content_rub ul {list-style: none;}
+body #wrap #content #right_side_rub .content_rub ul li{color:#4f81bd;background: url("../images/pictos/list_blue.gif") no-repeat 0 3px;padding:0 0 5px 13px;font-size: 12px;}
+body #wrap #content #right_side_rub .content_rub ul li a{color:#4f81bd;text-decoration: underline;}
+body #wrap #content .fidelite_tp {min-height:137px;background:#e9e9e9 url('http://www.bestwestern.fr/public/images/background/fidelite_tp.gif') no-repeat;float:left;}
+body #wrap #content img.fidelite_btm {float:left;clear:left;}
+.bwr_card {margin:24px 0 0 54px;}
+/*----------------Best western reward Votre Profil-----*/
+.btn_orange {padding-left:15px;}
+.trame_orange {background: url("http://www.bestwestern.fr/public/images/boutons/px_orange.gif") repeat-x 0 0;height: 24px;line-height: 24px;display:block;float:left;white-space: nowrap;}
+.trame_orange a{color:#fff;text-decoration: none;padding:0 22px;font-weight: bold;font-size: 13px;}
+body #wrap #content #right_side_rub .content_rub p.menuprofil {color:#0d275a;font-size: 12px;margin:30px 0 0 0;text-align: center;padding: 0;font-weight: bold;z-index: 99999999;position: relative;}
+body #wrap #content #right_side_rub .content_rub p.menuprofil em {padding:0 15px;font-style: normal;}
+body #wrap #content #right_side_rub .content_rub p.menuprofil span.actif {color:#4f81bd;}
+body #wrap #content #right_side_rub .content_rub .menuprofil span a{color:#0d275a;text-decoration: none;}
+body #wrap #content #right_side_rub .content_rub ul.ssmenu_profil {background: url('http://www.bestwestern.fr/public/images/background/fnd_ssmenu_profil.gif') no-repeat;padding-left:20px;width: 619px;height: 21px;line-height: 21px;position: relative;left:-13px;}
+body #wrap #content #right_side_rub .content_rub ul.ssmenu_profil li{float:left;background: url('http://www.bestwestern.fr/public/images/pictos/puce_fnd_gris.gif') no-repeat 0 6px;margin-right:36px;}
+body #wrap #content #right_side_rub .content_rub ul.ssmenu_profil li.actif{color:#4f81bd;}
+body #wrap #content #right_side_rub .content_rub ul.ssmenu_profil li a{color:#0d275a;text-decoration: none;}
+body #wrap #content #right_side_rub .content_rub div.info_profil div {float:left;width: 360px;}
+body #wrap #content #right_side_rub .content_rub div.info_profil p{float:left;width: 270px;margin:0 50px 26px 40px;padding: 0;color:#000;}
+body #wrap #content #right_side_rub .content_rub div.info_profil p.nnmrg {margin:0 0 26px 0;}
+body #wrap #content #right_side_rub .content_rub div.info_profil p.adress {height:56px;}
+body #wrap #content #right_side_rub .content_rub div.info_profil p span{width: 120px;float:left;font-size: 12px;font-weight: bold;}
+body #wrap #content #right_side_rub .content_rub div.info_profil p em {width: 150px;font-style: normal;font-size: 11px;float:left}
+body #wrap #content #right_side_rub .content_rub div.info_profil a.btn_modif,body #wrap #content #right_side_rub .content_rub a.btn_modif {width:83px;height:18px;background: url("../images/boutons/resa_occup.gif") no-repeat;color: #fff;font-size: 12px;line-height: 18px;float:right;text-align: center;margin-right: 60px;text-decoration: none;font-weight: bold;}
+/*----------------Best western reward Mes Informations-----*/
+body #wrap #content #right_side_rub .content_rub ul.mes_infos {color:#000;clear:both;float:left;margin-bottom:0;width: 620px;_width:610px;}
+body #wrap #content #right_side_rub .content_rub ul.mes_infos li {color:#000;padding-bottom: 12px;float:left;clear:both;width:620px;_width:610px;}
+body #wrap #content #right_side_rub .content_rub ul.mes_infos li span {width: 120px;float:left;color: #000;font-weight: normal;margin-right: 30px;}
+body #wrap #content #right_side_rub .content_rub ul.mes_infos li em {float:left;font-style: normal;font-size: 11px;margin-bottom:10px;}
+body #wrap #content #right_side_rub .content_rub ul.mes_infos li em input{width:164px;height:16px;border:1px solid #e4e4e4;font-size:11px;}
+body #wrap #content #right_side_rub .content_rub ul.mes_infos li em.petit_n {font-size: 10px;margin-right: 25px;line-height: 20px;margin-bottom:0;}
+body #wrap #content #right_side_rub .content_rub ul.mes_infos li em.petit_g {font-size: 10px;color:#757575;line-height: 20px;margin-right:25px;margin-bottom:0;}
+body #wrap #content #right_side_rub .content_rub ul.mes_infos li em.petit_n input{width:13px;height:13px;border:1px solid #e4e4e4;margin-right:3px;}
+body #wrap #content #right_side_rub .content_rub ul.mes_infos li em.petit_g input{width:13px;height:13px;border:1px solid #e4e4e4;margin-right:3px;}
+/*----------------Best western reward Mon Relevé-----*/
+body #wrap #content #right_side_rub .content_rub p.date_rel {clear:left;}
+body #wrap #content #right_side_rub .content_rub p.date_rel span{padding:0 28px 0 15px;color:#000;}
+body #wrap #content #right_side_rub .content_rub p.date_rel input{margin-right:20px;width:52px;height: 16px;border:1px solid #e4e4e4;font-size: 11px;}
+body #wrap #content #right_side_rub .content_rub table {width: 642px;position:relative;left:-15px}
+body #wrap #content #right_side_rub .content_rub table th{background: #003a80;border-right:1px solid #fff;border-bottom:1px solid #fff;text-align: center;font-size: 12px;color:#fff;font-weight: normal;padding:4px 0;}
+body #wrap #content #right_side_rub .content_rub table tr.first td{background: #f4f9fe;border-right:1px solid #6e6f6e;border-bottom:1px solid #fff;height: 46px;padding: 0 10px;line-height: 46px;font-size: 12px;color:#000;text-align: center;}
+body #wrap #content #right_side_rub .content_rub table tr.second td{background: #dbe4ef;border-right:1px solid #6e6f6e;border-bottom:1px solid #fff;height: 46px;padding: 0 10px;line-height: 46px;font-size: 12px;color:#000;text-align: center;}
+body #wrap #content #right_side_rub .content_rub table tr.TxtInline td {white-space:nowrap;}
+body #wrap #content #right_side_rub .content_rub table tr.first td.last {border-right:none;}
+body #wrap #content #right_side_rub .content_rub table tr.second td.last {border-right:none;}
+body #wrap #content #right_side_rub p.bwr_cnt {font-size: 12px;color: #000;}
+body #wrap #content #right_side_rub p.bwr_cnt a {color:#4f81bd;}
+/*----------------Best western reward Mes Offres-----*/
+body #wrap #content #right_side_rub .content_rub table td h3{font-size:12px;padding: 12px 0 20px 0;text-align: left;line-height: normal;font-weight: bold;}
+body #wrap #content #right_side_rub .content_rub table td img {float:left;margin: 10px 10px 10px 0;}
+body #wrap #content #right_side_rub .content_rub table td p {text-align: justify;line-height: normal;}
+/*---------Hotels Tour Eiffel--------*/
+.blc_tour_eiffel {background: url('http://www.bestwestern.fr/public/images/background/px_blc_eiffel.jpg') repeat-x;width: 923px;padding: 24px 18px 20px 18px;} 
+.blc_tour_eiffel h3 {font-size: 16px;font-weight: bold;color:#0d275a;background: url('http://www.bestwestern.fr/public/images/pictos/picto_eiffel.gif') no-repeat;padding: 0 0 10px 28px;line-height:24px;}
+.blc_tour_eiffel img {float:left;margin:0 7px 7px 0;}
+.blc_tour_eiffel p {padding-bottom: 10px;text-align: justify;}
+#tiptip{position: absolute;width: auto;padding: 2px;background-color: #EDEEF0;visibility: hidden;z-index: 100;border: 1px solid gray;color: gray;}
+div#qTip {padding: 3px;border: 1px solid #666;border-right-width: 2px;border-bottom-width: 2px;display: none;background: #999;color: #FFF;font: bold 9px Verdana, Arial, sans-serif;text-align: left;position: absolute;z-index: 1000;}
+/*---------BWR soldes -------*/
+.conten_sld_bwr {margin: 0 10px 0 25px;}
+.conten_sld_bwr h2 {font-size: 24px;color:#002576;background: url('http://www.bestwestern.fr/public/images/pictos/pic_sld.gif') no-repeat 0 6px;padding: 0 0 0 45px;font-weight: bold;height: 66px;}
+.conten_sld_bwr h2 span{color:#ff9c00;font-size: 30px;}
+.conten_sld_bwr h3 {font-size: 24px;color:#ff9c00;font-weight: bold;padding: 0 0 12px 0;}
+.conten_sld_bwr p {color:#002576;text-align: justify;padding: 0 13px 0 0;}
+.conten_sld_bwr p.termes {margin-top:25px;padding: 0 0 12px 12px;color:#002576;background: url('../images/pictos/flech01.gif') no-repeat 0 3px;cursor: pointer;}
+
+.conten_sld_bwr #termes_cond {display:none;}
+.dataTables_wrapper table td a.epuise {background: url('http://www.bestwestern.fr/public/images/background/epuise.gif') no-repeat 0 0;width: 96px;height: 23px;color:#ad0000;text-align: center;line-height: 23px;display: block;}
+.bouton_flex_orange{height: 27px;float: right;margin-right: 20px;}
+.bouton_flex_orange img{float:left;}
+.bouton_flex_orange input{font-family:arial !important;font-weight:bold !important;background:url('http://www.bestwestern.fr/public/images/boutons/btn_1px.gif') repeat-x scroll left top transparent !important;color:white !important;display:block !important;float:left !important;height:27px !important;line-height:25px !important;padding:0 6px !important;text-decoration:none !important;margin:0 !important;border:none}
+/*--------BW Index EN--------*/
+.top_destin_big {margin:0 0 12px 0;width:343px;float:left;}
+.top_destin strong{display:block;margin:0 0 5px;padding:0 0 5px;color:#0D275A;text-align:center; background: #fff;font-size:14px;font-weight:normal;height:23px;border-left:3px solid #ECECEC;border-bottom:3px solid #ECECEC;font-weight:bold;}
+.top_destin {background: url('http://www.bestwestern.fr/public/images/background/1px_nouveau_bloc.jpg') repeat-y;float:left;width:343px;color:#767676;}
+.top_destin ul {padding:0 13px 0 47px;}
+.top_destin li {float:left;list-style:none;width:94px;line-height:18px;}	
+.top_destin li a {color:#767676;}
+.top_destin ul.dernier {padding:0 29px 0 30px;float:left;}
+body #wrap #content #trans_actu.heightauto {height: auto;}
+
+
+
+/*--------BW Index EN--------*/
+/*---------Bloc Régions et provence-----*/
+.blc_gris {width:270px;float:left;margin-bottom:20px}
+.blc_gris_mil {background: #e5e5e5;float:left;width:258px;padding:0 6px;}
+.blc_gris_mil h3{border-bottom:1px solid #002576;width:258px;margin-bottom: 10px;font-size:15px;font-weight: bold;}
+.blc_gris_mil h4{border-bottom:1px solid #002576;width:250px;margin-bottom: 10px;font-size:13px;font-weight: bold;background: url('http://www.bestwestern.fr/public/images/pictos/puce_fnd_gris.gif') no-repeat 0 4px;padding-left:8px;float:left;}
+.blc_gris_mil p.reg {padding:0 0 10px 0;}
+.blc_gris_mil div.eb_amenities {padding-bottom:10px;float:left;}
+.blc_gris_mil div.eb_amenities  p {padding:0 0 5px 0;clear: left;float:left;width:258px;}
+.blc_gris_mil div.eb_amenities  p input {float:left;margin:4px 5px 0 0;}
+.blc_gris_mil div.eb_amenities  p img {float:left;margin-right:5px;}
+.blc_gris_mil div.eb_amenities  p label {float:left;margin:4px 0 0 0;width: 200px;}
+/*---------Bloc Régions et provence-----*/
+
+/***************************************** google maps ***********************/
+.goomaps_bg{background: white;}
+.goomaps_hotelname a{color: #0D275A;font-weight: bold;font-family: Verdana,sans-serif;font-size: 9pt;}
+.goomaps_hotelname{padding: 10px;}
+.goomaps_hotelname a:HOVER{text-decoration: underline;}
+.goomaps_img img{float: left; width: 170px;height: 110px;}
+.goomaps_bodycontent{padding: 10px;color:#646464}
+.goomaps_container{height:250px;width: 400px;}
+.goomaps_hotel_gamme{float:left;padding-left: 10px;width: 190px;font-weight: bold;font-size: 12px;}
+.goomaps_img{float:left;}
+.goomaps_gamme_picto{}
+.goomaps_close{position: absolute;border:0;cursor:pointer;right:10px;top:10px;}
+*+html .goomaps_close{top:25px;}
+.goomaps_prix{float:right;width:210px;text-align:right;padding-top:10px;}
+.goomaps_prix sup{font-size: 12px;}
+.goomaps_prix span{font-size: 24px;font-weight: bold;}
+.goomaps_prix span.error{font-size: 13px;font-weight: bold;padding-top:60px;display:block;}
+.goomaps_prix span small{font-size: 16px;font-weight: bold;text-transform: lowercase;}
+.goomaps_cont_en_savoir_plus{float:left;padding-top: 10px;color: #0D275A;text-decoration: underline;}
+.goomaps_en_savoir{cursor:pointer;font-weight: bold;text-decoration: underline;padding-top: 5px;color: #2D8DB7;}
+/*****************************************************************************/
+/******* GOOGLE MAP******/
+.goomaps{width:570px;}
+.goomaps .bodyContent img{float:left;}
+.goomaps .bodyDescription{float:left;width:200px;margin-left:6px;text-align: justify;}
+.goomaps .bodyDescription a{font-size:13px;float:left;color:#002576;font-weight:bold;text-align: left;}
+/******* END GOOGLE MAP******/
+.goomaps .bodyDescription strong.tarif{color:red;}
+#div_carte_via.bwr1 div.goomaps_reserver{background:url('http://www.bestwestern.fr/public/images/btn_django/rech_right.png') no-repeat 100% 0;float:right;height:38px;margin-top:14px;padding-right:5px;cursor: pointer;}
+#div_carte_via.bwr1 div.goomaps_reserver a{background:url('http://www.bestwestern.fr/public/images/btn_django/rech_left.png') no-repeat;height:38px;padding:0 10px 0 15px;color:#fff;font:bold 14px Arial;border:none;display:block;line-height:38px;text-decoration: none;}
+#div_carte_via div.goomaps_reserver{background:url('http://www.bestwestern.fr/public/images/btn_django/rech_right.png') no-repeat 100% 0;float:right;height:38px;margin-top:14px;padding-right:5px;cursor: pointer;}
+#div_carte_via div.goomaps_reserver a{background:url('http://www.bestwestern.fr/public/images/btn_django/rech_left.png') no-repeat;height:38px;padding:0 10px 0 15px;color:#fff;font:bold 14px Arial;border:none;display:block;line-height:38px;float: left;text-decoration: none;}
+.clr{clear: both;font-size: 0;height: 0;line-height: 0;}

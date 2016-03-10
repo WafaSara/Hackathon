@@ -1,0 +1,191 @@
+.slide-econ{position:relative;width:100%;margin-top:1px;float:left;}
+.sub-slide{ background:#9ab0c4 url("../images/econcierge/bg-banp.png") no-repeat center; float:left;width:100%;/*padding-top:18px;*/position:relative;height:386px;}
+.sub-slide2{ background:#e5e6ea url("../images/econcierge/bg-ban2.jpg") no-repeat center; float:left;width:100%;/*padding-top:18px;*/position:relative;height:386px;}
+.slide-econ img{ max-width:100%;}
+.pho-slide{/*width:50%;float:left;text-align:right; */ }
+.content-slide{width:50%;float:left;}
+.text-slide{float:right;width:448px;margin-top:68px;margin-right:7%;}
+.text-slide h1{ background: url("../images/econcierge/bg-h1.png") repeat;padding:5px 1px 5px 10px;color:#272727;font-size:22px; text-align:left;width:360px;font-family: FrutigerLTStd47LightCnBold;font-weight:normal;}
+.text-slide h1 sup{font-size:12px;}
+.parg-slide{background:url("../images/econcierge/bg-h1.png") repeat;padding:5px 5px 5px 10px;color:#272727;font-size:20px; text-align:left;margin-top:7px;font-family: frutigerltstd45lightregular;}
+/*.bt-slide {margin:27px 0 0 40px;}*/
+.bt-slide {margin:27px 0 0 0;text-align: center;}
+.bt-slide a{margin-left:1px;}
+.sub-slide .bt-slide .kindle{display:none;}
+.top-tab{width:100%;border-top:1px solid #fff;float:left;}
+.top-tab div.tabs .mob-res,.top-tab div.tabs .app-econ{width:40%;padding-top:18px;padding-bottom:18px;float:left;background:#dcdcdc;position:relative;}
+.top-tab div.tabs li a{color:#504f4f; font-size:18px; font-family:FrutigerLTStd45LightRegular;}
+.top-tab div.tabs li.active-eco,.top-tab div.tabs li:hover{ background:#5c5c5c}
+.top-tab div.tabs li.mob-res.active-eco .puce-icon,.top-tab div.tabs li.mob-res:hover .puce-icon{ background:url("../images/econcierge/flech-econ.png") no-repeat ;display:block;width:23px; height:14px;position:absolute;bottom:-14px;right:20%;z-index:5;}
+.top-tab div.tabs li.app-econ.active-eco .puce-icon,.top-tab div.tabs li.app-econ:hover .puce-icon{ background:url("../images/econcierge/flech-econ.png") no-repeat ;display:block;width:23px; height:14px;position:absolute;bottom:-14px;left:37%;z-index:5;}
+.mob-res{ text-align:right;padding-right:10%;}
+.mob-res a{ background:url("../images/econcierge/icon-tel.png") no-repeat left;padding-left:30px;padding-top:5px;}
+.mob-res.active-eco a,.mob-res:hover a{ background:url("../images/econcierge/icon-tel-h.png") no-repeat left;color:#fff !important;}
+.app-econ{ text-align:left;padding-left:10%;position:relative;border-left:1px solid #fff;width:39.8% !important ;}
+.app-econ a{ background:url("../images/econcierge/icon-cloche.png") no-repeat left;padding-left:45px;padding-top:5px; }
+.app-econ.active-eco a,.app-econ:hover a{ background:url("../images/econcierge/icon-cloche-h.png") no-repeat left;color:#fff !important;}
+.sub-app-econ{float:right;width:100%;position: absolute;top: 58px;z-index: 2;left:0;display:none; }
+.sub-app-econ li{background:url("../images/econcierge/bg-sous-app.jpg") repeat;height:57px;margin-top:1px;text-align:center;width:49.8%;float:left;cursor:pointer;line-height:57px;font-size:15px;color:#323232;    }
+.sub-app-econ li.active,.sub-app-econ li:hover{background:url("../images/econcierge/bg-sous-apph.jpg") repeat !important;}
+.sub-app-econ li.active span,.sub-app-econ li:hover span{background:url("../images/econcierge/puce-sous-app.png") no-repeat left;padding-left:10px;font-family: FrutigerLTStd45LightRegular;font-weight:bold;}
+.decv-econ{border-right:1px solid #fff;}
+.app-econ:hover .sub-app-econ{display:block !important; } 
+
+.pathway{width:97%;margin-top:12px;float:left;padding-left:1%;}
+.pathway ul{float:left;border-bottom:4px solid #f1f1f0;padding-bottom:6px;}
+.pathway ul li{float:left;margin-left:5px;}
+.pathway ul li a{font-size:arial;font-size:13px;color:#888888; background:url("../images/econcierge/puce2.jpg") no-repeat left;padding-left:10px; }
+.pathway ul li a.active{color:#d33e7d;}
+
+.contenu-econ{width:100%;float:left;margin-top:25px;}
+.liste-mobilite{width:94%;padding:1% 3%;float:left;}
+.pho-econ{width:50%;float:left;text-align:center;}
+.pho-econ img{ max-width:100%;}
+.text-econ{width:48%;float:left;padding-top:50px;padding-right:2%;color:#202020;font-size:16px;line-height:22px;}
+.text-econ h2{font-family: frutigerltstd45lightregular;font-size: 25px;font-weight: normal;}
+.text-econ .parg-econ1{margin-top:20px;font-family: frutigerltstd45lightregular;font-size:16px;}
+.bg-gris-econ{ background:#f2f2f2;}
+.titre-liste-ser{text-align:center;color:#202020;font-size:30px;margin-top: 24px; }
+/********hotel*********/
+.contenu-econ2{border-top:1px solid #dcdcdc;padding-top:20px;float:left;width:100%;margin-top:32px;}
+.sub-contenu-eco{width:100%;margin:0 auto;}
+.liste-hotel-econ{width:23%;height:220px;margin:15px 1%;position:relative;float:left;}
+.liste-hotel-econ img{width:100%;}
+.titre-hote-econ{background:url("../images/econcierge/bg-hotel-1.png") repeat;text-align:center;padding:5px 1%;position:absolute;top:0;color:#fff;font-size:15px;width:98%;}
+.bottom-liste{position:absolute;bottom:0;padding:5px 3% 0 3%;width:94%;text-align:center;color:#002267;font-size:15px;background:url("../images/econcierge/bg-hotel-2.png") repeat;font-family: FrutigerLTStd45LightRegular;font-weight:bold; }
+.bottom-liste .post-hot{float:right;}
+/****bas****/
+.bottom-econc{width:100%;float:left;}
+.bottom-gar{float:left;width:94%;padding:1% 3%;background:#002267; text-align:center;}
+.bottom-gar div{ background:url("../images/econcierge/eruo-icon.png") no-repeat left;padding-left:10px;margin:0 auto;width:700px; height:105px; line-height:100px;color:#fff;font-size:16px;}
+.bottom-gar div .euro-tar{float: left;height: 100px;width: 100px;}
+.bottom-gris{float:left;width:94%;padding:1% 3%;background:#5a6781; text-align:center;}
+.bottom-gris div{ background:url("../images/econcierge/icon-cert.png") no-repeat top;padding-top:50px;color:#fff;font-size:16px;}
+.bottom-disp{float:left;width:94%;padding:1% 3%; text-align:center;color:#202020;font-size:20px;}
+.bottom-disp p{margin-bottom:20px;}
+.bottom-disp a{margin-right:20px;}
+.bottom-noir{ background:#000;float:left;width:94%;padding:1% 3%; text-align:center;color:#fff;font-size:11px; font-family:Arial, Helvetica, sans-serif;}
+/******popup******/
+.popup_map_hotel{z-index: 99999;background:#fff !important;border-radius: 5px; }
+.ui-widget-overlay{left:0;top:0;background:url("../images/econcierge/bg-pop.png") repeat; }
+.popup_map_hotel .ui-dialog-titlebar,.popup_map_hotel .ui-dialog-title{height:30px !important;color:#002267;font-size:18px;margin-left:10px;}
+iframe {border: medium none !important;}
+/********* moteur econcierge**********/
+.moteur-econcierge{margin:0 1%;}
+.moteur-econcierge .title{font-size:14px;font-weight:bold;font-family:arial;}
+.sub-moteur-econ{margin-top:8px;}
+.sub-moteur-econ p{float:left;}
+.sub-moteur-econ select{width:212px;padding:0 0 0 5px;margin-right:6px;height:32px;border:1px solid #dcdcdc;border-radius:5px;webkit-border-radius:5px;moz-border-radius:5px;box-shadow:0 0 2px #ccc;color:#949494;font-size:14px;  }
+.sub-moteur-econ .submit{background:#002267;border:none;border-radius:5px;webkit-border-radius:5px;moz-border-radius:5px;font-size:16px;font-family:arial;color:#fff;height:32px;padding:0 15px;text-align:center;cursor:pointer;display:none;    }
+/**message erreur**/
+.msg-erreur-1{text-align: center;color: red;font-size: 14px;font-weight: bold;margin:10px auto 20px auto;}
+
+/**********************ipad***************************/
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	.sub-slide{background:#9db2c6 url("../images/econcierge/bg-ban-ipad.jpg") no-repeat right;height:278px;}
+	.content-slide{width:auto;margin-left:15px;}
+	.text-slide{width:460px;margin:50px 0 0 15px;float:left;}
+	.text-slide h1{font-size:18px;width: 280px;}
+	.parg-slide{padding:5px 15px 10px 10px;font-size:15px;}
+	.sub-slide2{background: url("../images/econcierge/bg-ban3.jpg") no-repeat  center center ;height:278px;}	
+	.sub-slide2 .text-slide{width:480px;}
+	.sub-slide2 .text-slide h1{width:290px;}
+	.sub-slide2 .bt-slide{margin:12px 0 0 0;}
+	.sub-slide2 .bt-slide a{width:33%;float:left;}
+	.titre-liste-ser{font-size:18px;}
+	.sub-contenu-eco{width:100%}
+	.liste-hotel-econ{width:370px;margin:15px 0 15px 8%;}
+	.top-tab div.tabs li.mob-res.active-eco .puce-icon, .top-tab div.tabs li.mob-res:hover .puce-icon{right:50%;bottom:-13px;}
+	.top-tab div.tabs li.app-econ.active-eco .puce-icon, .top-tab div.tabs li.app-econ:hover .puce-icon{left:53%;bottom:-13px;}
+	.text-econ h2{font-size:18px;}
+	.text-econ{font-size:13px;line-height:18px;}
+	.text-econ .parg-econ1{font-size:13px; }
+	.bottom-disp p{font-size:13px;}
+	.bottom-disp a{width:20%;display: inline-block;}
+	.bottom-disp a img{max-width:100%;}
+	.bottom-gar div{width:100%;background-position:top center;padding-top:10px;padding-left:0;line-height:normal;height:auto;  }
+	.bottom-gar div .euro-tar{float:none; margin: 0 auto;display:block;}
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	
+
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) {
+body#body{background:#fff !important; }	
+.blue .area_2,.account_links,#V1 .nav{display:none !important;}
+div#page{width:auto;padding:0;}
+#V1 .baseline,#V1 .area_1{background:none;border-bottom:none; }
+.header_mvt.blue{background:#002267;width:100%;height:60px; }
+#V1 .baseline{font-size:10px;color:#fff;padding:0;top:25px;}
+#V1 #logo{top:8px;width:50px;}
+#V1 #logo img{max-width:100%;}
+
+#body_econcierge{width:100%;}	
+.sub-slide,.sub-slide2{height:152px;width:auto; }
+.sub-slide{background: url("../images/econcierge/bg-banp.png") no-repeat scroll 70% 50% / 150% 80% rgb(154, 176, 196);width:100%; }
+.sub-slide2{ background: url("../images/econcierge/bg-ban2.jpg") no-repeat scroll 50% 50% / 100% 100% rgb(229, 230, 234);float:none;	}
+.content-slide{width:97%;margin-left:10px;}
+.parg-slide,.pathway{display:none;}
+.text-slide{float:left;width:auto;margin-top:45px;}
+.text-slide h1{font-size:15.5px;width:auto;padding-right:10px; }
+.bt-slide{margin:5px 0 0 0;}
+.top-tab div.tabs .mob-res, .top-tab div.tabs .app-econ{width:46.7% !important;padding:5px;}
+.top-tab div.tabs li a{font-size:12px;text-align:center;display:block;   }	
+.mob-res.active-eco a, .mob-res:hover a,.app-econ a,.app-econ:hover a,.app-econ.active-eco a{background-position:top center;padding-top:30px;padding-left:0; }
+.top-tab div.tabs li.mob-res.active-eco .puce-icon, .top-tab div.tabs li.mob-res:hover .puce-icon{bottom:-67px;right:70%;}
+.top-tab div.tabs li.app-econ.active-eco .puce-icon, .top-tab div.tabs li.app-econ:hover .puce-icon{bottom:-67px;left:70%;}
+.mob-res a{padding-top:30px;background-position:top center; }	
+.bt-slide a{width:90px;float:left;}
+.bt-slide a img{max-width:100%; }
+.tabs{position:relative;}
+.top-tab div.tabs .mob-res, .top-tab div.tabs .app-econ{position:static;}
+.sub-app-econ{top:56px;}
+.sub-app-econ li{font-size:13px;}
+.text-econ{width:100%;font-size:14px;}
+.pho-econ{width:70%;float:none;margin:0 auto;}
+.text-econ h2{font-size:20px;}
+.text-econ .parg-econ1{font-size:14px;}
+.text-econ{padding-top:10px;}
+.bottom-gar div{width:100%;text-align:center;background:url("../images/econcierge/eruo-icon-mob.png") no-repeat top center; padding-left:0;font-size:14px;height:auto;line-height:normal;    }
+.bottom-gar div .euro-tar{float:none;display:block;margin:0 auto;height:81px;  }
+.bottom-gris div,.bottom-disp{font-size:14px;}
+.bottom-disp a{width:120px;margin-left:8px;display:inline-block; }
+.bottom-disp a img{max-width:100%;}
+.liste-hotel-econ{width:48%;margin:2px 1%;}
+.titre-liste-ser{font-size:24px;margin-top:40px;}
+.titre-hote-econ,.bottom-liste{font-size:12px;}
+.titre-hote-econ{width:98.8%;min-height:45px;}
+.bottom-liste{width:94.8%;}
+.liste-hotel-econ{height:180px;}	
+.liste-hotel-econ img{height:180px !important;}
+.liste-hotel-econ .post-hot img{width:20px;height:25px !important;}	
+.popup_map_hotel{width:90% !important;}
+.liste-mobilite .com_suite{color:#FF0055;text-decoration:underline;display:block;   }
+.liste-mobilite{margin-top:10px;}
+.liste-mobilite.bg-gris-econ{padding:5% 3%;}
+
+.moteur-econcierge{margin:20px 1% 0 1%;}
+.sub-moteur-econ p{float:none;display:block; }	
+.sub-moteur-econ select{width:96%;margin:5px 0 0 5px; }
+.sub-moteur-econ .submit{margin:10px 0 0 5px;width:96%; }
+.bottom-disp{margin-top:20px;}
+}
+	
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 767px) {
+	
+.sub-slide{background: url("../images/econcierge/bg-banp.png") no-repeat rgb(154, 176, 196) !important ;width:100%; background-size:120% 80% !important;background-position:right center !important;  }
+.sub-slide2{ background: url("../images/econcierge/bg-ban2.jpg") no-repeat rgb(229, 230, 234);background-size:100% 100% !important;background-position:right center !important;	}	
+}
+

@@ -1,0 +1,174 @@
+.boutique-new{font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;font-size:14px; }
+.content_rewards .center_rewards .sub_contenu_rew .left_rewards{width: 940px;padding:12px 10px;}
+.left_rewards .bwr-boutique-menu-container{width:266px;float:left;}
+.left_rewards .bwr-boutique-menu-container a{color:#002267;}
+/**home**/
+/*********left************/
+.boutique-menu-1 p{text-align:center;color:#002267;font-weight:200;margin-top:8px;  }
+.boutique-menu-2{margin-top:10px;width:100%;float:left;margin-bottom:10px;}
+.boutique-menu-2 .sub-boutique-2{border-bottom:5px solid #b58f35;float:left;width:100%;margin-top:9px;}
+.espace-boutique{background:url("../images/boutique/left-bt-boutique.png") no-repeat left;height:27px;padding-left:16px; display:block;color:#fff;line-height:30px;font-weight:200;padding-right: 5px; }
+ .boutique-bt{display:block;background:url("../images/boutique/right-bt-boutique.png") no-repeat right;height:27px;padding-right:17px;float:left;  }
+.boutique-new .ouvert-b b{background:url("../images/boutique/puce-esp.png") no-repeat left;padding-left:10px;font-weight:normal; }
+.boutique-new .ouvert-b .espace-boutique,.boutique-new .ferme-b .espace-boutique{padding-left:10px;}
+.boutique-new .ferme-b b{background:url("../images/boutique/puce-esp-bas.png") no-repeat left;padding-left:15px;font-weight:normal; }
+.membre-boutique {margin-top:10px;float:left;padding-bottom:10px;border-bottom:2px solid #bfbfbf;width:100%;}
+.boutique-identifier{background:#b58f35;padding:8px 15px 5px 15px;text-align:center;float:right;font-weight:200;border:1px solid #d3bf5c;font-size:12px;  }
+.lien-boutique{font-size:13px;font-family:verdana;margin-top:5px;float:left;}
+.boutique-new .mod-connect-boutique{float:right;}
+.boutique-new .mod-connect-boutique .membre_logged_in{float:right;width:auto;background:url("../images/boutique/bt-fermer.jpg") no-repeat left;padding-left:15px;border:none;font-size:12px;color:#002267;margin-top:8px;cursor:pointer; }
+.boutique-new .point-menu{float:left;margin:10px 0 0 0;border-bottom:1px solid #d5d5d5;padding-bottom:10px;width:100%;}
+.boutique-new .point-menu .statut-point{float:left;color:#002267;}
+.boutique-new .jaune-rew{color:#b58f35;}
+.boutique-new .point-menu .p-point{float:right;}
+.boutique-new .sub-categ-boutique{float:left;width:100%;}
+.boutique-new .sub-categ-boutique ul li{border-bottom:1px solid #dedede;text-align:center; }
+.boutique-new .sub-categ-boutique ul li a{color:#002267;display:block;padding:8px 10px; }
+.boutique-new .sub-categ-boutique ul li .active{background:#eeeeee;border-top:1px solid #fff;border-bottom:1px solid #fff; }
+
+.bon_plan_boutique{background:url("../images/boutique/bon-plan.jpg") no-repeat;width:266px;margin-top:10px;position:relative;float:left;  }
+.bon_plan_boutique a{position: absolute;bottom: 25px;left: 60px;width: 145px;height: 40px;border: 1px solid #ccc;font-size: 0;text-indent: -9999em;}
+.bon_plan_boutique h2{background:#002267;padding:10px 0;color:#d7b24e;font-size:17px;text-align:center; font-family:'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;position:relative;font-weight: 400;}
+.bon_plan_boutique span{background:url("../images/boutique/triangle-boutique.png") no-repeat;height:10px;display:block;position:absolute;bottom:-10px;width:100%; }
+.bon_plan_boutique .text_bonplan{color:#fff;margin:15px 25px 0 20px;font-family:verdana;font-size:11px;}
+.bon_plan_boutique .bon_commande{position: absolute;bottom:0px;right: 0px;display: block;width: 175px;height: 45px;font-size: 0px;text-indent: -9999em;cursor: pointer;}
+
+.boutique-new .boutique-cancel-order{border:1px solid #ededed;padding:10px;box-shadow: 2px 2px 6px #BFBABA;webkit-box-shadow: 2px 2px 6px #BFBABA;moz-box-shadow: 2px 2px 6px #BFBABA;}
+.boutique-new .boutique-cancel-order p{margin:10px 0;font-family:'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;font-size:13px;}
+.blue{color:#002267;}
+/********right************/
+.right-boutique{float:right;width:656px;}
+.slide-boutique-1 #slides{width:656px;border:1px solid #e6e6e6;height:278px;position:relative; }
+.slide-boutique-1 img{max-width:100%;}
+.slide-boutique-1 .slidesjs-container{height:278px !important;}
+.slide-boutique-1 .slidesjs-navigation{position:absolute;top:50%;z-index:99999;width:21px;height:59px;text-indent:-99999em;font-size:0; }
+.slide-boutique-1 .slidesjs-previous{left:0;background:url("../images/boutique/left-slide.png") no-repeat;  }
+.slide-boutique-1 .slidesjs-next {right:0;background:url("../images/boutique/right-slide.png") no-repeat; }
+
+.boutique-new .bwr-cadeaux-filter-container{background:#b58f35;padding:10px 2% 6px 2%;float:left;width:96.5%;margin-top:17px; }
+.boutique-new .bwr-cadeaux-filter-title{float:left;text-transform:uppercase;margin-top:5px; }
+.boutique-new .bwr-cadeaux-filter-title h2{font-size:15px;color:#002267;font-weight:200; }
+
+.boutique-new .bwr-cadeaux-select-points{float:right;background:#fff url("../images/boutique/puce-choix.jpg") no-repeat ;border:1px solid #d6d6d6;border-radius:5px;webkit-border-radius:5px;moz-border-radius:5px;color:#555555;font-family:verdana;padding:5px 10px;width:204px;background-position: 96%;position:relative;font-size:13px;cursor:pointer; }
+.boutique-new .point-boutique{float:right;position:relative;}
+.boutique-new .point-slelct-sw{position: absolute;top: 28px;background: #fff;width: 99.4%;border: 1px solid #eaeaea;z-index: 9999;border-radius:3px;moz-border-radius:3px;webkit-border-radius:3px;}
+.boutique-new .point-slelct-sw .bwr-points-option{padding:8px;border-bottom:1px solid #eaeaea;color:#333333;font-size:12px;font-family:verdana;}
+.boutique-new .point-slelct-sw .bwr-points-option input{float:left;margin-right:5px;margin-top:2px;}
+.boutique-new .bwr-cadeaux-cat-container{float:left;width:100%;margin-top:17px;position:relative;}
+.boutique-new  .bwr-cadeeaux-cat-title{float:left;text-transform:uppercase; }
+.boutique-new  .bwr-cadeeaux-cat-title h2{font-size:17px;color:#012267;font-weight:200; }
+
+.boutique-new .bwr-list-cadeaux-slider {float:left;width:100%;margin-top:17px;}
+.boutique-new  .bwr-cadeau-item-container{float:left;width:31%;margin-right:2%;text-align:center;border:1px solid #eaeaea;min-height:224px;cursor:pointer;  }
+.boutique-new  .bwr-cadeau-item-image{margin-top:24px;}
+.boutique-new  .bwr-cadeau-item-title{padding:0 25px;margin-top:25px;text-transform:uppercase;color:#012267;font-size:12px;line-height:18px;min-height:55px;font-family: 'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif; }
+.boutique-new  .bwr-cadeau-item-points{background:#dddddd;font-size:17px;color:#012267; padding:18px 0;}
+.boutique-new .bwr-cadeaux-cat-container .slidesjs-navigation{position:absolute;top:0;}
+.boutique-new .bwr-cadeaux-cat-container .slidesjs-previous{right:36px;background:url("../images/boutique/nav-left.png") no-repeat;width:14px;height:15px;font-size:0;text-indent:-9999em;   }
+.boutique-new .bwr-cadeaux-cat-container .slidesjs-next{right:16px;background:url("../images/boutique/nav-right.png") no-repeat;width:14px;height:15px;font-size:0;text-indent:-9999em;   }
+.point-slelct-sw .boutique-identifier{margin:3px 60px 3px 0;padding-left:25px;padding-right:25px;color:#012267;font-size:14px;}
+.boutique-new  .bwr-cadeau-item-container:hover{border:1px solid #8797b7;}
+.boutique-new  .bwr-cadeau-item-container:hover .bwr-cadeau-item-points{background:#b58f35; }
+.boutique-new  .bwr-boutique-filter-header{text-align: center;}
+.boutique-new  .head-filter-1{background:#f6f6f6;text-align:center;padding:3px 0;margin-bottom: 10px;}
+.boutique-new  .head-filter-1 span h1{margin: 5px auto;display: inline;padding-left:5px;padding-right:5px;text-transform:uppercase;font-size: 19px !important;color: #002267 !important;letter-spacing: 0px;font-family: 'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;}
+.boutique-new  .head-filter-1 span h1{}
+.boutique-new  .head-filter-2{font-size:23px;margin:18px 0 10px 0;color:#012267;}
+.boutique-new  .head-filter-3 h2{font-weight: normal;color:#777777;font-size:17px;font-family:verdana;}
+
+
+/**detail**/
+.bwr-boutique-cadeau-detail-container{font-family: 'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;}
+.boutique-new .bwr-boutique-cadeau-detail-header-title {margin:18px 0 22px 0;text-align:center;line-height:normal;  }
+.boutique-new .bwr-boutique-cadeau-detail-header-title h2{color:#012267;font-size:30px;font-family: 'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;}
+.boutique-new .bwr-boutique-cadeau-detail-title{background:#595660;padding:5px 12px 3px 12px;line-height:normal;}
+.boutique-new .bwr-boutique-cadeau-detail-title h1{color:#fff  !important;font-size:20px  !important;text-transform:uppercase;font-family:'FrutigerLTStd-Cn',Arial, Helvetica, sans-serif !important;}
+.boutique-new  .bwr-boutique-cadeau-detail-info{margin-top:10px;}
+.boutique-new .pho-detail-boutique{border:1px solid #dcdcdc;text-align:center;float: left;padding: 20px 10px;margin-right: 10px; }
+.boutique-new .bwr-boutique-cadeau-detail-container{font-family:verdana;color:#333333;line-height:16px;font-size:12px; }
+.boutique-new .description-detail p{margin-top:10px;}
+.boutique-new .description-detail{min-height:208px;float:left;width:282px;text-align: justify;}
+.boutique-new .bwr-boutique-order-detail-quantity{background:#b58f35;padding:6px 1%;color:#333333;font-family:verdana;font-size:13px;font-weight:bold;text-align:right;float:left;width:98%;margin-top:14px;  }
+.boutique-new  .bwr-boutique-cadeau-detail-order-offline{float:left;width:100%;margin-top:10px;}
+.boutique-new .bwr-boutique-cadeau-detail-info{float:left;width:64%;}
+.boutique-new .bwr-boutique-cadeau-order-form-solde-error,.boutique-new .bwr-boutique-cadeau-order-form-quantity-error,
+.boutique-new .bwr-boutique-cadeau-detail-order-form,.boutique-new .bwr-boutique-cadeau-detail-order-offline{float:right;width:31%;padding:13px;margin-top:10px;min-height:224px; }
+.boutique-new .bwr-boutique-cadeau-detail-order-form-container h3{font-family:'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;font-size:18px;color:#012267;line-height:normal;  }
+.boutique-new .bwr-boutique-cadeau-detail-order-form-container p{margin-top:8px;line-height: normal;}
+.boutique-new .bwr-boutique-cadeau-detail-order-offline p{text-align:center;font-size:14px;color:#002267;margin-top:20px;line-height:20px;font-weight:600;   }
+.boutique-new .quantite-detail-sw{margin-top:20px;}
+.boutique-new .quantite-detail-sw p{text-align:center;position:relative; }
+.boutique-new .quantite-detail-sw input{width:44px;height:16px;border:1px solid #aaaaaa;margin-left:5px;padding:3px; }
+.boutique-new .quantite-detail-sw input.error{border:1px solid #f00;}
+.boutique-new .quantite-detail-sw label.error{position:absolute;left:47px;top:4px;color:#f00;}
+.boutique-new .quantite-detail-sw .bt-continu{background:url("../images/boutique/bt-continu-right.png") no-repeat right;padding-right:17px;height:30px;float:left;margin: 25px 0 5px 30px;}
+.boutique-new .quantite-detail-sw .bt-continu input{background:url("../images/boutique/bt-continu-left.png") no-repeat left;border:none;width:auto;color:#fff;display:block;height:30px;padding-left:22px;padding-right:10px; cursor:pointer;   }
+.boutique-new .bg-b-bleu{background:#f4f4f4;}
+.boutique-new .bg-b-red{color:#d30000;background:#f8c6ca; }
+.boutique-new .close-error{background:none;border:none;color:red;float: right;font-size:18px;font-weight:bold;cursor:pointer;margin-top: -15px;margin-right:-8px;font-family:verdana;  }
+.boutique-new .font-F{font-family:'FrutigerLTStd-Cn',Arial, Helvetica, sans-serif;font-size:18px;  }
+.boutique-new .bg-b-red .bwr-btn-retour{background:url("../images/boutique/right-red.png") no-repeat right;padding-right:6px;height:30px;float:left;line-height:30px;font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;font-size:15px;margin-top:54px;margin-left:35px;text-transform:uppercase;  }
+.boutique-new .bg-b-red .bwr-btn-retour span{background:url("../images/boutique/left-red.png") no-repeat left;border:none;width:auto;color:#fff;display:block;height:30px;padding-left:64px;padding-right:10px;}
+
+/****commande****/
+.bwr-order-container{font-family:verdana;font-size:12px;color:#333;}
+.bwr-order-container .head-filter-1{font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;}
+.boutique-new .bwr-order-detail-item{margin-top:15px;float:left;width: 445px; }
+.boutique-new .bwr-order-detail-item-image{border:1px solid #dcdcdc;float:left;padding:20px 10px;margin-right:10px;}
+.boutique-new .bwr-order-detail-item h3{font-size:13px;}
+.boutique-new .description-order{float:left;width:292px;padding-right:15px;border-right:1px solid #efefef;text-align:justify;  }
+.boutique-new .bwr-order-detail{float:right;margin-top:40px;line-height:18px;width:194px; }
+.boutique-new .bwr-order-detail span{color:#012267;}
+
+.boutique-new .bwr-order-delivery-bloc{float:left;width:100%;margin-top:25px;}
+.boutique-new .bwr-order-delivery-tabs{float:left;width:100%;margin-top:22px;border-bottom:5px solid #b58f35;margin-bottom:15px;}
+.boutique-new .bwr-order-delivery-tabs ul li{float:left;}
+.boutique-new .bwr-order-delivery-tabs ul li a{background:url("../images/boutique/tab-right.png") no-repeat right;color:#999999;text-transform:uppercase;float:left;height:27px;line-height:34px;padding-right: 20px;font-size:15px;font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif; }
+.boutique-new .bwr-order-delivery-tabs ul li a span{background:url("../images/boutique/tab-left.png") no-repeat left;padding:0 10px 0 10px;float:left;height:27px;  }
+.boutique-new .bwr-order-delivery-tabs ul li a.active{background:url("../images/boutique/tab-right-h.png") no-repeat right;color:#002267;}
+.boutique-new .bwr-order-delivery-tabs ul li a.active span{background:url("../images/boutique/tab-left-h.png") no-repeat left;}
+.boutique-new .bwr-order-my-address-bloc{float:left;width:100%;line-height:20px; }
+.boutique-new .bwr-order-my-address-bloc p span{color:#002267;font-weight:bold; }
+.boutique-new .bwr-order-my-address-bloc p label{width:145px;float: left;}
+.boutique-new .bwr-order-my-address-info{float:left;}
+.boutique-new .bwr-order-my-address-options{text-align: center;line-height:normal; margin-top: 40px;float: right; }
+.boutique-new .bwr-order-my-address-options a{color:#009cff;font-size:11px;text-decoration:underline; }
+.boutique-new .bwr-order-my-address-options span{font-size:9px;font-style:italic; }
+.boutique-new .bwr-order-my-address-order-btn-bloc{float:left;width:100%;margin-top:15px;background:#f6f6f6;  }
+.boutique-new .bwr-btn-commande-order{background:url("../images/boutique/bt-com-right.png") no-repeat right;padding-right:7px;height:30px;float:right;line-height:30px;font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;font-size:15px; }
+.boutique-new .bwr-btn-commande-order span, .boutique-new .bwr-btn-commande-order input{background:url("../images/boutique/bt-continu-left.png") no-repeat left;border:none;width:auto;color:#fff;display:block;height:30px;padding-left:22px;padding-right:10px;cursor:pointer;}
+.boutique-new .bwr-btn-cancel-order {color:#1d58a1;float:right;margin:0 15px 0 0;line-height:30px; }
+.popuprewards  .bwr-cancel-order-bloc h3{margin-top:50px;}
+.bwr-cancel-order-bloc  .bwr-btn-retour{background:url("../images/boutique/bt-com-right.png") no-repeat right;padding-right:7px;height:30px;float:right;line-height:30px;font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;font-size:15px;margin-top:30px; }
+.bwr-cancel-order-bloc  .bwr-btn-retour span{background:url("../images/boutique/bt-continu-left.png") no-repeat left;border:none;width:auto;color:#fff;display:block;height:30px;padding-left:22px;padding-right:10px;cursor:pointer;}
+
+.boutique-new .bwr-order-recipient-bloc{float:left;width:100%; }
+.boutique-new .bwr-order-recipient-bloc h3{font-size:17px;color:#012267;font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;}
+.boutique-new .bwr-order-recipient-bloc .col1,.boutique-new .bwr-order-recipient-bloc .col2{float:left;width:50%}
+.boutique-new .bwr-order-recipient-bloc .item{margin-top:12px;color:#555555;    position: relative;}
+.boutique-new .bwr-order-recipient-bloc  label{display:block;font-size:11px; }
+.boutique-new .bwr-order-recipient-bloc  label span{color:red;}
+.boutique-new .bwr-order-recipient-bloc  input,.boutique-new .bwr-order-recipient-bloc  select{margin-top:6px;width:88%;height:17px;color:#002267;padding:3px;border:1px solid #e9e9e9;font-size: 14px;}
+.boutique-new .bwr-order-recipient-bloc textarea{width:88%;border:1px solid #e9e9e9;margin-top:6px;color:#002267;padding:3px;font-size: 14px;}
+.boutique-new .bwr-order-recipient-bloc  select{height:25px; }
+.boutique-new  .champ-ob{color:red;font-size:10px;margin-top:10px;}
+.boutique-new .bwr-order-recipient-bloc input.error,.boutique-new .bwr-order-recipient-bloc textarea.error{border:1px solid red;}
+.boutique-new .bwr-order-recipient-bloc label.error{color:red;position:absolute;top:0;left:7px;}
+.boutique-new .case-item input{width:auto;float:left;}
+.boutique-new .case-item label{margin:7px 0 0 5px; float:left;}
+.boutique-new .bwr-error-bloc{float:left;width:98%;margin-top:10px;background:#f8c6ca;padding:10px 1%;font-weight:bold;color:#e30613; }
+.boutique-new  .conf-recap{text-align:center;margin:30px 0;font-family:verdana;font-size:17px;  }
+.boutique-new  .conf-recap .new-balance{margin-top:10px;font-size:13px;text-align:left;}
+.boutique-new  .conf-recap .new-balance span{font-weight:bold;color:#334e85;}
+.current-filter-title{font-size: 15px;color: #002267;margin-top: 10px;float: left;}
+.bwr-boutique-filter-empty{font-size: 20px;color: red;margin-top: 125px;float: left;text-align: center;width: 100%;}
+
+.boutique-new .md-adresse{color:#e30613;margin-top:20px;font-weight:bold;  }
+.bwr-boutique-order-detail-voucher{margin-top:20px;line-height:18px;}
+/*****popup*****/
+.popuprewards.ui-dialog .ui-dialog-titlebar-close{background:url("../images/vip/close-vip.png") no-repeat !important;}
+.popuprewards{font-family:verdana;font-size:12px; }
+.popuprewards h3{margin-top:20px; }
+.popuprewards p{margin-top:20px;line-height:20px;font-size:13px;  }
+.popuprewards a,.popuprewards span{color:#002674;font-weight:bold; }
+.popuprewards.ui-dialog{padding-bottom:40px; }

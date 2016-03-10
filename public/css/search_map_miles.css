@@ -1,0 +1,398 @@
+/*-----------Recherche Hôtel sur carte-------*/
+body #wrap .nnbackgrnd#right_side_ {background:none;}
+.zone_map {/*float:right;width:626px;*/position:relative;}
+.zone_map h3{font-size: 18px;width: 626px;border-bottom:1px solid #646464;padding-bottom: 6px;margin-bottom: 7px;}
+.zone_map p{background:url("../images/maps/px_etiq.gif") repeat-x;height:12px;color:#000;font:10px Arial, Helvetica, sans-serif;display:none;position:absolute;text-align:center;line-height:10px;_line-height:12px;cursor:pointer;padding:0 5px 0 5px;}	
+#france{left:196px;top:327px;}
+#Espagne{left:170px;top:366px;}	
+#Portugal{left:140px;top:362px;}	
+#Italie{left:235px;top:328px;}	
+#Swisse{left:222px;top:314px;}
+#Allemagne{left:230px;top:281px;}
+#Pologne{left:282px;top:276px;}
+#Belgique{left:172px;top:280px;}
+#Pays-bas{left:181px;top:265px;}
+#Rep-Tcheque {left:252px;top:289px;}
+#Autriche {left:260px;top:307px;}
+#Slovenie {left:262px;top:320px;}
+#Slovaquie {left:280px;top:297px;}
+#Hongrie {left:280px;top:308px;}
+#Croatie {left:270px;top:324px;}
+#Bosnie {left:280px;top:334px;}
+#Serbie {left:295px;top:335px;}
+#Montenegro{left:285px;top:346px;}
+#Albanie{left:285px;top:356px;}
+#Macedoine {left:295px;top:354px;}
+#Grece {left:304px;top:366px;}
+#Bulgarie {left:314px;top:345px;}
+#Roumanie {left:314px;top:320px;}
+#Turquie {left:370px;top:370px;}
+#Moldavie {left:350px;top:310px;}
+#Ukraine {left:350px;top:300px;}
+#Bielorussie {left:330px;top:255px;}
+#Lituanie {left:315px;top:235px;}
+#Kalimingrad {left:300px;top:244px;}
+#Lettonie {left:310px;top:225px;}
+#Estonie {left:318px;top:202px;}
+#Russie {left:440px;top:210px;}
+#Finlande {left:328px;top:150px;}
+#Suede {left:282px;top:150px;}
+#Norvege {left:232px;top:180px;}
+#Danemark {left:193px;top:230px;}
+#Rauyome-uni {left:176px;top:222px;}
+#Irlande {left:112px;top:253px;}
+#Islande {left:79px;top:123px;}
+#Georgie {left:420px;top:348px;}
+#Armenie {left:420px;top:364px;}
+#Azerbaidjan {left:434px;top:363px;}
+.retour_carte {position:absolute;color:#fff;bottom:13px;right:89px;font:bold 11px Arial;text-decoration: none;}
+.retour_carte1 {position:absolute;color:#fff;bottom:10px;right:89px;font:bold 11px Arial;text-decoration: none;}
+
+
+#content .titre_bloc_carto_monde {width: 232px;height: 23px;background: #c20052 !important;font-family: FrutigerLTStd47LightCnBold;font-size:13px;color: #FFFFFF;cursor: pointer;}
+#content .titre_bloc_carto_monde span#puce_on,#content .titre_bloc_carto_monde span#puce_on1,#content #autre_rech_titre span#puce_off_noir,#content #autre_rech_titre1 span#puce_off_noir1 {display: block;width: 30px;height: 12px;float: left;background:url('../images/boutons/puce_on.png') no-repeat 10px 1px;margin-top:5px;overflow: hidden;}
+#content .titre_bloc_carto_monde span.titre_rech,#content #autre_rech_titre span.autre,#content #autre_rech_titre1 span.autre {display: block;width: 200px;height: 23px;float: left;line-height: 23px;color:#fff;}	
+
+#content .titre_bloc_carto_monde span#puce_on,#content .titre_bloc_carto_monde span#puce_on1,#content #autre_rech_titre span#puce_off_noir1,#content #autre_rech_titre1 span#puce_off_noir1 {display: block;width: 30px;height: 12px;float: left;background:url('../images/boutons/puce_on.png') no-repeat 10px 1px;margin-top:5px;overflow: hidden;}
+#content .titre_bloc_carto_monde span#puce_on,#content .titre_bloc_carto_monde span#puce_on1,#content #autre_rech_titre span#puce_off_noir2,#content #autre_rech_titre1 span#puce_off_noir1 {display: block;width: 30px;height: 12px;float: left;background:url('../images/boutons/puce_on.png') no-repeat 10px 1px;margin-top:5px;overflow: hidden;}
+
+#list_pays,#top_etats {padding:17px 0 8px 0;display: none;}
+#list_autres,#list_autres1, #list_arrondissements, #list_hotels, #list_others {/*width: 926px;*/padding:17px 0 8px 0;display: none;}
+.list_pays_cont {}
+#list_pays .list_pays_cont p,#top_etats .list_pays_cont p{width:138px;background:url('../images/pictos/puce_bleu.gif') no-repeat 0 3px;padding: 0 0 0 8px;float: left;line-height: 11px;margin:0 40px 10px 40px;display: inline;}
+#list_pays .list_pays_cont.l_top_pays p,#top_etats .list_pays_cont.l_top_pays p{height:25px; margin: 0 20px 10px;width: 180px; }
+#list_autres .list_pays_cont p,#list_autres1 .list_pays_cont p,#list_arrondissements  .list_pays_cont p, #list_hotels  .list_pays_cont p, #list_others  .list_pays_cont p{width: 214px;background:url('../images/pictos/puce_bleu.gif') no-repeat 0 3px;padding: 0 0 0 8px;float: left;line-height: 11px;margin:0 40px 10px 40px;display: inline;height: 25px;}
+.list_pays_cont p a{color:#4D4D4F;text-decoration:none;line-height: 13px;font-size: 12px;font-family: verdana;}
+#content #autre_rech_titre,#content #autre_rech_titre1 {background: none repeat scroll 0 0 #194488;color: #FFFFFF;cursor: pointer;height: 23px;width: 232px;	}
+#content #autre_rech_titre span#puce_off_noir,#content #autre_rech_titre1 span#puce_off_noir1 {/*display: block;width: 30px;height: 12px;float: left;background:url('../images/boutons/puce_off_noir.gif') no-repeat 10px -11px;margin-top:5px;overflow: hidden;	*/	}
+#content #autre_rech_titre span.autre,#content #autre_rech_titre1 span.autre {/*display: block;width: 300px;height: 23px;float: left;line-height: 23px;color:#000;*/}
+.search_htl p.ui-tabs-selected a#recherche_carto_monde{background:url('http://www.bestwestern.fr/public/images/bck_miles/rech_carte_on.png') no-repeat !important;color:#fff;}
+
+/*------Fin recherche sur carte------*/
+/*--------Amérique de sud--------*/
+#Amerique_centrale {left:120px;top:60px;}
+#Colombie {left:225px;top:60px;}
+#Venezuela {left:270px;top:37px;}
+#Guyane {left:358px;top:73px;}
+#Surinam {left:348px;top:72px;}
+#Guyana {left:332px;top:67px;}
+#Equateur {left:186px;top:104px;}
+#Perou {left:217px;top:142px;}
+#Bolivie {left:276px;top:150px;}
+#Bresil {left:360px;top:150px;}
+#Chili {left:252px;top:218px;}
+#Argentine {left:285px;top:283px;}
+#Paraguay {left:302px;top:183px;}
+#Uruguay {left:320px;top:240px;}
+/*------------Amérique du nord------*/
+#Gronland {left:393px;top:105px;}
+#Canada {left:259px;top:222px;}
+#Alaska {left:144px;top:222px;}
+#usa {left:250px;top:327px;}
+#Mexique {left:240px;top:370px;}
+#Guatemala {left:242px;top:403px;}
+#Honduras {left:257px;top:404px;}
+#Nicaragua {left:259px;top:409px;}
+#CostaRica {left:259px;top:413px;}
+#Panama {left:279px;top:414px;}
+/*-------------Carte Afrique------*/
+#Maroc {left:176px;top:95px;}
+#Egypte {left:350px;top:120px;}
+#AfriqueSud {left:290px;top:396px;}
+#Ghana {left:215px;top:226px;}
+
+#Nigeria {left:281px;top:222px;}
+#Tanzanie {left:331px;top:250px;} 
+
+
+/*--------------Australie-------*/
+#Australie {left:170px;top:220px;}
+#Papouasie_nouvelle_guinee {left:140px;top:60px;}
+#Salomon {left:300px;top:110px;}
+#Fidji {left:460px;top:140px;}
+#Nouvelle_caledonie {left:340px;top:162px;}
+#Wellington {left:460px;top:320px;}
+#Nouvelle_zelande {left:420px;top:350px;}
+/*------------Asie-------------*/
+/*--
+#Turquie {left:14px;top:139px;}
+#Georgie {left:100px;top:130px;}
+#Armenie {left:100px;top:135px;}
+#Azerbaidjan {left:110px;top:135px;}
+-*/
+#Syrie {left:80px;top:170px;}
+#Jordanie {left:20px;top:185px;}
+#Liban {left:27px;top:178px;}
+#Iraq {left:104px;top:170px;}
+#Arabie_saoudite {left:104px;top:210px;}
+#kuwait {left:110px;top:198px;}
+#Yemen {left:54px;top:260px;}
+#Oman {left:155px;top:250px;}
+#Emirats {left:145px;top:219px;}
+#Iran {left:155px;top:170px;}
+#kasakhstan {left:150px;top:100px;}
+#Sri_lanka {left:193px;top:294px;}
+#Mongolie {left:280px;top:110px;}
+#Ouzbekistan {left:180px;top:140px;}
+#Turkmenistan {left:180px;top:160px;}
+#Kirghizistan {left:240px;top:136px;}
+#Tadjikistan {left:220px;top:160px;}
+#Afghanistan {left:120px;top:170px;}
+
+#Pakistan {left:140px;top:205px;}
+#Inde {left:210px;top:240px;}
+#Chine {left:278px;top:179px;}
+#Nipal {left:223px;top:204px;}
+#Bangladesh {left:220px;top:221px;}
+#Bhoutan {left:235px;top:204px;}
+#Myanmar {left:257px;top:225px;}
+#Thailande {left:266px;top:254px;}
+#Malaisie {left:336px;top:300px;}
+#Indonesie {left:380px;top:360px;}
+#Philippines {left:420px;top:265px;}
+#Brunei {left:347px;top:305px;}
+#Taiwan {left:420px;top:235px;}
+#Japon {left:450px;top:165px;}
+#Coree_sud {left:378px;top:167px;}
+#Coree_nord {left:370px;top:155px;}
+#Vietnam {left:300px;top:236px;}
+#Cambodge {left:285px;top:272px;}
+#Laos {left:305px;top:246px;}
+/*-----------Carte U.S.A-------*/
+#Washington {left:49px;top:90px;}
+#Idaho {left:104px;top:150px;}
+#Montana {left:144px;top:120px;}
+#Dakota_nord {left:200px;top:110px;}
+#Dakota_sud {left:206px;top:150px;}
+#Minnesota {left:266px;top:140px;}
+#Wisconsin {left:300px;top:150px;}
+#Michigan {left:350px;top:150px;}
+#Oregon {left:49px;top:144px;}
+#Wyoming {left:160px;top:170px;}
+#Nebraska {left:220px;top:180px;}
+#Iowa {left:290px;top:175px;}
+#Illinois {left:320px;top:195px;}
+#Indiana {left:350px;top:195px;}
+#Ohio {left:383px;top:195px;}
+#Pennsylvanie {left:390px;top:170px;}
+#New_york {left:420px;top:150px;}
+#Vermont {left:436px;top:125px;}
+#New_hampshire {left:480px;top:130px;}
+#Maine {left:490px;top:100px;}
+#Californie {left:20px;top:180px;}
+#Nevada {left:70px;top:190px;}
+#Utah {left:130px;top:210px;}
+#Colorado {left:170px;top:230px;}
+#Kansas {left:240px;top:230px;}
+#Missouri {left:290px;top:220px;}
+#Kentucky {left:350px;top:230px;}
+#Verginie_occidentale {left:380px;top:200px;}
+#Maryland {left:430px;top:190px;}
+#Delaware {left:450px;top:190px;}
+#NewJersy {left:460px;top:180px;}
+#Connecticut {left:480px;top:155px;}
+#Rhode_islande {left:486px;top:155px;}
+#Massachusetts {left:480px;top:148px;}
+#Arizona {left:110px;top:260px;}
+#Nouveau_mexique {left:150px;top:260px;}
+#Texas {left:240px;top:310px;}
+#Oklahoma {left:250px;top:258px;}
+#Arkansas {left:290px;top:264px;}
+#Tennessee {left:339px;top:249px;}
+#Virginie {left:415px;top:215px;}
+#Louisiane {left:300px;top:310px;}
+#Mississippi {left:320px;top:280px;}
+#Alabama {left:350px;top:280px;}
+#Georigie {left:380px;top:280px;}
+#Caroline_nord {left:400px;top:240px;}
+#Caroline_sud {left:400px;top:267px;}
+#Floride {left:400px;top:320px;}
+/*------Carte france------*/
+#Nord_pas_de_calais {left:210px;top:74px;}
+#Picardie {left:250px;top:120px;}
+#Haute_normandie {left:180px;top:120px;}
+#basse_normandie {left:150px;top:130px;}
+#Ile_de_france {left:235px;top:125px;}
+#Champagne_ardenne {left:260px;top:150px;}
+#Lorraine {left:320px;top:140px;}
+#Alsace {left:367px;top:150px;}
+#Bretagne {left:120px;top:170px;}
+#Pays_de_la_loire {left:160px;top:180px;}
+#Centre {left:230px;top:180px;}
+#Bourgogne {left:270px;top:190px;}
+#Franche_comte {left:320px;top:196px;}
+#Poitou_charentes {left:190px;top:230px;}
+#Limousin {left:220px;top:250px;}
+#Auvergne {left:249px;top:244px;}
+#Rhone_alpes {left:300px;top:255px;}
+#Aquitaine {left:184px;top:290px;}
+#Midi_pyrenees {left:218px;top:310px;}
+#Languedoc_roussillon {left:268px;top:310px;}
+#Provence_alpes_cote_dazur {left:300px;top:310px;}
+#Corse {left:400px;top:370px;}
+/*----------Carte Canada-------*/
+#Nunavut {left:290px;top:140px;}
+#Nord_west {left:160px;top:260px;}
+#Yukon {left:138px;top:285px;}
+#Colombie_britannique {left:138px;top:360px;}
+#Alberta {left:214px;top:360px;}
+#Saskatchewan {left:230px;top:350px;}
+#Manitoba {left:260px;top:340px;}
+#Ontario {left:295px;top:360px;}
+#Quebec {left:340px;top:340px;}
+#Nouveau_brunswick {left:360px;top:386px;}
+#Nouvelle_ecosse {left:369px;top:396px;}
+#Terre-neuve-et-labrador{left:389px;top:336px;}
+/*--------Carte australie-----*/
+#Australie_occidentale {left:123px;top:195px;}
+#Territoire_nord {left:240px;top:160px;}
+#Queensland {left:340px;top:160px;}
+#Australie_meridionale {left:240px;top:240px;}
+#Nouvelle_galles_sud {left:340px;top:260px;}
+#Victoria {left:340px;top:310px;}
+#Tasmanie {left:340px;top:367px;}
+/*------Départements france------------*/
+#hautes_alpes {left:340px;top:129px;}
+#hautes_provence {left:340px;top:240px;}
+#Vaucluse {left:210px;top:240px;}
+#Alpes_maritimes {left:430px;top:260px;}
+#Var {left:350px;top:330px;}
+#Bouches_du_rhone {left:210px;top:316px;}
+/*----Lozere---*/
+#Lozere {left:310px;top:100px;}
+#Gard {left:350px;top:153px;}
+#Herault {left:310px;top:240px;}
+#Aude {left:210px;top:308px;}
+#Pyrenees_orientales {left:234px;top:380px;}
+/*----Midi-Pyrennees-*/
+#Lot {left:290px;top:120px;}
+#Aveyron {left:406px;top:170px;}
+#Tarn_et_garonne {left:260px;top:200px;}
+#Tarn {left:350px;top:230px;}
+#Gers {left:180px;top:255px;}
+#Haute_garonne {left:273px;top:298px;}
+#Haute_pyrenees {left:140px;top:350px;}
+#Ariege {left:284px;top:370px;}
+/*----Aquitaine----*/
+#Dordogne {left:284px;top:110px;}
+#Gironde {left:192px;top:158px;}
+#Lot_et_garonne {left:270px;top:200px;}
+#Landes {left:157px;top:260px;}
+#Pyrenees_atlantique {left:157px;top:350px;}
+/*----Rhone Alpes----*/
+#Haute_savoie {left:404px;top:140px;}
+#Savoie {left:415px;top:210px;}
+#Ain {left:310px;top:140px;}
+#Isere {left:334px;top:237px;}
+#Drome {left:307px;top:330px;}
+#Ardeche {left:230px;top:330px;}
+#Loire {left:200px;top:200px;}
+#Rhone {left:230px;top:170px;}
+/*---Auvergne---*/
+#Alier {left:280px;top:110px;}
+#Puy_de_dome {left:273px;top:210px;}
+#Haute_loire {left:350px;top:330px;}
+#Cantal {left:220px;top:320px;}
+/*----Limousin---*/
+#Creuse {left:287px;top:175px;}
+#Haute_vienne {left:170px;top:210px;}
+#Correze {left:265px;top:330px;}
+/*-----Pointou charentes---*/
+#Vienne {left:340px;top:160px;}
+#Deux_sevres {left:237px;top:160px;}
+#Charente {left:300px;top:300px;}
+#Charente_maritime {left:200px;top:300px;}
+/*---------Franche Comté----*/
+#Territoire_de_belfort {left:468px;top:150px;}
+#Doubs {left:380px;top:216px;}
+#Haute_saone {left:330px;top:146px;}
+#Jura {left:300px;top:310px;}
+/*-----Bourgogne---*/
+#Yonne {left:200px;top:138px;}
+#cote_or {left:340px;top:200px;}
+#Nievre {left:200px;top:260px;}
+#saone_et_loire {left:330px;top:320px;}
+/*-------Centre----*/
+#Eure_et_loire {left:225px;top:130px;}
+#Loiret {left:315px;top:180px;}
+#Indre_et_loire {left:170px;top:280px;}
+#Loir_et_cher {left:240px;top:240px;}
+#Indre {left:260px;top:347px;}
+#Cher {left:347px;top:300px;}
+/*-----Pays de loire--*/
+#Mayenne {left:260px;top:120px;}
+#Sarthe {left:350px;top:150px;}
+#Maine_et_loire {left:280px;top:225px;}
+#Loire_atlantique {left:150px;top:245px;}
+#Vendee {left:193px;top:340px;}
+/*--------Bretagne----*/
+#Ile_et_vilaine {left:410px;top:200px;}
+#Cote_armour {left:250px;top:152px;}
+#Finistere {left:133px;top:198px;}
+#Morbihan {left:260px;top:260px;}
+/*-----basse normandie-----*/
+#Calvados {left:270px;top:192px;}
+#Manche{left:140px;top:190px;}
+#Orne {left:310px;top:275px;}
+/*----Haute normandie---*/
+#Seine_maritime {left:250px;top:160px;}
+#Eure {left:250px;top:302px;}
+/*--------Picardie---*/
+#Aisne {left:420px;top:240px;}
+#Somme {left:220px;top:160px;}
+#Oise {left:240px;top:272px;}
+/*------champagne_Ardennes-----------*/
+#Ardennes {left:280px;top:122px;}
+#Marne {left:240px;top:230px;}
+#Haute_marne {left:332px;top:340px;}
+#Aube {left:240px;top:326px;}
+/*-----Lorraine-----*/
+#Moselle {left:347px;top:152px;}
+#Meurthe_et_Moselle {left:284px;top:190px;}
+#Meuse {left:189px;top:190px;}
+#Vosges {left:318px;top:346px;}
+/*-----Alsace---*/
+#Bas_rhin {left:375px;top:140px;}
+#Haut_rhin {left:330px;top:290px;}
+/*----Nord pas de calais---*/
+#Nord {left:340px;top:180px;}
+#Pas_calais {left:200px;top:210px;}
+/*------Ile de france------*/
+#Saine_Marne {left:400px;top:240px;}
+#Val_oise {left:210px;top:100px;}
+#Yvelynes {left:160px;top:200px;}
+#Essonne {left:240px;top:290px;}
+#Seine_saint_denis {left:280px;top:150px;}
+#Hauts_seine {left:240px;top:155px;}
+#Val_marne {left:280px;top:190px;}
+#Paris {left:257px;top:150px;}
+/*---------Corse---------*/
+#corse_sud {left:270px;top:280px;}
+#haute_corse {left:280px;top:150px;}
+
+
+div.blc_descr_htl.stl2 div.blc_descr_htl1 p{font-family: FrutigerLTStd45LightRegular !important;font-size:12px;}
+
+#content .autres_recherches_carto_monde .autre_rech{background: #fff;}
+#content_left .resa form #carto_monde_form.champ select#idcontinent OPTGROUP OPTION{margin-left: 15px !important;}
+#content .autres_recherches_carto_monde .autre_rech div.title {border-bottom: 3px solid #C20052; margin: 0 0 15px; padding-bottom: 5px;color: #C20052; height: 18px; width: 920px ;	line-height: 22px;font-family: FrutigerLTStd47LightCnBold;font-size:13px;}
+#content .autres_recherches_carto_monde .autre_rech p { background: url("../images/pictos/list_blue.gif") no-repeat 0 7px transparent; float: left; line-height: 20px; /*margin: 0 0 0 54px;*/ padding-left: 10px; width: 240px;font-size:13px;color: #4D4D4F !important;}
+#department_cart{position: relative;padding-top: 22px;width: 626px;}
+#content .autre_rech p a{color: #4D4D4F !important;}
+#form_carte select{float: right;z-index: 300}
+#form_carte label{float: left;text-align: right;}
+.zone_map h3 span.gplus_span{padding-left: 50px;position: relative;top: 4px;}
+.zone_map h3 span.gplus_span_reg{padding-left: 20px;position: relative;top: 4px;}
+.zone_map h3 span.gplus_span_pays{display:block;height:25px;}
+#department_cart.span_gplus_esp{padding-top:0;}
+#content1 #content_left{width: 300px !important;}
+a.loop_btn_masquer {background: url("../images/boutons/loop_btn_right.png") no-repeat 100% 0 #FFF; color: #FFF; font: bold 13px arial; padding-right: 6px; position: absolute; right: 0; top: -12px; z-index: 0;}
+a.loop_btn_masquer span { background: url("../images/boutons/loop_btn_big.png") no-repeat scroll #FFF; display: block; height: 26px; padding: 32px 10px 0 36px; white-space: nowrap;}
+#titre_bouton_masquer h3 {border-bottom: 1px solid #646464;font-size: 18px; margin-bottom: 7px; padding-bottom: 6px; width: 626px;}
+#content1 .recherche_carte_monde{float: left;width: 590px;}
+#content_right .right_default{padding: 20px 0 10px 17px !important;}
+.goomaps_hotelname{width: 318px !important;}
+.goomaps_close1{padding: 3px 20px 3px 0 !important;}
+#form_carte select{color:#4D4D4F;}
+#form_carte select OPTGROUP OPTION{margin-left: 10px;}
+#form_carte select OPTGROUP{font-style: italic;}

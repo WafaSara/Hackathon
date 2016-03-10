@@ -1,0 +1,1032 @@
+*/** Frutiger Font Face */
+
+@font-face {
+    font-family: 'Frutiger-light';
+    src: url('fonts/frutiger-light-webfont.eot');
+    src: url('fonts/frutiger-light-webfont-.eot#iefix') format('embedded-opentype'),
+         url('fonts/frutiger-light-webfont.woff') format('woff'),
+         url('fonts/frutiger-light-webfont.ttf') format('truetype'),
+         url('fonts/frutiger-light-webfont.svg#FrutigerLTStd65Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Frutiger';
+    src: url('fonts/frutiger-webfont.eot');
+    src: url('fonts/frutiger-webfont-.eot#iefix') format('embedded-opentype'),
+         url('fonts/frutiger-webfont.woff') format('woff'),
+         url('fonts/frutiger-webfont.ttf') format('truetype'),
+         url('fonts/frutiger-webfont.svg#FrutigerLTStd65Bold') format('svg');
+    font-weight: bold ;
+    font-style: normal ;
+}
+
+
+
+
+@font-face {
+    font-family: 'FrutigerRoman';
+    src: url('fonts/FrutigerLTStd-Roman.eot');
+    src: url('fonts/FrutigerLTStd-Roman-.eot#iefix') format('embedded-opentype'),
+         url('fonts/FrutigerLTStd-Roman.woff') format('woff'),
+         url('fonts/FrutigerLTStd-Roman.ttf') format('truetype'),
+         url('fonts/FrutigerLTStd-Roman.svg#FrutigerLTStd55Roman') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+body{font-size:12px !important;color:#252525;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background:#000000;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.float:after{content:'.';display:block;width:100%;height:0;line-height:0px;font-size:0;clear:both;}
+
+.frutiger{
+	font-family: Frutiger-light, Verdana, Arial, sans-serif;
+	font-weight:normal!important;
+	zoom: 1;
+}
+
+
+.frutigerRegular{
+	font-family: FrutigerRoman, Verdana, Arial, sans-serif;
+	font-weight:normal!important;
+	zoom: 1;
+}
+
+.frutigerBold{
+	font-family: Frutiger, Verdana, Arial, sans-serif;
+	font-weight:bold!important;
+	zoom: 1;
+}
+
+p{
+	line-height:20px;
+	text-align: justify;
+}
+
+/** jQuery UI theme */
+/*A supprimer -----------
+.ui-helper-hidden{display:none}
+.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}
+.ui-helper-clearfix:after{clear:both}
+.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}
+.ui-front{z-index:100}.ui-state-disabled{cursor:default!important}
+.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}
+.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}
+
+.ui-datepicker{width:17em;padding:.2em .2em 0;}
+.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}
+.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}
+.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}
+.ui-datepicker .ui-datepicker-prev{left:2px}
+.ui-datepicker .ui-datepicker-next{right:2px}
+.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}
+.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}
+.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}
+.ui-datepicker select.ui-datepicker-month-year{width:100%}
+.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}
+.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;}
+.ui-datepicker th{padding:0;margin:0;height:17px;line-height:17px;text-transform:uppercase;font-size:9px;background-color:#e3e3e3;text-align:center;font-weight:700;border:0}
+.ui-datepicker td{border:1px solid #eeeeee;padding:0px}
+.ui-datepicker td span,.ui-datepicker td a{display:block;margin:0;padding:0;text-align:right;text-decoration:none;width:28px;height:28px;text-align:center;line-height:28px;color:#5A5C5C !important;}
+.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}
+.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em;width:auto;overflow:visible}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}
+.ui-datepicker.ui-datepicker-multi{width:auto}
+.ui-datepicker-multi .ui-datepicker-group{float:left}.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em}
+.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}
+.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}
+.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}
+.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}
+.ui-datepicker-row-break{clear:both;width:100%;font-size:0}
+.ui-datepicker-rtl{direction:rtl}.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}
+.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}
+.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}
+.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}
+.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,.ui-datepicker-rtl .ui-datepicker-group{float:right}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}
+/** Custom jQuery UI */
+/*#ui-datepicker-div{background:#5E5E5E;box-shadow:0 2px 4px 4px #D4D4D6;-webkit-box-shadow: 0px 2px 4px 4px #d4d4d6;}
+.ui-datepicker-current,.ui-datepicker-close{display:none;}
+.ui-datepicker-links{position:absolute;width:100%;}
+.ui-datepicker-links div{position:absolute;top:10px;}
+*+html .ui-datepicker-links div{top:15px;}
+.ui-datepicker-prev{left:10px;color:#F5F5F5;}
+.ui-datepicker-next{right:10px;}
+.ui-datepicker-prev a,.ui-datepicker-next a{cursor:pointer;}
+.ui-datepicker-prev a,.ui-datepicker-next a,.ui-datepicker-prev label,.ui-datepicker-next label{font-size:12px;color:#F5F5F5;}
+.ui-datepicker-header{text-align:center;font:16px/40px Verdana,​Arial,​Helvetica,​sans-serif;color:#CFCFCF;background:none;padding:9px 0;line-height:normal;   }
+.ui-datepicker-unselectable{font-size:12px;line-height:28px;text-align:center;}
+.ui-datepicker thead{background-color:#E3E3E3;}
+.ui-datepicker thead td{border:none;}
+.ui-datepicker thead a{height:17px;line-height:17px;font-size:9px;color:#646464;text-transform:uppercase;}
+.ui-datepicker{
+	color:#5a5c5c;
+	background:#fff;
+	margin:0;
+	padding:0;
+	width:205px;
+	z-index:11!important;
+}
+.ui-datepicker .ui-datepicker-title,
+.ui-datepicker .ui-datepicker-header{
+	background-color:#5e5e5e;
+	padding:0;
+	height:40px;
+	line-height:40px;
+}
+.ui-datepicker td a:hover{background-color:#e9e6e6;cursor:pointer;}
+.ui-datepicker .ui-datepicker-prev.ui-state-disabled,
+.ui-datepicker .ui-datepicker-next.ui-state-disabled{visibility:visible;}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span,
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
+	cursor:pointer;
+	color:#f5f5f5;
+	display:block;
+	top:0px!important;
+	margin:0!important;
+	padding:0!important;
+	width:30px;
+	height:100%;
+}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span{position:static;text-align:center;}
+.ui-icon{text-indent:0;}
+.ui-datepicker-calendar .ui-datepicker span{
+	color:#5A5C5C;
+}
+.ui-datepicker a{
+	color:#5a5c5c;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+}*/
+/** Css Website */
+html,body{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#website{
+	background:#fff;
+	color:#252525;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	line-height:14px;
+	margin:0 auto;
+	width:960px;
+}
+#website img{display:block;}
+
+#content{
+	position:relative;
+	padding:0 30px;
+}
+a{
+	color:#252525;
+	text-decoration:none;
+}
+/** Fil d'ariane */
+#breadcrumb{
+	font-size:12px;
+	min-height:50px;
+	padding:0 15px;
+	/*white-space: nowrap;*/
+	overflow: hidden;margin:10px 10px 10px 0;
+}
+#breadcrumb a{
+	background:url("../../images/avsw/flecheBreadcrumb.jpg") no-repeat center right;
+	color:#252525;
+	margin-right:8px;
+	padding-right:17px;
+}
+#breadcrumb a span{
+	color:#252525;line-height:36px;
+	padding-right:0;
+	text-decoration:underline;
+}
+.current{
+	color:#c20052;
+}
+#mainPart{
+	position:relative;
+	width:590px;
+	float:left;
+}
+#colonne{
+	/*position:absolute;*/
+	top:0px;
+	left:640px;
+	width:300px;
+	float:left;
+	margin-left:20px;
+}
+.nombrePers{
+	background:url("../../images/avsw/clock.jpg") no-repeat top left;
+	color:#5e5e5e;
+	font-size:11px;
+	line-height:13px;
+	padding:0 0 20px 20px;
+}
+.nombrePers span{color:#252525;}
+#colonne .encartJaune{
+	background:url("../../images/avsw/flecheTransparente.png") no-repeat bottom center #ffcb05;
+	color:#252525;
+	font-size:12px;
+	height:60px;
+	line-height:60px;
+	padding-bottom:15px;
+	text-align:center;
+}
+#colonne .encartJaune .prix{
+	font-size:35px;
+	padding-right:2px;
+	font-weight:bold;
+}
+#colonne .encartGris{
+	background:#e6e6e6;
+	padding:0 0 5px 15px;
+	position:relative;
+}
+#colonne .encartGris .intitule{
+	min-height:15px;
+}
+#colonne .encartGris.priceLess{background-image:none;}
+#colonne .encartBlanc{
+	border:1px solid #e6e6e6;
+	border-top:0px solid white;
+	padding: 5px 15px;
+}
+.separation{
+	border-bottom:1px solid #e6e6e6;
+	height:5px;
+	margin-bottom:10px;
+}
+#colonne .personnes{
+	padding:10px 0 15px 15px;
+	border-bottom:0px solid white;
+	background:url("../../images/avsw/flecheEnfants.jpg") no-repeat bottom center;
+}
+#colonne select{height:28px;width:57px;}
+#colonne .encartBlanc .nbAdultes{width:145px;}
+#colonne .encartBlanc a{
+	color:#252525;
+	font-size:11px;
+	text-decoration:none;
+}
+.underlined{
+	text-decoration:underline;
+}
+#codePrivilege{
+	display:none;
+	padding:10px;
+	position:relative;
+}
+#codePrivilege .help{
+	background:url("../../images/avsw/help.jpg") no-repeat top left;
+	display:block;
+	height:24px;
+	position:absolute;
+	right: 40px;
+	top: 10px;
+	width:24px;
+}
+#codePrivilege input{
+	background:#fff;
+	border:1px solid #bfbfbf;
+	-webkit-box-shadow: inset 1px 2px 1px 1px #efefef;
+    box-shadow: inset 1px 2px 1px 1px #efefef;
+	border-radius:5px;
+	height:18px;
+	line-height:18px;
+	padding:3px 5px;
+	width:170px;
+}
+
+#colonne label{display:block;}
+
+#colonne .ageEnfant{margin-bottom:10px;}
+#colonne label.left{float:left;width:85px;}
+#colonne .arrivee{
+	width:130px;
+}
+#colonne .depart{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width:140px;
+}
+#colonne .depart input,
+#colonne .arrivee input{
+	background:url("../../images/avsw/pictoDate.jpg") no-repeat 105px 4px #fff;
+	border:1px solid #bfbfbf;
+	-webkit-box-shadow: inset 1px 2px 1px 1px #efefef;
+    box-shadow: inset 1px 2px 1px 1px #efefef;
+	border-radius:5px;
+	height:18px;
+	line-height:18px;
+	margin:5px 0 0 0;
+	padding:3px 5px;
+	width:115px;
+}
+#emplacementChambres .title{
+	background:#5e5e5e;
+	display:none;
+	height:32px;
+	line-height:32px;
+	padding:0 10px;
+	margin:0 15px 15px 0;
+	color:white;
+}
+#emplacementChambres.showTitles .title{display:block;}
+#colonne .nbChambres{
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	padding-left: 25px;
+}
+#colonne .intitule{
+	display:inline-block;
+	min-height:22px;
+	width:140px;
+}
+#colonne a.tarifsEtDispos{
+	display:block;
+	text-indent:-999em;
+	overflow:hidden;
+	background:url("../../images/avsw/tarifsDispos.jpg") no-repeat top left;
+	width:267px;
+	height:46px;
+}
+#colonne a.tarifsEtDispos:hover{
+    filter : alpha(opacity=80);
+    opacity : 0.8;
+}
+#colonne input.tarifsEtDispos{
+	display:block;
+	text-indent:-999em;
+	overflow:hidden;
+	background:url("../../images/avsw/tarifsDispos.jpg") no-repeat top left;
+	width:267px;
+	height:46px;border:none;cursor:pointer; 
+}
+#colonne input.tarifsEtDispos:hover{
+    filter : alpha(opacity=80);
+    opacity : 0.8;
+}
+.slideshow-container{
+	position:relative;
+	width:100%;
+}
+#blocsDynamiques{
+	position:relative;
+	/*z-index:5;*/
+}
+#mainPart .blocPhotos,
+#mainPart .blc_photos,
+#mainPart .blocCarte{
+	display:none;
+}
+#mainPart .blocPhotos.active,
+#mainPart .blc_photos.active,
+#mainPart .blocCarte.active{
+	display:block;
+}
+#mainPart .blocCarte,
+#mainPart .blocPhotos, #mainPart .blocCarte #googlemap{
+	height:400px;
+	margin-bottom:25px;
+	width:590px;
+}
+/*
+#blocsDynamiques .blocCarte{
+background:url("../../images/avsw/googleMapSociale.jpg") no-repeat top left;
+}
+*/
+#mainPart .blocPhotos ul{height:400px!important;overflow:hidden;position:relative;text-align:center }
+#mainPart .blocPhotos li{height:400px!important;width:590px!important;float:left;}
+#mainPart .blocPhotos li img{max-width:100%;height: 400px !important;}
+#miniaturesParent{
+	overflow:hidden;
+	height:95px;
+	padding:15px 20px 0;
+	position:relative;
+	left:-10px;
+	width: 560px;
+}
+#miniaturesParent ul {
+    width: 20000em;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#miniaturesParent li{float: left;}
+#visuelsMiniature li{
+	cursor:pointer;
+	float:left;
+}
+#visuelsMiniature li img{
+	border:2px solid white;
+	width: 124px;
+}
+#visuelsMiniature li:hover img{border-color:#ffe994;}
+#visuelsMiniature li.current:hover img,
+#visuelsMiniature li.current img{border-color:#ffcb05;}
+
+/** bxSlider minicarousel*/
+#miniaturesParent .bx-prev,#miniaturesParent .bx-next{
+	width:30px;
+	height:85px;
+	background:url("../../images/avsw/carouselPrev.jpg") no-repeat 6px 25px;
+	margin-top:5px;
+	z-index:10;
+	position:absolute;
+	top:4px;
+	left:-30px;
+}
+#miniaturesParent .bx-next{
+	background:url("../../images/avsw/carouselNext.jpg") no-repeat 8px 25px;
+	left:auto;
+	right:-30px;
+}
+/** Fin bxSlider */
+#mainPart .fb,
+#mainPart .tw,
+#mainPart .pt{
+	background:url("../../images/avsw/pinterest.jpg") no-repeat top left;
+	height:20px;
+	position:absolute;
+	right:0;
+	text-decoration:none;
+	top:0;
+	width:20px;
+}
+#mainPart .tw{
+	background:url("../../images/avsw/twitter.jpg") no-repeat top left;
+	right:25px;
+}
+#mainPart .fb{
+	background:url("../../images/avsw/facebook.jpg") no-repeat top left;
+	right: 50px !important;
+    width: 20px;
+}
+#mainPart .fb:hover,
+#mainPart .tw:hover,
+#mainPart .pt:hover{
+	background-position:bottom left;
+}
+#mainPart h1{
+	font-size:18px;
+	line-height:20px;
+	font-weight:bold;
+	padding-bottom:12px;
+	width:510px;
+}
+#controlesBlocs{
+	clear:both;
+	height:36px;
+	line-height:36px;
+	position:relative;
+	top:1px;
+	/*z-index:99;*/
+}
+#controlesBlocs a{
+	background-color:#dcdcdc;
+	color:#5c5c5c;
+	cursor:pointer;
+	float:left;
+	font-size:14px;
+	height:36px;
+	line-height:36px;
+	position:relative;
+	text-align:center;
+	text-transform:uppercase;
+	width:50%;
+}
+#controlesBlocs .activeArrow{
+	background:url("../../images/avsw/flecheHover.png") no-repeat top center;
+	display:none;
+	bottom:0;
+	left:0;
+	height:11px;
+	position:relative;
+	width:100%;
+	z-index:99;
+}
+#controlesBlocs a.active .activeArrow{display:block;}
+#controlesBlocs a.active{
+	background-color:#5c5c5c;
+	cursor:default;
+	color:#fff;
+	position:relative;
+	/*z-index:99;*/
+}
+#avis-clients h2,
+#mainPart h2{
+	color:#c20052;
+	font-size:28px;
+	line-height:28px;
+	margin-top:30px;
+	padding-bottom:20px;
+}
+#acces,
+#avis-clients,
+#Services,
+#Seminaires,
+#crossSell{
+	padding-bottom:34px;
+	background:url("../../images/avsw/doubleBorderBottom.jpg") repeat-x bottom left;
+}
+.slider-slideshow-navigation{position:absolute;top:177px;width:100%;z-index:11;}
+#slide-slideshow-left,#slide-slideshow-right{position:absolute;display:block;width:30px;height:30px;margin:0;text-indent:-9999px;cursor:pointer;border:8px solid #7a7a7a;background:url("../../images/avsw/controls.png") no-repeat -43px -32px}
+#slide-slideshow-left{left:-10px;background-position:0 -32px;}
+#slide-slideshow-left:hover{background-position:0 0;border-color:#5e5e5e;}
+#slide-slideshow-right{right:-10px;}
+#slide-slideshow-right:hover{background-position:-43px 0;border-color:#5e5e5e;}
+#avisSlider{position:relative;width:300px;}
+#avisSlider .panel{position:static!important;float:left;width:300px !important;}
+#slider-comment{position:relative;overflow:hidden;}
+#slider-comment .slider-comment-content{position:relative;overflow:hidden;}
+#acces .map{
+	color:#252525;
+	font-size:12px;
+	margin-bottom:20px;
+}
+#acces .map h3{font-size:20px;line-height:20px;margin-bottom:25px;}
+#acces .map .address,
+#acces .map .contact{margin-bottom:20px;}
+#acces .map a{
+	color:#252525;
+	font-size:12px;
+	text-decoration:none;
+}
+#acces .map .intitule{color:white;}
+#acces .map .encartJaune{
+	float:left;
+	height:265px;
+	padding:30px 30px 0 30px;
+	width:235px;
+	margin:0 15px 10px 0;
+	position:relative;
+	z-index:9;)
+}
+.clearB{height:1px;clear:both;visibility:hidden;}
+#presentation{
+	height:auto;
+}
+#presentation h2{
+	margin-top:0;
+	padding-top:0;
+}
+#mainPart .redArrow{
+	background:url("../../images/avsw/flecheRouge.jpg") no-repeat top left;
+	height:12px;
+	line-height:12px;
+	margin-bottom:10px;
+	padding-left:20px;
+	text-decoration:none;
+}
+.article{
+	position:relative;
+	font-size:11px;
+	margin-bottom:15px;
+}
+.article .notation{padding-bottom:10px;height:22px ;}
+#colonne .article .intitule{
+	min-height:auto;
+	font-size:12px;
+	font-weight:bold;
+}
+.article .dateLieu{
+	padding-bottom:10px;
+}
+#mainPart .doubleBorder{
+	background:url("../../images/avsw/double500repeaty.jpg") repeat-y top left;
+	width:590px;
+}
+#mainPart .doubleBorder .top{
+	background:url("../../images/avsw/double500top.jpg") no-repeat top left;
+	height:4px;
+	width:590px;
+}
+#mainPart .doubleBorder .bot{
+	background:url("../../images/avsw/double500bot.jpg") no-repeat bottom left;
+	height:4px;
+	width:590px;
+}
+#mainPart .doubleBorder .center{padding:20px;}
+#Services h3,
+#Seminaires h3,
+.doubleBorder  h3{
+	color:#5e5e5e;
+	font-size:20px;
+	margin-bottom:20px;
+}
+#demandeDevis h3{
+	font-weight:bold;
+}
+.doubleBorder a{
+	color:#c10051;
+	display:block;
+	padding-left:px;
+}
+.encartJaune{background:#ffcb05;}
+
+/** tiny slider 2 minicarousel*/
+#pagination-slideshow{display:none;}
+
+#pagination-comment{float:left;}
+#pagination-comment li{float:left;}
+.navigation #slide-comment-left:hover,
+.navigation #slide-comment-right:hover{color:#000000;text-decoration:underline;}
+.navigation #slide-comment-left,
+.navigation #avisPager,
+.navigation #slide-comment-right,
+.navigation a{
+	float:left;
+	margin-right:5px;
+	height:26px;
+	line-height:26px;
+	text-decoration:none;
+	color:#919191;
+	cursor:pointer;
+}
+.navigation a:hover{
+	text-decoration:underline;
+	color:#252525;
+}
+.navigation a{
+	background-color:#fff;
+	display:block;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	width:26px;
+	cursor:pointer;
+}
+.navigation .current a{
+	background-color:#919191;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 2px 1px 1px #808080;
+	box-shadow: inset 0px 2px 1px 1px #808080;
+	color:white;
+}
+/** Fin tiny slider 2 */
+
+#Services .partLeft{float:left;width:295px;}
+#Services .encartJaune{
+	margin-bottom:20px;
+	padding:30px 20px 20px 30px;
+	width:240px;
+}
+#Services .encartJaune td{position:relative;padding-bottom:20px;vertical-align:middle;}
+#Services .encartJaune .picto{width:55px;}
+#Services .encartJaune p{padding-left:55px;line-height:15px;vertical-align:middle;display:inline-block;}
+#Services .encartJaune img{display:inline-block;vertical-align:middle;}
+
+#Services .encartJaune .restaurant{
+	background:url("../../images/avsw/service-restaurant.jpg") no-repeat center left;
+}
+#Services .encartJaune .bar{
+	background:url("../../images/avsw/service-bar.jpg") no-repeat center left;
+}
+#Services .doubleBorderSmall{
+	position:relative;
+	width:290px;
+}
+.doubleBorderSmall .botLeft,
+.doubleBorderSmall .topLeft{
+	background:url("../../images/avsw/double500top.jpg") no-repeat top left;
+	height:4px;
+	width:55%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.doubleBorderSmall .botRight,
+.doubleBorderSmall .topRight{
+	background:url("../../images/avsw/double500top.jpg") no-repeat top right;
+	height:4px;
+	width:55%;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.doubleBorderSmall .botLeft,
+.doubleBorderSmall .botRight{
+	bottom:0;
+	top:auto;
+}
+.doubleBorderSmall .botRight{background:url("../../images/avsw/double500bot.jpg") no-repeat bottom right;}
+.doubleBorderSmall .botLeft{background:url("../../images/avsw/double500bot.jpg") no-repeat bottom left;}
+.doubleBorderSmall .centerLeft{
+	background:url("../../images/avsw/double500repeaty.jpg") repeat-y top left;
+	padding:15px 0 20px 19px;
+}
+.doubleBorderSmall .centerRight{
+	background:url("../../images/avsw/double500repeaty.jpg") repeat-y top right;
+	padding-right:20px;
+}
+.miniColonne{
+	float:right;
+	font-size:12px;
+	line-height:16px;
+	position:relative;
+	left:10px;
+	width:290px;
+}
+.miniColonneCaracs{
+	float:right;
+	font-size:12px;
+	line-height:16px;
+	position:relative;
+	left:10px;
+	width:430px;
+}
+#Services .miniColonne li{
+	margin:0 0 5px;
+	padding-left:15px;
+	background:url("../../images/avsw/puce.jpg") no-repeat 0 5px;
+}
+#Seminaires .encartJaune{
+	background:url("../../images/avsw/dimensions.jpg") no-repeat top left;
+	float:left;
+	height:100px;
+	margin-bottom:20px;
+	padding:10px 0 0 19px;
+	position:relative;
+	width:136px;
+}
+#Seminaires .encartJaune .nombre{
+	font-size:20px;
+}
+#Seminaires .contenance{
+	font-size:11px;
+	line-height:16px;
+}
+#Seminaires .dispos,
+#Seminaires .caracs{
+	float:left;
+	width:180px;
+}
+#Seminaires .dispos{
+	width:240px;
+}
+#Seminaires{
+	font-size:12px;
+	padding-bottom:50px;
+}
+#Seminaires .tailleV{
+	position: absolute;
+	top: 30px;
+	left: 110px;
+}
+#Seminaires .tailleH{
+	position: absolute;
+	top: 90px;
+	left: 40px;
+}
+#Seminaires .miniColonneCaracs h4{
+	color:#252525;
+	font-size:13px;
+	font-weight:bold;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}
+#Seminaires .miniColonneCaracs ul{margin-bottom:20px;}
+#Seminaires .miniColonneCaracs .intitule{ color:#c20052; }
+#Seminaires .carac li{
+	float:left;
+	margin:0 8px 8px 0;
+	text-align:center;
+	width:31px;
+}
+#Seminaires .carac li img{display:block;padding-bottom:7px;}
+#demandeDevis a.demandeDevis{
+	font-size:11px;
+	display:block;
+	margin-bottom:20px;
+}
+#Seminaires,
+#crossSell{background-image:none;}
+#crossSell ul li{float:left;width:186px;margin-left:15px;}
+#crossSell ul li.first{margin-left:0;}
+#crossSell .doubleBorderSmall{
+	position:relative;
+	width:186px;
+}
+#crossSell h2{
+	background:#252525;
+	color:#fff;
+	text-align:center;
+	height:80px;
+	line-height:80px;
+	padding:0;
+	margin:0 0 15px;font-weight:normal !important; 
+}
+#crossSell h3{
+	font-size:13px;
+	font-weight:bold;
+	line-height:18px;
+	margin-bottom:10px;
+}
+#crossSell p{font-size:11px;font-weight:bold;text-align:center;height:40px;line-height:35px;white-space:nowrap;}
+#crossSell a{
+	display:block;
+	text-indent:-999em;
+	overflow:hidden;
+	background:url("../../images/avsw/ficheHotel.jpg") no-repeat top left;
+	width:148px;
+	height:35px;
+}
+#crossSell a:hover{
+    filter : alpha(opacity=80);
+    opacity : 0.8;
+}
+#crossSell .montant{color:#c20052;font-size:20px;}
+#crossSell{margin:0 0 40px;padding:0;}
+
+/** CSS propre à la version Sociale */
+#page{background:#fff; }
+#content1{width:930px; }
+.panel img{width:auto;position:inherit;  }
+.center,.centerLeft{text-align:left;font-size:12px;  }
+.frutigerBold a{background:none !important;width:auto !important;height:auto !important;text-indent:inherit !important;    }
+.prix em{font-size:12px;font-style:normal;  }
+.ui-datepicker-days-cell a{background:#fff !important; }
+.ui-datepicker-control{background:none; }
+#crossSell a:hover{
+    filter : alpha(opacity=80);
+    opacity : 0.8;
+}
+#crossSell .montant{color:#c20052;font-size:20px;}
+#crossSell{margin:0 0 40px;padding:0;}
+
+#presentation{
+	display:block;
+	position:relative;
+	z-index:1;
+}
+#acces #presentation a{
+	text-decoration:underline;
+}
+
+
+#presentation.deroule .more,
+#presentation.deroule .cut,
+#presentation .less{display:none;}
+#presentation .cut,
+#presentation .more,
+#presentation.deroule .less{display:inline;}
+.suite{
+	display:none;
+}
+#sliderParent{
+	height:400px;
+	width:590px;
+	overflow:hidden;
+	zoom:1;
+	position:relative;
+}
+#acces,
+#avis-clients,
+#Services,
+#Seminaires,
+#crossSell{
+	padding-bottom:34px;
+	background:url("../../images/avsw/doubleBorderBottom.jpg") repeat-x bottom left;
+}
+
+
+
+/************** modif 17-05-2013 *************/
+
+
+
+/*.voirDavantage{
+	display:block;
+	padding:0 0 20px;
+	text-decoration:underline;
+}
+*/
+#avisSlider .article.deroule .cut,
+#avisSlider .article.deroule .more,
+#avisSlider .article .less,
+#Services.deroule .more,
+#Services .less,
+#Seminaires.deroule .more,
+#Seminaires .less,
+#presentation.deroule .more,
+#presentation.deroule .cut,
+#presentation .less{display:none;}
+
+
+#avisSlider .article .cut,
+#avisSlider .article.more,
+#avisSlider .article.deroule .less,
+#Services .more,
+#Services.deroule .less,
+#Seminaires .more,
+#Seminaires.deroule .less,
+#presentation .cut,
+#presentation .more,
+#presentation.deroule .less{display:inline;}
+.suite{display:none;}
+#demandeDevis{padding-top:20px;}
+#colonne .noChild .personnes{background:none!important;}
+#colonne .noChild .listeEnfants{border-top:0!important;border-bottom:0!important;padding:0!important;}
+#footer_copyright_fr{margin-bottom: 0;}
+
+/*********** modif 22-05-2013 *********/
+#mainPart h1 span {
+                white-space: nowrap;
+}
+
+
+a.adjust, a.voirDavantage{text-decoration:underline}
+
+/****************************************/
+/* A supprimer -----------
+.ui-datepicker table.ui-datepicker-calendar{width:185px;float:left; }
+.ui-datepicker-calendar{color:#5a5c5c;background:#fff;margin:0;padding:0;width:205px;z-index:11!important;}
+#ui-datepicker-div{width:205px !important;background:#fff;  }	
+a.ui-state-default{background:#fff !important; }
+.ui-datepicker th{background:#fff; }
+.ui-datepicker-title{font-weight:normal; }
+.ui-datepicker .ui-datepicker-buttonpane{display:none; }
+.ui-datepicker-today a {border-right:1px solid  #FFCCCC !important;}
+.ui-datepicker-calendar thead tr{color:#5A5C5C}
+*/
+
+/* Intervention Rachid - services
+#Services .partLeft{margin:0 10px 7px 0;}
+#Services .miniColonne{float:none; width:auto; left:0;}
+#Services .miniColonne li{background:none; padding-left:0;}
+#Services .miniColonne li img.puceElem{vertical-align:middle; margin-right:15px;}
+*/
+
+.visiteV {
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    cursor: pointer;
+}
+
+/**************** nouvelle integration 30-10-2014 offre vip **********/
+
+.msg_info #btn_ins_vip{background:url("../../images/avsw/offre-je-inscrir.jpg") no-repeat  !important;width:122px;height:46px;margin-right:16px;cursor:pointer;font-size:17px;font-family:FrutigerLTStd45LightRegular;color:#17161d;border:none;}
+.msg_info #btn_already_ins_vip{background:url("../../images/avsw/offre-je-membre.jpg") no-repeat  !important;width:122px;height:46px;cursor:pointer;font-size:17px;font-family:FrutigerLTStd45LightRegular;color:#fff;border:none;}
+.offres_vip_rew{position:relative;}
+.offres_vip_rew .offre-triang{background:url("../../images/avsw/offre-triangle.png") no-repeat;width:17px;height:9px;display:block;position:absolute;top:-9px;left:48%;}

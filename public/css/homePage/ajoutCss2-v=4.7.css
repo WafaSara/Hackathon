@@ -1,0 +1,1075 @@
+@font-face {font-family: 'FrutigerLTStd45LightRegular';src: url('fonts/frutigerltstd-light_1-webfont.eot');src: url('fonts/frutigerltstd-light_1-webfont-.eot#iefix') format('embedded-opentype'),url('fonts/frutigerltstd-light_1-webfont.woff') format('woff'),url('fonts/frutigerltstd-light_1-webfont.ttf') format('truetype'),url('http://www.bestwestern.fr/public/css/homePage/fonts/frutigerltstd-light_1-webfont.svg#FrutigerLTStd45LightRegular') format('svg');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'FrutigerLTStd47LightCnBold';src: url('fonts/frutigerltstd-boldcn-webfont.eot');src: url('fonts/frutigerltstd-boldcn-webfont-.eot#iefix') format('embedded-opentype'),url('fonts/frutigerltstd-boldcn-webfont.woff') format('woff'),url('fonts/frutigerltstd-boldcn-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+
+#preHead{
+	position:relative;
+	overflow:hidden;
+}
+#preHead #backgroundImg{
+	position:absolute;
+	top: -290px;
+	left:50%;
+	margin-left: -950px;
+	width: 1900px;
+	z-index:-1;
+}
+#page {
+	position:static;
+	margin:0 auto;
+	display:block;
+	left:auto;
+	top:auto;
+}
+#preHead #V1{
+	margin:0 auto;
+	width:980px;
+}
+#preContent{
+	background:white;
+	border-top:5px solid #ffcb05;
+	padding-top:40px;
+}
+#content_right .blc_offre {
+margin-top: 0;
+}
+#preHead .search_htl{
+	background:transparent;
+	float:none;
+	margin:0 auto;
+	overflow:hidden;
+	padding:90px 15px 45px;
+	position:relative;
+	width:980px;
+}
+.search_htl h2.moteur_seo{
+	background: none repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+	font-family: FrutigerLTStd47LightCnBold;
+font-weight:normal;
+	font-size: 35px;
+	height: 47px;
+	letter-spacing: 2px;
+	line-height: 47px;
+	padding-left: 0;
+	padding-bottom:0;
+	position:relative;
+	text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+	top:-13px;
+	font-weight: normal;
+}
+.search_htl h2.moteur_seo .separateur{
+	display:inline-block;
+	padding:0 0 0 10px;
+	font-family: 'FrutigerLTStd45LightRegular';
+font-weight:normal;
+	font-size: 32px;
+}
+.search_htl h2.moteur_seo a{
+	background: url("../../images/homePage/V2/mapWhiteMarker.png") no-repeat 5px 5px;
+	color: #FFFFFF;
+	display:inline-block;
+	font-family: "FrutigerLTStd45LightRegular";
+font-weight:normal;
+	font-size:13px;
+	line-height:25px;
+	padding-left: 25px;
+	text-decoration:none;
+}
+.search_htl h2.moteur_seo a strong{font-weight:normal;}
+.search_htl h2.moteur_seo a .underline{
+	border-bottom:1px solid #fff;
+	padding-bottom:0px;
+}
+div.blc_promo{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+#code_priv .destin{
+	border:0px solid white;
+	border-radius: 3px;
+	box-shadow: 0px 1px 1px #dfdfdf inset;
+	line-height: 14px;
+	padding: 6px 5px;
+	height: 14px;
+	width:60px;
+}
+a.help {
+display:block;
+background: url('../../images/homePage/V2/help.png') no-repeat;
+height: 21px;
+width: 21px;
+margin-top: 3px;
+position:absolute;
+top: 33px;
+left: 83px;
+}
+a.help span {
+display: none;
+padding: 4px 5px;
+margin-left: 20px;
+margin-top: 10px;
+width: 130px;
+right: -10px;
+top: 20px;
+}
+.search_htl a#rech_avancee{
+	background: url("../../images/homePage/V2/whiteGt.png") no-repeat 0 3px transparent;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+	font-family:Verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	padding: 0 0 0 10px;
+	text-decoration:none;
+	line-height: 16px;
+}
+.search_htl a#rech_avancee span{
+	border-bottom:1px solid #fff;
+	padding-bottom:2px;
+}
+.search_htl div.rech_rap{
+	padding:0;
+	width:100%;
+	float:none;
+}
+#div_select_age_per_room .type_resa, 
+div_select_age_per_room #line_room_1 .type_resa, 
+.search_modif #div_select_age_per_room #line_1 p.list, 
+#div_select_age_per_room #line_2 .type_resa, 
+div_select_age_per_room #line_room_2 .type_resa, 
+#div_select_age_per_room #line_3 .type_resa, 
+div_select_age_per_room #line_room_3 .type_resa,
+#div_select_age_per_room #line_1 select, #div_select_age_per_room #line_2 select, #div_select_age_per_room #line_3 select, #chambre_unique .champ select,
+#div_select_age_per_room #multiple_chambres,
+#div_select_age_per_room #line_1, 
+#div_select_age_per_room #line_2, 
+#div_select_age_per_room #line_3{
+	float:none;
+	display:block;
+	width:100%;
+}
+#whiteSearch{
+	background:url("../../images/homePage/V2/whiteAlpha.png") repeat top left transparent;
+	border-radius:5px;
+	position:relative;
+	padding:10px 10px 5px;
+}
+.search_htl div.rech_rap input.destin,
+#div_select_age_per_room #line_1 #roomQuantity,
+#DateRangeStart, 
+#DateRangeEnd{
+	border-radius: 3px;
+	border:0px solid transparent;
+	box-shadow: 0px 1px 3px 0 #929292 inset;
+	font-family:Verdana, Arial, sans-serif;
+	color:#252525;
+	line-height:24px;
+	height: 24px;
+	margin-right:8px;
+	padding: 6px 11px;
+}
+#DateRangeStart, 
+#DateRangeEnd{
+	color:#252525;
+}
+.baseC{
+	/*color:#a7a7a7!important;*/
+}
+.search_htl div.rech_rap input.destin {
+	font-size: 11px;
+	width: 170px;
+}
+#DateRangeStart, 
+#DateRangeEnd{
+	background-position:91% 10px;
+	width: 117px;
+}
+.search_htl div.rech_rap p.rech_btn {
+	float: none;
+	position: absolute;
+	right: -5px;
+	top: 10px;
+	width: 86px;
+}
+.partieGauche{
+	float:left;
+	height:80px;
+	width:500px;
+}
+.partieDroite{
+	float:left;
+	width:410px;
+}
+#chambre_unique{
+	padding-bottom:0;
+}
+#div_select_age_per_room #line_1 .type_resa label,
+#whiteSearch label{display:none;}
+#nombreChb,
+#div_select_age_per_room #line_1 #roomQuantity {
+	width: 230px;
+}
+#nombreAdultes1,
+#nombreAdultes2,
+#nombreAdultes3{
+	clear:none;
+	float:left;
+	margin-right:8px;
+	width: 80px;
+}
+#nombreEnfants1,
+#nombreEnfants2,
+#nombreEnfants3{
+	clear:none;
+	float:left;
+	margin-right:8px;
+	width: 95px;
+}
+.onlyOne #nombreEnfants1, 
+.onlyOne #nombreEnfants2, 
+.onlyOne #nombreEnfants3{
+	width: 122px;
+}
+.onlyOne #enfants_ch1 {
+clear: both;
+margin-left: 110px;
+}
+.onlyOne .nomChambre{
+	display:none;
+}
+#whiteSearch.onlyOne  .chambre .nomChambre{
+	display: none;
+}
+.nomChambre{
+	display:block;
+}
+#premiereChambre,
+#deuxiemeChambre,
+#troisiemeChambre{
+	clear:both;
+	position:relative;
+	margin-top: 8px;
+	min-height:30px;
+	width:100%;
+}
+#premiereChambre,
+#deuxiemeChambre,
+#troisiemeChambre{
+	margin-top: 28px;
+}
+.onlyOne #premiereChambre,
+.onlyOne #premiereChambre.hasChild{
+	margin-top: 8px;
+}
+.onlyOne #premiereChambre.hasChild .enfantFalseSelect {
+	margin-top: 18px;
+}
+
+.onlyOne .chambre .enfantFalseSelect {
+	width: 46px;
+}
+.chambre .enfantFalseSelect{
+	clear:none;
+	float:left;
+	margin-right:8px;
+	width: 60px;
+}
+#whiteSearch .chambre .nomChambre{
+	display: block;
+	position: absolute;
+	right: 380px;
+	top: 5px;
+	font-weight: normal;
+	font-family: Verdana;
+	color: #bb0b54;
+	font-size: 14px;
+}
+.search_htl div.rech_rap p.rech_btn{
+	background:url("../../images/homePage/V2/rechercherBouton.png") no-repeat top left;
+	height:37px;
+	width:145px;
+}
+.search_htl div.rech_rap p.rech_btn:hover{
+	background-position:bottom left;
+}
+.search_htl div.rech_rap p.rech_btn span{width:100%;visibility:hidden;opacity:0;filter:alpha(opacity=0);}
+#whiteSearch .falseSelect label {
+	display: block;
+	position: absolute;
+	top: -23px;
+	left: 0;
+	font-weight: normal;
+	font-family: Verdana;
+	color: white;
+	font-size: 11px;
+}
+.falseSelect{
+background: #FFFFFF url("../../images/homePage/V2/bigBtnDropdown.png") no-repeat top right;
+border: 0px solid #CCCCCC;
+border-radius:3px;
+box-shadow: 0px 1px 3px 0 #929292 inset;
+clear:both;
+color: #252525;
+font-family:Verdana, Arial, sans-serif;
+font-size:11px;
+margin-bottom:8px;
+display: block;
+line-height:26px;
+height: 26px;
+padding: 5px 10px;
+position: relative;
+}
+.falseSelect select {
+height:100%;
+min-height:34px;
+height:34px;
+line-height: 34px;
+left: 0;
+opacity: 0;
+filter: alpha(opacity=0);
+position: absolute;
+top: 0;
+width: 100%;
+outline: none!important;
+border:0px solid transparent!important;
+}
+.falseSelect select option{
+outline: none!important;
+border:0px solid transparent!important;
+}
+.falseSelect  span{
+cursor: pointer;
+font-size:11px;
+}
+.tp_destin h2.top_seo,
+.last_htl h2.last_seo{
+background: none repeat scroll 0 0 #dcdcdc;
+color:#252525;
+font-size:20px;
+line-height: 50px;
+padding-left:15px;
+}
+.search_htl div.blc_promo{
+float:none;
+height:20px;
+position:absolute;
+top: 94px;
+right: 16px;
+transition:top 0.7s;
+}
+.search_htl div.blc_promo.opened{
+top: 75px!important;
+}
+#code_priv label{display:none;}
+/*A supprimer -----------
+.datepicker a.ui-datepicker-next {
+	top: 13px;
+}
+.ui-datepicker .ui-datepicker-prev {
+border: 5px solid transparent;
+border-right: 8px solid #f6f6f6;
+width: 0!important;
+height: 0!important;
+}
+.ui-datepicker .ui-datepicker-next {
+border: 5px solid transparent;
+border-left: 8px solid #f6f6f6;
+width: 0!important;
+height: 0!important;
+}*/
+.last_htl div.row .flt_drt{
+margin-top: 10px;
+width:100%;
+}
+.last_htl div.row{
+position:relative;
+}
+.last_htl div.row .fermer{
+top: 17px;
+background:url("../../images/homePage/V2/croixFermer.png") no-repeat top left transparent;
+display:block;
+width:12px;
+height:12px;
+}
+.last_htl a.voir_tt {
+background: url("../../images/homePage/V2/greyGt.png") no-repeat 0 14px transparent;
+margin-bottom: 30px;
+padding: 10px 15px 0 10px;
+text-decoration:underline;
+line-height: 16px;
+}
+.last_htl p.resa_histo{
+background-image:url("../../images/homePage/V2/chrono.png");
+padding-left:20px;
+}
+.last_htl div.row h3.home_seo{
+color: #252525;
+font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size: 16px;
+}
+.blc_offre h3.home_seo a{
+width: 120px;
+display: block;
+}
+.last_htl div.row .location{
+font-family: 'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;
+font-weight:normal;
+}
+.row a.resev_big {
+width: 195px;
+}
+.tp_destin div.row,
+.last_htl div.row{
+	position:relative;
+}
+.tp_destin div.row img,
+.last_htl div.row img.etl {
+height:auto;
+padding-top:0;
+width: 64px;
+}
+.avntg_bw,
+.tp_destin div.row,
+.tp_destin p.etoile{
+	border-right:0px solid transparent;
+	width:280px;
+}
+.tp_destin div.row,
+.last_htl div.row {
+width: 290px;
+border-right: 0px solid transparent;
+border-bottom: 0px solid #ebebeb;
+border-top: 1px solid #ebebeb;
+padding: 12px 10px 10px 0;
+}
+.tp_destin div.row.last,
+.last_htl div.row.last{
+border-top: 0px solid #ebebeb;
+}
+.tp_destin,
+.last_htl,
+#content_left {
+	width:300px;
+}
+.last_htl div.row{
+	width: 289px;
+}
+#preHead #V1{
+width: 960px;
+}
+#preHead .search_htl,
+#content1{
+width: 930px;
+}
+#content1{
+margin-left:15px;
+}
+#content {
+width: 960px;
+}
+#content_right {
+width: 615px;
+}
+.blc_offre{
+width: 100%;
+}
+.blc_offre div.DrnMin {
+position: relative;
+margin-top: -65px;
+width: 596px;
+z-index: 1;
+padding: 68px 0px 10px 15px;
+}
+.lumiere:hover img,
+.blc_offre div.DrnMin div.DrnMin1:hover a img{
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+.blc_offre ul{
+	height: 52px;
+	margin-bottom: 12px;
+	border-bottom: 1px solid #e2e2e2;
+	position: relative;
+	left:1px;
+	z-index:2;
+	width: 612px;
+}
+.blc_offre ul.tab li{
+	height:52px;
+	overflow:hidden;
+	width:203px;
+	margin-right:1px;
+}
+.blc_offre ul.tab li.ui-tabs-active{
+	height:63px;
+}
+.blc_offre ul.tab li a{
+	height:63px;
+	padding:0 0 0 204px!important;
+	margin:0!important;
+	width:203px!important;
+}
+.blc_offre ul.tab li.ui-corner-top.ofr_DrnMin a{
+	background:url("../../images/homePage/V2/derniereMinute.png") no-repeat -205px 0px transparent;
+	background-image:url("../../images/homePage/V2/derniereMinute.png")!important;
+	text-indent:-999em;
+}
+.blc_offre ul.tab li.ui-corner-top.ofr_AvtPrm a{
+	background:url("../../images/homePage/V2/avantPremiere.png") no-repeat -205px 0px transparent;
+	background-image:url("../../images/homePage/V2/avantPremiere.png")!important;
+	text-indent:-999em;
+}
+.blc_offre ul.tab li.ui-corner-top.ofr_NuitGrat a{
+	background:url("../../images/homePage/V2/nuitGratuite.png") no-repeat -305px 0px transparent;
+	background-image:url("../../images/homePage/V2/nuitGratuite.png")!important;
+	text-indent:-999em;
+}
+.blc_offre ul.tab li.ui-corner-top.ofr_OffresSpe a{
+	background:url("../../images/homePage/V2/offresSpeciales.png") no-repeat -205px 0px transparent;
+	background-image:url("../../images/homePage/V2/offresSpeciales.png")!important;
+	text-indent:-999em;
+}
+.blc_offre ul.tab li.ui-corner-top.ofr_rew_promo a{
+	background:url("../../images/homePage/V2/derniereMinute.png") no-repeat -205px 0px transparent;
+	background-image:url("../../images/homePage/V2/rewards-promo.png") !important;
+	text-indent:-999em;
+}
+.blc_offre ul.tab li.ui-corner-top.ofr_OffresSpe a:hover,
+.blc_offre ul.tab li.ui-corner-top.ui-tabs-active.ofr_OffresSpe a,
+.blc_offre ul.tab li.ui-tabs-active.ofr_OffresSpe a,
+.blc_offre ul.tab li.ui-corner-top.ofr_AvtPrm a:hover,
+.blc_offre ul.tab li.ui-corner-top.ui-tabs-active.ofr_AvtPrm a,
+.blc_offre ul.tab li.ui-tabs-active.ofr_AvtPrm a,
+.blc_offre ul.tab li.ui-corner-top.ofr_DrnMin a:hover,
+.blc_offre ul.tab li.ui-corner-top.ui-tabs-active.ofr_DrnMin a,
+.blc_offre ul.tab li.ui-tabs-active.ofr_DrnMin a,
+.blc_offre ul.tab li.ui-corner-top.ofr_NuitGrat a:hover,
+.blc_offre ul.tab li.ui-corner-top.ui-tabs-active.ofr_NuitGrat a,
+.blc_offre ul.tab li.ui-tabs-active.ofr_NuitGrat a,
+.blc_offre ul.tab li.ui-corner-top.ofr_rew_promo a:hover,
+.blc_offre ul.tab li.ui-corner-top.ui-tabs-active.ofr_rew_promo a,
+.blc_offre ul.tab li.ui-tabs-active.ofr_rew_promo a,
+.blc_offre ul.tab li.ui-corner-top.ui-tabs-active.ofr_ideesejour a,
+.blc_offre ul.tab li.ui-corner-top.ofr_ideesejour a:hover,
+.blc_offre ul.tab li.ui-corner-top.ui-tabs-active.ofr_rew_promo1 a,
+.blc_offre ul.tab li.ui-corner-top.ofr_rew_promo1 a:hover
+{
+	background-position:-1px 0px;
+}
+a.tt_offre{
+	top: 0px;
+	z-index:5;
+}
+
+.blocOffre{
+	height: 343px!important;
+	overflow:hidden;
+	position:relative;
+	width: 282px!important;
+}
+.blocOffre a{
+	background:white;
+	position:absolute;
+	top:0;
+	left:0;
+	height: 260px!important;
+	padding-top:83px;
+	width: 282px!important;
+}
+.blocOffre .size20,
+.blocOffre .offre56,
+.blocOffre .size28,
+.blocOffre .fauxLien{
+	color:#252525;
+	font-size:20px;
+	line-height: 28px;
+	display:block;
+	text-align:center;
+}
+.blocOffre .offre56{
+	font-size:56px;
+	line-height: 56px;
+}
+.blocOffre .size28{
+	font-size:28px;
+	line-height: 32px;
+}
+.remonteValeur{
+	margin-top:-10px;
+}
+.remonteFin{
+	margin-top:-10px;
+}
+.blocOffre .avantPrems{background: url("../../images/homePage/V2/premsBg.png") no-repeat 115px 30px #ffcb05;}
+.blocOffre .nuitGratuite{background: url("../../images/homePage/V2/cadeauBg.png") no-repeat 115px 30px #002267;}
+.blocOffre .derniereMinute{background: url("../../images/homePage/V2/chronoBg.png") no-repeat 115px 30px #ffcb05;}
+.blocOffre .offreSpeciale{background: url("../../images/homePage/V2/offresBg_new-v=1.0.png") no-repeat 115px 30px #ffcb05;}
+.nuitGratuite .size20,
+.nuitGratuite .offre56,
+.nuitGratuite .size28,
+.nuitGratuite .fauxLien{
+	color:#fff;
+}
+.blc_offre div.DrnMin div.mrg {
+margin-right: 14px;
+}
+.blc_offre div.DrnMin div.DrnMin1 {
+	height:343px!important;
+	margin-bottom:29px;
+	position:relative;
+	width: 284px;
+}
+.blc_offre div#offres_week_end div.DrnMin1{
+	margin-bottom:29px;
+}
+.blc_offre div.DrnMin div.DrnMin1 .resa_btn{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.blc_offre div.DrnMin div.DrnMin1 .resa_btn:hover{
+	background-position:bottom left;
+}
+.blc_offre div.DrnMin div.DrnMin1 a{display:block;}
+.blc_offre div.DrnMin div.DrnMin1 img{
+	display:block;
+	height:220px;
+	min-width:285px;
+	margin-bottom:13px;
+	padding-bottom:0;
+}
+.blc_offre div.DrnMin div.DrnMin1 h3.home_seo span.bw{
+	color:#999999;
+	font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;
+font-weight:normal;
+	font-size:14px;
+	line-height:16px;
+}
+.tp_destin div.row, .last_htl div.row{
+	padding-bottom:20px;
+	position:relative;
+}
+.tp_destin div.row p span.smallFrom{
+	display:block;
+	font-size:11px;
+	font-family:verdana,arial,sans-serif;
+	padding-top:7px;
+}
+.tp_destin div.row p span.price{
+	margin-left: 75px;
+	display: block;
+}
+.tp_destin div.row p span.valeur{
+	text-transform:uppercase;
+}
+
+.blc_offre .DrnMin{
+	position:relative;
+}
+.blc_offre div.DrnMin div.DrnMin1 h3.home_seo{
+	float:left;
+	font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;
+font-weight:normal;
+	width:130px;
+}
+.blc_offre .DrnMin p.price{
+	margin-left: 132px;
+	float: none;
+	text-align: right;
+	width: 150px;
+}
+.row .btn_gris{
+	background:url("../../images/homePage/V2/decouvrirBtn.png") no-repeat top left transparent;
+	height: 36px;
+	text-indent:-999em;
+	width: 110px;
+	position:absolute;
+	bottom:20px;
+	right:0;
+}
+
+.row .dhc{
+	position:static !important;margin-right: -10px;
+}
+
+.row .comp_btn .btn_gris{
+	background:url("../../images/homePage/V2/comparerBtn.png") no-repeat top left transparent;
+	bottom: 40px;
+	width: 116px;
+}
+.row .btn_gris:hover{
+	background-position:bottom left;
+}
+.blc_offre div.DrnMin p.etoile{
+	border-top:0px solid transparent;
+	color:#5e5e5e;
+	padding-bottom:5px;
+	padding-left:20px;
+	text-align:left;
+}
+.tp_destin p.etoile{
+	border-top: 1px solid #ebebeb;
+	border-bottom:0px solid transparent;
+	color:#5e5e5e;
+}
+.blc_la_une p.title{
+background: #fff;
+color: #c20052;
+font-family: 'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:22px;
+height:auto;
+line-height:24px;
+padding-left:0;
+}
+.blc_la_une p.subTitle{
+color: #252525;
+font-family: 'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:18px;
+line-height:26px;
+padding-bottom:10px;
+}
+.resa_btn{
+	background:url("../../images/homePage/V2/voirHotel.jpg") no-repeat top left transparent;
+	height: 36px;
+	text-indent:-999em;
+	position:relative;
+	width: 121px;
+}
+.resa_btn_reserver{
+	background:url("../../images/homePage/V2/reserverHotel.jpg") no-repeat top left transparent !important;
+	height: 36px;
+	text-indent:-999em;
+	position:relative;
+	width: 121px;
+}
+.resa_btn span{
+	height: 36px;
+	position:absolute;
+	text-indent:-999em;
+	top:0;
+	left:0;
+	width: 121px;
+}
+.blocOffre .fauxLien{
+	background:url("../../images/homePage/V2/boutonOffres.png") no-repeat top center transparent;
+	height: 38px;
+	text-indent:-999em;
+	position:relative;
+	width: 158px;
+	margin-left: 66px;
+}
+.blocOffre  .fauxLienv2{
+background:url("../../images/homePage/V2/boutonOffres2.png") no-repeat top center transparent;
+	height: 38px;
+	text-indent:-999em;
+	position:relative;
+	width: 158px;
+	margin-left: 66px;display: block;
+}
+
+.blocOffre:hover .fauxLien{
+	background-position:bottom center;
+}
+.last_htl p.resa_histo,
+.last_htl p.dern_cons,
+.last_htl p.resa_histo strong, 
+.last_htl p.dern_cons strong{
+	color:#5e5e5e;
+	font-family: 'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;
+font-weight:normal;
+	font-size:11px;
+}
+.lumiere{
+	cursor:default;
+	display:block;
+	position:relative;
+	width:100%;
+}
+.lumiere img{
+	height:auto!important;
+	max-width:100%;
+}
+.verticalAlign{
+	border:1px solid #e2e2e3;
+	color:#343434;
+	font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;
+font-weight:normal;
+	font-size:11px;
+	background:white;
+	padding: 10px 40px 10px 20px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:auto;
+}
+.verticalAlign .lieuHotel{
+	display:block;
+	font-size:13px;
+	padding-top:15px;
+	color:#252525;
+	font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;
+font-weight:normal;
+}
+.appl_bw,
+.blc_la_une{
+	width:615px;
+}
+.blc_la_une{
+	margin-bottom:30px;
+}
+.blc_offre div.DrnMin div.DrnMin1 p span{
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	line-height:12px;
+	vertical-align:top;
+}
+.blc_offre div#nuit_gratuite div.DrnMin1 p span em span{
+	font-size:14px;
+}
+.blc_offre div.DrnMin div.DrnMin1 h3 a span.nomHotel,
+.blc_offre div.DrnMin div.DrnMin1 h3 a span.lieuHotel{
+	color:#252525;
+	display:block;
+	font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.blc_offre div.DrnMin div.DrnMin1 h3 a span.lieuHotel{
+	color:#252525;
+	font-family: 'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;
+font-weight:normal;
+	font-size:14px;
+	line-height: 16px;
+	position:absolute;
+	bottom:5px;
+	left:0;
+	width:130px;
+}
+.blc_offre div.DrnMin div.DrnMin1 p span em span,
+.blc_offre div.DrnMin div.DrnMin1 p span.old_prc,
+.blc_offre div.DrnMin div.DrnMin1 p span.old_prc em,
+.blc_offre div.DrnMin div.DrnMin1 p span.old_prc em span{
+	display:inline-block;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	line-height: 22px;
+	text-decoration:none;
+	vertical-align:bottom;
+}
+.blc_offre div.DrnMin div.DrnMin1 p span em{
+	display:block;
+	font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;
+font-weight:normal;
+	font-size:28px;
+	line-height: 28px;
+	padding-top:10px;
+	vertical-align: middle;
+	white-space:nowrap;
+	text-transform:uppercase;
+}
+.blc_offre div.DrnMin div.DrnMin1 p span.old_prc,
+.blc_offre div.DrnMin div.DrnMin1 p span.old_prc em .valeur,
+.blc_offre div.DrnMin div.DrnMin1 p span.old_prc em{
+	padding-top:0px;
+	line-height: 14px;
+	font-weight:normal;
+}
+.blc_offre div.DrnMin div.DrnMin1 p span em span{
+	font-size:18px;
+	font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+
+/** Calendrier */
+/*A supprimer -----------
+#ui-datepicker-div {
+width: 410px !important;
+}
+.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default!important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month-year{width:100%}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker.ui-datepicker-multi{width:auto}.ui-datepicker-multi .ui-datepicker-group{float:left}.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em}.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}.ui-datepicker-row-break{clear:both;width:100%;font-size:0}.ui-datepicker-rtl{direction:rtl}.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,.ui-datepicker-rtl .ui-datepicker-group{float:right}.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}
+
+#ui-datepicker-div{
+	background:#fff;
+	border:1px solid #ccc;
+	border-radius:5px;
+	font-family:Verdana, arial, sans-serif;
+	font-size:12px;
+	line-height:14px;
+	-webkit-box-shadow: 0px 1px 1px #dfdfdf inset;
+	box-shadow: 0px 1px 1px #dfdfdf inset;
+	color:#303030;
+	z-index:99!important;
+}
+.ui-datepicker{
+	color: #252525;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+}
+.ui-datepicker-header{
+background-color: #efefef;
+border-bottom: 1px solid #dedede;
+color: #252525;
+font-family: 'FrutigerLTStd47LightCnBold',Arial,Helvetica,sans-serif;
+font-weight:normal;
+text-transform:uppercase;
+}
+.ui-datepicker td{
+	border: 1px solid #e2e2e2;
+	padding: 0;
+}
+.ui-datepicker td span{
+	background-color: #ccc;
+}
+.ui-datepicker td span, .ui-datepicker td a{
+	color: #252525;
+	text-align:center;
+	line-height:16px;
+}
+.ui-datepicker a.ui-datepicker-prev, 
+.ui-datepicker a.ui-datepicker-next{
+
+}
+.ui-datepicker table.ui-datepicker-calendar td:hover a{
+	background-color: #e9e6e6!important;
+}
+table a.ui-datepicker-current-day:hover,
+table a.ui-datepicker-current-day {
+background: #C20052 !important;
+}
+.ui-state-default.ui-state-highlight.ui-state-active.ui-state-hover {
+background: transparent!important;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-state-hover,
+.ui-datepicker .ui-datepicker-calendar td a:hover{
+	background-color: #e9e6e6;
+	color: #000;
+}
+.ui-datepicker-buttonpane{display:none!important;}
+
+.ui-datepicker-header{
+background:#5e5e5e;
+color:#fff;
+width: 99%;
+}
+.ui-datepicker-header{
+	height: 30px;
+	line-height: 30px;
+}
+.ui-datepicker .ui-datepicker-title{
+line-height: 33px;
+}
+.ui-datepicker td, 
+.ui-datepicker td span, 
+.ui-datepicker td a{
+line-height: 21px;
+font-size:12px;
+width: 28px;
+line-height: 28px;
+padding: 0!important;
+margin: 0!important;
+}
+#ui-datepicker-div a, 
+.ui-datepicker-inline a {
+font-weight:normal;
+}
+body .ui-datepicker .ui-state-active {
+background-color: #c10051!important;
+}
+.ui-datepicker a.ui-datepicker-prev, .ui-datepicker a.ui-datepicker-next {
+top: 11px;
+}
+.ui-datepicker-multi .ui-datepicker-group table{
+width: 99%;
+margin-bottom:0;
+}
+.ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-first .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-first table{
+margin-right:1%;
+}
+.ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-last table{
+margin-left:1%;
+}
+.ui-datepicker th{
+background-color:#e3e3e3;
+padding: 3px .3em;
+}
+.ui-datepicker-title{
+	background:transparent;
+}
+.ui-datepicker-header{
+	background: #5e5e5e;
+}
+.ui-datepicker-calendar thead tr{
+	color:#646464;
+	font-size:9px;
+}
+#ui-datepicker-div a, 
+.ui-datepicker-inline a{
+	color:#5a5c5c;
+}
+table a.ui-state-default{
+	background:#fff!important;
+}*/
+.ftl strong{
+	font-family: 'FrutigerLTStd47LightCnBold',Arial,Helvetica,sans-serif;
+	font-weight:normal;
+}
+
+/*************/
+span.rech_visible{visibility:visible !important; } 
+span.rech_visible input{width:145px !important; }
+#google_autocompleter .ui-menu .ui-menu-item a{padding: 1px 0 !important;line-height: normal !important;}
+
+/***************/
+.blc_offre div.DrnMin div.DrnMin1.offre-special img{height:auto;min-width: 280px;}
+.blocOffre.offre-special a{padding-top:0;}
+/*********pop up questionnaire**********/
+.pop_remerciement.ui-dialog {z-index:99999;top:20%;margin-left: -280px;width:480px !important;min-height:320px !important;/*background:url("http://www.bestwestern.fr/public/css/images/bwr_inscription/bottom_pop.png") no-repeat bottom;*/background:#fff;
+-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;-moz-box-shadow:0 0 10px #403F3F;-webkit-box-shadow:0 0 10px #403F3F;-o-box-shadow:0 0 10px #403F3F;box-shadow:0 0 10px #403F3F;color:#000;}
+.pop_remerciement.ui-dialog .ui-dialog-content{padding:17px 0 0 !important;height:auto !important;background:#fff;}
+.pop_remerciement.ui-dialog fieldset{border:none;}
+.pop_remerciement.ui-dialog .ui-dialog-titlebar-close{background:url("../../images/vip/close-vip.png") no-repeat;width:26px;height:26px;float:right;border:none;font-size:0;cursor:pointer;border:none;margin-top:0 ;right:4px;z-index: 9999;top:4px;}
+.pop_remerciement.ui-dialog .ui-dialog-title{display:none;}
+.pop_remerciement.ui-dialog .ui-dialog-titlebar{background:none;width:auto;padding:0; }
+.pop_remerciement .logo-rem{margin-left:25px;margin-bottom:10px;}
+.txt-rem{padding:20px 55px 0 55px;font-size:20px;color:#000;line-height:28px;text-align:center;   }
+.txt-rem1{padding:20px 42px 0 42px;font-size:20px;color:#AEAAAA;}
+
+/**onglet promesses***/
+.onglet-promesses .DrnMinprom{width:280px;float:left;margin:20px 17px 20px 0;}
+.onglet-promesses .DrnMinprom .home_seo{background:url("../../images/bg-onglet-promesse.jpg") repeat-x center;padding-left:16px;width:94%;float:left; }
+.onglet-promesses .DrnMinprom .home_seo a{width:auto;background:#fff;padding:0 7px;float:left;color:#002267;font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;font-size:13px;text-transform:uppercase;   }
+.onglet-promesses .onglet-prom{border:1px solid #d9d9d9;width:258px;box-shadow:2px 2px 5px #d9d9d9;moz-box-shadow:2px 2px 5px #d9d9d9;webkit-box-shadow:2px 2px 5px #d9d9d9;float:left;margin-top:7px;padding:5px 15px 5px 5px;position: relative;}
+.onglet-promesses .onglet-prom .pho-onglet{float:left;margin-right:20px;width:98px;height:108px;overflow: hidden; }
+.onglet-promesses .onglet-prom .pho-onglet img{height:100%;}
+.onglet-promesses .onglet-prom .desc-onglet{margin-top:20px;font-size:13px;}
+.onglet-promesses .onglet-prom .desc-onglet a{background:#be0052;float:right;color:#fff;font-size:13px;font-weight:bold;font-family:arial; padding:5px 10px;text-align:center;border-radius:3px;moz-border-radius:3px;webkit-border-radius:3px;position:absolute;bottom:8px;right:14px;}
+.blc_offre ul.tab li.ui-corner-top.ofr_ideesejour a{
+	background:url("../../images/homePage/V2/idee-sejour.png") no-repeat -305px 0px transparent;
+	background-image:url("../../images/homePage/V2/idee-sejour.png")!important;
+	text-indent:-999em;
+}
+.blc_offre ul.tab li.ui-corner-top.ofr_rew_promo1 a{
+	background:url("../../images/homePage/V2/best-rewards-l.png") no-repeat -305px 0px transparent;
+	background-image:url("../../images/homePage/V2/best-rewards-l.png") !important;
+	text-indent:-999em;
+}
+.blc_offre ul.tab.tab-onglet li{width:49.8% !important;}
+.blc_offre ul.tab.tab-onglet li a{width:100% !important;font-size:0;}
+.blc_offre ul.tab.tab-onglet li.ui-corner-top.ofr_OffresSpe a{
+	background:url("../../images/homePage/V2/offresSpeciales-G.png") no-repeat -305px 0px transparent;
+	background-image:url("../../images/homePage/V2/offresSpeciales-G.png")!important;
+	text-indent:-999em;
+} 
+.blc_offre ul.tab.tab-onglet li.ui-corner-top.ofr_OffresSpe a:hover,
+.blc_offre ul.tab.tab-onglet li.ui-corner-top.ui-tabs-active.ofr_OffresSpe a,
+.blc_offre ul.tab.tab-onglet li.ui-tabs-active.ofr_OffresSpe a{
+	background-position:-1px 0px;
+}
+
+/**ban nuit gratuit**/
+.blocOffre.nuit-gratuit-sw a{padding-top:0;}
+.blc_offre div.DrnMin div.DrnMin1.nuit-gratuit-sw img {width:auto;height:auto;}

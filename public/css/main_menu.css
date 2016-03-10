@@ -1,0 +1,78 @@
+#Nav{width:829px;height:33px;clear:both;background:url('http://www.bestwestern.fr/public/images/background/main_menu.gif') no-repeat;list-style:none;padding:0;margin:0 auto;position:relative;}
+#Nav li{margin:0;float:left;text-align:center;display:block;position:relative;}
+
+#Nav li a{float:left;text-decoration: none;margin: 0;font:bold 11px arial;color:#002576;line-height:11px;height:33px;height:27px;padding:9px 0 0 0;position:relative;z-index:1;}
+#Nav li a:hover,#Nav li a:active{color:#FFF;}
+#Nav li ul.Menu{padding:0;margin:0;list-style:none;display:none;width:158px;position:absolute;top:0;z-index:0;clear:both;}
+#Nav li ul.Menu li.first-child {margin-top:50px;}
+#Nav li ul.Menu li{background:#0d275a;padding:0;margin:0;clear:both;text-align:left;width:100%; _width:138px;}
+#Nav li ul.Menu li.last-child{height:70px;clear:both;}
+
+#Nav li ul.Menu a{line-height:0;padding:0;background:none;margin: 0;color:#FFF;font:normal 11px arial;line-height:25px;padding-left:20px;background:none;}
+#Nav li ul.promo a{;margin:0 4px;width:138px;}
+
+#Nav li ul.Menu a:hover{color:#3896ec;background:url('http://www.bestwestern.fr/public/images/pictos/picto_menu.gif') left no-repeat;}
+
+#Nav li a{width:100%;}
+/* Active Menu */
+#Nav li.les_plus_best_western{width:107px;}
+#Nav li.les_plus_best_western a{width:100%;padding:6px 0 0 0;position:relative;}
+
+#Nav li.escapades{width:91px;left:-5px;}
+#Nav li a.actif_escapades{background:url('http://www.bestwestern.fr/public/images/background/escapades_activ.gif') no-repeat;color:#FFFFFF;width:91px;left:2px;}
+
+#Nav li.best_westerns_rewards{width:116px;}
+#Nav li.best_westerns_rewards a{padding:6px 0 0 0;position:relative;}
+#Nav li a.actif_best_western_rewards{background:url('http://www.bestwestern.fr/public/images/background/rewards_activ.gif') no-repeat;color:#FFFFFF !important;width:116px;left:-4px;}
+
+#Nav li.golf{width:45px;text-align:left;padding-left:6px;}
+#Nav li a.actif_golf{background:url('http://www.bestwestern.fr/public/images/background/golf_activ.gif') no-repeat;color:#FFFFFF;left:-11px;width:38px;text-align:left;padding-left:13px;}
+
+/* Sous Menu */
+#Nav li a.accueil{width:70px;}
+#Nav li a:hover.accueil, #Nav li a.actif_accueil{background:url('http://www.bestwestern.fr/public/images/background/accueil_activ.gif') no-repeat;color:#FFF;width:70px;}
+
+#Nav li.promo{width:96px;display:block;}
+#Nav li.promo a{width:96px; left:-1px;}
+#Nav li a.actif_promotions{background:url('http://www.bestwestern.fr/public/images/background/promotions.gif') no-repeat;width:96px;color:#FFFFFF;}
+
+#Nav li.les_plus_best_western{width:108px;}
+#Nav li a.actif_les_plus_best_western{background:url('http://www.bestwestern.fr/public/images/background/les_plus_bw_activ.gif') no-repeat;color:#FFFFFF;left:-2px;}
+
+#Nav li.bestwestern_premier{width:90px;}
+#Nav li.bestwestern_premier a{padding:6px 0 0 0;}
+#Nav li a:hover.bestwestern_premier, #Nav li a.actif_bestwestern_premier{background:url('http://www.bestwestern.fr/public/images/background/bw_premier__.gif') no-repeat;left:-6px;width:106px;color:#FFFFFF;}
+
+#Nav li.rechercher_hotel{width:96px;display:block; text-align:center;left:-1px;}
+#Nav li a.rechercher_hotel:hover, #Nav li a.actif_rechercher_hotel{background:url('http://www.bestwestern.fr/public/images/background/rechercher_hotel.gif') no-repeat;width:99px;color:#FFFFFF;}
+#Nav li.rechercher_hotel a{width:99px;padding:6px 0 0 0;}
+
+#Nav li.seminaires_reunions{width:94px;margin-left:10px;}
+#Nav li.seminaires_reunions a{padding:6px 0 0 0;}
+#Nav li.seminaires_reunions a.actif_seminaires_et_reunions{background:url('http://www.bestwestern.fr/public/images/background/seminaires_actif.gif') top no-repeat;width:102px;color:#FFFFFF;left:-1px;}
+
+
+#Nav li ul.hotel{background:url('http://www.bestwestern.fr/public/images/background/promo.gif') top no-repeat; left:0;top:0px;z-index:0;position:absolute;}
+#Nav li ul.promo{background:url('http://www.bestwestern.fr/public/images/background/promo.gif') top no-repeat; left:-1px;top:0px;z-index:0;position:absolute;}
+#Nav li ul.les_plus_bw{background:url('http://www.bestwestern.fr/public/images/background/les_plus_bw.gif') top no-repeat; left:-2px;top:0px;z-index:0;position:absolute;}
+#Nav li ul.escapades{background:url('http://www.bestwestern.fr/public/images/background/escapades.gif') top no-repeat; left:2px;top:0px;z-index:0;position:absolute;}
+#Nav li ul.rewards{background:url('http://www.bestwestern.fr/public/images/background/rewards.gif') top no-repeat; left:-4px;top:0px;z-index:0;}
+#Nav li ul.golf{background:url('http://www.bestwestern.fr/public/images/background/golf.gif') top no-repeat; left:-5px;z-index:0;top:0px;position:absolute;}
+#Nav li ul.bw_premier{background:url('http://www.bestwestern.fr/public/images/background/bw_premier_.gif') top no-repeat; left:0;top:0px;z-index:0;position:absolute;}
+#Nav li ul.seminaires{background:url('http://www.bestwestern.fr/public/images/background/seminaires.gif') top no-repeat; right:-7px;top:0px;z-index:0;position:absolute;}
+
+/* Sous Menu */
+body #wrap #header ul.ss_menu{width:829px;height:22px;clear:both;margin:4px auto 0;list-style:none;text-align:center;background:url('http://www.bestwestern.fr/public/images/background/ss_menu_rub.gif') top no-repeat;}
+body #wrap #header ul.ss_menu li{display:inline;line-height:22px;}
+body #wrap #header ul.ss_menu li a{color:#002576;text-decoration:none;background:url('../images/pictos/ss_menu.gif') left no-repeat;padding:0 10px 0 11px;}
+body #wrap #header ul.ss_menu li a:hover{color:#6CA9DF;background:url('http://www.bestwestern.fr/public/images/pictos/ss_menu_hover.gif') left no-repeat;}
+body #wrap #header ul.ss_menu li a.actif{color:#6CA9DF;background:url('http://www.bestwestern.fr/public/images/pictos/ss_menu_hover.gif') left no-repeat;font-weight:bold;}
+
+/* Ss Booking Hôtel */
+body #wrap  ul.ss_booking{width:801px;height:27px;margin:0 auto 0 67px; ;list-style:none;}
+body #wrap  ul.ss_booking li{float:left;margin-right:16px;}
+body #wrap  ul.ss_booking a.rub{background:none;}
+body #wrap  ul.ss_booking a{font:normal 12px arial;color:#888888;text-decoration:underline;line-height:22px;background:url("http://www.bestwestern.fr/public/images/pictos/booking.gif") left no-repeat;padding-left:13px;cursor:pointer;}
+body #wrap  ul.ss_booking a:hover, body #wrap  ul.ss_booking a.activ{color:#002576;text-decoration: none;}
+body #wrap  ul.ss_booking a.activ{cursor:auto; font-weight:bold;background:url("http://www.bestwestern.fr/public/images/pictos/booking.gif") left no-repeat;padding-left:13px;}
+body #wrap #fil_d_ariane_false{background:white;width:960px}

@@ -1,0 +1,472 @@
+@font-face {
+    font-family: 'Frutiger-light';
+    src: url('fonts/frutiger-light-webfont.eot');
+    src: url('fonts/frutiger-light-webfont-.eot#iefix') format('embedded-opentype'),
+         url('fonts/frutiger-light-webfont.woff') format('woff'),
+         url('fonts/frutiger-light-webfont.ttf') format('truetype'),
+         url('fonts/frutiger-light-webfont.svg#FrutigerLTStd65Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'Frutiger';
+    src: url('fonts/frutiger-webfont.eot');
+    src: url('fonts/frutiger-webfont-.eot#iefix') format('embedded-opentype'),
+         url('fonts/frutiger-webfont.woff') format('woff'),
+         url('fonts/frutiger-webfont.ttf') format('truetype'),
+         url('fonts/frutiger-webfont.svg#FrutigerLTStd65Bold') format('svg');
+    font-weight: bold ;
+    font-style: normal ;}
+
+p{line-height:20px;text-align: justify;}
+#page{background:#fff; }
+/*************/
+.frutiger{font-family: Frutiger-light, Verdana, Arial, sans-serif;font-weight:normal!important;zoom: 1;}
+.frutigerRegular{font-family: FrutigerRoman, Verdana, Arial, sans-serif;font-weight:normal!important;zoom: 1;}
+.frutigerBold{font-family: Frutiger, Verdana, Arial, sans-serif;font-weight:bold!important;zoom: 1;}
+/** Fil d'ariane */
+#breadcrumb.pathway{border-bottom:1px solid #f0f0f0;margin:10px 20px 10px 20px;min-height:20px;padding:0 15px 10px 15px;font-size:12px;font-family:verdana;}
+#breadcrumb a{background:url("../images/avsw/flecheBreadcrumb.jpg") no-repeat center right;color:#252525;margin-right:8px;padding-right:17px;}
+#breadcrumb a span{color:#252525;line-height:36px;padding-right:0;text-decoration:underline;font-family:verdana;}
+.current{color:#c20052;text-decoration:underline; }
+.content-fiche-new{padding:10px 0 0 0;font-family:verdana;}
+.sub-content-fiche{padding-right:20px;}
+/*******top fiche********/
+.top-content-fiche{margin:0 0 0 20px;}
+.top-content-fiche h1{font-size:22px;margin-bottom:10px;}
+.top-content-fiche h1 span img{margin-left:3px;}
+.top-content-fiche .adresse-fiche{font-size:13px;font-family:verdana;margin-top:5px; }
+.top-content-fiche .streetAddress{background:url("../images/fiche-hotel/situe-fiche.png") no-repeat left;padding-left:15px; }
+.top-content-fiche .adresse-fiche a{color:#c20052;font-weight:bold;text-decoration:underline;font-size:11px; }
+.top-content-fiche  .contact{margin-top:14px;color:#5c5c5c;font-size:11px;}
+.top-content-fiche  .contact span{border-right:1px solid #a4a4a4;padding-right:10px;margin-right:5px;}
+.top-content-fiche .telfiche{background:url("../images/fiche-hotel/tel-fiche.png") no-repeat left;padding-left:15px; }
+.top-content-fiche .faxfiche{background:url("../images/fiche-hotel/fax-fiche.png") no-repeat left;padding-left:20px; }
+.top-content-fiche .emailfiche{background:url("../images/fiche-hotel/mail-fiche.png") no-repeat left;padding-left:15px;color:#5c5c5c; }
+.top-content-fiche .emailfiche a{color:#5c5c5c; }
+.top-content-fiche .sitefiche{background:url("../images/fiche-hotel/site-fiche.png") no-repeat left;padding-left:20px;border-right:none !important; }
+.bt-reserve{float:right;background:url("../images/fiche-hotel/bt-right.png") no-repeat right;height:37px;padding-right:7px;  }
+.bt-reserve a{background:url("../images/fiche-hotel/bt-left.png") no-repeat;color:#fff;font-family:'FrutigerLTStd47LightCnBold',verdana;
+font-size:18px;height:37px;line-height:37px;padding-left:7px;text-align:center;width:253px;display:block;  }
+/*********contenu fiche**********/
+.frutigerRegular{font-family: FrutigerLTStd45LightRegular,Verdana,Arial,sans-serif;}
+.contenu-fiche{margin-top:20px;}
+/****left****/
+.left-fiche{width:220px;float:left;}
+.left-fiche .encartJaune{
+	background:url("../images/fiche-hotel/flecheTransparente.png") no-repeat bottom center #ffcb05;
+	color:#252525;
+	font-size:11px;
+	height:63px;
+	line-height:53px;
+	text-align:center;padding-left:0px;padding-right:0px;
+}
+.left-fiche .encartJaune .prix{font-size:30px;padding-right:2px;font-weight:bold;}
+.left-fiche .encartJaune .indispo{font-size:16px;padding-right:2px;font-weight:bold;}
+.left-fiche .prix em{font-family: FrutigerLTStd45LightRegular,Verdana,Arial,sans-serif;font-size:11px;font-weight:normal;}
+.encartGris{background:#f3f3f4;position:relative;}
+.left-information{padding:0 15px 25px 20px;font-family:verdana;font-size:11px;color:#454545;}
+.left-information p{line-height:18px; }
+.left-fiche .font-size13{font-size:13px;font-weight:bold;margin:6px 0;}
+.left-fiche .situe-gris{background:url("../images/fiche-hotel/situe-gris.png") no-repeat left;font-size:16px;padding-left:15px; }
+.left-information strong{font-weight:bold;}
+.left-information .cham-f1{border-top:1px solid #e3e2e2;margin-bottom:3px;}
+.left-fiche .encartGris .intitule{min-height:15px;}
+.bt-modifier-rech{background:url("../images/fiche-hotel/bt-right.png") no-repeat right;height:37px;padding-right:7px; width:172px;margin-top:10px;  }
+.bt-modifier-rech input{background:url("../images/fiche-hotel/bt-left.png") no-repeat;color:#fff;font-family:'FrutigerLTStd45LightRegular',verdana;
+font-size:13px;height:37px;line-height:37px;padding-left:7px;text-align:center;display:block;border:none;width:172px; }
+#cls_offre{float:left;cursor:pointer;width:220px;}
+#cls_offre img{width:100%;}
+.pop-offre{margin-top:5px;position: relative;margin-left:3px;}
+.pop-offre .offre-triang{background:url("../images/fiche-hotel/triangle.jpg") no-repeat;width:17px;height:8px;position:absolute;top:-7px;left:49%;display:block; }
+.offres_vip_rew b {color: #002267;font-size:13px;font-weight:bold; }
+.offres_vip_rew{background: #FCFCFC; }
+.offres_vip_rew_fils{border: 1px solid #CCCCCC; padding:10px;background: #FCFCFC; }
+.offres_vip_rew_fils h3{color:#002667; }
+.offres_vip_rew_fils p{padding:0; color:#7d7d7d;text-align:left;  }
+.content-fiche-new .msg_info #btn_ins_vip{background:url("../images/fiche-hotel/inscri.jpg") no-repeat !important;width:187px;height:46px;border:none;cursor:pointer;margin-right:0;}
+.content-fiche-new .msg_info #btn_already_ins_vip{background:url("../images/fiche-hotel/membre.jpg") no-repeat !important;width:187px;height:46px;border:none;margin-top:5px;cursor:pointer;}
+/****faq****/
+.faq-left{border:1px solid #e9e9ec;margin-top:14px;padding:20px 18px;font-family:verdana;font-size:11px;  }
+.faq-left h3{color:#5e5e5e;font-size:18px;margin-bottom:15px;font-weight:normal; }
+.faq-left p{line-height:19px;text-align:left;  }
+.faq-left a{text-decoration:underline;color:#002267; }
+.faq-left a:hover{color:#b70043; }
+.faq-left a.voir-plus{color:#252525;margin-top:20px;}
+.faq-left a.ui-state-default{background:none !important; }
+.ui-dialog{z-index:9999;border-radius:10px; }
+.ui-dialog .ui-dialog-titlebar-close{background:url("../images/close-popup.png") no-repeat;width:18px;height:18px;font-size:0;text-indent:-99999em;display:block;border:none;cursor:pointer;margin:0;  }
+.ui-dialog .ui-dialog-titlebar{background:none;width:auto;  }
+.question-faq{color:#C20052;font-weight:bold;margin-top:15px;}
+.reponse-faq{margin-top:10px;font-size:12px;}
+.ui-dialog .ui-dialog-content{height:auto !important;padding:0 !important; }
+/******service******/
+.service-left{background:#ffcb05;padding:15px;margin-top:14px;font-family:verdana;float:left;  }
+.service-left h2{font-size:18px;color:#5e5e5e;line-height:normal;margin-bottom:2px;font-weight:normal;  }
+.service-left .liste-service{font-size:11px;color:#252525;}
+.service-left .liste-service ul li{float:left;margin-top:10px;}
+.service-left .liste-service .picto{width:32px;height:32px;margin-right:8px;float:left;}
+.service-left .liste-service .picto img{width:100%;}
+.service-left .liste-service .parg-service{float:left;margin-top:10px;width:150px;}
+.service-left .sub-service{float:left;margin-top:8px;}
+.service-left .prmesses_ico{float:left;color:#252525 !important;font-weight:normal;margin-top:10px; }
+.service-left .prmesses_ico li{margin-top:5px;}
+.service-left .prmesses_ico img{float:left;}
+.service-left .prmesses_ico span{margin:14px 0 0 7px;float:left;}
+.eco-service{padding:15px;float:left;}
+.eco-service li{margin-top:10px; }
+.eco-service li img{float:left;}
+.eco-service li span{float:left;margin:10px 0 0 5px;}
+/*********right*********/
+.right-fiche{float:right;width:706px;}
+#mainPart{position:relative;width:706px;float:left;}
+#controlesBlocs{clear:both;height:36px;line-height:36px;position:relative;top:1px;}
+#controlesBlocs a{background-color:#dcdcdc;color:#5c5c5c;cursor:pointer;float:left;
+	font-size:14px;height:36px;line-height:36px;position:relative;text-align:center;text-transform:uppercase;width:33.2%;}
+#controlesBlocs a.tow-onglet{width:49.8%;}
+#controlesBlocs .activeArrow{background:url("../images/avsw/flecheHover.png") no-repeat top center;
+	display:none;bottom:0;left:0;height:11px;position:relative;width:100%;z-index:99;}
+#controlesBlocs a.active .activeArrow{display:block;}
+#controlesBlocs a.active{background-color:#5c5c5c;cursor:default;color:#fff;position:relative;/*z-index:99;*/}
+#controlesBlocs .virtual_visit{border-left:1px solid #c9c9c9;border-right:1px solid #c9c9c9;}
+.blc_photos{width:701px;}
+.captionfiche{background:/*url("../images/fiche-hotel/bg-caption.png") repeat*/#f2f2f2;padding:13px 15px;position:absolute;top:45px;left:220px;width:230px;cursor:pointer;opacity:0.3;line-height:20px;   }
+.captionfiche-hover{opacity:1;}
+.captionfiche .right-cap{float:left;color:#589442;font-size:14px;font-family:'FrutigerLTStd47LightCnBold',verdana;margin-top:10px; }
+.captionfiche .info-cap{font-size:13px;color:#000;font-family:'FrutigerLTStd45LightRegular',verdana;margin-top:0;line-height:16px;font-style: italic; }
+.captionfiche .voir-cap{color:#FD2E7A;font-size:11px;font-family:verdana;float:right;margin-top:8px; }
+.captionfiche strong{font-weight:bold;display:block;}
+.captionfiche img{margin:6px 0;display:block;}
+#mainPart .blocCarte, #mainPart .blocPhotos, #mainPart .blocCarte #googlemap{width:703px;}
+.more-block p{font-size:13px;font-family:verdana;margin-top:5px;}
+.navigation #slide-comment-left,
+.navigation #avisPager,
+.navigation #slide-comment-right,
+.navigation a{
+	float:left;
+	margin-right:5px;
+	height:26px;
+	line-height:26px;
+	text-decoration:none;
+	color:#919191;
+	cursor:pointer;
+}
+.navigation a:hover{
+	text-decoration:underline;
+	color:#252525;
+}
+.navigation a{
+	background-color:#fff;
+	display:block;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	width:26px;
+	cursor:pointer;
+}
+.navigation .current a{
+	background-color:#919191;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 2px 1px 1px #808080;
+	box-shadow: inset 0px 2px 1px 1px #808080;
+	color:white;
+}
+.more-block{color:#252525;margin-bottom:5px;}
+#presentation .continued{float:left;color:#C20052;}
+#presentation .adjust{float:left;margin:2px 0 0 5px;color:#C20052;text-decoration:underline; }
+/**bottom***/
+.bottom-fiche{float:left;margin-left:20px;width:920px;}
+.bottom-fiche h2{color:#c20052;font-size:31px;margin-top:30px;padding-bottom:0 !important;}
+/**moteur de recherche**/
+.moteur-fiche{border:1px solid #e9e9ec;padding:14px 40px;margin-top:9px;width:830px;float:left;position:relative;}
+.bottom-fiche .moteur-fiche label{color:#454545;font-family:'Frutiger-light',verdana;font-size:13px; }
+.moteur-fiche .arrivee,.moteur-fiche .depart{width:180px;float:left;margin-right:10px;position:relative;}
+.moteur-fiche .arrivee img,.moteur-fiche .depart img{position:absolute;top:26px;right:10px;}
+.moteur-fiche #DateRangeStart,.moteur-fiche #DateRangeEnd{background:url("../images/fiche-hotel/bt-cal.jpg") no-repeat  #fff; background-position: 95% 9px;cursor:pointer; }
+.moteur-fiche input{border:1px solid #dbdbdb;border-radius:2px;webkit-border-radius:2px;moz-border-radius:2px;width:170px;height:29px;color:#454545;font-family:'frutigerltstd45lightregular',verdana;padding-left:8px !important;margin-top:4px; }
+.moteur-fiche .encartwidth{width:60px;float:left;margin-right:13px;}
+.moteur-fiche  .nonchambre{display:none; }
+.moteur-fiche select{border:1px solid #dbdbdb;border-radius:2px;webkit-border-radius:2px;moz-border-radius:2px;width:46px ;height:31px !important;color:#454545;margin-top:4px;}
+.moteur-fiche .infovoyage{float:left;}
+.moteur-fiche #emplacementChambres{/*float:left;width:230px;*/}
+.moteur-fiche  .encartBlanc.personnes{float:left;margin-bottom:5px;}
+.moteur-fiche  .encartBlanc.personnes .title{float:left;font-size: 11px;margin-top: 8px !important;/*margin-right:35% !important;*/color:#454545;}
+.moteur-fiche  .encartBlanc.personnes .nbAdultes,.moteur-fiche  .encartBlanc.personnes .nbEnfants {float:left;margin-right:18px;width:60px;  }
+.moteur-fiche .codePromo{float:left;width:100%;}
+.moteur-fiche .codePromo a{color:#000;font-size:10px;font-family:verdana;text-decoration:underline; }
+.moteur-fiche .bt-encart{float:right;margin-top:16px;}
+.moteur-fiche .bt-encart a.tarifsEtDispos{background:url("../images/fiche-hotel/bt-disp.jpg") no-repeat;width:137px;height:40px;color:#fff;font-size:13px;
+font-family:'Frutiger-light',verdana;border:none;text-align:center;display:block;padding:5px 10px 0 10px;line-height:18px;   }
+.moteur-fiche .listeEnfants{/*float:left;width:68%;margin-bottom:20px;*/margin-left:75px;}
+.moteur-fiche  .ageEnfant{float:left;margin-right:18px;}
+.moteur-fiche  .ageEnfant .horizontal{display:block;}
+/** Calendrier */
+/*A supprimer -----------
+#ui-datepicker-div {
+width: 410px !important;}
+.ui-datepicker .ui-datepicker-prev {
+border: 5px solid transparent;
+border-right: 8px solid #f6f6f6;
+width: 0!important;
+height: 0!important;
+}
+.ui-datepicker .ui-datepicker-header{height:30px; }
+.ui-datepicker .ui-datepicker-next {
+border: 5px solid transparent;
+border-left: 8px solid #f6f6f6;
+width: 0!important;
+height: 0!important;
+}
+.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}
+.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}
+.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}
+.ui-front{z-index:100}.ui-state-disabled{cursor:default!important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month-year{width:100%}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker.ui-datepicker-multi{width:auto}.ui-datepicker-multi .ui-datepicker-group{float:left}.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em}.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}.ui-datepicker-row-break{clear:both;width:100%;font-size:0}.ui-datepicker-rtl{direction:rtl}.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,.ui-datepicker-rtl .ui-datepicker-group{float:right}.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}
+#ui-datepicker-div{
+	background:#fff;border:1px solid #ccc;border-radius:5px;font-family:Verdana, arial, sans-serif;
+	font-size:12px;line-height:14px;-webkit-box-shadow: 0px 1px 1px #dfdfdf inset;box-shadow: 0px 1px 1px #dfdfdf inset;color:#303030;z-index:99!important;}
+.ui-datepicker{color: #252525;font-family: Verdana,Arial,Helvetica,sans-serif;font-size:14px;}
+.ui-datepicker-header{background-color: #efefef;border-bottom: 1px solid #dedede;color: #252525;font-family: 'FrutigerLTStd47LightCnBold',Arial,Helvetica,sans-serif;
+font-weight:normal;text-transform:uppercase;}
+.ui-datepicker td{border: 1px solid #e2e2e2;padding: 0;}
+.ui-datepicker td span{background-color: #ccc;}
+.ui-datepicker td span, .ui-datepicker td a{color: #252525;text-align:center;line-height:16px;}
+.ui-datepicker table.ui-datepicker-calendar td:hover a{	background-color: #e9e6e6!important;}
+table a.ui-datepicker-current-day:hover,
+table a.ui-datepicker-current-day {background: #C20052 !important;}
+.ui-state-default.ui-state-highlight.ui-state-active.ui-state-hover {
+background: transparent!important;}
+.ui-datepicker .ui-datepicker-calendar .ui-state-hover,
+.ui-datepicker .ui-datepicker-calendar td a:hover{background-color: #e9e6e6;color: #000;}
+.ui-datepicker-buttonpane{display:none!important;}
+.ui-datepicker-header{background:#5e5e5e;color:#fff;width: 99%;}
+.ui-datepicker-header{height: 30px;line-height: 30px;}
+.ui-datepicker .ui-datepicker-title{line-height: 33px;height:30px;font-size:12px;}
+.ui-datepicker td, .ui-datepicker td span, 
+.ui-datepicker td a{font-size:12px;width: 28px;line-height: 28px !important;padding: 0!important;margin: 0!important;}
+#ui-datepicker-div a,.ui-datepicker-inline a {font-weight:normal;}
+body .ui-datepicker .ui-state-active {background-color: #c10051!important;}
+.ui-datepicker a.ui-datepicker-prev, .ui-datepicker a.ui-datepicker-next {top: 11px;}
+.ui-datepicker-multi .ui-datepicker-group table{width: 99%;margin-bottom:0;}
+.ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-first .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-first table{
+margin-right:1%;}
+.ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group.ui-datepicker-group-last table{
+margin-left:1%;}
+.ui-datepicker th{
+background-color:#e3e3e3;
+padding: 3px .3em;}
+.ui-datepicker-title{background:transparent;}
+.ui-datepicker-header{background: #5e5e5e;}
+.ui-datepicker-calendar thead tr{color:#646464;font-size:9px;}
+#ui-datepicker-div a, 
+.ui-datepicker-inline a{color:#5a5c5c;top: 11px !important;}
+table a.ui-state-default{background:#fff!important;}
+.ftl strong{font-family: 'FrutigerLTStd47LightCnBold',Arial,Helvetica,sans-serif;font-weight:normal;}
+.ui-datepicker .ui-datepicker-current-day a{color: #fff !important;}
+*/
+.showTitles .chambre1{clear:both;}
+.showTitles .chambres{margin:15px 0 0 0;float:left;width:100%;}
+#emplacementChambres .title{background:none;color:#000;margin:25px 10px 0 0 !important;padding:0;line-height:normal;height:auto;   }
+#emplacementChambres.showTitles .title{display:block; }
+/******avis client*****/
+.avisclient{float:left;width:100%;margin-top:28px;border-top:4px double #d9d9d9;border-bottom:4px double #d9d9d9;padding-bottom:0 !important;}
+.avisclient p{color:#000;font-size:12px;}
+.avisclient .panel img{width:auto;position:inherit; }
+#avisSlider{position:relative;width:920px;}
+#avisSlider .panel{position:static!important;float:left;width:920px !important;}
+.avisclient .article{position:relative;font-size:11px;margin-top:30px;}
+.avisclient .article .intitule{font-size:13px;font-weight:bold;margin:5px 0 0  0;}
+.avisclient .article .dateLieu{padding-bottom:0px;margin-top:5px;color:#858585;font-size:12px;}
+.avisclient .slider-comment-navigation{width:450px;margin:10px auto 0 auto;font-size:12px;color:#000;font-family:verdana;padding:0;}
+.avisclient .slider-comment-navigation #slide-comment-left{margin-right:35px ;color:#000 ;}
+.avisclient .slider-comment-navigation #slide-comment-right{margin-left:35px ;color:#000 ;}
+#pagination-comment li{float:left;margin-left:2px;}
+.avisclient .navigation a{color:#000;}
+.avisclient .navigation .current a{background:#ffcb05;color:#6f6f6f;box-shadow:none; }
+.avisclient .continued{display:inline-block; }
+.avisclient  .adjust{display:inline-block;margin:3px 0 0 5px;text-decoration:underline;color:#000; }
+
+/******bottom******/
+.doubleBorder{float:left;width:100%;}
+.center{text-align:left;font-size:12px;  }
+.doubleBorder h3,.doubleBorder h2 {color: rgb(94, 94, 94);font-size: 20px;margin-bottom: 20px;}
+.doubleBorder a {color: rgb(193, 0, 81);display: block;}
+#crossSell{background-image:none;}
+#crossSell ul li{float:left;width:186px;margin-left:15px;}
+#crossSell ul li.first{margin-left:0;}
+#crossSell .doubleBorderSmall{position:relative;width:186px;}
+#crossSell{float:left;width:100%;}
+#crossSell h2{background:#252525;color:#fff;text-align:center;height:80px;line-height:80px;padding:0;margin:0 0 15px;font-weight:normal !important; }
+#crossSell h3{font-size:13px;font-weight:bold;line-height:18px;margin-bottom:10px;}
+.doubleBorderSmall .botLeft,
+.doubleBorderSmall .topLeft{
+	background:url("../images/avsw/double500top.jpg") no-repeat top left;
+	height:4px;
+	width:55%;
+	position:absolute;
+	top:0;
+	left:0;}
+.doubleBorderSmall .botRight,
+.doubleBorderSmall .topRight{
+	background:url("../images/avsw/double500top.jpg") no-repeat top right;
+	height:4px;
+	width:55%;
+	position:absolute;
+	top:0;
+	right:0;}
+.doubleBorderSmall .botLeft,
+.doubleBorderSmall .botRight{
+	bottom:0;
+	top:auto;}
+.doubleBorderSmall .botRight{background:url("../images/avsw/double500bot.jpg") no-repeat bottom right;}
+.doubleBorderSmall .botLeft{background:url("../images/avsw/double500bot.jpg") no-repeat bottom left;}
+.doubleBorderSmall .centerLeft{
+	background:url("../images/avsw/double500repeaty.jpg") repeat-y top left;
+	padding:15px 0 20px 19px;}
+.doubleBorderSmall .centerRight{
+	background:url("../images/avsw/double500repeaty.jpg") repeat-y top right;
+	padding-right:20px;}
+#crossSell p{font-size:11px;font-weight:bold;text-align:center;height:40px;line-height:35px;white-space:nowrap;}
+#crossSell a{
+	display:block;
+	text-indent:-999em;
+	overflow:hidden;
+	background:url("../images/avsw/ficheHotel.jpg") no-repeat top left;
+	width:148px;
+	height:35px;color:#252525;}
+#crossSell a:hover{
+    filter : alpha(opacity=80);
+    opacity : 0.8;}
+#crossSell .montant{color:#c20052;font-size:20px;}
+#crossSell{margin:0 0 52px;padding:0 0 34px 0;background:url("../images/avsw/doubleBorderBottom.jpg") repeat-x bottom left;}	
+.frutigerBold a{background:none !important;width:auto !important;height:auto !important;text-indent:inherit !important;    }
+
+.iframee{margin-bottom:20px;text-align:center; }	
+.iframee iframe{width:704px !important;}
+/**selection chambre**/
+.selection-chambre-fiche{margin-top:6px;float:left;}
+.selection-chambre-fiche b{font-weight:normal; }
+.monnaie-new{float:right;margin:0;}
+.selection-chambre-fiche .tab-packages{margin:0 0 20px 0; float:left;}
+.selection-chambre-fiche .tab-packages  li {border:1px solid #002674;background:#fff;color:#002674;height:37px;line-height:37px;float:left;font-size: 19px;font-family: FrutigerLTStd45LightRegular;text-transform: uppercase;padding:0 20px;  }
+.selection-chambre-fiche .tab-packages li a{text-align:center;background:none;padding:0;color:#002674;  }
+.selection-chambre-fiche .tab-packages li.ui-tabs-active{background:url("../images/packages/bg-tab-pack.png") no-repeat center;border:none;color:#fff;height:47px;font-family: FrutigerLTStd47LightCnBold;font-size: 19px;text-transform: uppercase;  }
+.selection-chambre-fiche .tab-packages li.ui-tabs-active a{color:#fff;}
+.selection-chambre-fiche .select_chamre1{float:left;width:100%;}
+
+.selection-chambre-fiche .fil_chamb_sel{float:left;width:100%;font-family:'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;border-top:1px solid #ededed; }
+.selection-chambre-fiche .fil_chamb_sel .occup-sw-ab{color:#9C9C9C;height:45px;padding:0 14px 0 0;float:left;font-size:19px; }
+.selection-chambre-fiche .fil_chamb_sel .occup-sw-ab span{padding:0px 10px; display: block; height:45px;line-height:45px;}
+.selection-chambre-fiche .fil_chamb_sel .occup-sw-ab.active{background:url("../images/chekout_bw/flesh_chek.png") no-repeat right;height:45px;padding:0 14px 0 0;color:#fff;float:left;font-size:19px;width:282px}
+.selection-chambre-fiche .fil_chamb_sel .occup-sw-ab.active span{background:#002674;padding:0px 10px; display: block; height:45px;line-height:45px;}
+.selection-chambre-fiche .fil_chamb_sel .occup-sw-ab img{float:left;margin:10px 3px 0 0;}
+.selection-chambre-fiche .fil_chamb_sel .occup-sw-ab .enf{margin:5px 10px 0 0;float:left;}
+.selection-chambre-fiche .fil_chamb_sel .occup-sw-ab strong{font-size:11px;font-weight:normal;font-family: verdana}
+.selection-chambre-fiche .select_chamre1 .fil_chamb_sel .occup-sw-ab{background:none;width:100%; }
+.selection-chambre-fiche .select_chamre2 .fil_chamb_sel .occup-sw-ab{width:48%; }
+.selection-chambre-fiche .select_chamre3 .fil_chamb_sel .occup-sw-ab{width:31%;font-size: 16px !important; }
+/**table**/
+.selection-chambre-fiche .chambre-type-new {float:left;width:100%;}
+.selection-chambre-fiche  .table-gen{border:1px solid #e7e5e5;}
+.selection-chambre-fiche .chambre-type-new table{font-family:'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;border-collapse:collapse; }
+.selection-chambre-fiche .chambre-type-new table th{background:#f0efef;padding:10px 8px;color:#1c1c1c;font-size:14px;border-left:1px solid #f8f7f7;text-align:left;  }
+.selection-chambre-fiche .chambre-type-new table td{/*border:1px solid #e7e5e5;*/padding:10px 8px;vertical-align:top; }
+.selection-chambre-fiche .chambre-type-new .col-tab{padding:0;border:0;}
+.selection-chambre-fiche h2.title-upsell{font-size:14px;color:#002674;font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;margin:0;text-transform:uppercase;font-weight:normal;   }
+.selection-chambre-fiche .img-chambre{width:197px;margin-top:9px;margin-right:0;height:132px;position:relative; }
+.selection-chambre-fiche .img-chambre.img-chambre-height{height:auto; }
+.selection-chambre-fiche .img-chambre img{max-width:100%;}
+.selection-chambre-fiche .img-chambre .loupe-img{position:absolute;display:block;background:url("../images/fiche-hotel/loupe-fiche.png") no-repeat;width:15px;height:15px;top:5px;right:5px;cursor: pointer; }
+.selection-chambre-fiche .chambre-type-new table p{text-align:left;line-height:16px;  }
+.selection-chambre-fiche .chambre-type-new table td.ligne-tab{padding:0;border:none;}
+.selection-chambre-fiche .chambre-type-new table.sub-table{font-family:verdana;font-size:10px;}
+.selection-chambre-fiche .chambre-type-new h3{font-size:13px;color:#002674;font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;margin-bottom:10px;font-weight:normal;}
+.selection-chambre-fiche .chambre-type-new .cond-vente{font-size:10px;position:relative;font-family:verdana;line-height:14px;  }
+.selection-chambre-fiche .chambre-type-new .vert{color:#589442;font-weight:bold;}
+.selection-chambre-fiche .chambre-type-new .rose-c{color:#8d2752;font-weight:bold;}
+.selection-chambre-fiche .chambre-type-new .cond-vente a{color:#000;text-decoration:underline; }
+.selection-chambre-fiche .bt-aide{background:url("../images/fiche-hotel/bt-aide.png") no-repeat;width:15px;height:14px;position:absolute;right:5px;top:5px;display:block;cursor:pointer;   }
+.selection-chambre-fiche  .bt-res a{background:url("../images/fiche-hotel/bt-reserver.jpg") no-repeat; width:136px;height:36px;text-align:center;color:#fff;font-size:18px;text-shadow: 0 2px 3px #000;line-height:36px;display:block;   }
+.selection-chambre-fiche .tarif-new  strong{color:#002674;font-size:25px;font-family:'FrutigerLTStd47LightCnBold',Arial, Helvetica, sans-serif;font-weight:normal;  }
+.selection-chambre-fiche .tarif-new em{font-size:13px;font-style:normal;font-weight:normal;font-family:'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;text-transform:uppercase;  }
+.selection-chambre-fiche .prix-old{font-size:18px;color:#b30045;text-decoration: line-through;}
+.selection-chambre-fiche .voir-pls{display:block;color:#bb004a;font-size:12px;text-decoration:underline;font-family:'FrutigerLTStd45LightRegular',Arial, Helvetica, sans-serif;}
+.selection-chambre-fiche  #btn_already_ins_vip,.selection-chambre-fiche #btn_ins_vip{text-indent:inherit; }
+.selection-chambre-fiche .texteCurency{width:100%;margin-bottom:20px;} 
+.selection-chambre-fiche .chambre-type-new .bg-blue{background:#f4f7fb; }
+.selection-chambre-fiche .chambre-type-new .bg-blanc{background:#fff; }
+.c-blue{color:#002674;font-weight:bold;margin-top:20px;}
+.p-tipsw{position:absolute;border:1px solid #b3bed6;padding:5px 15px 10px 15px;box-shadow:0 0 8px #b3bed6;-webkit-box-shadow:0 0 8px #b3bed6;-moz-box-shadow:0 0 8px #b3bed6;-o-box-shadow:0 0 8px #b3bed6;font-family:verdana;font-size:11px;font-weight:normal;line-height:16px;top: 20px;width:295px;left: 217px;z-index: 9999;background:#fff; }
+.p-tipsw span.close-sw{position:absolute;right:5px;top:5px;background:url("../images/fermer.png") no-repeat;width:18px;height:18px;dislpay:block;font-size:0;text-indent:-9999em;cursor:pointer;  }
+/*border table***/
+.selection-chambre-fiche .chambre-type-new table tr{border-bottom:1px solid #e7e5e5;}
+.selection-chambre-fiche .chambre-type-new table tr.liste_sel_chamb {border-bottom:none;}
+.selection-chambre-fiche .chambre-type-new table .col-tab  tr:nth-child(2),.selection-chambre-fiche .chambre-type-new table .col-tab  tr:nth-child(3),.selection-chambre-fiche .chambre-type-new table .col-tab  tr:nth-child(4),
+.selection-chambre-fiche .chambre-type-new table .col-tab  tr:nth-child(5),.selection-chambre-fiche .chambre-type-new table .col-tab  tr:nth-child(6){border-top:1px solid #e7e5e5; }
+.selection-chambre-fiche .chambre-type-new table .col-tab  .tr-nonactif{border-top:1px solid #e7e5e5; }
+.selection-chambre-fiche .chambre-type-new table tr.liste_sel_chamb:nth-child(2),.selection-chambre-fiche .chambre-type-new table tr.liste_sel_chamb:nth-child(3),.selection-chambre-fiche .chambre-type-new table tr.liste_sel_chamb:nth-child(4){border-bottom:1px solid #e7e5e5;border-top:1px solid #e7e5e5;} 
+.selection-chambre-fiche .chambre-type-new table .col-tab td{border-right:1px solid #e7e5e5;}
+.selection-chambre-fiche .chambre-type-new table .col-tab tr{border-bottom:none;}
+.selection-chambre-fiche .chambre-type-new table .td-second{border-left:1px solid #e7e5e5;border-right:1px solid #e7e5e5;}
+.selection-chambre-fiche .chambre-type-new table .td-first{border-left:1px solid #e7e5e5;border-bottom:1px solid #e7e5e5;}
+.selection-chambre-fiche .chambre-type-new table  .col-tab .td-last{border-right:none;}
+.selection-chambre-fiche .chambre-type-new table .td-voirplus{border-left:1px solid #e7e5e5;border-top:1px solid #e7e5e5;}
+.selection-chambre-fiche .chambre-type-new table .tr-plus{border-bottom:none;}
+
+/**hotel non dispo**/
+.selection-chambre-fiche .fiche_hot_chek{ background:url("../avenseo_files/images/modifierRecherche.png") no-repeat ;padding-top: 190px;width: 590px;float:left;margin-top:10px;}
+.selection-chambre-fiche .fiche_hot_chek span.non_disp_chek{display:none; }
+.selection-chambre-fiche .fiche_hot_chek .f_left_avail{float:left;background:url("../avenseo_files/images/tarifsDispos.png") no-repeat scroll left bottom ; display: block;height: 265px;overflow: hidden;text-indent: -999em;width: 295px; cursor:pointer;}
+.selection-chambre-fiche .fiche_hot_chek .f_right_avail{float:left;background:url("../avenseo_files/images/autresHotels.png") no-repeat scroll left bottom ; display: block;height: 265px;overflow: hidden;text-indent: -999em;width: 295px;cursor:pointer;}
+.selection-chambre-fiche .fiche_hot_chek .f_left_avail:hover,.selection-chambre-fiche .fiche_hot_chek .f_right_avail:hover{opacity:0.8;filter:alpha(opacity=80);}
+
+/***/
+.voir-plus2,.voir-moins2{color:#b40040;clear:both;margin-top:5px;float:left;cursor:pointer;margin-bottom:10px;text-decoration:underline;  }
+/**foo*/
+.footer_chekout{width: 960px; margin: 0px auto 0 auto;background: #000;font-size: 11px;font-family: arial;text-align: center;color: #4d4d4d;float: left;padding: 10px 0;}
+
+/*****package******/
+.choixpackage .liste-pack-n .disc_pack h3{font-size:24px;font-family:FrutigerLTStd47LightCnBold;font-weight:normal;color:#c20052;   }
+.choixpackage .disc_pack strong{font-weight:bold;}
+.choixpackage p{line-height:normal;text-align:left;  }
+.choixpackage .tarif-package-n h3{color:#c20052;font-size:14px; }
+.choixpackage .tarif-package-n .liste_sel_chamb{width:100%;padding:5px 0;float:left;border-bottom:1px solid #ebebeb; }
+.choixpackage .tarif-package-n .disc_liste_chamb{width:300px;margin-right:10px;}
+.choixpackage .tarif-package-n .sub_liste_cham .diff_sel_bw{margin:0;height:54px;font-size:11px;color:#002674;font-family:verdana;}
+.choixpackage .diff_sel_bw.Package .bas_diff_chek{background:#dae3f5; }
+.choixpackage p{font-family:verdana;margin-top:10px; line-height: 16px;font-size:12px;}
+.choixpackage .tarif-package-n .disc_liste_chamb{width:300px;margin-right:10px;float:left;}
+.choixpackage .tarif-package-n .sub_liste_cham{width:114px;float:left;border: 1px solid #ececec;  }
+.choixpackage .tarif-package-n .sub_liste_cham .diff_sel_bw{margin:0;height:54px;font-size:11px;color:#002674;font-family:verdana;}
+.choixpackage .tarif-package-n .disc_liste_chamb h3{font-size:14px;font-family: 'FrutigerLTStd45LightRegular',Verdana,Arial,sans-serif;font-weight:bold; }
+.choixpackage .diff_sel_bw.Package .bas_diff_chek{float:left;width:114px;height:40px;background:#dae3f5;padding:14px 0 0 0;font-size: 10px;font-family: verdana;text-align:center;  }
+.choixpackage .tarif-package-n strong{font-weight:bold;}
+.choixpackage .diff_sel_bw.Package .bas_diff_chek input{margin-top:5px;}
+.choixpackage .liste-pack-n p{text-align:left; }
+.choixpackage .tarif-package-n{width:430px;}
+.bt_valider_pai{float:right;text-align:center;color:#fff;background:url("../images/chekout_bw/bt_valider_selc.png") no-repeat;margin:10px 0 0 0;width:178px;height:47px;font-size:18px;padding-top:8px; text-shadow: 0 2px 3px #000;}
+.bt_valider_pai span{font-size:12px;display:block;}
+
+#bloc_tarifs_package.selection_chambre_chek .select_chamre2, #bloc_tarifs_package.selection_chambre_chek .select_chamre3{float:none; }
+
+/***modif 08-09-15**/
+.pop-rew-prom-tarif{left:148px;top:0px;}
+.prix-pop_sw{position:relative;}
+.prix-pop_sw .pop-rew-prom-tarif .offres_prom_fils{text-align:center; }
+.prix-pop_sw .pop-rew-prom-tarif .close-pop-prom{right:-3px;}
+.prix-pop_sw p,.prix-pop_sw a{margin-left:7px;}
+.to_hide_STN{float:none;}
+.prix-pop_sw .pop-rew-prom-tarif .offres_prom_rew .offre-triang{top:7% !important;}
+
+/**********avis client***********/
+.review-summary-bloc{margin-top:28px;}
+.avisclient .hotel-rating-container{width:30%;float:left;}
+.avisclient .hotel-recommandation-container{width:30%;float:left;/*background:url("../images/fiche-hotel/icon-recommande.jpg") no-repeat left;padding-left:55px;*/  }
+.avisclient .hotel-awards-container{width:30%;float:left;}
+
+.sw-more-text {font-family:verdana;font-size:13px;}
+.sw-more-text ul,.sw-more-text ol{margin-left:20px;}
+.sw-more-text li{margin-top:7px;list-style:disc;  }

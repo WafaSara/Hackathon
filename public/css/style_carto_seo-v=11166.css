@@ -1,0 +1,64 @@
+ <!-- css pages carto seo NIVEAU VILLE -->
+
+#div_carte_via { background-color: #E5E3DF; height: 380px !important;overflow: hidden;position: relative;width: 410px !important;  }
+span.breadcrumbsep{display:none;}
+.fil_ariane ul li{display:block;float:left;}
+.fil_ariane ul li div a span{color:#4D4D4F;}
+#content1{width:920px;padding:10px 20px 10px 20px;}
+#content1 h1{ font-family: frutigerltstd45lightregular;font-size:22px;margin-bottom:10px;font-weight:normal;}
+#content1 h2{font-size:16px;color:#001e57;margin:10px 0;} 
+#content_left_new {width: 410px ;float: left;}
+#content_left_new .champ,#content_left_new #etat{width:100%;float:left;}
+#content_right_page_interne_list {width:490px !important;float: right !important;padding:0 !important;}
+#content_right_page_interne_list2 {width:490px !important;float: right !important;padding:0 !important;}
+#div_img_file {width:490px;height:auto; margin-top:32px;/*height: 300px;*/}
+#div_img_file img{-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;/*height:270px;margin-left:65px;*/max-width:100%;}
+#content_right_page_interne_list .list_htl{width:490px;}
+#content_right_page_interne_list .list_htl1 {width:465px !important;margin-bottom:10px;}
+#content_right_page_interne_list .list_htl .flt_gche {width:465px !important;}
+#content_right_page_interne_list .list_htl1 div.img_htl, .line_htl_golf div.img_htl{margin:0 15px 0 0;}
+#content_right_page_interne_list .list_htl1 div.descrip_htl { width: 302px !important;}
+.content_carte_new{margin-left:0 !important;float:left;width:390px !important;height:380px;}
+.zone_map{margin-left:0 !important;float:left;}
+#content_left div.qualites{margin-left:0;}
+#content_left .prox_ville {padding:0;}
+#content1 .decription_city_hotels{padding:0;}
+#div_carte_via{width:410px !important;height:380px;}
+#content1 .prox_ville ul,#content1 .qualites ul,#content1 .haut_rhin ul{margin-left:10px;}
+#content1 .prox_ville ul li,#content1 .qualites ul li,#content1 .haut_rhin ul li{float:left;width:50%;margin:5px 0; }
+#content1 .prox_ville ul li a,#content1 .qualites ul li a,#content1 .haut_rhin ul li a{color:#002e7a;font-size:14px;text-decoration:underline;}
+#content1 .carto-reg .qualites{background:#eeeeee;padding:10px;float:left;width:875px; }
+#content1 .carto-reg .qualites a{text-decoration:none; }
+#content1 .carto-reg .qualites ul li{width:30%;margin-right:2%;}
+#content1 .carto-reg .qualites p{font-size:14px;margin-top:10px;float:left;width:20%;}
+#content1 .content_prox .qualites ul li{width:100%;}
+.stl2{margin-left:0;}
+#content .titre_bloc_carto_monde{background:none !important;width: auto !important;}
+#content .titre_bloc_carto_monde span.titre_rech, #content #autre_rech_titre span.autre, #content #autre_rech_titre1 span.autre{color:#001E5C;font-weight:normal;font-size:16px;width:auto;}
+ #content .titre_bloc_carto_monde span#puce_on1, #content .titre_bloc_carto_monde span#puce_on,#content #autre_rech_titre span#puce_off_noir, #content #autre_rech_titre1 span#puce_off_noir1{display:none;}
+ div.blc_descr_htl.stl2 div.blc_descr_htl1{border:0px solid #fff;}
+ #list_pays .list_pays_cont p, #top_etats .list_pays_cont p{background:none;margin:0 40px 10px 10px;width:170px; }
+ #list_pays .list_pays_cont p a, #top_etats .list_pays_cont p a{color:#002e7a;}
+ #list_autres .list_pays_cont p, #list_autres1 .list_pays_cont p, #list_arrondissements .list_pays_cont p, #list_hotels .list_pays_cont p, #list_others .list_pays_cont p{background:none;margin-left:10px; }
+ .list_pays_cont p a{color:#002e7a;}
+ .search_htl{width:297px;}
+ .search_htl div.rech_rap p.rech_btn{margin-right:50px;}
+ .rech_carte_stl1{float:left;margin-top:-5px;}
+ .list_htl1 h3{float:left;min-height:45px;}
+ #content .content_prox ul li h2{margin:0;font-weight:normal;}
+ #content_right_page_interne_list .list_htl1{background:url("../images/list_htl_tp3.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0); }
+ #content_right_page_interne_list .list_htl1 h3 a{font-weight:bold;}
+ .etoile-new{color:#fff;float: left;margin-left:3px;font-weight:bold;}
+ 
+ #content_right_page_interne_list.liste-page-new{width:916px !important;float:left !important;}
+ #content_right_page_interne_list.liste-page-new .list_htl{width:910px;}
+ #content_right_page_interne_list.liste-page-new .list_htl1{width:910px !important;}
+ #content_right_page_interne_list.liste-page-new .list_htl1 div.descrip_htl{width:600px !important;}
+ #content_right_page_interne_list.liste-page-new .list_htl1 div.price_htl_list{margin-right:10px;}
+.fil_ariane_carto{font-family: verdana;font-size: 11px;background: none repeat scroll 0 0 white;border-bottom: 1px solid #D0D0D0;float: left;padding: 10px 0 10px 13px;width: 947px;position: relative;z-index: 1;}
+.fil_ariane_carto ul li{display: block;float: left;}
+.fil_ariane_carto ul li a span{color: #4d4d4f;text-decoration: underline;margin-right: 10px;}
+.fil_ariane_carto ul li span.fils{color: #C9C9C9;}
+.fil_ariane_carto .fils{background: url('../images/puces_miles/noir.png') no-repeat 0 4px;padding: 0 0 0 10px;float:left;}
+ 
+ 
