@@ -19,6 +19,22 @@
 <script src="https://www.google.com/recaptcha/api.js"></script>
 <link type="text/css" rel="stylesheet" media="all" href="/css/style.css"/>
 <script type="text/javascript" src="/avenseo_files/tc_BestWestern_8.js"></script>
+<!--scripts modal-->
+<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		//js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5&appId=447145842147274";
+		js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5&appId=1680835935507315";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+
 <script type="text/javascript">
 var _prum = [['id', '541abc58abe53d8a73f8ec47'],
 ['mark', 'firstbyte', (new Date()).getTime()]];
@@ -831,6 +847,7 @@ var g_place_init = "false";
 		</h3>
 		<div>
 
+
 			<div class="winner">
 				<h4><i class="fa fa-trophy"></i>Le gagnant du mois</h4>
 				<video controls src="video.ogv"></video>
@@ -857,83 +874,49 @@ var g_place_init = "false";
 			</div>
 		</div>
 
-		<div class="moitie">
-			<video controls src="video.ogv"></video>
-			<div class="info">
-				<p>
-					<i class=" fa fa-user"></i>
-					Nom de l'utilisateur
-				</p>
-			</div>
-			<div class="info">
-				<p>
-					<i class=" fa fa-map-marker"></i>
-					Lieu de l'hôtel
-				</p>
+	@foreach ($videos as $video)
+	<div class="moitie">
+
+		<div style="display:inline-block; position: relative">
+			<div class="fb-video" data-allowfullscreen="1" data-href="{{$video->source}}" data-width="330" data-height="165"><div class="fb-xfbml-parse-ignore"><blockquote cite="{{$video->source}}"><a href="{{$video->source}}"></a></blockquote></div></div>
+			<div data-toggle="modal" data-target="#myModal"
+				style="z-index:99999; position: absolute; top:0; left:0; bottom:0; right:0; width:110%">
 			</div>
 		</div>
-		<div class="moitie">
-			<video controls src="video.ogv"></video>
-			<div class="info">
-				<p>
-					<i class=" fa fa-user"></i>
-					Nom de l'utilisateur
-				</p>
+
+		<div class="info">
+			<p>
+				<i class=" fa fa-user"></i>
+				{{$video->user->name}}
+			</p>
+		</div>
+		<div class="info">
+			<p>
+				<i class=" fa fa-map-marker"></i>
+				{{$video->hotel->name}} {{$video->hotel->city}}
+			</p>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+			<div class="modal-content">
+
+				<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+				 <div class="fb-video" data-allowfullscreen="1" data-href="{{$video->source}}" data-width="680"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/lecoupdoeilofficiel/videos/569403649888874/"><a href="https://www.facebook.com/lecoupdoeilofficiel/videos/569403649888874/">Top des choses que vous devez savoir !</a><p>Top des choses que vous devez savoir !</p>Posté par <a href="https://www.facebook.com/lecoupdoeilofficiel/">Le Coup D&#039;Oeil</a> sur mardi 8 mars 2016</blockquote></div></div>
+
+			 </div>
+				</div>
 			</div>
-			<div class="info">
-				<p>
-					<i class=" fa fa-map-marker"></i>
-					Lieu de l'hôtel
-				</p>
 			</div>
 		</div>
-		<div class="moitie">
-			<video controls src="video.ogv"></video>
-			<div class="info">
-				<p>
-					<i class=" fa fa-user"></i>
-					Nom de l'utilisateur
-				</p>
-			</div>
-			<div class="info">
-				<p>
-					<i class=" fa fa-map-marker"></i>
-					Lieu de l'hôtel
-				</p>
-			</div>
-		</div>
-		<div class="moitie">
-			<video controls src="video.ogv"></video>
-			<div class="info">
-				<p>
-					<i class=" fa fa-user"></i>
-					Nom de l'utilisateur
-				</p>
-			</div>
-			<div class="info">
-				<p>
-					<i class=" fa fa-map-marker"></i>
-					Lieu de l'hôtel
-				</p>
-			</div>
-		</div>
-		<div class="moitie">
-			<video controls src="video.ogv"></video>
-			<div class="info">
-				<p>
-					<i class=" fa fa-user"></i>
-					Nom de l'utilisateur
-				</p>
-			</div>
-			<div class="info">
-				<p>
-					<i class=" fa fa-map-marker"></i>
-					Lieu de l'hôtel
-				</p>
-			</div>
-		</div>
+		@endforeach
 	</article>
 </section>
+
+
 
 <!-- TAG COMMANDER END //--><div id="form_authe_rewards_new" class="popup_vip" style="display: none;">
 <form method="post" action="" id="form_login_rewards">

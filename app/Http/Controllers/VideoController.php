@@ -27,9 +27,9 @@ class VideoController extends Controller
 	public function index()
 	{
 		$videos = Video::all();
-		print_r($videos); exit; 
+		// print_r($videos); exit;
 		return View('video/index', ['videos' => $videos]);
-		// return view('seeAllVideos', ['videos' => $videos]);
+		//return view('seeAllVideos', ['videos' => $videos]);
 	}
 
 	/**

@@ -20,4 +20,8 @@ class Video extends Model
         return $this->hasOne('App\Models\Hotel', 'id', 'hotel_id');
     }
 
+    public function user()
+    {
+      return $this->hasOne('App\User', 'id', 'user_id');
+    }
 }
