@@ -27,9 +27,8 @@ class VideoController extends Controller
 	public function index()
 	{
 		$videos = Video::all();
-		// print_r($videos); exit;
-		return View('video/index', ['videos' => $videos]);
-		//return view('seeAllVideos', ['videos' => $videos]);
+		$popular = Video::getPopularVideo();
+		return View('video/index', ['videos' => $videos, 'popular' => $popular]);
 	}
 
 	/**
@@ -42,6 +41,7 @@ class VideoController extends Controller
 		$user_id = Auth::user()->id;
 		//return view('video/createVideo');
 		$hotels = Hotel::all();
+
 		//$user_id = Auth::user()->id;
 		return view('createVideo', ['hotels' => $hotels, 'user_id' => $user_id]);
 	}
@@ -66,7 +66,7 @@ class VideoController extends Controller
 	 */
 	public function show($id)
 	{
-		//
+
 	}
 
 	/**
