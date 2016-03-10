@@ -3,6 +3,7 @@
 <html lang="fr" style="background-color:#fff;">
 <head>
 <meta charset="utf-8">
+<meta name="csrf-token" content="{{ csrf_token() }}" />
 <meta name="robots" content="index,follow" />
 <meta name="description" content="Séjour en famille ou d'affaires ? En ville ou en bord de mer ? Réservez votre chambre d'hôtel Best Western dans l'un de nos 4000 hôtels dans le monde." />
 <meta name="keywords" content="hotel, hotels, hotel best western, hotels best western, hotel 3 etoiles, hotel 4 etoiles, hotel 5 etoiles, hotels 3 etoiles, hotels 4 etoiles, hotel bestwestern, hotels bestwestern" />
@@ -372,36 +373,89 @@
 
 								  <div class="form-group total-input">
 										<label style="padding:20px 0 8px 0!important" for="inputVoyage">Type de voyage</label>
+										@foreach ($categories as $category)
 											<div>
-												<input type="checkbox" name="famille"><label>Famille</label>
+												<input type="checkbox" value="{{$category->id}}" name="{{$category->label}}"><label>{{$category->label}}</label>
 											</div>
-											<div>
-												<input type="checkbox" name="amis"><label>Amis</label>
-											</div>
-											<div>
-												<input type="checkbox" name="seul"><label>Seul</label>
-											</div>
-											<div>
-												<input type="checkbox" name="loisir"><label>Loisir</label>
-											</div>
-											<div>
-												<input type="checkbox" name="professionnel"><label>Professionnel</label>
-											</div>
+										@endforeach
 										</div>
 										</div>
 
 								  <button id="submitBtn" class="submit">Envoyer</button>
 								</form>
 
-							<!-- 	<i class="fa fa-spinner fa-5x fa-pulse" id="loader"></i> -->
+								<i class="fa fa-spinner fa-5x fa-pulse" id="loader"></i>
 
-								<!-- <div id="successPostVideo" class="alert alert-success" role="alert">Votre Video a bien été postée</div> -->
+								<div id="successPostVideo" class="alert alert-success" role="alert">Votre Video a bien été postée</div>
 							</div>
 						</div>
 					</div>
 				</section>
 			</div>
 		</div>
+		<script>
+
+			$(function() {
+
+				$('#successPostVideo').hide();
+				$('#loader').hide();
+
+				$( "#submitBtn" ).on( "click", function(e) {
+					e.preventDefault();
+					$('#formPostVideo').hide();
+					$('#loader').show();
+					var data = {
+						title: $('#inputTitle').val(),
+						description: $('#inputDescription').val()
+					};
+					var postUrl = "https://graph-video.facebook.com/<?php echo $page_id; ?>/videos?title=" +
+									encodeURI(data.title) + "&description=" + encodeURI(data.description) +
+										"&access_token=<?php echo $access_token; ?>";
+					var formData = new FormData();
+					formData.append("file", $('#inputFile')[0].files[0]);
+
+					$.ajax({
+						method: "POST",
+						headers: {
+								'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+						},
+						url: postUrl,
+						data: formData,
+						processData: false,
+						contentType: false,
+					}).done(function(response) {
+						$('#loader').hide();
+						$('#successPostVideo').show();
+
+						var dataVideo = {
+							source: "https://www.facebook.com/gestestdiw/videos/" + response.id + '/',
+							likes: 0,
+							stars: 0,
+							hotel_id: $('#inputHotel').val(),
+							user_id: <?php echo $user_id; ?>
+						};
+
+						$.ajax({
+							method: "POST",
+							url: "store",
+							headers: {
+									'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+							},
+							data: dataVideo,
+							dataType: "json"
+						}).done(function(response) {
+							$('#loader').hide();
+							$('#successPostVideo').show();
+							$('#submitBtn').hide();
+							console.log('success', response);
+						});
+					});
+
+				});
+
+			});
+
+		</script>
 
 	</body>
 

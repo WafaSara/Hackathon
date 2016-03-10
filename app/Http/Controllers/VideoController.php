@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Models\Video;
 use App\Models\Hotel;
+use App\Models\Category;
 use Auth;
 
 class VideoController extends Controller
@@ -40,7 +41,8 @@ class VideoController extends Controller
 	{
 		$user_id = Auth::user()->id;
 		$hotels = Hotel::all();
-		return view('createVideo', ['hotels' => $hotels, 'user_id' => $user_id]);
+		$categories = Category::all();
+		return view('createVideo', ['hotels' => $hotels, 'user_id' => $user_id, 'categories' => $categories]);
 	}
 
 	/**
