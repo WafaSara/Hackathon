@@ -39,10 +39,7 @@ class VideoController extends Controller
 	public function create()
 	{
 		$user_id = Auth::user()->id;
-		//return view('video/createVideo');
 		$hotels = Hotel::all();
-
-		//$user_id = Auth::user()->id;
 		return view('createVideo', ['hotels' => $hotels, 'user_id' => $user_id]);
 	}
 

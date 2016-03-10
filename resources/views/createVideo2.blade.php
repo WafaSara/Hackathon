@@ -2,6 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="csrf-token" content="{{ csrf_token() }}" />
 		<title>Poster une viéo</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<!-- Latest compiled and minified CSS -->
@@ -38,6 +39,16 @@
 					    <label for="inputFile">Votre video</label>
 					    <input type="file" id="inputFile" name="file">
 					  </div>
+					  <div class="form-group">
+						<label for="inputHotel">Hotel</label>
+						<select class="form-control" id="inputHotel">
+							<?php
+								foreach ($hotels as $hotel) {
+									echo '<option name="hotel_id" value="' . $hotel->id . '">' . $hotel->name . '</option>';
+								}
+							?>
+						</select>
+					  </div>
 					  <button id="submitBtn" class="btn btn-default">Envoyer</button>
 					</form>
 
@@ -71,6 +82,9 @@
 
 					$.ajax({
 						method: "POST",
+						headers: {
+								'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+						},
 						url: postUrl,
 						data: formData,
 						processData: false,
@@ -82,21 +96,26 @@
 						var dataVideo = {
 							source: "https://www.facebook.com/gestestdiw/videos/" + response.id + '/',
 							likes: 0,
-							stars: 0
+							stars: 0,
+							hotel_id: $('#inputHotel').val(),
+							user_id: <?php echo $user_id; ?>
 						};
 
 						$.ajax({
 							method: "POST",
 							url: "store",
+							headers: {
+			            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+			        },
 							data: dataVideo,
 							dataType: "json"
 						}).done(function(response) {
 							$('#loader').hide();
 							$('#successPostVideo').show();
 							console.log('success', response);
-						});	
-					});	
-					
+						});
+					});
+
 				});
 
 			});
