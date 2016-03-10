@@ -874,16 +874,19 @@ var g_place_init = "false";
 			</div>
 		</div>
 
+
+
+
+
+
+
+
 	@foreach ($videos as $video)
 	<div class="moitie">
 
 		<div style="display:inline-block; position: relative">
-			<div class="fb-video" data-allowfullscreen="1" data-href="{{$video->source}}" data-width="330" data-height="165">
-				<div class="fb-xfbml-parse-ignore"><blockquote cite="{{$video->source}}"><a href="{{$video->source}}"></a></blockquote></div>
-		</div>
-			<div data-toggle="modal" data-target="#myModal{{$video->id}}"
-				style="z-index:99999; position: absolute; top:0; left:0; bottom:0; right:0; width:110%">
-			</div>
+			<div class="fb-video" data-allowfullscreen="1" data-href="{{$video->source}}" data-width="330" data-height="165"><div class="fb-xfbml-parse-ignore"><blockquote cite="{{$video->source}}"><a href="{{$video->source}}"></a></blockquote></div></div>
+
 		</div>
 
 		<div class="info">
@@ -899,22 +902,10 @@ var g_place_init = "false";
 			</p>
 		</div>
 
-		<!-- Modal -->
-		<div class="modal fade" id="myModal{{$video->id}}" tabindex="-1" role="dialog" aria-labelledby="">
-			<div class="modal-dialog" role="document">
-			<div class="modal-content">
-
-				<div class="modal-body">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
-				 <div class="fb-video" data-allowfullscreen="1" data-href="{{$video->source}}" data-width="680"><div class="fb-xfbml-parse-ignore"><blockquote cite="{{$video->source}}"><a href="{{$video->source}}"></a></blockquote></div></div>
-
-			 </div>
-				</div>
-			</div>
-			</div>
 		</div>
 		@endforeach
+
+
 	</article>
 </section>
 
