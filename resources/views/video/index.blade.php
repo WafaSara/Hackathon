@@ -465,180 +465,7 @@ var g_place_init = "false";
 //-->
 </script>
 	<div>
-		<script type="text/javascript">
-<!--
-			function getLanguage(var_language){
-			window.open("http://book.bestwestern.com/bestwestern/advSearch.do?language="+var_language+"&sob=fr");
-			}
-			function closeDtepicker(){
-			}
-			$(document).ready(function() {
-			$( "#cities" ).focus(function() {
-			loadScript_api();
-			});
-			$(document).oneTime(500, function() {
-			$('#DateRangeStart').val('Date d\'arrivée').addClass("baseC").click(function(){
-			$("#DateRangeStart,#DateRangeEnd").removeClass("baseC");
-			});
-			$('#DateRangeEnd').val('Date de départ').addClass("baseC").click(function(){
-			$("#DateRangeStart,#DateRangeEnd").removeClass("baseC");
-			});
-			});
-			//document.getElementById('DateRangeStart').placeholder="Date d'arrivée";
-			//document.getElementById('DateRangeEnd').placeholder="Date de départ";
-			//initialize();
-			$('#region').change(function(){
-			$.post("http://www.bestwestern.fr/search/get_all_citie_area.jsp",{region : this.value },
-			function success(data){
-			donnees = data.split("@@@");
-			l=donnees.length;
-			content_ = '';
-			content_+= '<option value="" >-- Choisir une Ville --<\/option>';
-			for(i=1;i<l-1;i++){
-			donnee = donnees[i];
-			d = donnee.split(';');
-			content_+= '<option value="'+trim(d[0])+'" >'+trim(d[1])+'<\/option>';
-			}
-			$('#ville').html(content_);
-			});
-			});
-			$( "#DateRangeStart" ).datepicker({
-			prevText: 'Préc',
-			nextText: 'Suiv',
-			numberOfMonths: 2,
-			showButtonPanel: true,
-			minDate: 0,
-			maxDate: '+349d',
-			changeMonth: false,
-			changeYear:false,
-			dateFormat:'dd/mm/yy',
-			onClose: function() {
-			setTimeout(function(){ $( "#DateRangeEnd" ).trigger('focus'); }, 100);
-			}
-			/*onSelect: function(dateStr) {
-			var newDate = $(this).datepicker('getDate');
-			if (newDate) { // Not null
-			newDate.setDate(newDate.getDate() + 1);
-			}
-			$('#DateRangeEnd').datepicker('setDate', newDate);
-			$('#DateRangeEnd').datepicker('minDate', newDate);
-			}*/
-			});
-			$("#DateRangeStart").datepicker('option','onSelect',function() {
-			$("#DateRangeEnd").datepicker('option','minDate',
-			new Date($(this).datepicker('getDate').getTime()+86400000)
-			);
-			UpdateDateRangeEndplus1();
-			});
-			$( "#DateRangeStart_1" ).datepicker({
-			numberOfMonths: 2,
-			showButtonPanel: true,
-			minDate: 0,
-			maxDate: '+349d',
-			changeMonth: false,
-			changeYear:false,
-			dateFormat:'dd/mm/yy',
-			onSelect:populateCalendar_1
-			});
-			$( "#DateRangeEnd" ).datepicker({
-			prevText: 'Préc',
-			nextText: 'Suiv',
-			numberOfMonths: 2,
-			showButtonPanel: true,
-			minDate: 0,
-			maxDate: '+349d',
-			changeMonth: false,
-			changeYear:false,
-			dateFormat:'dd/mm/yy',
-			onSelect:UpdateDateRangeDuration
-			});
-			$('#DateRangeStart').datepicker().bind("keydown", function (e) {
-			if (e.keyCode == 13) {
-			/*$("#DateRangeStart").datepicker('option','defaultDate',new Date($(this).datepicker('getDate').getTime()));
-			var dteEnd = new Date($(this).datepicker('getDate').getTime()+86400000);
-			var mois = parseInt(dteEnd.getMonth(),10) +1;
-			var jour = parseInt(dteEnd.getDate(),10);
-			if(jour<10) jour = "0"+jour;
-			if(mois<10) mois = "0"+mois;
-			var formattedDate = jour+"/"+mois+"/"+dteEnd.getFullYear();
-			$("#DateRangeEnd").val(formattedDate);
-			UpdateDateRangeEndplus1();
-			$("#DateRangeEnd").datepicker('show');*/
-				UpdateDateRangeOnKeyPressEnter();
-				return false;
-				}
-				return false;
-				});
-				});
-				function check_form_thematiques(){
-				if(getById('h_themat').value=='')
-				alert('Veuillez choisir une thematique');
-				else
-				getById('form_recherche_thematique').submit();
-				}
-				function check_form_resa(){
-				if($("#code_priv_corp").val()!=null && $("#code_priv_corp").val()!="")
-				$("#corp_id").val($("#code_priv_corp").val());
-				if(parseInt(getById('duration').value)>30){
-				alert('Les réservations supérieures à 30 jours ne sont pas acceptées.');
-				}else if(isPastDate(getById('DateRangeStart').value)){
-				alert('La date d\'arrivée est passée. Veuillez modifier vos dates et réessayer.');
-				}else if(!invalidDates() || getById('DateRangeStart').value=="" || getById('DateRangeStart').value=="Date d'arrivée" || getById('DateRangeEnd').value=="" || getById('DateRangeEnd').value=="Date de départ"){
-				alert('La date de départ est invalide. Veuillez modifier vos dates et réessayer.');
-				}else if(getById('locationLat') && getById('locationLat').value!='' && getById('locationLng') && getById('locationLng').value!=''){
-				$("#form_resa").attr("action",base_url_bwfr+DecryptInternalLink('recherche#.'));
-				getById('form_resa').submit();
-				}else if((getById('cities') && getById('cities').value=='') || getById('cities').value=='ex : Ville / Adresse / Lieu ...' || getById('cityname').value==''){
-				alert('Merci de sélectionner une destination parmi celles proposées.');
-				}
-				}
-				$(document).ready(function(){
-				calendar_pers = true;
-				$("#search_htl_moteur").tabs({ fxFade: true, fxSpeed: 'fast' }).tabs('option','active', 'moteur_rech_rap');
-				$("#cities").focus( function() {
-				var val_ = "ex : Ville / Adresse / Lieu ...";
-				if($('#cities').val()==val_){
-				$('#cities').val('');
-				}
-				});
-				$("#cities").blur( function() {
-				var val_= "ex : Ville / Adresse / Lieu ...";
-				if($('#cities').val()==''){
-				$('#cities').val(val_);
-				}
-				});
-				$("#cities").keyup(function(event){
-				if(event.keyCode == 13 && $("#DateRangeStart").val()=='Date d\'arrivée'){
-				$("#DateRangeStart").focus();
-				}
-				});
-				function formatItem(row) {
-				<!--
-				to_return = "";
-				to_return += row[0].replace(new RegExp("(?![^&;]+;)(?!<[^<>]*)(" + $("#cities").val().replace(/([\^\$\(\)\[\]\{\}\*\.\+\?\|\\])/gi, "\\$1") + ")(?![^<>]*>)(?![^&;]+;)", "gi"), "<strong style='background:#44BFE0;color:white'>$1<\/strong>");
-				to_return += "<br\/><i>" + row[1] + "<\/i>";
-				return to_return;
-				//-->
-				}
-//$("#cities").autocomplete(base_url_bwfr+DecryptInternalLink('search|search_paris#.'), { minChars:3, matchSubset:false, matchContains:false, cacheLength:0, onItemSelect:selectItem, formatItem:formatItem, selectOnly:1, width:450, maxItemsToShow:1000 });
-				$('#form_recherche_thematique a').click(function(){$('#form_recherche_thematique a').attr("class","envie");$(this).attr("class","envie envie_on");$('#h_themat').val($(this).find("img:first").attr('alt'));if($(this).find("img:first").attr('alt')=="12") $("#envie_destin").hide();else $("#envie_destin:hidden").show()});
-				$("#cities").oneTime("1500ms", function() {
-				$(this).removeAttr("readonly");
-				$(this).removeClass('cities_loading');
-				});
-				$("#cities1").oneTime("1500ms", function() {
-				$(this).removeAttr("readonly");
-				$(this).removeClass('cities_loading');
-				});
-				});
-				function DO_SEARCH_DC(){
-				return base_url_bwfr+DecryptInternalLink('recherche#.');
-				}
-				function show_bloc_promo(){
-				$("#code_priv").toggle('slow');
-				}
-				//-->
-				</script>
+
 <!-- &amp;key=AIzaSyA6FilxIn0hFdCGRCdObvb4Ohw39F49LsA -->
 				<script type="text/javascript">
 				// Nombre de caractères minimum pour faire l'autocompletion
@@ -792,50 +619,24 @@ var g_place_init = "false";
 			</div>
 		</div>
 
-		<div class="bcl_critere">
-			<h4 class="ttl">Services et équipement</h4>
-			<div class="form-content">
-				<div>
-					<input type="checkbox" name="bar"><label>Bar-Salon</label>
-				</div>
-				<div>
-					<input type="checkbox" name="remise_forme"><label>Centre de remise en forme</label>
-				</div>
-				<div>
-					<input type="checkbox" name="bien_etre"><label>Equipement bien-être</label>
-				</div>
-				<div>
-					<input type="checkbox" name="internet"><label>Internet haut débit gratuit</label>
-				</div>
-				<div>
-					<input type="checkbox" name="petit_dej"><label>Petit déjeuner gratuit</label>
-				</div>
-				<div>
-					<input type="checkbox" name="piscine"><label>Piscine</label>
-				</div>
-				<div>
-					<input type="checkbox" name="restaurant"><label>Restaurant</label>
-				</div>
-			</div>
-		</div>
 
 		<div class="bcl_critere">
 			<h4 class="ttl">Type de voyage</h4>
 			<div class="form-content">
 				<div>
-					<input type="checkbox" name="famille"><label>Famille</label>
+					<input type="checkbox" name="famille" id="familleCheckbox"><label>Famille</label>
 				</div>
 				<div>
-					<input type="checkbox" name="amis"><label>Amis</label>
+					<input type="checkbox" name="amis" id="amisCheckbox"><label>Amis</label>
 				</div>
 				<div>
-					<input type="checkbox" name="seul"><label>Seul</label>
+					<input type="checkbox" name="seul" id="seulCheckbox"><label>Seul</label>
 				</div>
 				<div>
-					<input type="checkbox" name="loisir"><label>Loisir</label>
+					<input type="checkbox" name="loisir" id="loisirCheckbox"><label>Loisir</label>
 				</div>
 				<div>
-					<input type="checkbox" name="professionnel"><label>Professionnel</label>
+					<input type="checkbox" name="professionnel" id="professionnelCheckbox"><label>Professionnel</label>
 				</div>
 			</div>
 		</div>
@@ -866,7 +667,17 @@ var g_place_init = "false";
 						{{$popular->hotel->name}} {{$popular->hotel->id}}
 					</p>
 				</div>
-				<p class="description">
+
+					<div class="info">
+						<p>
+							@foreach($popular->categories as $category)
+								<i class=" fa fa-hashtag"></i>
+								{{$category->label}}&nbsp;
+							@endforeach
+						</p>
+					</div>
+
+				<p class="description" style="clear:both">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -877,16 +688,19 @@ var g_place_init = "false";
 			</div>
 		</div>
 
+
+
+
+
+
+
+
 	@foreach ($videos as $video)
-	<div class="moitie">
+	<div class="moitie" id="video{{$video->id}}">
 
 		<div style="display:inline-block; position: relative">
-			<div class="fb-video" data-allowfullscreen="1" data-href="{{$video->source}}" data-width="330" data-height="165">
-				<div class="fb-xfbml-parse-ignore"><blockquote cite="{{$video->source}}"><a href="{{$video->source}}"></a></blockquote></div>
-		</div>
-			<div data-toggle="modal" data-target="#myModal{{$video->id}}"
-				style="z-index:99999; position: absolute; top:0; left:0; bottom:0; right:0; width:110%">
-			</div>
+			<div class="fb-video" data-allowfullscreen="1" data-href="{{$video->source}}" data-width="330" data-height="165"><div class="fb-xfbml-parse-ignore"><blockquote cite="{{$video->source}}"><a href="{{$video->source}}"></a></blockquote></div></div>
+
 		</div>
 
 		<div class="info">
@@ -902,24 +716,49 @@ var g_place_init = "false";
 			</p>
 		</div>
 
-		<!-- Modal -->
-		<div class="modal fade" id="myModal{{$video->id}}" tabindex="-1" role="dialog" aria-labelledby="">
-			<div class="modal-dialog" role="document">
-			<div class="modal-content">
-
-				<div class="modal-body">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
-				 <div class="fb-video" data-allowfullscreen="1" data-href="{{$video->source}}" data-width="680"><div class="fb-xfbml-parse-ignore"><blockquote cite="{{$video->source}}"><a href="{{$video->source}}"></a></blockquote></div></div>
-
-			 </div>
-				</div>
+			<div class="info">
+				<p>
+					@foreach($video->categories as $category)
+						<i class=" fa fa-hashtag"></i>
+						{{$category->label}}&nbsp;
+					@endforeach
+				</p>
 			</div>
-			</div>
+
+
 		</div>
 		@endforeach
+
+
 	</article>
 </section>
+
+	<script>
+		alert('enculé');
+		$(function() {
+			$('#familleCheckbox').change(function() {
+				if(this.checked) {
+					alert('enculé de ta putain de race');
+				}
+			});
+
+			$('#familleCheckbox').click(function() {
+
+				<?php
+					foreach($videos as $video) {
+						foreach($video->categories as $category) {
+							if($category->label === 'Famille') {
+				?>
+					 $('#video<?php echo $video->id; ?>').hide();
+				<?php
+								break;
+							}
+						}
+					}
+				?>
+			});
+		});
+	</script>
 
 
 
