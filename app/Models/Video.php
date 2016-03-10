@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use DB;
 
 class Video extends Model
 {
@@ -30,4 +31,9 @@ class Video extends Model
         return $this->belongsToMany('App\Models\Category', 'has_category', 'video_id', 'category_id');
     }
 
+    public static function getPopularVideo()
+    {
+      $popular = self::where('stars', '=', '5')->first(); 
+      return $popular;
+    }
 }

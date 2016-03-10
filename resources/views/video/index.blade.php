@@ -762,8 +762,8 @@ var g_place_init = "false";
 <div>
 </div>
 <div style="margin-bottom: 20px;margin-top: -16px;position:relative"><a href="fr/hotel-paris-8eme,Best-Western-Elysees-Paris-Monceau,93534-xtatc=INT-51.html">
-	<img src="/images/banner.png" alt="BEST WESTERN Paris Gare Saint Lazare" style="width:100%"/></a></div>
-	<a href="{{route('video-create')}}" id="share-video">Je partage</a>
+	<img src="/images/banner.jpg" alt="BEST WESTERN Paris Gare Saint Lazare" style="width:100%"/></a></div>
+	<a href="{{route('video-create')}}" id="share-video">Partager</a>
 </div>
 
 <section id="gallery">
@@ -850,17 +850,20 @@ var g_place_init = "false";
 
 			<div class="winner">
 				<h4><i class="fa fa-trophy"></i>Le gagnant du mois</h4>
-				<video controls src="video.ogv"></video>
+				<div style="display:inline-block; position: relative">
+					<div class="fb-video" data-allowfullscreen="1" data-href="{{$popular->source}}" data-width="680">
+						<div class="fb-xfbml-parse-ignore"><blockquote cite="{{$popular->source}}"><a href="{{$popular->source}}"></a></blockquote></div>
+				</div>
 				<div class="info">
 					<p>
 						<i class=" fa fa-user"></i>
-						Nom de l'utilisateur
+						{{$popular->user->name}}
 					</p>
 				</div>
 				<div class="info">
 					<p>
 						<i class=" fa fa-map-marker"></i>
-						Lieu de l'hôtel
+						{{$popular->hotel->name}} {{$popular->hotel->id}}
 					</p>
 				</div>
 				<p class="description">
