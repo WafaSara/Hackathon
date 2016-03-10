@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Video extends Model 
+class Hotel extends Model 
 {
     /**
      * The attributes that are mass assignable.
@@ -12,12 +12,7 @@ class Video extends Model
      * @var array
      */
     protected $fillable = [
-        'source', 'likes', 'stars', 'hotel_id'
+        'name', 'city',
     ];
-
-    public function hotel()
-    {
-        return $this->hasOne('App\Models\Hotel', 'id', 'hotel_id');
-    }
 
 }
