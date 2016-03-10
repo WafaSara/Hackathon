@@ -15,4 +15,9 @@ class Video extends Model
         'source', 'likes', 'stars', 'hotel_id'
     ];
 
+    public function hotel()
+    {
+        return $this->hasOne('App\Models\Hotel', 'id', 'hotel_id');
+    }
+
 }
