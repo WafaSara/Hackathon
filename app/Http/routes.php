@@ -15,10 +15,14 @@ Route::get('/', 'HomeController@index')->name('home');
 
 //Gallery routes
 Route::get('gallery/index', 'Gallery\GalleryController@index')->name('gallery');
+// Account
+
+Route::get('auth/account', 'Auth\AccountController@getAccount')->name('account');
+
+//
+Route::resource('video', 'VideoController');
 
 
-  // Account
-  Route::get('auth/account', 'Auth\AccountController@getAccount')->name('account');
 /*
 |--------------------------------------------------------------------------
 | Application Routes
