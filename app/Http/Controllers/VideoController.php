@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Models\Video;
+use App\Models\Hotel;
 
 class VideoController extends Controller
 {
@@ -28,7 +29,8 @@ class VideoController extends Controller
 	 */
 	public function create()
 	{
-		return view('createVideo');
+		$hotels = Hotel::all();
+		return view('createVideo', ['hotels' => $hotels]);
 	}
 
 	/**
