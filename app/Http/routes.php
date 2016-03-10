@@ -40,6 +40,8 @@ Route::group(['middleware' => ['web']], function () {
 
   Route::get('video/create', ['uses' => 'VideoController@create', 'middleware' => 'auth'])->name('video-create');
 
+  Route::get('hotels/index', 'HotelController@index')->name('hotels');
+
   // Account
   Route::get('auth/account', 'Auth\AccountController@getAccount')->name('account');
 
