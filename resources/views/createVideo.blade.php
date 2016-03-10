@@ -2,6 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="csrf-token" content="{{ csrf_token() }}" />
 		<title>Poster une viéo</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<!-- Latest compiled and minified CSS -->
@@ -81,6 +82,9 @@
 
 					$.ajax({
 						method: "POST",
+						headers: {
+								'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+						},
 						url: postUrl,
 						data: formData,
 						processData: false,
@@ -93,21 +97,25 @@
 							source: "https://www.facebook.com/gestestdiw/videos/" + response.id + '/',
 							likes: 0,
 							stars: 0,
-							hotel_id: $('#inputHotel').val()
+							hotel_id: $('#inputHotel').val(),
+							user_id: <?php echo $user_id; ?>
 						};
 
 						$.ajax({
 							method: "POST",
 							url: "store",
+							headers: {
+			            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+			        },
 							data: dataVideo,
 							dataType: "json"
 						}).done(function(response) {
 							$('#loader').hide();
 							$('#successPostVideo').show();
 							console.log('success', response);
-						});	
-					});	
-					
+						});
+					});
+
 				});
 
 			});

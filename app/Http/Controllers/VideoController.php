@@ -7,18 +7,28 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Models\Video;
 use App\Models\Hotel;
+use Auth;
 
 class VideoController extends Controller
 {
-    /**
+	/**
+	* constructor
+	*/
+	public function __construct()
+	{
+		$this->middleware('auth');
+	}
+
+	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
-		return View('video/index');
-		// $videos = Video::all();
+		$videos = Video::all();
+		print_r($videos); exit; 
+		return View('video/index', ['videos' => $videos]);
 		// return view('seeAllVideos', ['videos' => $videos]);
 	}
 
@@ -29,10 +39,11 @@ class VideoController extends Controller
 	 */
 	public function create()
 	{
-
+		$user_id = Auth::user()->id;
 		//return view('video/createVideo');
 		$hotels = Hotel::all();
-		return view('createVideo', ['hotels' => $hotels]);
+		//$user_id = Auth::user()->id;
+		return view('createVideo', ['hotels' => $hotels, 'user_id' => $user_id]);
 	}
 
 	/**
@@ -42,7 +53,7 @@ class VideoController extends Controller
 	 */
 	public function store(Request $request)
 	{
-		$inputs = $request->all();
+			$inputs = $request->all();
     	$video = new Video($inputs);
     	$video->save();
 	}

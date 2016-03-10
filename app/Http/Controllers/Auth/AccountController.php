@@ -20,7 +20,7 @@ class AccountController extends Controller
 
     public function getAccount()
     {
-      print_r(Auth::user()->email); exit;
+      print_r(Auth::user()->id); exit;
       return View('auth/account');
     }
 }

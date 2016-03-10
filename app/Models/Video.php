@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Video extends Model 
+class Video extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -12,7 +12,7 @@ class Video extends Model
      * @var array
      */
     protected $fillable = [
-        'source', 'likes', 'stars', 'hotel_id'
+        'source', 'likes', 'stars', 'hotel_id', 'user_id'
     ];
 
     public function hotel()
