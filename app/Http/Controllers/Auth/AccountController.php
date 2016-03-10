@@ -5,7 +5,8 @@ namespace App\Http\Controllers\Auth;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests;
-use App\Models\User;
+use App\User;
+use Auth;
 
 class AccountController extends Controller
 {
@@ -14,11 +15,12 @@ class AccountController extends Controller
     */
     public function __construct()
     {
-      //$this->middleware('auth');
+      $this->middleware('auth');
     }
 
     public function getAccount()
     {
+      print_r(Auth::user()->email); exit;
       return View('auth/account');
     }
 }

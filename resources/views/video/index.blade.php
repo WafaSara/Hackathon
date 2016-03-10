@@ -747,7 +747,7 @@ var g_place_init = "false";
 </div>
 <div style="margin-bottom: 20px;margin-top: -16px;position:relative"><a href="fr/hotel-paris-8eme,Best-Western-Elysees-Paris-Monceau,93534-xtatc=INT-51.html">
 	<img src="/images/banner.png" alt="BEST WESTERN Paris Gare Saint Lazare" style="width:100%"/></a></div>
-	<a href="#" id="share-video">Je partage</a>
+	<a href="{{route('video-create')}}" id="share-video">Je partage</a>
 </div>
 
 <section id="gallery">

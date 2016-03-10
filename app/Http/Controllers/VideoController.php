@@ -16,9 +16,9 @@ class VideoController extends Controller
 	 */
 	public function index()
 	{
-		//return View('video/index');
-		$videos = Video::all();
-		return view('seeAllVideos', ['videos' => $videos]);
+		return View('video/index');
+		// $videos = Video::all();
+		// return view('seeAllVideos', ['videos' => $videos]);
 	}
 
 	/**
@@ -28,7 +28,7 @@ class VideoController extends Controller
 	 */
 	public function create()
 	{
-		return view('createVideo');
+		return view('video/createVideo');
 	}
 
 	/**

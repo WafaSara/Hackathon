@@ -17,10 +17,6 @@ Route::get('/', 'HomeController@index')->name('home');
 //Gallery routes
 Route::get('video/index', 'VideoController@index')->name('video');
 
-// Account
-
-Route::get('auth/account', 'Auth\AccountController@getAccount')->name('account');
-
 //
 
 //Route::resource('video', 'VideoController');
@@ -28,6 +24,7 @@ Route::get('auth/account', 'Auth\AccountController@getAccount')->name('account')
 
 Route::resource('video', 'VideoController');
 Route::post('video/store', 'VideoController@store');
+Route::get('video/create', 'VideoController@create')->name('video-create');
 
 
 
@@ -44,6 +41,9 @@ Route::post('video/store', 'VideoController@store');
 
 Route::group(['middleware' => ['web']], function () {
 
+  // Account
+  Route::get('auth/account', 'Auth\AccountController@getAccount')->name('account');
+  
   // Authentication routes...
   Route::get('auth/login', 'Auth\AuthController@getLogin')->name('login');
   Route::post('auth/login', 'Auth\AuthController@postLogin');
