@@ -9,7 +9,7 @@
 .pageSolutionPro .blocSolution{padding:0 0 35px 0;}
 .pageSolutionPro .blocSolution p, .blocSolution div, .blocSolution ul{padding:15px 0 0 5px; font-family:verdana, arial; font-size:12px; color:#646464; margin:0; width:490px; text-align:justify;}
 .pageSolutionPro .blocVisuelPage{width:380px; float:right;}
-
+ 
  /** menu **/
 .nav-child{display:none; position:absolute; top:100%; right:-1px; left:inherit !important; background:#fff; border:1px solid #e4e4e4; }
 .nav .sub_nav.nav-child li{background:none; float:none; border-top:0;}
@@ -188,16 +188,51 @@ select:focus{
 }
 
 #share-video{
-	background-color: #C20052;
+	background-color: #EDC134;
 	color:#fff;
 	position: absolute;
 	top:0;
-	padding:10px 20px;
-	font-size: 14px;
-	left:450px;
-	top:200px;
+	padding:10px 0;
+	width:217px;
+	font-size: 17px;
+	right:73px;
+	top:220px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	letter-spacing: .5px;
+	text-align: center;
 }
 
 #share-video:hover{
 	background-color: #980F40;
 }
+
+#avis-video{
+	display: block;
+	overflow: hidden;
+	width:97%;
+	background-color: rgb(242, 242, 242);
+	padding:20px 0;
+	margin-bottom: 20px;
+	display: none;
+}
+
+.tiers{
+	width:29%;
+	margin-left:20px;
+	float: left;
+}
+
+#avis-video .info{
+	padding-top: 10px;
+}
+
+#avis-video .fa{
+	color:#C20052;
+	padding-right: 5px;
+}
+
+
+
+
+
