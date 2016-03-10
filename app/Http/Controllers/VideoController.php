@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\Models\Video;
 
 class VideoController extends Controller
 {
@@ -15,7 +16,9 @@ class VideoController extends Controller
 	 */
 	public function index()
 	{
-		return View('video/index');
+		//return View('video/index');
+		$videos = Video::all();
+		return view('seeAllVideos', ['videos' => $videos]);
 	}
 
 	/**
@@ -33,9 +36,11 @@ class VideoController extends Controller
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(Request $request)
 	{
-		//
+		$inputs = $request->all();
+    	$video = new Video($inputs);
+    	$video->save();
 	}
 
 	/**

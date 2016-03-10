@@ -70,16 +70,32 @@
 					formData.append("file", $('#inputFile')[0].files[0]);
 
 					$.ajax({
-					  method: "POST",
-					  url: postUrl,
-					  data: formData,
-					  processData: false,
-  					  contentType: false,
-					})
-					  .done(function() {
-					  	$('#loader').hide();
-					    $('#successPostVideo').show();
-					  });
+						method: "POST",
+						url: postUrl,
+						data: formData,
+						processData: false,
+						contentType: false,
+					}).done(function(response) {
+						$('#loader').hide();
+						$('#successPostVideo').show();
+
+						var dataVideo = {
+							source: "https://www.facebook.com/gestestdiw/videos/" + response.id + '/',
+							likes: 0,
+							stars: 0
+						};
+
+						$.ajax({
+							method: "POST",
+							url: "store",
+							data: dataVideo,
+							dataType: "json"
+						}).done(function(response) {
+							$('#loader').hide();
+							$('#successPostVideo').show();
+							console.log('success', response);
+						});	
+					});	
 					
 				});
 
