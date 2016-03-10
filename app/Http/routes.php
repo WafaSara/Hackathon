@@ -10,11 +10,15 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+//Home route
+Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Gallery routes
+Route::get('gallery/index', 'Gallery\GalleryController@index')->name('gallery');
 
+
+  // Account
+  Route::get('auth/account', 'Auth\AccountController@getAccount')->name('account');
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -27,10 +31,11 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
+
   // Authentication routes...
-  Route::get('auth/login', 'Auth\AuthController@getLogin');
+  Route::get('auth/login', 'Auth\AuthController@getLogin')->name('login');
   Route::post('auth/login', 'Auth\AuthController@postLogin');
-  Route::get('auth/logout', 'Auth\AuthController@getLogout');
+  Route::get('auth/logout', 'Auth\AuthController@getLogout')->name('logout');
 
   // Registration routes...
   Route::get('auth/register', 'Auth\AuthController@getRegister');
