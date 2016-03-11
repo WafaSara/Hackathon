@@ -188,18 +188,22 @@ select:focus{
 }
 
 #share-video{
-	background-color: #C20052;
+	background-color: #EDC134;
 	color:#fff;
 	position: absolute;
 	top:0;
-	padding:10px 20px;
-	font-size: 14px;
-	left:450px;
-	top:200px;
+	padding:10px 0;
+	width:217px;
+	font-size: 17px;
+	right:73px;
+	top:220px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	letter-spacing: .5px;
+	text-align: center;
 }
-
 #share-video:hover{
-	background-color: #980F40;
+	background-color: #D69619;
 }
 
 #avis_video{
