@@ -14,7 +14,7 @@ class HotelController extends Controller
      */
     public function index()
     {
-    	$videos = Video::limit(2);
+    	$videos = Video::all();
       return View('hotels', ['videos' => $videos]);
     }
 }
