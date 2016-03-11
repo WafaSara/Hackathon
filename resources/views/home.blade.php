@@ -82,7 +82,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <div id="preHead">
 <div id="V1" class="header_mvt blue">
 <div class="area_1 alticlear">
-<a href="index.html" title="" id="logo" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Logo::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});"><img src="/avenseo_files/images/logo.png" alt="Best Western" /></a>
+<a href="{{route('home')}}" title="" id="logo" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Logo::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});"><img src="/avenseo_files/images/logo.png" alt="Best Western" /></a>
 <p class="baseline uppercase ftl">Hôtels au singulier</p>
 <ul class="account_links">
 <li id="mon_compte_link_popup" class="sub profil"><a href="javascript:void(0);" title="">Mon compte</a>
@@ -306,25 +306,8 @@ function(){
 //-->
 </script>
 </div><ul class="nav">
-<li><a onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Trouver_un_hotel::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});" href="recherche_hotel_carte/index.html" title="">Trouver un Hôtel</a></li>
-<li class="sub"><a onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Nos_offres_bons_plans::Nos_offres_bons_plans::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});" href="hotel_promotion/index.html" title="">Nos offres bons plans</a>
-<ul class="sub_nav">
-<li class="sub_01">
-<a href="offres_hotel_derniere_minute/index.html" title="" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Nos_offres_bons_plans::Dernieres_minutes::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
-<span class="icon">&nbsp;</span>
-<span class="text">
-<span class="uppercase">Dernières minutes</span> Jusqu'à -25% de réduction !</span>
-</a>
-</li>
-<li class="sub_02">
-<a href="http://www.bestwestern.fr/offres-hotel-avant-premiere/" title="" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Nos_offres_bons_plans::Reservation_anticipee::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
-<span class="icon">&nbsp;</span>
-<span class="text">
-<span class="uppercase">Réservation anticipée</span>
-De -15 à -30% de réduction !</span>
-</a>
-</li>
-</ul>
+<li><a onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Trouver_un_hotel::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});" href="#" title="">Trouver un Hôtel</a></li>
+<li><a onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Nos_offres_bons_plans::Nos_offres_bons_plans::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});" href="hotels/index" title="">Nos offres bons plans</a>
 </li>
 <!-- <li class="sub last">
 <a href="bwr_inscription.jsp.html" title="" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Votre_programme_de_fidelite::Votre_programme_de_fidelite::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">Votre programme de fidélité</a>
@@ -351,40 +334,40 @@ De -15 à -30% de réduction !</span>
 </li>
 -->
 <li class="sub last">
-<a href="bwr_inscription.jsp.html">Votre programme de fidélité</a>
+<a href="#">Votre programme de fidélité</a>
 <ul class="sub_nav">
 <li class="sub_05">
-<a href="best_western_rewards/index.html" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Menu_Site::Non_connecte::Club_rewards','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
+<a href="#" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Menu_Site::Non_connecte::Club_rewards','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
 <span class="icon">&nbsp;</span>
 <span class="text uppercase">DÉCOUVRIR LE CLUB BEST<br /> WESTERN REWARDS®</span>
 </a>
 </li>
 <li class="sub_06">
-<a href="bwr_inscription.jsp.html#inscription_rewards" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Menu_Site::Non_connecte::S_inscrire','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
+<a href="#" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Menu_Site::Non_connecte::S_inscrire','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
 <span class="icon">&nbsp;</span>
 <span class="text uppercase">S'INSCRIRE AU CLUB</span>
 </a>
 </li>
 <li class="sub_07">
-<a href="boutique-rewards/index.html" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Menu_Site::Non_connecte::Boutique_cadeaux','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
+<a href="#" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Menu_Site::Non_connecte::Boutique_cadeaux','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
 <span class="icon">&nbsp;</span>
 <span class="text uppercase">ACCÉDER AUX CADEAUX</span>
 </a>
 </li>
-<li class="sub_08">
+<!--<li class="sub_08">
 <a id="authen_rewards">
 <span class="icon">&nbsp;</span>
 <span class="text uppercase" id="open_popup_login_bwr">ACCÉDER À SON COMPTE</span>
 </a>
-</li>
+</li> -->
 </ul>
 </li>
 
-<li class="item-131 parent sub"><a href="solution_pro/index.html" >Votre espace pro</a>
+<li class="item-131 parent sub"><a href="#" >Votre espace pro</a>
 <ul class="nav-child unstyled small sub_nav">
-<li class="item-118"><a href="http://espacepro.bestwestern.fr/"><span >&nbsp;</span><span class="text uppercase">BEST WESTERN | <span class="petitTexte">Affaires</span></span></a></li>
-<li class="item-122"><a href="http://seminaires.bestwestern.fr/" target="_blank"><span>&nbsp;</span><span class="text uppercase">BEST WESTERN | <span class="petitTexte">Séminaires</span></span></a></li>
-<li class="item-123"><a href="http://espacepro.bestwestern.fr/solutions-pro/espace-groupes-and-fit"><span>&nbsp;</span><span class="text uppercase">BEST WESTERN | <span class="petitTexte">Groupes &amp; fit</span></span></a></li>
+<li class="item-118"><a href="#"><span >&nbsp;</span><span class="text uppercase">BEST WESTERN | <span class="petitTexte">Affaires</span></span></a></li>
+<li class="item-122"><a href="#"><span>&nbsp;</span><span class="text uppercase">BEST WESTERN | <span class="petitTexte">Séminaires</span></span></a></li>
+<li class="item-123"><a href="#"><span>&nbsp;</span><span class="text uppercase">BEST WESTERN | <span class="petitTexte">Groupes &amp; fit</span></span></a></li>
 </ul>
 </li>
 
