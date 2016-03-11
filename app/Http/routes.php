@@ -37,6 +37,7 @@ Route::group(['middleware' => ['web']], function () {
   //Gallery routes
   Route::get('video/index', 'VideoController@index')->name('video');
   Route::post('video/store', ['uses' => 'VideoController@store', 'middleware' => 'auth']);
+  Route::post('video/storeCategories', ['uses' => 'VideoController@storeCategories', 'middleware' => 'auth']);
 
   Route::get('video/create', ['uses' => 'VideoController@create', 'middleware' => 'auth'])->name('video-create');
 

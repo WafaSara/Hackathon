@@ -375,7 +375,7 @@
 										<label style="padding:20px 0 8px 0!important" for="inputVoyage">Type de voyage</label>
 										@foreach ($categories as $category)
 											<div>
-												<input type="checkbox" value="{{$category->id}}" name="{{$category->label}}"><label>{{$category->label}}</label>
+												<input type="checkbox" value="{{$category->id}}" id="category{{$category->id}}" name="{{$category->label}}"><label>{{$category->label}}</label>
 											</div>
 										@endforeach
 										</div>
@@ -402,7 +402,7 @@
 
 				$( "#submitBtn" ).on( "click", function(e) {
 					e.preventDefault();
-					$('#formPostVideo').hide();
+					
 					$('#loader').show();
 					var data = {
 						title: $('#inputTitle').val(),
@@ -428,7 +428,7 @@
 						$('#successPostVideo').show();
 
 						var dataVideo = {
-							source: "https://www.facebook.com/gestestdiw/videos/" + response.id + '/',
+							source: "https://www.facebook.com/gestestdiw/videos/"+ response.id +"/",
 							likes: 0,
 							stars: 0,
 							hotel_id: $('#inputHotel').val(),
@@ -444,10 +444,37 @@
 							data: dataVideo,
 							dataType: "json"
 						}).done(function(response) {
-							$('#loader').hide();
-							$('#successPostVideo').show();
-							$('#submitBtn').hide();
-							console.log('success', response);
+
+							var video_id = response.id;
+
+							var dataCategories = [];
+							<?php
+								foreach ($categories as $category) {
+							?>
+									if($('#category<?php echo $category->id;?>').is(':checked')) {
+										dataCategories.push({
+											category_id: <?php echo $category->id;?>,
+											video_id: video_id
+										});
+									}
+							<?php
+								}
+							?>
+							console.log(dataCategories);
+
+							for (var i = 0; i < dataCategories.length; i++) {
+								$.ajax({
+									method: "POST",
+									url: "storeCategories",
+									headers: {
+											'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+									},
+									data: dataCategories[i],
+									dataType: "json"
+								}).done(function(response) {
+								});
+							}
+							
 						});
 					});
 
