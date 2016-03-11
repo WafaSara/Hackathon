@@ -1044,9 +1044,11 @@ $(this).dialog('close');
 <div class="clr"></div>
 </div>
 <div class="clr"></div>
+<div class="row">
 <a id="avisVideoLink"  class="ensav">
 	<span title=" ">Avis Vidéo</span>
 </a>
+</div>
 <div id="avis_video">
 	@foreach ($videos as $video)
 		<div class="tiers" id="video{{$video->id}}">
@@ -1077,36 +1079,9 @@ $(this).dialog('close');
 					@endforeach
 				</p>
 			</div>
-
-
 		</div>
 	@endforeach
 </div>
-<script type="text/javascript">
-$(function() {
-	$("#avis_video").hide();
-	$("#avisVideoLink").click(function(){
-		$('#avis_video').slideToggle();
-	});
-});
-</script>
-
-<div id="Presentation_93492" class="blc_descr_htl1">
-</div>
-<div id="Acces_93492"></div>
-<div id="photo_93492"></div>
-<div id="Tarifs_93492"></div>
-
-<!-- Désciption hôtel -->
-<br class="clr"/><br class="clr"/>
-<div class="blc_descr_htl blc_descr_htl1 stl1" style="display: none;margin-top:10px;" id="block_mini_fiche_hotel93492" >
-<ul class="tab">
-<li class="check"><a id="presentation_link_93492" onclick="javascript:return tc_events_2(this,'page_recherche_en_savoir_plus',{'LABEL':'Recherche_bloc_hotel::Onglet_Presentation::BEST WESTERN Hotel Toubkal','XTCLICK_EVENT':'C','XTCLICK_S2':'2','XTCLICK_TYPE':'N'});" href="http://www.bestwestern.fr/mini_fiche_hotel_presentation.jsp?HotelCode=93492" title="Presentation 93492" rel="nofollow">Présentation</a></li>
-<li class="check"><a id="access_link_93492" onclick="javascript:return tc_events_2(this,'page_recherche_acces',{'LABEL':'Recherche_bloc_hotel::Onglet_Acces::BEST WESTERN Hotel Toubkal','XTCLICK_EVENT':'C','XTCLICK_S2':'2','XTCLICK_TYPE':'N'});" href="http://www.bestwestern.fr/mini_fiche_hotel_access.jsp?HotelCode=93492" title="Acces 93492" rel="nofollow"><span title=" ">Accès</span></a></li>
-<li class="check"><a id="photo_link_93492" onclick="javascript:return tc_events_2(this,'page_recherche_plus_de_photos',{'LABEL':'Recherche_bloc_hotel::Onglet_Photos::BEST WESTERN Hotel Toubkal','XTCLICK_EVENT':'C','XTCLICK_S2':'2','XTCLICK_TYPE':'N'});" href="http://www.bestwestern.fr/mini_fiche_hotel_photos_ifram.jsp?HotelCode=93492" title="photo 93492" rel="nofollow">Photos</a></li>
-<li id="onglet_tarifs_93492" class="check"><a id="tarifs_link_93492" onclick="javascript:return tc_events_2(this,'page_recherche_tarifs',{'LABEL':'Recherche_bloc_hotel::Onglet_Tarifs::BEST WESTERN Hotel Toubkal','XTCLICK_EVENT':'C','XTCLICK_S2':'2','XTCLICK_TYPE':'N'});" href="http://www.bestwestern.fr/mini_fiche_hotel_tarifs.jsp?HotelCode=93492&ChainCode=BW&RequestedCurrencyCode=EUR&roomStay=1&DateRangeStart=08/03/2016&DateRangeEnd=09/03/2016&roomQuantity=1&adultQuantity_1=2&childQuantity_1=0&primarylangid=fr-FR&points_balance=&is_con=false&promo=true" class="reserver" title="Tarifs 93492" ><span title=" ">Tarifs</span></a></li>
-
-<a href="javascript:void(0);" onclick="func_close_link('93492');javascript:return tc_events_2(this,'page_recherche_fermeture_onglets',{});" id="close_link93492" title="" class="fermer_onglets_mini_fiche">Fermer x</a>
 
 <!--<div id="avis-video">
 	<div class="tiers">
@@ -1137,7 +1112,31 @@ $(function() {
 		</div>
 	</div>
 </div>-->
+<script type="text/javascript">
+$(function() {
+	$("#avis_video").hide();
+	$("#avisVideoLink").click(function(){
+		$('#avis_video').slideToggle();
+	});
+});
+</script>
 
+<div id="Presentation_93492" class="blc_descr_htl1">
+</div>
+<div id="Acces_93492"></div>
+<div id="photo_93492"></div>
+<div id="Tarifs_93492"></div>
+
+<!-- Désciption hôtel -->
+<br class="clr"/><br class="clr"/>
+<div class="blc_descr_htl blc_descr_htl1 stl1" style="display: none;margin-top:10px;" id="block_mini_fiche_hotel93492" >
+<ul class="tab">
+<li class="check"><a id="presentation_link_93492" onclick="javascript:return tc_events_2(this,'page_recherche_en_savoir_plus',{'LABEL':'Recherche_bloc_hotel::Onglet_Presentation::BEST WESTERN Hotel Toubkal','XTCLICK_EVENT':'C','XTCLICK_S2':'2','XTCLICK_TYPE':'N'});" href="http://www.bestwestern.fr/mini_fiche_hotel_presentation.jsp?HotelCode=93492" title="Presentation 93492" rel="nofollow">Présentation</a></li>
+<li class="check"><a id="access_link_93492" onclick="javascript:return tc_events_2(this,'page_recherche_acces',{'LABEL':'Recherche_bloc_hotel::Onglet_Acces::BEST WESTERN Hotel Toubkal','XTCLICK_EVENT':'C','XTCLICK_S2':'2','XTCLICK_TYPE':'N'});" href="http://www.bestwestern.fr/mini_fiche_hotel_access.jsp?HotelCode=93492" title="Acces 93492" rel="nofollow"><span title=" ">Accès</span></a></li>
+<li class="check"><a id="photo_link_93492" onclick="javascript:return tc_events_2(this,'page_recherche_plus_de_photos',{'LABEL':'Recherche_bloc_hotel::Onglet_Photos::BEST WESTERN Hotel Toubkal','XTCLICK_EVENT':'C','XTCLICK_S2':'2','XTCLICK_TYPE':'N'});" href="http://www.bestwestern.fr/mini_fiche_hotel_photos_ifram.jsp?HotelCode=93492" title="photo 93492" rel="nofollow">Photos</a></li>
+<li id="onglet_tarifs_93492" class="check"><a id="tarifs_link_93492" onclick="javascript:return tc_events_2(this,'page_recherche_tarifs',{'LABEL':'Recherche_bloc_hotel::Onglet_Tarifs::BEST WESTERN Hotel Toubkal','XTCLICK_EVENT':'C','XTCLICK_S2':'2','XTCLICK_TYPE':'N'});" href="http://www.bestwestern.fr/mini_fiche_hotel_tarifs.jsp?HotelCode=93492&ChainCode=BW&RequestedCurrencyCode=EUR&roomStay=1&DateRangeStart=08/03/2016&DateRangeEnd=09/03/2016&roomQuantity=1&adultQuantity_1=2&childQuantity_1=0&primarylangid=fr-FR&points_balance=&is_con=false&promo=true" class="reserver" title="Tarifs 93492" ><span title=" ">Tarifs</span></a></li>
+
+<a href="javascript:void(0);" onclick="func_close_link('93492');javascript:return tc_events_2(this,'page_recherche_fermeture_onglets',{});" id="close_link93492" title="" class="fermer_onglets_mini_fiche">Fermer x</a>
 
 </ul>
 </div>

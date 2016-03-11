@@ -210,6 +210,11 @@ select:focus{
 	padding:20px 0;
 	margin-bottom: 20px;
 	display: none;
+	clear: both;
+    width: 100%;
+    display: block;
+    float: none;
+    padding-left: 183px;
 }
 
 .tiers{
