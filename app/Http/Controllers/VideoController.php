@@ -8,10 +8,13 @@ use App\Http\Requests;
 use App\Models\Video;
 use App\Models\Hotel;
 use App\Models\Category;
+use App\Models\Has_category;
 use Auth;
+use Illuminate\Support\Facades\Response;
 
 class VideoController extends Controller
 {
+
 	/**
 	* constructor
 	*/
@@ -52,9 +55,18 @@ class VideoController extends Controller
 	 */
 	public function store(Request $request)
 	{
-			$inputs = $request->all();
+		$inputs = $request->all();
     	$video = new Video($inputs);
-    	$video->save();
+    	if($video->save()) {
+    		return Response::json(array('success' => true, 'id' => $video->id), 200);
+    	}
+	}
+
+	public function storeCategories(Request $request)
+	{
+		$inputs = $request->all();
+    	$category = new Has_category($inputs);
+    	$category->save();
 	}
 
 	/**
