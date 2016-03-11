@@ -10,11 +10,11 @@
 <link href="/css/squelette_miles-v=8831.css" rel="stylesheet" type="text/css" media="screen,print"/>
 <link type="text/css" href="/css/calendrier-fr.css" rel="stylesheet" media="screen,print"/>
 <script type="text/javascript">var base_url_bwfr="http://www.bestwestern.fr/";var languageCode = 'fr';</script>
-<script type="text/javascript" src="/javascript/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">jQuery.migrateMute = true;</script>
-<script type="text/javascript" src="/javascript/jquery-migrate-1.2.1.js"></script>
-<script type="text/javascript" src="/javascript/js_block_miles_1_10-v=8821.js"></script>
-<script type="text/javascript" src="/javascript/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript" src="/js/js_block_miles_1_10-v=8821.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
 <link type="text/css" rel="stylesheet" media="all" href="/css/spro/style.css"/>
 <script type="text/javascript" src="/avenseo_files/tc_BestWestern_8.js"></script>
@@ -39,9 +39,9 @@ s.parentNode.insertBefore(p, s);
 <link href="/css/club_rewards-v=11213.css" rel="stylesheet" type="text/css" media="screen,print"/>
 <link type="text/css" href="/css/jquery.ui.dialog.css" rel="stylesheet" media="screen,print"/>
 <!-- pop up REWARDS --> <link rel="canonical" href="index.html"/>
-<script type="text/javascript" src="/javascript/pagination/jquery.pagination.js"></script>
-<script type="text/javascript" src="/javascript/jquery.tinysort.min.js"></script>
-<script type="text/javascript" src="/javascript/js_block_miles_1_10.js"></script>
+<script type="text/javascript" src="/js/pagination/jquery.pagination.js"></script>
+<script type="text/javascript" src="/js/jquery.tinysort.min.js"></script>
+<script type="text/javascript" src="/js/js_block_miles_1_10.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <script type="text/javascript">
 <!--
@@ -3048,10 +3048,10 @@ getById('email_newsletter').value='votre adresse mail';
 </div>
 </div>
 </div>
-<script type="text/javascript" src="/javascript/jquery.timers.js"></script>
-<script type="text/javascript" src="/javascript/jquery-ui-1.10.3.custom-v=1.1.js"></script>
-<script type="text/javascript" src="/javascript/lang/jquery_datepiker_fr.js"></script>
-<script type="text/javascript" src="/javascript/jquery_flash.js"></script>
+<script type="text/javascript" src="/js/jquery.timers.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.10.3.custom-v=1.1.js"></script>
+<script type="text/javascript" src="/js/lang/jquery_datepiker_fr.js"></script>
+<script type="text/javascript" src="/js/jquery_flash.js"></script>
 </div>
 <p class="footer_copyright" id="footer_copyright_fr" >The World's Biggest Hotel Family<sup>&reg;</sup>. Chaque hôtel Best Western<sup>&reg;</sup> est individuellement exploité par un propriétaire indépendant.</p>
 <script type="text/javascript">
