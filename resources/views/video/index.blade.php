@@ -17,7 +17,7 @@
 <script type="text/javascript" src="/js/js_block_miles_1_10-v=8821.js"></script>
 <script type="text/javascript" src="/js/jquery.cookie.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
-<link type="text/css" rel="stylesheet" media="all" href="/css/style.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="/css/hotels/style.css"/>
 <script type="text/javascript" src="/avenseo_files/tc_BestWestern_8.js"></script>
 <!--scripts modal-->
 <script>(function(d, s, id) {
