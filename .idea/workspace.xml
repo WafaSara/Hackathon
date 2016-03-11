@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f1d8205-233b-4bc9-b0fa-c00517b39efb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/hotels.blade.php" afterPath="$PROJECT_DIR$/resources/views/hotels.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/video/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/video/index.blade.php" />
     </list>
     <ignored path="Hackathon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -136,10 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createVideo.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createVideo.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/createVideo.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.076233186">
+            <state vertical-scroll-proportion="-14.384615">
               <caret line="397" column="12" selection-start-line="397" selection-start-column="12" selection-end-line="397" selection-end-column="12" />
               <folding />
             </state>
@@ -156,13 +153,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.927273">
-              <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="310" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.82485205">
+              <caret line="375" column="5" selection-start-line="375" selection-start-column="5" selection-end-line="375" selection-end-column="5" />
               <folding>
-                <marker date="1457688791671" expanded="true" signature="34778:34808" placeholder="..." />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1457695798350" expanded="true" signature="34465:34495" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -177,9 +175,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/video/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/hotels.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -195,10 +193,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -374,11 +372,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20977917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -470,16 +468,6 @@
         <state vertical-scroll-proportion="-5.230769">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.927273">
-          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="310" selection-end-column="5" />
-          <folding>
-            <marker date="1457688791671" expanded="true" signature="34778:34808" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,9 +578,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/createVideo.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.076233186">
+        <state vertical-scroll-proportion="-14.384615">
           <caret line="397" column="12" selection-start-line="397" selection-start-column="12" selection-end-line="397" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82485205">
+          <caret line="375" column="5" selection-start-line="375" selection-start-column="5" selection-end-line="375" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1457695798350" expanded="true" signature="34465:34495" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
