@@ -82,7 +82,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <div id="preHead">
 <div id="V1" class="header_mvt blue">
 <div class="area_1 alticlear">
-<a href="index.html" title="" id="logo" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Logo::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});"><img src="/avenseo_files/images/logo.png" alt="Best Western" /></a>
+<a href="{{route('home')}}" title="" id="logo" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Logo::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});"><img src="/avenseo_files/images/logo.png" alt="Best Western" /></a>
 <p class="baseline uppercase ftl">Hôtels au singulier</p>
 <ul class="account_links">
 <li id="mon_compte_link_popup" class="sub profil"><a href="javascript:void(0);" title="">Mon compte</a>
@@ -307,24 +307,7 @@ function(){
 </script>
 </div><ul class="nav">
 <li><a onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Trouver_un_hotel::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});" href="recherche_hotel_carte/index.html" title="">Trouver un Hôtel</a></li>
-<li class="sub"><a onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Nos_offres_bons_plans::Nos_offres_bons_plans::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});" href="hotel_promotion/index.html" title="">Nos offres bons plans</a>
-<ul class="sub_nav">
-<li class="sub_01">
-<a href="offres_hotel_derniere_minute/index.html" title="" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Nos_offres_bons_plans::Dernieres_minutes::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
-<span class="icon">&nbsp;</span>
-<span class="text">
-<span class="uppercase">Dernières minutes</span> Jusqu'à -25% de réduction !</span>
-</a>
-</li>
-<li class="sub_02">
-<a href="http://www.bestwestern.fr/offres-hotel-avant-premiere/" title="" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Nos_offres_bons_plans::Reservation_anticipee::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
-<span class="icon">&nbsp;</span>
-<span class="text">
-<span class="uppercase">Réservation anticipée</span>
-De -15 à -30% de réduction !</span>
-</a>
-</li>
-</ul>
+<li><a onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Nos_offres_bons_plans::Nos_offres_bons_plans::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});" href="hotels/index" title="">Nos offres bons plans</a>
 </li>
 <!-- <li class="sub last">
 <a href="bwr_inscription.jsp.html" title="" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Header::Onglet_Votre_programme_de_fidelite::Votre_programme_de_fidelite::accueil','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">Votre programme de fidélité</a>
