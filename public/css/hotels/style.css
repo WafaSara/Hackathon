@@ -202,7 +202,7 @@ select:focus{
 	background-color: #980F40;
 }
 
-#avis-video{
+#avis_video{
 	display: block;
 	overflow: hidden;
 	width:97%;
@@ -218,11 +218,11 @@ select:focus{
 	float: left;
 }
 
-#avis-video .info{
+#avis_video .info{
 	padding-top: 10px;
 }
 
-#avis-video .fa{
+#avis_video .fa{
 	color:#C20052;
 	padding-right: 5px;
 }

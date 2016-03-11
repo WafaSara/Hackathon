@@ -30,9 +30,19 @@ s.parentNode.insertBefore(p, s);
 })();
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		//js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5&appId=447145842147274";
+		js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5&appId=1680835935507315";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
 
 
 <!-- pop up REWARDS -->
@@ -1082,6 +1092,59 @@ $(this).dialog('close');
 <div class="clr"></div>
 </div>
 <div class="clr"></div>
+<a id="avisVideoLink"  class="ensav">
+	<span title=" ">Avis Vidéo</span>
+</a>
+<div id="avis_video">
+	@foreach ($videos as $video)
+		<div class="tiers" id="video{{$video->id}}">
+
+			<div style="display:inline-block; position: relative">
+				<div class="fb-video" data-allowfullscreen="1" data-href="{{$video->source}}" data-width="330" data-height="165"><div class="fb-xfbml-parse-ignore"><blockquote cite="{{$video->source}}"><a href="{{$video->source}}"></a></blockquote></div></div>
+
+			</div>
+
+			<div class="info">
+				<p>
+					<i class=" fa fa-user"></i>
+					{{$video->user->name}}
+				</p>
+			</div>
+			<div class="info">
+				<p>
+					<i class=" fa fa-map-marker"></i>
+					{{$video->hotel->name}} {{$video->hotel->city}}
+				</p>
+			</div>
+
+			<div class="info">
+				<p>
+					@foreach($video->categories as $category)
+						<i class=" fa fa-hashtag"></i>
+						{{$category->label}}&nbsp;
+					@endforeach
+				</p>
+			</div>
+
+
+		</div>
+	@endforeach
+</div>
+<script type="text/javascript">
+$(function() {
+	$("#avis_video").hide();
+	$("#avisVideoLink").click(function(){
+		$('#avis_video').slideToggle();
+	});
+});
+</script>
+
+<div id="Presentation_93492" class="blc_descr_htl1">
+</div>
+<div id="Acces_93492"></div>
+<div id="photo_93492"></div>
+<div id="Tarifs_93492"></div>
+
 <!-- Désciption hôtel -->
 <br class="clr"/><br class="clr"/>
 <div class="blc_descr_htl blc_descr_htl1 stl1" style="display: none;margin-top:10px;" id="block_mini_fiche_hotel93492" >
@@ -1091,15 +1154,9 @@ $(this).dialog('close');
 <li class="check"><a id="photo_link_93492" onclick="javascript:return tc_events_2(this,'page_recherche_plus_de_photos',{'LABEL':'Recherche_bloc_hotel::Onglet_Photos::BEST WESTERN Hotel Toubkal','XTCLICK_EVENT':'C','XTCLICK_S2':'2','XTCLICK_TYPE':'N'});" href="http://www.bestwestern.fr/mini_fiche_hotel_photos_ifram.jsp?HotelCode=93492" title="photo 93492" rel="nofollow">Photos</a></li>
 <li id="onglet_tarifs_93492" class="check"><a id="tarifs_link_93492" onclick="javascript:return tc_events_2(this,'page_recherche_tarifs',{'LABEL':'Recherche_bloc_hotel::Onglet_Tarifs::BEST WESTERN Hotel Toubkal','XTCLICK_EVENT':'C','XTCLICK_S2':'2','XTCLICK_TYPE':'N'});" href="http://www.bestwestern.fr/mini_fiche_hotel_tarifs.jsp?HotelCode=93492&ChainCode=BW&RequestedCurrencyCode=EUR&roomStay=1&DateRangeStart=08/03/2016&DateRangeEnd=09/03/2016&roomQuantity=1&adultQuantity_1=2&childQuantity_1=0&primarylangid=fr-FR&points_balance=&is_con=false&promo=true" class="reserver" title="Tarifs 93492" ><span title=" ">Tarifs</span></a></li>
 
-<li id="avis_link" class="check">
-	<a id="avis_link_a"   href="http://www.bestwestern.fr/mini_fiche_hotel_tarifs.jsp?HotelCode=93492&ChainCode=BW&RequestedCurrencyCode=EUR&roomStay=1&DateRangeStart=08/03/2016&DateRangeEnd=09/03/2016&roomQuantity=1&adultQuantity_1=2&childQuantity_1=0&primarylangid=fr-FR&points_balance=&is_con=false&promo=true" class="reserver" title="Tarifs 93492" >
-		<span title=" ">Avis Vidéo</span>
-	</a>
-</li>
-
 <a href="javascript:void(0);" onclick="func_close_link('93492');javascript:return tc_events_2(this,'page_recherche_fermeture_onglets',{});" id="close_link93492" title="" class="fermer_onglets_mini_fiche">Fermer x</a>
 
-<div id="avis-video">
+<!--<div id="avis-video">
 	<div class="tiers">
 		<video src="video.ogv"></video>
 		<div class="info">
@@ -1127,26 +1184,9 @@ $(this).dialog('close');
 			</p>
 		</div>
 	</div>
-</div>
+</div>-->
 
-<script type="text/javascript">
-	$("#avis-video").css("display","block");
-	$(".check").click(function(){
-		var attr = $("#avis_link").attr("aria-selected");
-		if(attr == "true"){
-			$("#avis-video").css("display","block");
-		}
-		else{
-			$("#avis-video").css("display","none");
-		}
-	});
-</script>
 
-<div id="Presentation_93492" class="blc_descr_htl1">
-</div>
-<div id="Acces_93492"></div>
-<div id="photo_93492"></div>
-<div id="Tarifs_93492"></div>
 </ul>
 </div>
 </div>
@@ -3054,8 +3094,7 @@ getById('email_newsletter').value='votre adresse mail';
 <script type="text/javascript" src="/js/jquery_flash.js"></script>
 </div>
 <p class="footer_copyright" id="footer_copyright_fr" >The World's Biggest Hotel Family<sup>&reg;</sup>. Chaque hôtel Best Western<sup>&reg;</sup> est individuellement exploité par un propriétaire indépendant.</p>
-<script type="text/javascript">
-<!--
+<!--<script type="text/javascript">
 $(document).ready(function(){
 $(".target_blank").attr('target','_blank');
 if($.cookie("carto_bw_gmaps")==null){
@@ -3114,8 +3153,7 @@ $( "#form_authe_rewards_new" ).dialog('close');
 });
 });
 });
-//-->
-</script>
+</script>-->
 <!-- TAG COMMANDER START //-->
 <script type="text/javascript">
 <!--
