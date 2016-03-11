@@ -340,6 +340,12 @@ function(){
 </li>
 <li ><a href="#" >Votre espace pro</a>
 </li>
+
+<li class="item-131 parent sub">
+   <a href="{{route('video')}}" id="video-link">Voyage Vidéo</a>
+</li>
+
+
 </ul> </div>
 <div class="area_2 alticlear">
 <ul class="rassurance uppercase ftl alticlear">
