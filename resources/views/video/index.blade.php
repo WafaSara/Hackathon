@@ -360,18 +360,6 @@ function(){
 <span class="text uppercase">S'INSCRIRE AU CLUB</span>
 </a>
 </li>
-<li class="sub_07">
-<a href="#" onclick="javascript:return tc_events_2(this,'CLICK',{'LABEL':'Menu_Site::Non_connecte::Boutique_cadeaux','XTCLICK_EVENT':'C','XTCLICK_S2':'10','XTCLICK_TYPE':'N'});">
-<span class="icon">&nbsp;</span>
-<span class="text uppercase">ACCÉDER AUX CADEAUX</span>
-</a>
-</li>
-<li class="sub_08">
-<a id="authen_rewards">
-<span class="icon">&nbsp;</span>
-<span class="text uppercase" id="open_popup_login_bwr">ACCÉDER À SON COMPTE</span>
-</a>
-</li>
 </ul>
 </li>
 
@@ -379,7 +367,6 @@ function(){
 <ul class="nav-child unstyled small sub_nav">
 <li class="item-118"><a href="#"><span >&nbsp;</span><span class="text uppercase">BEST WESTERN | <span class="petitTexte">Affaires</span></span></a></li>
 <li class="item-122"><a href="#" ><span>&nbsp;</span><span class="text uppercase">BEST WESTERN | <span class="petitTexte">Séminaires</span></span></a></li>
-<li class="item-123"><a href="#"><span>&nbsp;</span><span class="text uppercase">BEST WESTERN | <span class="petitTexte">Groupes &amp; fit</span></span></a></li>
 </ul>
 </li>
 
