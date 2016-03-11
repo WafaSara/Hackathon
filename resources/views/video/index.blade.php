@@ -734,29 +734,163 @@ var g_place_init = "false";
 </section>
 
 	<script>
-		alert('enculé');
 		$(function() {
+			$('#familleCheckbox').prop('checked', true);
+			$('#amisCheckbox').prop('checked', true);
+			$('#seulCheckbox').prop('checked', true);
+			$('#loisirCheckbox').prop('checked', true);
+			$('#professionnelCheckbox').prop('checked', true);
+
 			$('#familleCheckbox').change(function() {
-				if(this.checked) {
-					alert('enculé de ta putain de race');
+				if(!this.checked) {
+					<?php
+						foreach($videos as $video) {
+							foreach($video->categories as $category) {
+								if($category->label === 'Famille') {
+					?>
+						 $('#video<?php echo $video->id; ?>').hide();
+					<?php
+									break;
+								}
+							}
+						}
+					?>
+				} else {
+					<?php
+						foreach($videos as $video) {
+							foreach($video->categories as $category) {
+								if($category->label === 'Famille') {
+					?>
+						 $('#video<?php echo $video->id; ?>').show();
+					<?php
+									break;
+								}
+							}
+						}
+					?>
 				}
 			});
 
-			$('#familleCheckbox').click(function() {
-
-				<?php
-					foreach($videos as $video) {
-						foreach($video->categories as $category) {
-							if($category->label === 'Famille') {
-				?>
-					 $('#video<?php echo $video->id; ?>').hide();
-				<?php
-								break;
+			$('#amisCheckbox').change(function() {
+				if(!this.checked) {
+					<?php
+						foreach($videos as $video) {
+							foreach($video->categories as $category) {
+								if($category->label === 'Amis') {
+					?>
+						 $('#video<?php echo $video->id; ?>').hide();
+					<?php
+									break;
+								}
 							}
 						}
-					}
-				?>
+					?>
+				} else {
+					<?php
+						foreach($videos as $video) {
+							foreach($video->categories as $category) {
+								if($category->label === 'Amis') {
+					?>
+						 $('#video<?php echo $video->id; ?>').show();
+					<?php
+									break;
+								}
+							}
+						}
+					?>
+				}
 			});
+
+			$('#seulCheckbox').change(function() {
+				if(!this.checked) {
+					<?php
+						foreach($videos as $video) {
+							foreach($video->categories as $category) {
+								if($category->label === 'Seul') {
+					?>
+						 $('#video<?php echo $video->id; ?>').hide();
+					<?php
+									break;
+								}
+							}
+						}
+					?>
+				} else {
+					<?php
+						foreach($videos as $video) {
+							foreach($video->categories as $category) {
+								if($category->label === 'Seul') {
+					?>
+						 $('#video<?php echo $video->id; ?>').show();
+					<?php
+									break;
+								}
+							}
+						}
+					?>
+				}
+			});
+
+			$('#loisirCheckbox').change(function() {
+				if(!this.checked) {
+					<?php
+						foreach($videos as $video) {
+							foreach($video->categories as $category) {
+								if($category->label === 'Loisir') {
+					?>
+						 $('#video<?php echo $video->id; ?>').hide();
+					<?php
+									break;
+								}
+							}
+						}
+					?>
+				} else {
+					<?php
+						foreach($videos as $video) {
+							foreach($video->categories as $category) {
+								if($category->label === 'Loisir') {
+					?>
+						 $('#video<?php echo $video->id; ?>').show();
+					<?php
+									break;
+								}
+							}
+						}
+					?>
+				}
+			});
+
+			$('#professionnelCheckbox').change(function() {
+				if(!this.checked) {
+					<?php
+						foreach($videos as $video) {
+							foreach($video->categories as $category) {
+								if($category->label === 'Professionnel') {
+					?>
+						 $('#video<?php echo $video->id; ?>').hide();
+					<?php
+									break;
+								}
+							}
+						}
+					?>
+				} else {
+					<?php
+						foreach($videos as $video) {
+							foreach($video->categories as $category) {
+								if($category->label === 'Professionnel') {
+					?>
+						 $('#video<?php echo $video->id; ?>').show();
+					<?php
+									break;
+								}
+							}
+						}
+					?>
+				}
+			});
+
 		});
 	</script>
 
@@ -880,8 +1014,8 @@ return false;
 <!-- pop up -->
 <!-- fin pop up -->
 
-<script type="text/javascript">
-<!--
+<!--<script type="text/javascript">
+
 $(document).ready(function(){
 var currentPosition = 0;
 var slideWidth = 570;
@@ -946,10 +1080,9 @@ $('#slideInner').animate({
 }
 DoIt();
 });
-//-->
-</script>
-<script type="text/javascript">
-<!--
+
+</script>-->
+<!--<script type="text/javascript">
 $(document).ready(function(){
 if($.cookie("carto_bw_gmaps")==null){
 cookie_google_map("carto_bw_gmaps","show");
@@ -964,9 +1097,9 @@ $('#retour_liste').trigger('click');
 }
 }
 });
-//-->
-</script>
-<script type="text/javascript">
+
+</script>-->
+<!--<script type="text/javascript">
 jQuery(document).ready(function(){
 jQuery("#DateRangeStart").datepicker( "option", {dayNamesMin: [ "Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam" ]} );
 jQuery("#DateRangeEnd").datepicker( "option", {dayNamesMin: [ "Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam" ]} );
@@ -1023,7 +1156,7 @@ jQuery(this).parent().find("span").html(jQuery(this).find(":selected").html());
 jQuery("#rech_avancee").click(function(){
 jQuery("#rech_avancee").parent().toggleClass("opened");
 });
-</script>
+</script>-->
 <!-- Appel à la librairie Cufon (en PJ) //-->
 <script src="/js/homePage/cufon-yui.js" type="text/javascript"></script>
 <!-- Appel au fichier généré sur Cufon contenant les deux typos (en PJ) //-->
@@ -1055,8 +1188,8 @@ textShadow: '1px 2px rgba(0, 0, 0, 0.4), -1px -1px rgba(0, 0, 0, 0.1)'
 });
 }
 </script>
-<script type="text/javascript">
-<!--
+<!--<script type="text/javascript">
+
 $(document).ready(function(){
 $("#email_membre_header_rewards").focus( function() {
 if(getById('email_membre_header_rewards').value=="Email ou # Rewards"){getById('email_membre_header_rewards').value='';}
@@ -1145,8 +1278,8 @@ $( "#bwr_pass_lost_msg_err" ).hide();
 //
 // afficher msg erreur deja inscrit
 });
-//-->
-</script>
+
+</script>-->
 <script type="text/javascript">
 <!--
 function validate_champs_membre_rewards_popup() {
@@ -1182,8 +1315,8 @@ return false;
 }
 //-->
 </script>
-<script type="text/javascript">
-<!--
+<!--<script type="text/javascript">
+
 $(document).ready(function(){
 $('#duration').val('1');
 $('#roomQuantity').val('1');
@@ -1217,8 +1350,7 @@ $('.panel-overlay').show('slow');
 $('.blocPetiteImage').show();
 });
 });
-//-->
-</script><div id="pop_in_remerciement" style="display: none;">
+</script>--><div id="pop_in_remerciement" style="display: none;">
 <div class="logo-rem"><img alt="" src="/images/vip/logo-vip-rew.jpg"></div>
 <div class="txt-rem1">Mieux vous connaitre pour mieux vous servir ! </div>
 <div class="txt-rem">Nous vous remercions d'avoir pris le temps de répondre. Nous vous souhaitons d'agréable séjours dans nos hôtels.</div>
@@ -1252,8 +1384,8 @@ $("#inf_privacy").show();
 });
 //-->
 </script>
-<script type="text/javascript">
-<!--
+<!--<script type="text/javascript">
+
 $(document).ready(function(){
 $("#offres_week_minute").tabs({ fx: { opacity:'toggle', fxSpeed: 'fast' }}).tabs('option','active', 'offres_derniere_minute');
 $("#deja_inscrit_vip").button().click(function() {
@@ -1274,8 +1406,8 @@ $("#deja_bwr_club_rewards").removeClass('active');
 }).dialog( "open" );
 });
 });
-//-->
-</script>
+
+</script>-->
 </div>
 <script type="application/ld+json">
 { "@context" : "http://schema.org",
